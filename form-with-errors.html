@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form error fields</title>
+    <link rel="stylesheet" href="styles/form-error.css" type="text/css">
+    <link rel="stylesheet"
+    href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>Error Messages</h1>
+    <div class="messages">
+        <label for="the-text">Field with Success Message</label><br>
+        <input class="the-text" type="text" id="the-text" name="the-text" />
+        <i class="fa fa-check-circle icon m-icon"> </i>
+        <p>Everything is correct with this field.</p>
+    </div>
+
+
+    <div class="messages msg2">
+        <label for="the-text">Field with Error Message</label><p style="display: inline;">*</p><br>
+        <input class="the-text" type="text" id="the-text" name="the-text" />
+        <i class="fa fa-exclamation-triangle m-icon"> </i>
+        <p>Something is wrong with this field.</p>
+    </div>
+
+
+    <div class="icon-message">
+        <i class="fa fa-times-circle-o"></i>
+        <div class="erp">
+            <h4>Error</h4>
+            <p>There are Something wrong with multiple fields.</p>
+        </div>
+    </div>
+
+    <div class="icon-message im2">
+        <i class="fa fa-check-circle-o"></i>
+        <div class="erp">
+            <h4>Success</h4>
+            <p>Everything is correct with multiple fields.</p>
+        </div>
+    </div>
+</body>
+</html>

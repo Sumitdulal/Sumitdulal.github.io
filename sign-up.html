@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="styles/sign-up.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts/vendor.js" defer></script>
+    <script src="scripts/password.js" defer></script>
+</head>
+<body>
+    <div class="top-nav">
+        <div class="logo">
+          <img src="images/logo.svg" />
+        </div>
+        <nav>
+          <ul>
+            <div class="hamburger-menu">
+              <div class="hamburger-wrapper">
+                <div class="menu-1"></div>
+                <div class="menu-1"></div>
+                <div class="menu-1"></div>
+              </div>
+  
+              <div class="menu-container">
+                <li><a href="#" class="menu-hidden">How it works</a></li>
+                <li><a href="#" class="menu-hidden">Benefits</a></li>
+                <li><a href="#" class="menu-hidden">Support</a></li>
+                <li><a href="#" class="menu-hidden">Contact us</a></li>
+              </div>
+            </div>
+            
+            <div class="login-credentials">
+              <li class="bar"></li>
+              <li><a href="#">Login</a></li>
+            </div>
+  
+            <div class="dropdown">
+              <button class="dropbtn">
+                Sign up <span> <i class="fa fa-angle-down"></i></span>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Manager</a>
+                <a href="#">Doctor</a>
+              </div>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    <div class="mid-part2">
+        <div class="form-part">
+            <h1>Sign Up!</h1>
+            <p>Log in to your dashboard using your credentials</p>
+            <form action="#" method="POST">
+                <label for="fname">Your Full Name</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Eg: Martin Tyler"><br>
+
+                <label for="email">Your Email Address</label><br>
+                <input type="email" id="email" name="email" placeholder="Eg: martintyleremail@gmail.com"><br>
+
+                <div class="input-icons">
+                  
+                  <label for="password">Your Password</label><br>
+                  <input class="pass" type="password" id="pass" name="pass" placeholder="atleast 8 characters" />
+                  <i class="fa fa-eye" id="togglePassword"> </i>
+                  
+                </div><br>
+                
+                
+            </form>
+            <div class="agree">
+                <input type="checkbox" id="terms" name="terms" value="agree">
+                <label for="terms">By creating an account, you agree to the <a href="#">terms of use</a> &nbsp;&nbsp;&nbsp;&nbsp;and our <a  href="#">privacy policy</a></label>
+                <div class="button">
+                    <button>Sign Up</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-part">
+            <img src="images/dummy.png">
+            <h3>All things are important</h3>
+            <p>Get access to all things important from your new Dashboard,
+                it’s easier to manage your appointments and profile.</p>
+                <div class="dots" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+        </div>
+    </div>
+</body>
+</html>

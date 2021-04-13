@@ -1,0 +1,448 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.main-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  justify-items: center;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.main-con .vertical-nav {
+  width: 14%;
+  height: 1029px;
+  background: transparent;
+  background-color: white;
+}
+
+.main-con .vertical-nav .logo img {
+  width: 117px;
+  height: 29px;
+  margin: 20px 63px 20px 22px;
+}
+
+.main-con .vertical-nav .main-menu h1 {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0px 105px 10px 22px;
+  width: 75px;
+  height: 18px;
+}
+
+.main-con .vertical-nav .main-menu nav {
+  width: 202px;
+  height: 200px;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu {
+  margin-right: 1rem;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .hamburger-wrapper {
+  visibility: hidden;
+  pointer-events: none;
+  width: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .hamburger-wrapper .menu-1 {
+  height: 3.5px;
+  background-color: #2c2c2c;
+  margin: 3px 0rem;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container {
+  visibility: visible;
+  pointer-events: all;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li {
+  list-style: none;
+  height: 40px;
+  width: 182px;
+  margin-bottom: 10px;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li i {
+  height: 16px;
+  margin: 0px 17px 17px 22px;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .first {
+  background-color: blue;
+  padding-top: 10px;
+  color: white;
+  border-radius: 0px 19px 19px 0px;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .first a {
+  color: white;
+}
+
+.main-con .vertical-nav .main-menu h2 {
+  margin: 65px 99px 9.5px 22px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 81px;
+  height: 19px;
+}
+
+.main-con .vertical-nav .main-menu .single .new {
+  height: 41px;
+  width: 96px;
+  margin: 28px 30px 20px 0px;
+  list-style: none;
+}
+
+.main-con .vertical-nav .main-menu .single .new i {
+  height: 16px;
+  margin-right: 15px;
+}
+
+.main-con .vertical-nav .main-menu .single .new a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.main-con .vertical-nav .main-menu .appointment {
+  width: 160px;
+  height: 100px;
+  margin: 20.5px 20px 0px 22px;
+}
+
+.main-con .vertical-nav .main-menu .appointment h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.main-con .vertical-nav .main-menu .appointment #copy {
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 4px;
+  margin-bottom: 14px;
+}
+
+.main-con .vertical-nav .main-menu .appointment #heart {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.main-con .vertical-nav .main-menu .appointment #heart i {
+  color: red;
+}
+
+.main-con .welcome-section {
+  height: 1024px;
+  width: 18%;
+  background: transparent;
+  background-color: white;
+}
+
+.main-con .welcome-section #wel {
+  margin: 70px 165px 11px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a1a1a1;
+}
+
+.main-con .welcome-section h1 {
+  margin: 11px 40px 5px 20px;
+  font-size: 20px;
+  font-weight: 300;
+  width: 200px;
+  height: 24px;
+}
+
+.main-con .welcome-section h2 {
+  margin: 5px 112px 10px 20px;
+  color: #a1a1a1;
+  font-size: 12px;
+  font-weight: 400;
+  width: 128px;
+  height: 15px;
+}
+
+.main-con .welcome-section h3 {
+  margin: 10px 84.5px 31px 20.5px;
+  color: blue;
+  height: 15px;
+  width: 155px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.main-con .welcome-section h3 img {
+  height: 8px;
+  width: 7px;
+  color: #0069ff;
+  fill: none;
+  margin-right: 10.5px;
+}
+
+.main-con .welcome-section #daily {
+  margin: 31px 92px 9px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 148px;
+  height: 18px;
+}
+
+.main-con .welcome-section #insight {
+  width: 220px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  margin: 9px 20px 20px 20px;
+  color: Text Light #a1a1a1;
+}
+
+.main-con .welcome-section .bar-graph {
+  margin: 20px 23px 3px 20px;
+  width: 217px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-con .welcome-section .bar-graph .line {
+  width: 6px;
+  height: 55px;
+  background-color: #29BF12;
+  border: none;
+  border-radius: 3px;
+}
+
+.main-con .welcome-section .bar-graph .line p {
+  display: none;
+}
+
+.main-con .welcome-section .bar-graph .line:hover p {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  bottom: 20px;
+}
+
+.main-con .welcome-section .pie-div {
+  width: 259px;
+  height: 221px;
+  background-color: #F7FDF7;
+}
+
+.main-con .welcome-section .pie-div #patient {
+  padding: 21px 177px 7px 19px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.main-con .welcome-section .pie-div #under-patient {
+  width: 213px;
+  height: 28px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #a1a1a1;
+  line-height: 14px;
+  margin: 7px 27px 27px 19px;
+}
+
+.main-con .welcome-section .pie-div img {
+  margin: 0px 38px 20px 19px;
+}
+
+.main-con .main-box .right-items {
+  background-color: #fafafa;
+}
+
+.main-con .main-box .right-items .d-top-part #dash {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #101010;
+}
+
+.main-con .main-box .right-items .dashboard .box {
+  border: none;
+  border-radius: 0.625rem;
+  background-color: white;
+  margin-right: 2rem;
+  width: 20%;
+}
+
+.main-con .main-box .right-items .dashboard .box h5 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.main-con .main-box .right-items .dashboard .box p {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.main-con .main-box .right-items .dashboard .box-4 {
+  margin-right: 0rem;
+}
+
+.main-con .main-box .right-items .dashboard .box-4 .color-box {
+  height: 1vh;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  background-color: #f38e51;
+}
+
+.main-con .main-box .right-items .dashboard .box-1 .color-box {
+  height: 1vh;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  background-color: #0069ff;
+}
+
+.main-con .main-box .right-items .dashboard .box-2 .color-box {
+  height: 1vh;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  background-color: #bc5be8;
+}
+
+.main-con .main-box .right-items .dashboard .box-3 .color-box {
+  height: 1vh;
+  border-radius: 0rem 0rem 0.625rem 0.625rem;
+  background-color: #97da38;
+}
+
+.main-con .main-box .right-items .dashboard h2 {
+  font-size: 1.125rem;
+  font-family: 700;
+}
+
+.main-con .main-box .right-items .calendar-part .date-day-cont .date-day h6 {
+  font-size: 0.625rem;
+  color: #a1a1a1;
+}
+
+.main-con .main-box .right-items .calendar-part .date-day-cont .date-day h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.main-con .main-box .right-items .calendar-part .date-day-cont .mon {
+  background-color: #0069ff;
+  color: white;
+  border-radius: 0.625rem;
+}
+
+.main-con .main-box .right-items .calendar-part .date-day-cont .mon h6 {
+  color: white;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .time-cont {
+  width: 10%;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .time-cont p {
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
+  color: #a1a1a1;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont {
+  width: 90%;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomm p {
+  background-color: #0069ff;
+  border-radius: 0.313rem;
+  margin-right: 1rem;
+  margin-left: 0.25rem;
+  color: white;
+  width: 75%;
+  font-size: 0.625rem;
+  font-weight: 600;
+  margin-top: 0.75rem;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomm #to-p-1 {
+  margin-top: 0.125rem;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .jess-harry p {
+  background-color: #0069ff;
+  border-radius: 0.313rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  width: 36%;
+  color: white;
+  font-size: 0.625rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomtwo {
+  margin-top: 3rem;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomtwo p {
+  background-color: #0069ff;
+  border-radius: 0.313rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  color: white;
+  font-size: 0.625rem;
+  font-weight: 600;
+  margin-bottom: 0.125rem;
+  width: 75%;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomtwo .jhtwo p {
+  width: 36%;
+  margin-top: 0.125rem;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomtwo .jhtwo a {
+  font-size: 0.75rem;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomthree {
+  margin-top: 10rem;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .jhthree {
+  margin-top: 5rem;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .jhthree p {
+  background-color: #0069ff;
+  border-radius: 0.313rem;
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+  color: white;
+  font-size: 0.625rem;
+  width: 36%;
+  font-weight: 600;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .jhthree a {
+  font-size: 0.75rem;
+}
+/*# sourceMappingURL=dashboard.css.map */

@@ -1,0 +1,100 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  margin: 2rem;
+}
+
+.messages {
+  position: relative;
+  margin: 2rem;
+}
+
+.messages .the-text {
+  width: 39%;
+  height: 2.875rem;
+  padding: 0.313rem;
+  border: 1px solid #29BF12;
+  border-radius: 4px;
+}
+
+.messages .the-text:focus {
+  outline: #29BF12;
+}
+
+.messages label {
+  color: #414141;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.625rem;
+}
+
+.messages .m-icon {
+  position: absolute;
+  right: 65%;
+  top: 45%;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+  color: #29BF12;
+  min-width: 50px;
+  text-align: center;
+}
+
+.messages p {
+  font-size: 0.875rem;
+  color: #29BF12;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.msg2 .the-text {
+  border: 1px solid  #F43460;
+}
+
+.msg2 .the-text:focus {
+  outline: #F43460;
+}
+
+.msg2 .m-icon {
+  color: #F43460;
+}
+
+.msg2 p {
+  color: #F43460;
+}
+
+.icon-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35.125rem;
+  margin: 2rem;
+  height: 3.75rem;
+  border-radius: 0.313rem;
+  border: 0.063rem solid #F43460;
+  border-left: 0.40rem solid #F43460;
+}
+
+.icon-message i {
+  font-size: 1.875rem;
+  margin: 0.938rem 0.625rem 0.938rem 1.563rem;
+  color: #F43460;
+}
+
+.icon-message .erp {
+  margin: 0.625rem 0rem;
+}
+
+.im2 {
+  border: 0.063rem solid #29BF12;
+  border-left: 0.40rem solid #29BF12;
+}
+
+.im2 i {
+  color: #29BF12;
+}
+/*# sourceMappingURL=form-error.css.map */

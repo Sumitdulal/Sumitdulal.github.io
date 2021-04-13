@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in Page</title>
+    <link rel="stylesheet" href="styles/log-in.css" />
+    <link rel="stylesheet"
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<script src="scripts/vendor.js" defer></script>
+  </head>
+  <body>
+    <div class="top-nav">
+      <div class="logo">
+        <img src="images/logo.svg" />
+      </div>
+      <nav>
+        <ul>
+          <div class="hamburger-menu">
+            <div class="hamburger-wrapper">
+              <div class="menu-1"></div>
+              <div class="menu-1"></div>
+              <div class="menu-1"></div>
+            </div>
+
+            <div class="menu-container">
+              <li><a href="#" class="menu-hidden">How it works</a></li>
+              <li><a href="#" class="menu-hidden">Benefits</a></li>
+              <li><a href="#" class="menu-hidden">Support</a></li>
+              <li><a href="#" class="menu-hidden">Contact us</a></li>
+            </div>
+          </div>
+          
+          <div class="login-credentials">
+            <li class="bar"></li>
+            <li><a href="#">Login</a></li>
+          </div>
+
+          <div class="dropdown">
+            <button class="dropbtn">
+              Sign up <span> <i class="fa fa-angle-down"></i></span>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Manager</a>
+              <a href="#">Doctor</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+    </div>
+    <div class="login-box">
+      <h1>Welcome !</h1>
+      <p>Log in to your dashboard using your credentials</p>
+      <form>
+        <div class="input-icons">
+          <i class="fa fa-envelope icon"> </i>
+          <input class="input-field" type="text" placeholder="Email address" />
+        </div>
+
+        <div class="input-icons">
+          <i class="fa fa-lock icon"> </i>
+          <input class="input-field" type="Password" placeholder="Password" />
+        </div>
+      </form>
+      <div class="last">
+          <a href="#">Forgot password?</a>
+          <button>Login</button>
+      </div>
+    </div>
+  </body>
+</html>
