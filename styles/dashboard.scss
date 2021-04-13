@@ -18,8 +18,8 @@ $fsize3: 0.75rem;
   width: 100%;
 
   .vertical-nav {
-    // width: 202px;
-    width: 14%;
+    width: 202px;
+    // width: 14%;
     height: 1029px;
     background: transparent;
     background-color: white;
@@ -112,7 +112,7 @@ $fsize3: 0.75rem;
         .new {
           height: 41px;
           width: 96px;
-          margin: 28px 30px 20px 0px;
+          margin: 28px 84px 20px 22px;
           list-style: none;
 
           i {
@@ -160,10 +160,11 @@ $fsize3: 0.75rem;
 
   .welcome-section {
     height: 1024px;
-    // width: 260px;
-    width: 18%;
+    width: 260px;
+    // width: 18%;
     background: transparent;
     background-color: white;
+    z-index: 20000;
 
     #wel {
       margin: 70px 165px 11px 20px;

@@ -20,7 +20,7 @@
 }
 
 .main-con .vertical-nav {
-  width: 14%;
+  width: 202px;
   height: 1029px;
   background: transparent;
   background-color: white;
@@ -109,7 +109,7 @@
 .main-con .vertical-nav .main-menu .single .new {
   height: 41px;
   width: 96px;
-  margin: 28px 30px 20px 0px;
+  margin: 28px 84px 20px 22px;
   list-style: none;
 }
 
@@ -154,9 +154,10 @@
 
 .main-con .welcome-section {
   height: 1024px;
-  width: 18%;
+  width: 260px;
   background: transparent;
   background-color: white;
+  z-index: 20000;
 }
 
 .main-con .welcome-section #wel {

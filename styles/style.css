@@ -549,7 +549,7 @@
 
 .get-started {
   height: 357px;
-  margin: 0px 436.5px 100px 437.5px;
+  margin: 0 auto;
   margin-bottom: 100px;
 }
 
@@ -565,6 +565,7 @@
 
 .get-started .app-down {
   width: 566px;
+  margin: 0 auto;
 }
 
 .get-started .app-down .app {

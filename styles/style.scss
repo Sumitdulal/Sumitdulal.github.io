@@ -475,7 +475,7 @@
 }
 .get-started{
   height: 357px;
-  margin: 0px 436.5px 100px 437.5px;
+  margin: 0 auto;
   margin-bottom: 100px;
   h1{
     margin-bottom: 30px;
@@ -487,6 +487,7 @@
   }
   .app-down{
     width: 566px;
+    margin: 0 auto;
     .app{
     border: 1px solid #DBE4F1;
     border-radius: 5px;
