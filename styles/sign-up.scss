@@ -232,6 +232,8 @@
 
     h1 {
       margin-bottom: 20px;
+      font-size: 40px;
+      font-weight: 700;
     }
 
     p {
@@ -261,7 +263,7 @@
         #togglePassword {
             position: absolute;
             right: 0%;
-            top: 50%;
+            top: 54%;
             transform: translateY(-50%);
             color: black;
             min-width: 50px;
@@ -280,15 +282,16 @@
         line-height: 1;
       }
 
-      button {
-        width: 230px;
-        height: 48px;
-        color: white;
-        background-color: #3056F5;
-        border: none;
-        border-radius: 4px;
-        margin-top: 31px;
-      }
+      
+    }
+    button {
+      width: 230px;
+      height: 48px;
+      color: white;
+      background-color: #3056F5;
+      border: none;
+      border-radius: 4px;
+      margin-top: 31px;
     }
   }
 

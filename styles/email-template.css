@@ -6,7 +6,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.main-container {
+.main-container3 {
   width: 42.625rem;
   height: 43.313rem;
   margin: 5%;
@@ -14,7 +14,7 @@
   border: 1px solid #FBFBFB;
 }
 
-.main-container .primary-cont {
+.main-container3 .primary-cont3 {
   width: 600px;
   height: 553px;
   margin: 1.875rem 2.563rem 1.25rem 2.563rem;
@@ -23,18 +23,18 @@
   padding-left: 1.875rem;
 }
 
-.main-container .primary-cont img {
+.main-container3 .primary-cont3 img {
   margin: 1.938rem 28.313rem 2.5rem 0rem;
 }
 
-.main-container .primary-cont #wel {
+.main-container3 .primary-cont3 #wel {
   font-size: 1.25rem;
   font-weight: 700;
   color: #101010;
   margin: 0rem 22.625rem 0rem 0rem;
 }
 
-.main-container .primary-cont #book {
+.main-container3 .primary-cont3 #book {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.125rem;
@@ -42,14 +42,14 @@
   margin: 0rem 27.5rem 2.5rem 0rem;
 }
 
-.main-container .primary-cont #follow {
+.main-container3 .primary-cont3 #follow {
   font-size: 0.875rem;
   font-weight: 400;
   color: #414141;
   margin: 0rem 13.563rem 1.25rem 0rem;
 }
 
-.main-container .primary-cont button {
+.main-container3 .primary-cont3 button {
   cursor: pointer;
   width: 12.563rem;
   height: 2.5rem;
@@ -60,7 +60,7 @@
   margin: 0rem 23rem 1.25rem 0rem;
 }
 
-.main-container .primary-cont #some-texts {
+.main-container3 .primary-cont3 #some-texts {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.375rem;
@@ -68,7 +68,7 @@
   color: #414141;
 }
 
-.main-container .primary-cont #texts-2 {
+.main-container3 .primary-cont3 #texts-2 {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.375rem;
@@ -76,17 +76,17 @@
   margin: 0rem 5.625rem 1.875rem 0rem;
 }
 
-.main-container .primary-cont hr {
+.main-container3 .primary-cont3 hr {
   margin-bottom: 1.25rem;
 }
 
-.main-container .primary-cont .last {
+.main-container3 .primary-cont3 .last {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main-container .primary-cont .last p {
+.main-container3 .primary-cont3 .last p {
   font-size: 0.875rem;
   font-weight: 400;
   color: #414141;
@@ -95,11 +95,11 @@
   width: 12.063rem;
 }
 
-.main-container .primary-cont .last i {
+.main-container3 .primary-cont3 .last i {
   margin-right: 0.625rem;
 }
 
-.main-container .footer-part {
+.main-container3 .footer-part {
   height: 3.75rem;
   width: 32.625rem;
   font-size: 0.75rem;
@@ -108,7 +108,7 @@
   margin: 1.25rem 7.438rem 1.875rem 2.563rem;
 }
 
-.main-container .footer-part a {
+.main-container3 .footer-part a {
   text-decoration: none;
   color: #0069FF;
   font-size: 0.75rem;

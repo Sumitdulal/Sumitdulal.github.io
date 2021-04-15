@@ -6,7 +6,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.main-container {
+.main-container4 {
   width: 42.625rem;
   height: 33.438rem;
   margin: 5%;
@@ -14,7 +14,7 @@
   border: 1px solid #FBFBFB;
 }
 
-.main-container .primary-cont {
+.main-container4 .primary-cont4 {
   width: 37.5rem;
   height: 24.063rem;
   margin: 1.875rem 2.563rem 1.25rem 2.563rem;
@@ -23,11 +23,11 @@
   padding-left: 1.875rem;
 }
 
-.main-container .primary-cont img {
+.main-container4 .primary-cont4 img {
   margin: 1.938rem 28.313rem 2.5rem 0rem;
 }
 
-.main-container .primary-cont #forg {
+.main-container4 .primary-cont4 #forg {
   width: 14.188rem;
   height: 1.5rem;
   font-size: 1.25rem;
@@ -36,14 +36,14 @@
   margin: 0rem 21.438rem 1.25rem 0rem;
 }
 
-.main-container .primary-cont #follow {
+.main-container4 .primary-cont4 #follow {
   font-size: 0.875rem;
   font-weight: 400;
   color: #414141;
   margin: 0rem 13.563rem 1.25rem 0rem;
 }
 
-.main-container .primary-cont button {
+.main-container4 .primary-cont4 button {
   cursor: pointer;
   width: 12.563rem;
   height: 2.5rem;
@@ -54,7 +54,7 @@
   margin: 0rem 23rem 1.25rem 0rem;
 }
 
-.main-container .primary-cont #some-texts {
+.main-container4 .primary-cont4 #some-texts {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.375rem;
@@ -62,17 +62,17 @@
   color: #414141;
 }
 
-.main-container .primary-cont hr {
+.main-container4 .primary-cont4 hr {
   margin-bottom: 1.25rem;
 }
 
-.main-container .primary-cont .last {
+.main-container4 .primary-cont4 .last {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main-container .primary-cont .last p {
+.main-container4 .primary-cont4 .last p {
   font-size: 0.875rem;
   font-weight: 400;
   color: #414141;
@@ -81,11 +81,11 @@
   width: 12.063rem;
 }
 
-.main-container .primary-cont .last i {
+.main-container4 .primary-cont4 .last i {
   margin-right: 0.625rem;
 }
 
-.main-container .footer-part {
+.main-container4 .footer-part {
   height: 3.75rem;
   width: 32.625rem;
   font-size: 0.75rem;
@@ -94,7 +94,7 @@
   margin: 1.25rem 7.438rem 1.875rem 2.563rem;
 }
 
-.main-container .footer-part a {
+.main-container4 .footer-part a {
   text-decoration: none;
   color: #0069FF;
   font-size: 0.75rem;

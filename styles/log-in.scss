@@ -5,7 +5,7 @@
   font-family: "Inter", sans-serif;
 }
 body {
-  background-color: #fafafa;
+  background-color: #fafafa!important;
 }
 .top-nav {
   display: flex;
@@ -252,7 +252,7 @@ body {
     }
   }
 }
-.last {
+.tlast {
   display: flex;
   a {
     color: red;

@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #fafafa;
+  background-color: #fafafa !important;
 }
 
 .top-nav {
@@ -280,18 +280,18 @@ body {
   background-color: white;
 }
 
-.last {
+.tlast {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.last a {
+.tlast a {
   color: red;
   text-decoration: underline;
 }
 
-.last button {
+.tlast button {
   width: 230px;
   height: 48px;
   border-radius: 4px;

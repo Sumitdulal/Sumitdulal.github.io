@@ -6,7 +6,7 @@
   font-family: "Inter", sans-serif;
 }
 
-.main-container {
+.main-container2 {
   width: 42.625rem;
   height: 57.25rem;
   margin: 5%;
@@ -14,7 +14,7 @@
   border: 1px solid #FBFBFB;
 }
 
-.main-container .primary-cont {
+.main-container2 .primary-container2 {
   width: 37.5rem;
   height: 47.625rem;
   margin: 1.875rem 2.563rem 1.25rem 2.563rem;
@@ -23,18 +23,18 @@
   padding-left: 1.875rem;
 }
 
-.main-container .primary-cont img {
+.main-container2 .primary-container2 img {
   margin: 1.938rem 28.313rem 2.5rem 0rem;
 }
 
-.main-container .primary-cont #appointment {
+.main-container2 .primary-container2 #appointment2 {
   font-size: 1.25rem;
   font-weight: 700;
   color: #101010;
   margin: 0rem 13.938rem 1.125rem 0rem;
 }
 
-.main-container .primary-cont #txt {
+.main-container2 .primary-container2 #txt2 {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.375rem;
@@ -44,7 +44,7 @@
   margin: 0rem 4.875rem 1.25rem 0rem;
 }
 
-.main-container .primary-cont .appoint-details {
+.main-container2 .primary-container2 .appoint-details2 {
   margin: 0rem 7.5rem 1.25rem 0rem;
   height: 14.813rem;
   width: 28.125rem;
@@ -53,7 +53,7 @@
   background-color: #F8F7F7;
 }
 
-.main-container .primary-cont .appoint-details .appoint-time {
+.main-container2 .primary-container2 .appoint-details2 .appoint-time2 {
   width: 28.125rem;
   height: 4.125rem;
   margin: 0rem 0rem 1.313rem 0rem;
@@ -62,7 +62,7 @@
   background-color: #0069FF;
 }
 
-.main-container .primary-cont .appoint-details .appoint-time p {
+.main-container2 .primary-container2 .appoint-details2 .appoint-time2 p {
   text-align: center;
   padding: 0.813rem 5rem;
   line-height: 1.25rem;
@@ -71,56 +71,56 @@
   color: #FFFFFF;
 }
 
-.main-container .primary-cont .appoint-details .text1 {
+.main-container2 .primary-container2 .appoint-details2 .text1-2 {
   width: 7.125rem;
   height: 3.875rem;
   margin: 0rem 27.25rem 0rem 1.25rem;
 }
 
-.main-container .primary-cont .appoint-details .text1 .common {
+.main-container2 .primary-container2 .appoint-details2 .text1-2 .common2 {
   font-size: 0.875rem;
   font-weight: 400;
 }
 
-.main-container .primary-cont .appoint-details .text1 .name {
+.main-container2 .primary-container2 .appoint-details2 .text1-2 .name1 {
   font-weight: 500;
   color: #0069FF;
 }
 
-.main-container .primary-cont .appoint-details .text1 .req {
+.main-container2 .primary-container2 .appoint-details2 .text1-2 .req1 {
   font-size: 0.75rem;
   color: #A1A1A1;
 }
 
-.main-container .primary-cont .appoint-details .text1 .cell {
+.main-container2 .primary-container2 .appoint-details2 .text1-2 .cell1 {
   color: #414141;
 }
 
-.main-container .primary-cont .appoint-details .text2 {
+.main-container2 .primary-container2 .appoint-details2 .text2-2 {
   height: 2.75rem;
   width: 11.688rem;
   margin: 0rem 15.188rem 1.25rem 1.25rem;
 }
 
-.main-container .primary-cont .appoint-details .text2 #con {
+.main-container2 .primary-container2 .appoint-details2 .text2-2 #con2 {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.375rem;
 }
 
-.main-container .primary-cont .appoint-details .text2 #ins {
+.main-container2 .primary-container2 .appoint-details2 .text2-2 #ins2 {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.375rem;
 }
 
-.main-container .primary-cont #changes {
+.main-container2 .primary-container2 #changes2 {
   margin: 0rem 16.75rem 0.375rem 0rem;
   font-size: 0.875rem;
   font-weight: 400;
 }
 
-.main-container .primary-cont .tx-txt {
+.main-container2 .primary-container2 .tx-txt2 {
   font-size: 0.875rem;
   line-height: 1.375rem;
   color: #414141;
@@ -128,23 +128,23 @@
   margin: 0rem 14.563rem 1.875rem 0rem;
 }
 
-.main-container .primary-cont .tx-txt a {
+.main-container2 .primary-container2 .tx-txt2 a {
   text-decoration: none;
   color: #0069FF;
   font-weight: 600;
 }
 
-.main-container .primary-cont hr {
+.main-container2 .primary-container2 hr {
   margin-bottom: 1.25rem;
 }
 
-.main-container .primary-cont .last {
+.main-container2 .primary-container2 .last2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.main-container .primary-cont .last p {
+.main-container2 .primary-container2 .last2 p {
   font-size: 0.875rem;
   font-weight: 400;
   color: #414141;
@@ -153,11 +153,11 @@
   width: 12.063rem;
 }
 
-.main-container .primary-cont .last i {
+.main-container2 .primary-container2 .last2 i {
   margin-right: 0.625rem;
 }
 
-.main-container .footer-part {
+.main-container2 .footer-part {
   height: 3.75rem;
   width: 32.625rem;
   font-size: 0.75rem;
@@ -166,7 +166,7 @@
   margin: 1.25rem 7.438rem 1.875rem 2.563rem;
 }
 
-.main-container .footer-part a {
+.main-container2 .footer-part a {
   text-decoration: none;
   color: #0069FF;
   font-size: 0.75rem;
