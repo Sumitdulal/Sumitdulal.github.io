@@ -5,228 +5,17 @@
   font-family: "Inter", sans-serif;
 }
 
-.top-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-right: 100px;
-  margin-left: 120px;
-  height: 35px;
-  padding-top: 20px;
-
-
-  .logo {
-    margin-right: 508px;
-    height: 29px;
-    width: 117px;
-  }
-
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    height: 35px;
-
-    ul {
-      position: relative;
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .hamburger-menu {
-
-        margin-right: 1rem;
-
-        .hamburger-wrapper {
-          display: none;
-          width: 30px;
-          overflow: hidden;
-          cursor: pointer;
-
-          .menu-1 {
-            height: 3.5px;
-            background-color: rgb(44, 44, 44);
-            margin: 3px 0rem;
-          }
-        }
-
-
-      }
-
-      .menu-container {
-        display: flex;
-        align-items: center;
-      }
-
-      .login-credentials {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      }
-
-      li {
-        a {
-          margin-right: 20px;
-          text-decoration: none;
-          color: black;
-        }
-      }
-
-      .bar {
-        border-right: 1px solid black;
-        height: 21px;
-        margin-right: 20px;
-      }
-
-      a:hover {
-        text-decoration: underline blue 3px;
-        text-underline-offset: 5px;
-      }
-    }
-
-    .dropbtn {
-      background-color: blue;
-      color: white;
-      border: none;
-      border-radius: 20px;
-      padding: 5px;
-      width: 120px;
-      height: 35px;
-    }
-
-    .dropdown {
-      position: relative;
-      display: inline-block;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #ffffff;
-      min-width: 120px;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-
-    .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
-
-    .dropdown:hover .dropbtn {
-      background-color: #000000;
-    }
-  }
-
-}
-
-@media screen and (max-width: 1415px) {
-  .top-nav {
-    margin: 0px;
-
-    .logo {
-      margin-right: 50px;
-    }
-
-    nav {
-      ul {
-        .dropbtn {
-          width: 100px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 410px) {
-  .top-nav {
-    margin: 0px;
-
-    .logo {
-      margin-right: 10px;
-    }
-
-    nav {
-      ul {
-        .dropbtn {
-          width: 100px;
-        }
-      }
-    }
-  }
-}
-
-//Media-query for hamburger display
-@media screen and (max-width: 1000px) {
-  .top-nav {
-    .logo {
-      margin-left: 5px;
-    }
-
-    nav {
-      ul {
-        .hamburger-menu {
-          position: relative;
-
-          .hamburger-wrapper {
-            display: block;
-          }
-
-          .menu-container {
-            visibility: hidden;
-            pointer-events: none;
-            background-color: rgb(235, 232, 232);
-            width: 200px;
-            position: absolute;
-            top: 150%;
-            left: -280%;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-
-            li {
-              width: 100%;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-
-              .menu-hidden {
-                margin-top: 1rem;
-              }
-
-              .menu-hidden:last-child {
-                margin-bottom: 1rem;
-              }
-            }
-          }
-
-          .display {
-            visibility: visible;
-            pointer-events: all
-          }
-        }
-      }
-    }
-  }
-
+img{
+  margin-left: 30px;
+  margin-top: 22px;
 }
 
 .mid-part2 {
   display: flex;
   justify-content: center;
+  margin-top: 15px;
   .form-part {
-    margin-top: 218px;
+    margin-top: 144px;
     margin-left: 123px;
     margin-right: 122px;
 
@@ -234,13 +23,22 @@
       margin-bottom: 20px;
       font-size: 40px;
       font-weight: 700;
+      color:  #333131;
     }
 
     p {
       margin-bottom: 40px;
+      font-size: 20px;
+      font-weight: 300;
+      color:#A1A1A1;
     }
 
     form {
+      label{
+        color: #414141;
+        font-size: 16px;
+        font-weight: 400;
+      }
       input {
         margin-top: 10px;
         height: 52px;
@@ -250,6 +48,7 @@
         padding: 5px;
         border-radius: 4px;
       }
+      
       .input-icons {
         position: relative;
         .pass {
@@ -280,6 +79,7 @@
 
       label {
         line-height: 1;
+        color: #9999A1;
       }
 
       
@@ -292,12 +92,19 @@
       border: none;
       border-radius: 4px;
       margin-top: 31px;
+      
+    }
+    #bel-login{
+      margin-top: 20px;
+      color: #414141;
+      font-size: 16px;
+      font-weight: 400;
     }
   }
 
   .slider-part {
 
-    margin-top: 50px;
+    
     width: 809px;
     height: 918px;
     position: relative;

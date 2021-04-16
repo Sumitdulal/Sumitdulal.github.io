@@ -307,10 +307,13 @@ $fsize3: 0.75rem;
           h5{
               font-size: $fsize3;
               font-weight: 600;
+              color:$colorbl;
+              
           }
           p{
               font-size: 1.375rem;
               font-weight: 700;
+              color:$colorbl;
           }
         }
         .box-4{
@@ -371,90 +374,97 @@ $fsize3: 0.75rem;
         }
         .schedules{
           .time-cont{
-            width: 10%;
+            width: 100%;
             p{
-              margin-bottom: 2rem;
+              // margin-bottom: 2rem;
               font-size: $fsize3;
               color: $colortxt;
+              width: 10%;
             }
-          }
-          .schedule-cont{
-            width: 90%;
-            .tomm{
-              p{
-                background-color: $colorb;
-                border-radius: 0.313rem;
-                margin-right: 1rem;
-                margin-left: 0.25rem;
-                color: white;
-                width: 75%;
-                font-size: 0.625rem;
-                font-weight: 600;
-                margin-top: 0.75rem;
+    
+              .tomm{
+                width: 60%;
+                margin-left: 10%;
+                p{
+                  background-color: $colorb;
+                  border-radius: 0.313rem;
+                  margin-right: 1rem;
+                  margin-left: 0.25rem;
+                  color: white;
+                  width: 100%;
+                  font-size: 0.625rem;
+                  font-weight: 600;
+                }
+                #to-p-1{
+                  margin-top: 0.125rem;
+                }
               }
-              #to-p-1{
-                margin-top: 0.125rem;
+              .jess-harry{
+                width: 62%;
+                margin-left: 10%;
+                p{
+                  background-color: $colorb;
+                  border-radius: 0.313rem;
+                  margin-right: 0.25rem;
+                  margin-left: 0.25rem;
+                  width: 50%;
+                  color: white;
+                  font-size: 0.625rem;
+                  font-weight: 600;
+                }
               }
-            }
-            .jess-harry{
-              p{
-                background-color: $colorb;
-                border-radius: 0.313rem;
-                margin-right: 0.25rem;
-                margin-left: 0.25rem;
-                width: 36%;
-                color: white;
-                font-size: 0.625rem;
-                font-weight: 600;
-                margin-top: 3rem;
-              }
-            }
-            .tomtwo{
-              margin-top: 3rem;
-              p{
-                background-color: $colorb;
-                border-radius: 0.313rem;
-                margin-right: 0.25rem;
-                margin-left: 0.25rem;
-                color: white;
-                font-size: 0.625rem;
-                font-weight: 600;
-                margin-bottom:0.125rem ;
-                width: 75%;
-              }
-                .jhtwo{
-                  p{
-                    width: 36%;
-                    margin-top: 0.125rem;
+              .tomtwo{
+                width: 80%;
+                margin-left: 10%;
+                p{
+                  background-color: $colorb;
+                  border-radius: 0.313rem;
+                  margin-right: 0.25rem;
+                  margin-left: 0.25rem;
+                  color: white;
+                  font-size: 0.625rem;
+                  font-weight: 600;
+                  margin-bottom:0.125rem ;
+                  width: 72.5%;
+                }
+                  .jhtwo{
+                    width: 100%;
+                    p{
+                      width: 34.5%;
+                      margin-top: 0.125rem;
+                    }
+                    a{
+                      font-size: $fsize3;
+                    }
                   }
+    
+              }
+              .tomthree{
+                width: 60%;
+                margin-left: 10%;
+              }
+              .jhthree{
+                width: 80%;
+                margin-left: 10%;
+                p{
+                  background-color: $colorb;
+                  border-radius: 0.313rem;
+                  margin-right: 0.25rem;
+                  margin-left: 0.25rem;
+                  color: white;
+                  font-size: 0.625rem;
+                  width: 36%;
+                  font-weight: 600;
+                }
                   a{
                     font-size: $fsize3;
                   }
-                }
-  
-            }
-            .tomthree{
-              margin-top: 10rem;
-            }
-            .jhthree{
-              margin-top: 5rem;
-              p{
-                background-color: $colorb;
-                border-radius: 0.313rem;
-                margin-right: 0.25rem;
-                margin-left: 0.25rem;
-                color: white;
-                font-size: 0.625rem;
-                width: 36%;
-                font-weight: 600;
+        
+                
               }
-                a{
-                  font-size: $fsize3;
-                }
-      
-              
-            }
+            
           }
+         
         }
         
       }

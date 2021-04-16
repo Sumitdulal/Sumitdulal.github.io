@@ -298,11 +298,13 @@
 .main-con .main-box .right-items .dashboard .box h5 {
   font-size: 0.75rem;
   font-weight: 600;
+  color: #101010;
 }
 
 .main-con .main-box .right-items .dashboard .box p {
   font-size: 1.375rem;
   font-weight: 700;
+  color: #101010;
 }
 
 .main-con .main-box .right-items .dashboard .box-4 {
@@ -359,52 +361,57 @@
 }
 
 .main-con .main-box .right-items .calendar-part .schedules .time-cont {
-  width: 10%;
+  width: 100%;
 }
 
 .main-con .main-box .right-items .calendar-part .schedules .time-cont p {
-  margin-bottom: 2rem;
   font-size: 0.75rem;
   color: #a1a1a1;
+  width: 10%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont {
-  width: 90%;
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomm {
+  width: 60%;
+  margin-left: 10%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomm p {
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomm p {
   background-color: #0069ff;
   border-radius: 0.313rem;
   margin-right: 1rem;
   margin-left: 0.25rem;
   color: white;
-  width: 75%;
+  width: 100%;
   font-size: 0.625rem;
   font-weight: 600;
-  margin-top: 0.75rem;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomm #to-p-1 {
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomm #to-p-1 {
   margin-top: 0.125rem;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .jess-harry p {
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .jess-harry {
+  width: 62%;
+  margin-left: 10%;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .jess-harry p {
   background-color: #0069ff;
   border-radius: 0.313rem;
   margin-right: 0.25rem;
   margin-left: 0.25rem;
-  width: 36%;
+  width: 50%;
   color: white;
   font-size: 0.625rem;
   font-weight: 600;
-  margin-top: 3rem;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomtwo {
-  margin-top: 3rem;
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo {
+  width: 80%;
+  margin-left: 10%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomtwo p {
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo p {
   background-color: #0069ff;
   border-radius: 0.313rem;
   margin-right: 0.25rem;
@@ -413,27 +420,33 @@
   font-size: 0.625rem;
   font-weight: 600;
   margin-bottom: 0.125rem;
-  width: 75%;
+  width: 72.5%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomtwo .jhtwo p {
-  width: 36%;
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo .jhtwo {
+  width: 100%;
+}
+
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo .jhtwo p {
+  width: 34.5%;
   margin-top: 0.125rem;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomtwo .jhtwo a {
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo .jhtwo a {
   font-size: 0.75rem;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .tomthree {
-  margin-top: 10rem;
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomthree {
+  width: 60%;
+  margin-left: 10%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .jhthree {
-  margin-top: 5rem;
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .jhthree {
+  width: 80%;
+  margin-left: 10%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .jhthree p {
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .jhthree p {
   background-color: #0069ff;
   border-radius: 0.313rem;
   margin-right: 0.25rem;
@@ -444,7 +457,7 @@
   font-weight: 600;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .schedule-cont .jhthree a {
+.main-con .main-box .right-items .calendar-part .schedules .time-cont .jhthree a {
   font-size: 0.75rem;
 }
 /*# sourceMappingURL=dashboard.css.map */

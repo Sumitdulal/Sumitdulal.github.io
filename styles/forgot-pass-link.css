@@ -231,13 +231,13 @@ body {
   }
 }
 
-.reset-box {
+.forg-box {
   margin: 0 auto;
   height: 342px;
   width: 475px;
 }
 
-.reset-box h1 {
+.forg-box h1 {
   margin-top: 10rem;
   text-align: center;
   font-size: 40px;
@@ -246,7 +246,7 @@ body {
   margin-bottom: 14px;
 }
 
-.reset-box p {
+.forg-box p {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -254,23 +254,23 @@ body {
   margin-bottom: 48px;
 }
 
-.reset-box form .input-icons2 {
+.forg-box form .input-icons6 {
   margin-bottom: 30px;
   background-color: white;
 }
 
-.reset-box form .input-icons2 i {
+.forg-box form .input-icons6 i {
   position: absolute;
 }
 
-.reset-box form .input-icons2 .icon {
+.forg-box form .input-icons6 .icon {
   padding: 18px;
   color: black;
   min-width: 50px;
   text-align: center;
 }
 
-.reset-box form .input-icons2 .input-field {
+.forg-box form .input-icons6 .input-field6 {
   width: 475px;
   height: 52px;
   padding: 24px;
@@ -281,7 +281,7 @@ body {
   background-color: white;
 }
 
-.thelast button {
+.send-r-link button {
   width: 475px;
   height: 48px;
   border-radius: 4px;
@@ -292,20 +292,20 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  .reset-box {
+  .forg-box {
     width: 60%;
   }
-  .reset-box form .input-icons .input-field {
+  .forg-box form .input-icons6 .input-field6 {
     width: 80%;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .reset-box {
+  .forg-box {
     width: 80%;
   }
-  .reset-box form .input-icons .input-field {
+  .forg-box form .input-icons6 .input-field6 {
     width: 80%;
   }
 }
-/*# sourceMappingURL=reset-password.css.map */
+/*# sourceMappingURL=forgot-pass-link.css.map */

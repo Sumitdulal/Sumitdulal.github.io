@@ -17,31 +17,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-right: 100px;
-  margin-left: 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 4%;
+  padding-left: 2%;
   height: 35px;
   padding-top: 20px;
 }
 
 .top-nav .logo {
-  margin-right: 508px;
-  height: 29px;
-  width: 117px;
-}
-
-.top-nav nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  height: 35px;
+  margin: 0;
+  padding: 0;
 }
 
 .top-nav nav ul {
@@ -56,6 +43,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 0;
 }
 
 .top-nav nav ul .hamburger-menu {
@@ -95,10 +83,17 @@ body {
           align-items: center;
 }
 
-.top-nav nav ul li a {
+.top-nav nav ul li {
   margin-right: 20px;
+}
+
+.top-nav nav ul li a {
   text-decoration: none;
   color: black;
+}
+
+.top-nav nav ul li:last-child {
+  margin-right: 0;
 }
 
 .top-nav nav ul .bar {
@@ -108,13 +103,13 @@ body {
 }
 
 .top-nav nav ul a:hover {
-  -webkit-text-decoration: underline blue 3px;
-          text-decoration: underline blue 3px;
+  -webkit-text-decoration: underline #3056F5 3px;
+          text-decoration: underline #3056F5 3px;
   text-underline-offset: 5px;
 }
 
 .top-nav nav .dropbtn {
-  background-color: blue;
+  background-color: #3056F5;
   color: white;
   border: none;
   border-radius: 20px;
@@ -125,6 +120,8 @@ body {
 
 .top-nav nav .dropdown {
   position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
   display: inline-block;
 }
 
@@ -242,6 +239,9 @@ body {
 
 .login-box h1 {
   margin-top: 10rem;
+  font-weight: 700;
+  font-size: 40px;
+  color: #333131;
   text-align: center;
   margin-bottom: 14px;
 }
@@ -250,6 +250,7 @@ body {
   text-align: center;
   font-size: 16px;
   font-style: regular(400);
+  color: #414141;
   margin-bottom: 48px;
 }
 
@@ -289,6 +290,9 @@ body {
 .tlast a {
   color: red;
   text-decoration: underline;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .tlast button {

@@ -20,46 +20,10 @@
     />
 </head>
 <body>
-    <div class="top-nav">
-        <div class="logo">
-         <a href="index.html"><img src="images/logo.svg" /></a> 
-        </div>
-        <nav>
-          <ul>
-            <div class="hamburger-menu">
-              <div class="hamburger-wrapper">
-                <div class="menu-1"></div>
-                <div class="menu-1"></div>
-                <div class="menu-1"></div>
-              </div>
-  
-              <div class="menu-container">
-                <li><a href="#" class="menu-hidden">How it works</a></li>
-                <li><a href="#" class="menu-hidden">Benefits</a></li>
-                <li><a href="#" class="menu-hidden">Support</a></li>
-                <li><a href="#" class="menu-hidden">Contact us</a></li>
-              </div>
-            </div>
-            
-            <div class="login-credentials">
-              <li class="bar"></li>
-              <li><a href="log-in.html">Login</a></li>
-            </div>
-  
-            <div class="dropdown">
-              <button class="dropbtn">
-                Sign up <span> <i class="fa fa-angle-down"></i></span>
-              </button>
-              <div class="dropdown-content">
-                <a href="sign-up.html">Manager</a>
-                <a href="sign-up.html">Doctor</a>
-              </div>
-            </div>
-          </ul>
-        </nav>
-      </div>
+  <img src="images/logo.svg">
     <div class="mid-part2">
         <div class="form-part">
+          
             <h1>Sign Up!</h1>
             <p>Log in to your dashboard using your credentials</p>
             <form class="mb-0" action="#" method="POST">
@@ -81,12 +45,13 @@
             </form>
             <div class="agree mt-0 mb-0 d-flex">
                 <input class="mx-0 mr-2" type="checkbox" id="terms" name="terms" value="agree">
-                <label class="m-0" for="terms">By creating an account, you agree to the <a href="#">terms of use</a> and our <a  href="#">privacy policy</a></label>
+                <label id="lbl" class="m-0" for="terms">By creating an account, you agree to the <a href="#"><u>terms of use</u></a> and our <a  href="#"><u>privacy policy</u></a></label>
               </div>
                 <div class=" mt-0 button">
                     <button>Sign Up</button>
+                    
                 </div>
-            
+                <p id="bel-login">Already have an account? <a href="log-in.html"><u>Log In</u></a></p>
         </div>
         <div class="slider-part">
             <img src="images/dummy.png">
