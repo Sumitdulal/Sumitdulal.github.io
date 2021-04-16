@@ -27,7 +27,7 @@
           <img src="images/logo.svg" alt="medico-logo" />
         </div>
         <div class="main-menu">
-          <h1>Main Menu</h1>
+          <h1 class="mb-2">Main Menu</h1>
           <nav>
             <div class="hamburger-menu">
               <div class="hamburger-wrapper">
@@ -37,7 +37,7 @@
               </div>
 
               <div class="menu-container">
-                <li class="first">
+                <li class="active">
                   <i class="fa fa-tachometer"></i
                   ><a class="menu-hidden" href="#">Dashboard</a>
                 </li>
@@ -141,7 +141,7 @@
         </div>
       </div>
     
-    <div class="container-fluid m-2">
+    <div class="container-fluid m-2 fluids">
       <div class="d-flex mt-2 mb-4  justify-content-between d-top-part ">
         <h3 id="dash">Dashboard</h3>
         <div class="icon-cont">
@@ -163,7 +163,7 @@
                 />
                 <h5 class="text-center mt-2">Total Patients</h5>
                 <p class="text-center mt-2">580</p>
-                <div class="color-box"></div>
+                
               </div>
               <div class="box box-2 d-flex flex-column mb-4">
                 <img
@@ -172,7 +172,7 @@
                 />
                 <h5 class="text-center mt-2">Appointments</h5>
                 <p class="text-center mt-2">580</p>
-                <div class="color-box"></div>
+                
               </div>
               <div class="box box-3 d-flex flex-column mb-4">
                 <img
@@ -181,7 +181,7 @@
                 />
                 <h5 class="text-center mt-2">Unread Bookings</h5>
                 <p class="text-center mt-2">580</p>
-                <div class="color-box"></div>
+                
               </div>
               <div class="box box-4 d-flex flex-column mb-4">
                 <img
@@ -190,17 +190,17 @@
                 />
                 <h5 class="text-center mt-2">Total Bookings</h5>
                 <p class="text-center mt-2">580</p>
-                <div class="color-box"></div>
+                
               </div>
             </div>
-            <h2>Appointments Insights</h2>
+            <h2 id="insi">Appointments Insights</h2>
             <img src="images/line.png" class="img-fluid" />
           </div>
           <!--Dashboard part ends here-->
           <div class="col-md-4 col-sm calendar-part">
             <div class="appo-jun d-flex justify-content-between">
               <h6>Appointment</h6>
-              <span class="d-flex justify-content-between">
+              <span class="d-flex justify-content-between icon-month">
                 <i class="fa fa-calendar"></i>
                 <h6 class="text-small ml-1">June</h6>
               </span>
@@ -210,41 +210,41 @@
                 <h6>MON</h6>
                 <h4 class="text-center">23</h4>
               </div>
-              <div class="date-day d-inline-block">
+              <div class="date-day d-inline-block pt-3 px-3">
                 <h6>TUES</h6>
                 <h4 class="text-center">24</h4>
               </div>
-              <div class="date-day d-inline-block">
+              <div class="date-day d-inline-block pt-3 px-3">
                 <h6>WED</h6>
                 <h4 class="text-center">25</h4>
               </div>
-              <div class="date-day d-inline-block">
+              <div class="date-day d-inline-block pt-3 px-3">
                 <h6>THUR</h6>
                 <h4 class="text-center">26</h4>
               </div>
-              <div class="date-day d-inline-block">
+              <div class="date-day d-inline-block pt-3 px-3">
                 <h6>FRI</h6>
                 <h4 class="text-center">27</h4>
               </div>
             </div>
-            <div class="schedules d-flex d-flex-column mt-4 bg-white p-2">
+            <div class="schedules d-flex d-flex-column mt-4 bg-white pl-2 py-2">
               <div class="time-cont">
                 <p class="mb-0">8:00</p>
-                <div class="tomm my-0">
+                <div class="content-box-1 tomm my-0">
                   <p class="mb-0 p-1">Tommy A., 8:00 am</p>
                   <p id="to-p-1" class=" mb-0 p-1">Tommy A., 8:00 am</p>
                 </div>
                 <p class="mt-0 mb-4">9:00</p>
                 <p class="mb-0">10:00</p>
-                <div class="jess-harry d-flex my-0">
+                <div class=" content-box-2 d-flex my-0">
                   <p class=" mb-0 p-1">Jessica T.</p>
                   <p class="mb-0 p-1">Harry M.</p>
                 </div>
                 <p class="mt-0 mb-4">11:00</p>
                 <p class="mb-0">12:00</p>
-                <div class="tomtwo my-0">
+                <div class="content-box-3 tomtwo my-0">
                   <p id="t2" class="p-1 mb-0">Tommy A., 12:00 pm</p>
-                  <div class="jhtwo d-flex my-0">
+                  <div class="content-box-3-1 jhtwo d-flex my-0">
                     <p class="p-1">Jessica T.</p>
                     <p class="p-1">Harry M.</p>
                     <a class="p-1 align-self-center" href="#">more...</a>
@@ -254,12 +254,12 @@
                 <p class="mb-4">14:00</p>
                 <p class="mb-4">15:00</p>
                 <p class="mb-0">16:00</p>
-                <div class=" my-0 tomm tomthree">
+                <div class=" my-0 content-box-1">
                   <p class=" mb-0 p-1">Tommy A., 16:00 pm</p>
                 </div>
                 <p class="mt-0 mb-4">17:00</p>
                 <p class="mb-0">18:00</p>
-                <div class=" my-0 jhthree d-flex">
+                <div class=" my-0 content-box-4 d-flex">
                   <p class=" mb-0 p-1">Jessica T.</p>
                   <p class="mb-0 p-1">Harry M.</p>
                   <a class="mb-0 p-1" href="#">more...</a>

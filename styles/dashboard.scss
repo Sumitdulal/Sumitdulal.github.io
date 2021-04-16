@@ -3,9 +3,10 @@
   padding: 0rem;
   box-sizing: border-box;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-$colorb: #0069ff;
+$colorb: #0069FF;
+$b2: #5299FF;
 $colorg: #fafafa;
 $colorbl: #101010;
 $colortxt: #a1a1a1;
@@ -24,6 +25,7 @@ $fsize3: 0.75rem;
     height: 1029px;
     background: transparent;
     background-color: white;
+    border-right: 2px solid $colorg;
 
     .logo {
       img {
@@ -43,7 +45,6 @@ $fsize3: 0.75rem;
       }
 
       nav {
-
         width: 202px;
         height: 200px;
 
@@ -56,6 +57,7 @@ $fsize3: 0.75rem;
             width: 30px;
             overflow: hidden;
             cursor: pointer;
+            display: none;
 
             .menu-1 {
               height: 3.5px;
@@ -73,6 +75,10 @@ $fsize3: 0.75rem;
               height: 40px;
               width: 182px;
               margin-bottom: 10px;
+              padding-top: 10px;
+              border-radius: 0px 19px 19px 0px;
+              border: none;
+              
 
               i {
                 height: 16px;
@@ -87,11 +93,10 @@ $fsize3: 0.75rem;
               }
             }
 
-            .first {
+            .active {
               background-color: blue;
-              padding-top: 10px;
               color: white;
-              border-radius: 0px 19px 19px 0px;
+              
 
               a {
                 color: white;
@@ -113,7 +118,7 @@ $fsize3: 0.75rem;
         .new {
           height: 41px;
           width: 96px;
-          margin: 28px 84px 20px 22px;
+          margin: 0px 84px 20px 22px;
           list-style: none;
 
           i {
@@ -137,12 +142,14 @@ $fsize3: 0.75rem;
 
         h3 {
           font-size: 12px;
-          font-weight: 600;
+          color: #414141;
+          font-weight: 700;
         }
 
         #copy {
           font-size: 12px;
           font-weight: 400;
+          color: $colortxt;
           margin-top: 4px;
           margin-bottom: 14px;
         }
@@ -150,7 +157,7 @@ $fsize3: 0.75rem;
         #heart {
           font-size: 12px;
           font-weight: 400;
-
+          color: $colortxt;
           i {
             color: red;
           }
@@ -223,7 +230,7 @@ $fsize3: 0.75rem;
       font-size: 12px;
       font-family: "Roboto", sans-serif;
       margin: 9px 20px 20px 20px;
-      color: Text Light #a1a1a1;
+      color: #a1a1a1;
     }
 
     .bar-graph {
@@ -236,7 +243,7 @@ $fsize3: 0.75rem;
       .line {
         width: 6px;
         height: 55px;
-        background-color: #29BF12;
+        background-color: #29bf12;
         border: none;
         border-radius: 3px;
 
@@ -253,19 +260,17 @@ $fsize3: 0.75rem;
           bottom: 20px;
         }
       }
-
     }
 
     .pie-div {
       width: 259px;
       height: 221px;
-      background-color: #F7FDF7;
+      background-color: #f7fdf7;
 
       #patient {
         padding: 21px 177px 7px 19px;
         font-weight: 600;
         font-size: 14px;
-
       }
 
       #under-patient {
@@ -283,110 +288,125 @@ $fsize3: 0.75rem;
       }
     }
   }
-  .main-box {
-    .right-items {
-      background-color: $colorg;
-      .d-top-part{
-        #dash{
-          font-size: 1.75rem;
-          font-weight: 700;
-          color: $colorbl;
-          
+  .fluids {
+    .d-top-part {
+      #dash {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: $colorbl;
       }
-  
-      }
-      .dashboard {
-         
-        
-        .box{
-          border: none;
-          border-radius: 0.625rem;
-          background-color: white;
-          margin-right: 2rem;
-          width: 20%;
-          h5{
+    }
+    .main-box {
+      .right-items {
+        background-color: $colorg;
+
+        .dashboard {
+          .box {
+            border: none;
+            border-radius: 0.625rem;
+            background-color: white;
+            margin-right: 2rem;
+            width: 20%;
+            overflow: hidden;
+            min-width: 128px;
+            h5 {
               font-size: $fsize3;
               font-weight: 600;
-              color:$colorbl;
-              
-          }
-          p{
+              color: $colorbl;
+            }
+            p {
               font-size: 1.375rem;
               font-weight: 700;
-              color:$colorbl;
-          }
-        }
-        .box-4{
-            margin-right: 0rem;
-            .color-box{
-                height: 1vh;
-                border-radius: 0rem 0rem 0.625rem 0.625rem;
-                background-color: #f38e51;
-            }
-        }
-        .box-1{
-          .color-box{
-              height: 1vh;
-              border-radius: 0rem 0rem 0.625rem 0.625rem;
-              background-color: $colorb;
-          }
-        }
-        .box-2{
-          .color-box{
-              height: 1vh;
-              border-radius: 0rem 0rem 0.625rem 0.625rem;
-              background-color: #bc5be8;
-          }
-        }
-        .box-3{
-          .color-box{
-              height: 1vh;
-              border-radius: 0rem 0rem 0.625rem 0.625rem;
-              background-color: #97da38;
-          }
-        }
-        h2{
-            font-size: 1.125rem;
-            font-family: 700;
-        }
-        
-      }
-      .calendar-part {
-        .date-day-cont{
-          .date-day{
-            h6{
-              font-size:0.625rem;
-              color: $colortxt;
-            }
-            h4{
-              font-size: 1.25rem;
-              font-weight: 600;
+              color: $colorbl;
             }
           }
-          .mon{
-            background-color: $colorb;
-            color: white;
-            border-radius: 0.625rem;
-            h6{
-              color: white;
-            }
-          }
-        }
-        .schedules{
-          .time-cont{
+          .box:after{
+            content: "";
             width: 100%;
-            p{
-              // margin-bottom: 2rem;
-              font-size: $fsize3;
-              color: $colortxt;
-              width: 10%;
+            height: 4px;
+            background-color: $colorbl;
+            
+          }
+          .box-4 {
+            margin-right: 0rem;
+          }
+          .box-4::after{
+            background-color: #f38e51;
+          }
+          .box-1::after {
+           
+              background-color: $colorb;
+            
+          }
+          .box-2::after {
+              background-color: #bc5be8;
+            
+          }
+          .box-3:after {
+              background-color: #97da38;
+            
+          }
+          #insi {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color:$colorbl ;
+            
+            
+          }
+        }
+        .calendar-part {
+          .appo-jun{
+            h6{
+              font-size: 14px;
+              font-weight: 600;
+              color: $colorbl;
             }
-    
-              .tomm{
-                width: 60%;
-                margin-left: 10%;
-                p{
-                  background-color: $colorb;
+            .icon-month{
+              h6{
+                font-size: 14px;
+              font-weight: 400;
+              color: $colorbl;
+              }
+            }
+
+          }
+          .date-day-cont {
+            .date-day {
+              h6 {
+                font-size: 0.625rem;
+                color: $colortxt;
+              }
+              h4 {
+                font-size: 1.25rem;
+                font-weight: 600;
+              }
+            }
+            .mon {
+              background-color: $b2;
+              color: white;
+              border-radius: 0.625rem;
+              h6 {
+                color: white;
+              }
+            }
+          }
+          .schedules {
+            .time-cont {
+              width: 100%;
+              p {
+                
+                font-size: $fsize3;
+                color: $colortxt;
+                width: 10%;
+                
+              }
+              .content-box-1{
+                border-top: 0.5px solid $colortxt;
+                border-bottom: 0.5px solid $colortxt;
+                width: 75%;
+                margin-left: 14%;
+                p {
+                  background-color: $b2;
                   border-radius: 0.313rem;
                   margin-right: 1rem;
                   margin-left: 0.25rem;
@@ -395,59 +415,52 @@ $fsize3: 0.75rem;
                   font-size: 0.625rem;
                   font-weight: 600;
                 }
-                #to-p-1{
+                #to-p-1 {
                   margin-top: 0.125rem;
                 }
               }
-              .jess-harry{
-                width: 62%;
-                margin-left: 10%;
-                p{
-                  background-color: $colorb;
+              .content-box-2{
+                @extend .content-box-1;
+                p {
+                  background-color: $b2;
                   border-radius: 0.313rem;
-                  margin-right: 0.25rem;
-                  margin-left: 0.25rem;
-                  width: 50%;
+                  margin-right: 2px!important;
+                  width: 30%;
                   color: white;
                   font-size: 0.625rem;
                   font-weight: 600;
                 }
+                
               }
-              .tomtwo{
-                width: 80%;
-                margin-left: 10%;
-                p{
-                  background-color: $colorb;
+              .content-box-3{
+                @extend .content-box-1;
+                p {
+                  background-color: $b2;
                   border-radius: 0.313rem;
                   margin-right: 0.25rem;
                   margin-left: 0.25rem;
                   color: white;
                   font-size: 0.625rem;
                   font-weight: 600;
-                  margin-bottom:0.125rem ;
+                  margin-bottom: 0.125rem;
                   width: 72.5%;
                 }
-                  .jhtwo{
-                    width: 100%;
-                    p{
-                      width: 34.5%;
-                      margin-top: 0.125rem;
-                    }
-                    a{
-                      font-size: $fsize3;
-                    }
+                .content-box-3-1{
+                  width: 100%;
+                  p {
+                    width: 34.5%;
+                    margin-top: 0.125rem;
                   }
-    
+                  a {
+                    font-size: $fsize3;
+                  }
+
+                }
               }
-              .tomthree{
-                width: 60%;
-                margin-left: 10%;
-              }
-              .jhthree{
-                width: 80%;
-                margin-left: 10%;
-                p{
-                  background-color: $colorb;
+              .content-box-4{
+                @extend .content-box-1;
+                p {
+                  background-color: $b2;
                   border-radius: 0.313rem;
                   margin-right: 0.25rem;
                   margin-left: 0.25rem;
@@ -456,19 +469,15 @@ $fsize3: 0.75rem;
                   width: 36%;
                   font-weight: 600;
                 }
-                  a{
-                    font-size: $fsize3;
-                  }
-        
-                
+                a {
+                  font-size: $fsize3;
+                }
               }
             
+            }
           }
-         
         }
-        
       }
     }
   }
-  
 }

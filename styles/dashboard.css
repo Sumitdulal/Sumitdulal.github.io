@@ -4,7 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .main-con {
@@ -25,6 +25,7 @@
   height: 1029px;
   background: transparent;
   background-color: white;
+  border-right: 2px solid #fafafa;
 }
 
 .main-con .vertical-nav .logo img {
@@ -56,6 +57,7 @@
   width: 30px;
   overflow: hidden;
   cursor: pointer;
+  display: none;
 }
 
 .main-con .vertical-nav .main-menu nav .hamburger-menu .hamburger-wrapper .menu-1 {
@@ -74,6 +76,9 @@
   height: 40px;
   width: 182px;
   margin-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 0px 19px 19px 0px;
+  border: none;
 }
 
 .main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li i {
@@ -88,14 +93,12 @@
   font-size: 16px;
 }
 
-.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .first {
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .active {
   background-color: blue;
-  padding-top: 10px;
   color: white;
-  border-radius: 0px 19px 19px 0px;
 }
 
-.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .first a {
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .active a {
   color: white;
 }
 
@@ -110,7 +113,7 @@
 .main-con .vertical-nav .main-menu .single .new {
   height: 41px;
   width: 96px;
-  margin: 28px 84px 20px 22px;
+  margin: 0px 84px 20px 22px;
   list-style: none;
 }
 
@@ -134,12 +137,14 @@
 
 .main-con .vertical-nav .main-menu .appointment h3 {
   font-size: 12px;
-  font-weight: 600;
+  color: #414141;
+  font-weight: 700;
 }
 
 .main-con .vertical-nav .main-menu .appointment #copy {
   font-size: 12px;
   font-weight: 400;
+  color: #a1a1a1;
   margin-top: 4px;
   margin-bottom: 14px;
 }
@@ -147,6 +152,7 @@
 .main-con .vertical-nav .main-menu .appointment #heart {
   font-size: 12px;
   font-weight: 400;
+  color: #a1a1a1;
 }
 
 .main-con .vertical-nav .main-menu .appointment #heart i {
@@ -217,7 +223,7 @@
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   margin: 9px 20px 20px 20px;
-  color: Text Light #a1a1a1;
+  color: #a1a1a1;
 }
 
 .main-con .welcome-section .bar-graph {
@@ -235,7 +241,7 @@
 .main-con .welcome-section .bar-graph .line {
   width: 6px;
   height: 55px;
-  background-color: #29BF12;
+  background-color: #29bf12;
   border: none;
   border-radius: 3px;
 }
@@ -254,7 +260,7 @@
 .main-con .welcome-section .pie-div {
   width: 259px;
   height: 221px;
-  background-color: #F7FDF7;
+  background-color: #f7fdf7;
 }
 
 .main-con .welcome-section .pie-div #patient {
@@ -277,106 +283,122 @@
   margin: 0px 38px 20px 19px;
 }
 
-.main-con .main-box .right-items {
-  background-color: #fafafa;
-}
-
-.main-con .main-box .right-items .d-top-part #dash {
-  font-size: 1.75rem;
+.main-con .fluids .d-top-part #dash {
+  font-size: 1.25rem;
   font-weight: 700;
   color: #101010;
 }
 
-.main-con .main-box .right-items .dashboard .box {
+.main-con .fluids .main-box .right-items {
+  background-color: #fafafa;
+}
+
+.main-con .fluids .main-box .right-items .dashboard .box {
   border: none;
   border-radius: 0.625rem;
   background-color: white;
   margin-right: 2rem;
   width: 20%;
+  overflow: hidden;
+  min-width: 128px;
 }
 
-.main-con .main-box .right-items .dashboard .box h5 {
+.main-con .fluids .main-box .right-items .dashboard .box h5 {
   font-size: 0.75rem;
   font-weight: 600;
   color: #101010;
 }
 
-.main-con .main-box .right-items .dashboard .box p {
+.main-con .fluids .main-box .right-items .dashboard .box p {
   font-size: 1.375rem;
   font-weight: 700;
   color: #101010;
 }
 
-.main-con .main-box .right-items .dashboard .box-4 {
+.main-con .fluids .main-box .right-items .dashboard .box:after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #101010;
+}
+
+.main-con .fluids .main-box .right-items .dashboard .box-4 {
   margin-right: 0rem;
 }
 
-.main-con .main-box .right-items .dashboard .box-4 .color-box {
-  height: 1vh;
-  border-radius: 0rem 0rem 0.625rem 0.625rem;
+.main-con .fluids .main-box .right-items .dashboard .box-4::after {
   background-color: #f38e51;
 }
 
-.main-con .main-box .right-items .dashboard .box-1 .color-box {
-  height: 1vh;
-  border-radius: 0rem 0rem 0.625rem 0.625rem;
-  background-color: #0069ff;
+.main-con .fluids .main-box .right-items .dashboard .box-1::after {
+  background-color: #0069FF;
 }
 
-.main-con .main-box .right-items .dashboard .box-2 .color-box {
-  height: 1vh;
-  border-radius: 0rem 0rem 0.625rem 0.625rem;
+.main-con .fluids .main-box .right-items .dashboard .box-2::after {
   background-color: #bc5be8;
 }
 
-.main-con .main-box .right-items .dashboard .box-3 .color-box {
-  height: 1vh;
-  border-radius: 0rem 0rem 0.625rem 0.625rem;
+.main-con .fluids .main-box .right-items .dashboard .box-3:after {
   background-color: #97da38;
 }
 
-.main-con .main-box .right-items .dashboard h2 {
+.main-con .fluids .main-box .right-items .dashboard #insi {
   font-size: 1.125rem;
-  font-family: 700;
+  font-weight: 700;
+  color: #101010;
 }
 
-.main-con .main-box .right-items .calendar-part .date-day-cont .date-day h6 {
+.main-con .fluids .main-box .right-items .calendar-part .appo-jun h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #101010;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .appo-jun .icon-month h6 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #101010;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .date-day-cont .date-day h6 {
   font-size: 0.625rem;
   color: #a1a1a1;
 }
 
-.main-con .main-box .right-items .calendar-part .date-day-cont .date-day h4 {
+.main-con .fluids .main-box .right-items .calendar-part .date-day-cont .date-day h4 {
   font-size: 1.25rem;
   font-weight: 600;
 }
 
-.main-con .main-box .right-items .calendar-part .date-day-cont .mon {
-  background-color: #0069ff;
+.main-con .fluids .main-box .right-items .calendar-part .date-day-cont .mon {
+  background-color: #5299FF;
   color: white;
   border-radius: 0.625rem;
 }
 
-.main-con .main-box .right-items .calendar-part .date-day-cont .mon h6 {
+.main-con .fluids .main-box .right-items .calendar-part .date-day-cont .mon h6 {
   color: white;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont {
   width: 100%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont p {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont p {
   font-size: 0.75rem;
   color: #a1a1a1;
   width: 10%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomm {
-  width: 60%;
-  margin-left: 10%;
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-1, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-2, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-3, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-4 {
+  border-top: 0.5px solid #a1a1a1;
+  border-bottom: 0.5px solid #a1a1a1;
+  width: 75%;
+  margin-left: 14%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomm p {
-  background-color: #0069ff;
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-1 p, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-2 p, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-3 p, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-4 p {
+  background-color: #5299FF;
   border-radius: 0.313rem;
   margin-right: 1rem;
   margin-left: 0.25rem;
@@ -386,33 +408,22 @@
   font-weight: 600;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomm #to-p-1 {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-1 #to-p-1, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-2 #to-p-1, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-3 #to-p-1, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-4 #to-p-1 {
   margin-top: 0.125rem;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .jess-harry {
-  width: 62%;
-  margin-left: 10%;
-}
-
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .jess-harry p {
-  background-color: #0069ff;
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-2 p {
+  background-color: #5299FF;
   border-radius: 0.313rem;
-  margin-right: 0.25rem;
-  margin-left: 0.25rem;
-  width: 50%;
+  margin-right: 2px !important;
+  width: 30%;
   color: white;
   font-size: 0.625rem;
   font-weight: 600;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo {
-  width: 80%;
-  margin-left: 10%;
-}
-
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo p {
-  background-color: #0069ff;
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-3 p {
+  background-color: #5299FF;
   border-radius: 0.313rem;
   margin-right: 0.25rem;
   margin-left: 0.25rem;
@@ -423,31 +434,21 @@
   width: 72.5%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo .jhtwo {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-3 .content-box-3-1 {
   width: 100%;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo .jhtwo p {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-3 .content-box-3-1 p {
   width: 34.5%;
   margin-top: 0.125rem;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomtwo .jhtwo a {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-3 .content-box-3-1 a {
   font-size: 0.75rem;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .tomthree {
-  width: 60%;
-  margin-left: 10%;
-}
-
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .jhthree {
-  width: 80%;
-  margin-left: 10%;
-}
-
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .jhthree p {
-  background-color: #0069ff;
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-4 p {
+  background-color: #5299FF;
   border-radius: 0.313rem;
   margin-right: 0.25rem;
   margin-left: 0.25rem;
@@ -457,7 +458,7 @@
   font-weight: 600;
 }
 
-.main-con .main-box .right-items .calendar-part .schedules .time-cont .jhthree a {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .content-box-4 a {
   font-size: 0.75rem;
 }
 /*# sourceMappingURL=dashboard.css.map */
