@@ -260,7 +260,7 @@ $fsize3: 0.75rem;
       }
       .line2::after{
         @extend .line1;
-        height: 80%;
+        height: 100%;
       }
       .line3::after{
         @extend .line1;
@@ -346,7 +346,7 @@ $fsize3: 0.75rem;
         margin: 7px 27px 27px 19px;
       }
 
-      img {
+      #ndt {
         margin: 0px 38px 20px 19px;
       }
     }

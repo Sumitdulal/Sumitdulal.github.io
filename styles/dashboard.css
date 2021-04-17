@@ -258,7 +258,7 @@
 }
 
 .main-con .welcome-section .bar-graph .line2::after {
-  height: 80%;
+  height: 100%;
 }
 
 .main-con .welcome-section .bar-graph .line3::after {
@@ -342,7 +342,7 @@
   margin: 7px 27px 27px 19px;
 }
 
-.main-con .welcome-section .pie-div img {
+.main-con .welcome-section .pie-div #ndt {
   margin: 0px 38px 20px 19px;
 }
 
