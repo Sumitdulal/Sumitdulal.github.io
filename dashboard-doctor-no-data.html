@@ -12,10 +12,9 @@
       crossorigin="anonymous"
     />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet"
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles/dashboard-doctor-no-data.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -38,7 +37,7 @@
 
               <div class="menu-container">
                 <li class="active">
-                  <i class="fa fa-tachometer"></i
+                  <i class="fa fa-tachometer-alt"></i
                   ><a class="menu-hidden" href="#">Dashboard</a>
                 </li>
                 <li>
@@ -46,7 +45,7 @@
                   ><a class="menu-hidden" href="#">Appointments</a>
                 </li>
                 <li>
-                  <i class="fa fa-calendar"></i
+                  <i class="fa fa-calendar-alt"></i
                   ><a class="menu-hidden" href="#">Bookings</a>
                 </li>
                 <li>
@@ -54,8 +53,8 @@
                   ><a class="menu-hidden" href="#">Profile</a>
                 </li>
                 <li>
-                  <i class="fa fa-building"></i
-                  ><a class="menu-hidden" href="#">Practice</a>
+                  <i class="fa fa-hospital-alt"></i>
+                  <a class="menu-hidden" href="#">Practice</a>
                 </li>
               </div>
             </div>
@@ -142,134 +141,17 @@
       </div>
     
     <div class="container-fluid m-2 fluids">
-      <div class="d-flex mt-2 mb-4  justify-content-between d-top-part ">
+      <div class="d-flex mt-2  justify-content-between d-top-part ">
         <h3 id="dash">Dashboard</h3>
         <div class="icon-cont">
-          <i class="fa fa-bell-o mr-2"></i>
+          <i class="far fa-bell mr-2"></i>
           <img class="mr-2" src="images/Rectangle.png" />
           <i class="fa fa-angle-down"></i>
         </div>
       </div>
-      <div class="row main-box">
-        <!--beginning of code for right items-->
-        <div class="col col-sm row right-items">
-          
-          <div class="col-md-8 col-sm dashboard">
-            <div class="d-flex flex-wrap">
-              <div class="box box-1 d-flex flex-column mb-4">
-                <img
-                  src="images/patient.png"
-                  class="align-self-center img-fluid mt-4"
-                />
-                <h5 class="text-center mt-2">Total Patients</h5>
-                <p class="text-center mt-2">580</p>
-                
-              </div>
-              <div class="box box-2 d-flex flex-column mb-4">
-                <img
-                  src="images/appointment.png"
-                  class="align-self-center img-fluid mt-4"
-                />
-                <h5 class="text-center mt-2">Appointments</h5>
-                <p class="text-center mt-2">580</p>
-                
-              </div>
-              <div class="box box-3 d-flex flex-column mb-4">
-                <img
-                  src="images/chat.png"
-                  class="align-self-center img-fluid mt-4"
-                />
-                <h5 class="text-center mt-2">Unread Bookings</h5>
-                <p class="text-center mt-2">580</p>
-                
-              </div>
-              <div class="box box-4 d-flex flex-column mb-4">
-                <img
-                  src="images/booking.png"
-                  class="align-self-center img-fluid mt-4"
-                />
-                <h5 class="text-center mt-2">Total Bookings</h5>
-                <p class="text-center mt-2">580</p>
-                
-              </div>
-            </div>
-            <h2 id="insi">Appointments Insights</h2>
-            <img src="images/line.png" class="img-fluid" />
-          </div>
-          <!--Dashboard part ends here-->
-          <div class="col-md-4 col-sm calendar-part">
-            <div class="appo-jun d-flex justify-content-between">
-              <h6>Appointment</h6>
-              <span class="d-flex justify-content-between icon-month">
-                <i class="fa fa-calendar"></i>
-                <h6 class="text-small ml-1">June</h6>
-              </span>
-            </div>
-            <div class="date-day-cont d-flex justify-content-between mt-4">
-              <div class="date-day d-inline-block mon pt-3 px-3">
-                <h6>MON</h6>
-                <h4 class="text-center">23</h4>
-              </div>
-              <div class="date-day d-inline-block pt-3 px-3">
-                <h6>TUES</h6>
-                <h4 class="text-center">24</h4>
-              </div>
-              <div class="date-day d-inline-block pt-3 px-3">
-                <h6>WED</h6>
-                <h4 class="text-center">25</h4>
-              </div>
-              <div class="date-day d-inline-block pt-3 px-3">
-                <h6>THUR</h6>
-                <h4 class="text-center">26</h4>
-              </div>
-              <div class="date-day d-inline-block pt-3 px-3">
-                <h6>FRI</h6>
-                <h4 class="text-center">27</h4>
-              </div>
-            </div>
-            <div class="schedules d-flex d-flex-column mt-4 bg-white pl-2 py-2">
-              <div class="time-cont">
-                <p class="mb-0">8:00</p>
-                <div class="content-box-1 tomm my-0">
-                  <p class="mb-0 p-1">Tommy A., 8:00 am</p>
-                  <p id="to-p-1" class=" mb-0 p-1">Tommy A., 8:00 am</p>
-                </div>
-                <p class="mt-0 mb-4">9:00</p>
-                <p class="mb-0">10:00</p>
-                <div class=" content-box-2 d-flex my-0">
-                  <p class=" mb-0 p-1">Jessica T.</p>
-                  <p class="mb-0 p-1">Harry M.</p>
-                </div>
-                <p class="mt-0 mb-4">11:00</p>
-                <p class="mb-0">12:00</p>
-                <div class="content-box-3 tomtwo my-0">
-                  <p id="t2" class="p-1 mb-0">Tommy A., 12:00 pm</p>
-                  <div class="content-box-3-1 jhtwo d-flex my-0">
-                    <p class="p-1 mb-0">Jessica T.</p>
-                    <p class="p-1 mb-0">Harry M.</p>
-                    <a class="p-1 mb-0 align-self-center" href="#">more...</a>
-                  </div>
-                </div>
-                <p class="mt-0 mb-4">13:00</p>
-                <p class="mb-4">14:00</p>
-                <p class="mb-4">15:00</p>
-                <p class="mb-0">16:00</p>
-                <div class=" my-0 content-box-1">
-                  <p class=" mb-0 p-1">Tommy A., 16:00 pm</p>
-                </div>
-                <p class="mt-0 mb-4">17:00</p>
-                <p class="mb-0">18:00</p>
-                <div class=" my-0 content-box-4 d-flex">
-                  <p class=" mb-0 p-1">Jessica T.</p>
-                  <p class="mb-0 p-1">Harry M.</p>
-                  <a class="mb-0 p-1" href="#">more...</a>
-                </div>
-                <p class="mt-0">19:00</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
+        <img src="images/Not Enough Data.svg" class="img-fluid nodata d-block">
+      
     </div>
   </div>
     <script
