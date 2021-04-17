@@ -77,24 +77,25 @@
   width: 182px;
   margin-bottom: 10px;
   padding-top: 10px;
+  padding-left: 22px;
   border-radius: 0px 19px 19px 0px;
   border: none;
 }
 
 .main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li i {
-  height: 16px;
-  margin: 0px 17px 17px 22px;
+  width: 16px;
 }
 
 .main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li a {
   text-decoration: none;
   color: black;
   font-weight: 400;
+  margin-left: 17px;
   font-size: 16px;
 }
 
 .main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .active {
-  background-color: blue;
+  background-color: #0069FF;
   color: white;
 }
 
@@ -103,23 +104,16 @@
 }
 
 .main-con .vertical-nav .main-menu h2 {
-  margin: 65px 99px 9.5px 22px;
+  margin-top: 65px;
+  margin-left: 22px;
   font-weight: 600;
+  color: #414141;
   font-size: 14px;
-  width: 81px;
-  height: 19px;
 }
 
 .main-con .vertical-nav .main-menu .single .new {
-  height: 41px;
-  width: 96px;
-  margin: 0px 84px 20px 22px;
+  padding-left: 22px;
   list-style: none;
-}
-
-.main-con .vertical-nav .main-menu .single .new i {
-  height: 16px;
-  margin-right: 15px;
 }
 
 .main-con .vertical-nav .main-menu .single .new a {
@@ -127,6 +121,7 @@
   color: black;
   font-weight: 400;
   font-size: 16px;
+  padding-left: 15px;
 }
 
 .main-con .vertical-nav .main-menu .appointment {
@@ -285,13 +280,81 @@
 .main-con .welcome-section .bar-graph .line {
   width: 6px;
   height: 55px;
-  background-color: #29bf12;
+  background-color: #E9EBEF;
   border: none;
   border-radius: 3px;
+  position: relative;
 }
 
 .main-con .welcome-section .bar-graph .line p {
   display: none;
+}
+
+.main-con .welcome-section .bar-graph .line1::after, .main-con .welcome-section .bar-graph .line2::after, .main-con .welcome-section .bar-graph .line3::after, .main-con .welcome-section .bar-graph .line4::after, .main-con .welcome-section .bar-graph .line5::after, .main-con .welcome-section .bar-graph .line6::after, .main-con .welcome-section .bar-graph .line7::after, .main-con .welcome-section .bar-graph .line8::after, .main-con .welcome-section .bar-graph .line9::after, .main-con .welcome-section .bar-graph .line10::after, .main-con .welcome-section .bar-graph .line11::after, .main-con .welcome-section .bar-graph .line12::after, .main-con .welcome-section .bar-graph .line13::after, .main-con .welcome-section .bar-graph .line14::after, .main-con .welcome-section .bar-graph .line15::after {
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #29bf12;
+  border-radius: 3px;
+}
+
+.main-con .welcome-section .bar-graph .line2::after {
+  height: 80%;
+}
+
+.main-con .welcome-section .bar-graph .line3::after {
+  height: 10%;
+}
+
+.main-con .welcome-section .bar-graph .line4::after {
+  height: 20%;
+}
+
+.main-con .welcome-section .bar-graph .line5::after {
+  height: 50%;
+}
+
+.main-con .welcome-section .bar-graph .line6::after {
+  height: 35%;
+}
+
+.main-con .welcome-section .bar-graph .line7::after {
+  height: 21%;
+}
+
+.main-con .welcome-section .bar-graph .line8::after {
+  height: 62%;
+}
+
+.main-con .welcome-section .bar-graph .line9::after {
+  height: 55%;
+}
+
+.main-con .welcome-section .bar-graph .line10::after {
+  height: 40%;
+}
+
+.main-con .welcome-section .bar-graph .line11::after {
+  height: 52%;
+}
+
+.main-con .welcome-section .bar-graph .line12::after {
+  height: 49%;
+}
+
+.main-con .welcome-section .bar-graph .line13::after {
+  height: 28%;
+}
+
+.main-con .welcome-section .bar-graph .line14::after {
+  height: 24%;
+}
+
+.main-con .welcome-section .bar-graph .line15::after {
+  height: 85%;
 }
 
 .main-con .welcome-section .bar-graph .line:hover p {
@@ -415,7 +478,7 @@
 }
 
 .main-con .fluids .main-box .right-items .calendar-part .date-day-cont .mon {
-  background-color: #5299FF;
+  background-color: #0069FF;
   color: white;
   border-radius: 0.625rem;
 }

@@ -76,25 +76,26 @@ $fsize3: 0.75rem;
               width: 182px;
               margin-bottom: 10px;
               padding-top: 10px;
+              padding-left: 22px;
               border-radius: 0px 19px 19px 0px;
               border: none;
               
-
-              i {
-                height: 16px;
-                margin: 0px 17px 17px 22px;
+              i{
+                width: 16px;
               }
+              
 
               a {
                 text-decoration: none;
                 color: black;
                 font-weight: 400;
+                margin-left: 17px;
                 font-size: 16px;
               }
             }
 
             .active {
-              background-color: blue;
+              background-color:#0069FF;
               color: white;
               
 
@@ -107,30 +108,25 @@ $fsize3: 0.75rem;
       }
 
       h2 {
-        margin: 65px 99px 9.5px 22px;
+        margin-top: 65px;
+        margin-left: 22px;
         font-weight: 600;
+        color:#414141;
         font-size: 14px;
-        width: 81px;
-        height: 19px;
       }
 
       .single {
         .new {
-          height: 41px;
-          width: 96px;
-          margin: 0px 84px 20px 22px;
+          
+          padding-left: 22px;
           list-style: none;
-
-          i {
-            height: 16px;
-            margin-right: 15px;
-          }
 
           a {
             text-decoration: none;
             color: black;
             font-weight: 400;
             font-size: 16px;
+            padding-left: 15px;
           }
         }
       }
@@ -286,13 +282,80 @@ $fsize3: 0.75rem;
       .line {
         width: 6px;
         height: 55px;
-        background-color: #29bf12;
+        background-color: #E9EBEF;
         border: none;
         border-radius: 3px;
+        position: relative;
 
         p {
           display: none;
         }
+      }
+      .line1::after {
+        content: " ";
+        height: 30%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #29bf12;
+        border-radius: 3px;
+      }
+      .line2::after{
+        @extend .line1;
+        height: 80%;
+      }
+      .line3::after{
+        @extend .line1;
+        height: 10%;
+      }
+      .line4::after{
+        @extend .line1;
+        height: 20%;
+      }
+      .line5::after{
+        @extend .line1;
+        height: 50%;
+      }
+      .line6::after{
+        @extend .line1;
+        height: 35%;
+      }
+      .line7::after{
+        @extend .line1;
+        height: 21%;
+      }
+      .line8::after{
+        @extend .line1;
+        height: 62%;
+      }
+      .line9::after{
+        @extend .line1;
+        height: 55%;
+      }
+      .line10::after{
+        @extend .line1;
+        height: 40%;
+      }
+      .line11::after{
+        @extend .line1;
+        height: 52%;
+      }
+      .line12::after{
+        @extend .line1;
+        height: 49%;
+      }
+      .line13::after{
+        @extend .line1;
+        height: 28%;
+      }
+      .line14::after{
+        @extend .line1;
+        height: 24%;
+      }
+      .line15::after{
+        @extend .line1;
+        height: 85%;
       }
 
       .line:hover {
@@ -425,7 +488,7 @@ $fsize3: 0.75rem;
               }
             }
             .mon {
-              background-color: $b2;
+              background-color: #0069FF;
               color: white;
               border-radius: 0.625rem;
               h6 {
