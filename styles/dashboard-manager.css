@@ -386,7 +386,7 @@
   margin: 7px 27px 27px 19px;
 }
 
-.main-con .welcome-section .pie-div img {
+.main-con .welcome-section .pie-div #ndt2 {
   margin: 0px 38px 20px 19px;
 }
 
@@ -453,6 +453,20 @@
   font-size: 1.125rem;
   font-weight: 700;
   color: #101010;
+  margin-bottom: 20px;
+}
+
+.main-con .fluids .main-box .right-items .dashboard .ntds-line2 {
+  width: 100%;
+  min-height: 444px;
+  border: 1px solid #0069FF;
+  border-radius: 5px;
+}
+
+.main-con .fluids .main-box .right-items .dashboard .ntds-line2 p {
+  text-align: center;
+  margin-top: 200px;
+  font-weight: 500;
 }
 
 .main-con .fluids .main-box .right-items .calendar-part .appo-jun h6 {

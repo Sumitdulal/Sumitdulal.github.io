@@ -413,8 +413,19 @@ $fsize3: 0.75rem;
             font-size: 1.125rem;
             font-weight: 700;
             color:$colorbl ;
+            margin-bottom: 20px;
             
-            
+          }
+          .ntds-line{
+            width: 100%;
+            min-height: 444px;
+            border: 1px solid $colorb;
+            border-radius: 5px;
+            p{
+              text-align: center;
+              margin-top: 200px;
+              font-weight: 500;
+            }
           }
         }
         .calendar-part {
