@@ -1,0 +1,483 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+$colorb: #0069FF;
+$b2: #5299FF;
+$colorg: #fafafa;
+$colorbl: #101010;
+$colortxt: #a1a1a1;
+$fsize2: 0.875rem;
+$fsize3: 0.75rem;
+.main-con {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  background-color: #fafafa;
+  width: 100%;
+
+  .vertical-nav {
+    width: 202px;
+    // width: 14%;
+    height: 1029px;
+    background: transparent;
+    background-color: white;
+    border-right: 2px solid $colorg;
+
+    .logo {
+      img {
+        width: 117px;
+        height: 29px;
+        margin: 20px 63px 20px 22px;
+      }
+    }
+
+    .main-menu {
+      h1 {
+        font-weight: 600;
+        font-size: 14px;
+        margin: 0px 105px 10px 22px;
+        width: 75px;
+        height: 18px;
+      }
+
+      nav {
+        width: 202px;
+        height: 200px;
+
+        .hamburger-menu {
+          margin-right: 1rem;
+
+          .hamburger-wrapper {
+            visibility: hidden;
+            pointer-events: none;
+            width: 30px;
+            overflow: hidden;
+            cursor: pointer;
+            display: none;
+
+            .menu-1 {
+              height: 3.5px;
+              background-color: rgb(44, 44, 44);
+              margin: 3px 0rem;
+            }
+          }
+
+          .menu-container {
+            visibility: visible;
+            pointer-events: all;
+
+            li {
+              list-style: none;
+              height: 40px;
+              width: 182px;
+              margin-bottom: 10px;
+              padding-top: 10px;
+              border-radius: 0px 19px 19px 0px;
+              border: none;
+              
+
+              i {
+                height: 16px;
+                margin: 0px 17px 17px 22px;
+              }
+
+              a {
+                text-decoration: none;
+                color: black;
+                font-weight: 400;
+                font-size: 16px;
+              }
+            }
+
+            .active {
+              background-color: blue;
+              color: white;
+              
+
+              a {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+
+      h2 {
+        margin: 65px 99px 9.5px 22px;
+        font-weight: 600;
+        font-size: 14px;
+        width: 81px;
+        height: 19px;
+      }
+
+      .single {
+        .new {
+          height: 41px;
+          width: 96px;
+          margin: 0px 84px 20px 22px;
+          list-style: none;
+
+          i {
+            height: 16px;
+            margin-right: 15px;
+          }
+
+          a {
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .appointment {
+        width: 160px;
+        height: 100px;
+        margin: 20.5px 20px 0px 22px;
+
+        h3 {
+          font-size: 12px;
+          color: #414141;
+          font-weight: 700;
+        }
+
+        #copy {
+          font-size: 12px;
+          font-weight: 400;
+          color: $colortxt;
+          margin-top: 4px;
+          margin-bottom: 14px;
+        }
+
+        #heart {
+          font-size: 12px;
+          font-weight: 400;
+          color: $colortxt;
+          i {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+
+  .welcome-section {
+    height: 1024px;
+    width: 260px;
+    // width: 18%;
+    background: transparent;
+    background-color: white;
+    z-index: 20000;
+
+    #wel {
+      margin: 70px 165px 11px 20px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #a1a1a1;
+    }
+
+    h1 {
+      margin: 11px 40px 5px 20px;
+      font-size: 20px;
+      font-weight: 300;
+      width: 200px;
+      height: 24px;
+    }
+
+    h2 {
+      margin: 5px 112px 10px 20px;
+      color: #a1a1a1;
+      font-size: 12px;
+      font-weight: 400;
+      width: 128px;
+      height: 15px;
+    }
+
+    h3 {
+      margin: 10px 84.5px 31px 20.5px;
+      color: blue;
+      height: 15px;
+      width: 155px;
+      font-weight: 500;
+      font-size: 12px;
+
+      img {
+        height: 8px;
+        width: 7px;
+        color: #0069ff;
+        fill: none;
+        margin-right: 10.5px;
+      }
+    }
+
+    #daily {
+      margin: 31px 92px 9px 20px;
+      font-weight: 600;
+      font-size: 14px;
+      width: 148px;
+      height: 18px;
+    }
+
+    #insight {
+      width: 220px;
+      height: 28px;
+      font-weight: 400;
+      font-size: 12px;
+      font-family: "Roboto", sans-serif;
+      margin: 9px 20px 20px 20px;
+      color: #a1a1a1;
+    }
+
+    .bar-graph {
+      margin: 20px 23px 3px 20px;
+      width: 217px;
+      height: 75px;
+      display: flex;
+      justify-content: space-between;
+
+      .line {
+        width: 6px;
+        height: 55px;
+        background-color: #29bf12;
+        border: none;
+        border-radius: 3px;
+
+        p {
+          display: none;
+        }
+      }
+
+      .line:hover {
+        p {
+          position: relative;
+          font-weight: 600;
+          display: inline-block;
+          bottom: 20px;
+        }
+      }
+    }
+
+    .pie-div {
+      width: 259px;
+      height: 221px;
+      background-color: #f7fdf7;
+
+      #patient {
+        padding: 21px 177px 7px 19px;
+        font-weight: 600;
+        font-size: 14px;
+      }
+
+      #under-patient {
+        width: 213px;
+        height: 28px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #a1a1a1;
+        line-height: 14px;
+        margin: 7px 27px 27px 19px;
+      }
+
+      img {
+        margin: 0px 38px 20px 19px;
+      }
+    }
+  }
+  .fluids {
+    .d-top-part {
+      #dash {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: $colorbl;
+      }
+    }
+    .main-box {
+      .right-items {
+        background-color: $colorg;
+
+        .dashboard {
+          .box {
+            border: none;
+            border-radius: 0.625rem;
+            background-color: white;
+            margin-right: 2rem;
+            width: 20%;
+            overflow: hidden;
+            min-width: 128px;
+            h5 {
+              font-size: $fsize3;
+              font-weight: 600;
+              color: $colorbl;
+            }
+            p {
+              font-size: 1.375rem;
+              font-weight: 700;
+              color: $colorbl;
+            }
+          }
+          .box:after{
+            content: "";
+            width: 100%;
+            height: 4px;
+            background-color: $colorbl;
+            
+          }
+          .box-4 {
+            margin-right: 0rem;
+          }
+          .box-4::after{
+            background-color: #f38e51;
+          }
+          .box-1::after {
+           
+              background-color: $colorb;
+            
+          }
+          .box-2::after {
+              background-color: #bc5be8;
+            
+          }
+          .box-3:after {
+              background-color: #97da38;
+            
+          }
+          #insi {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color:$colorbl ;
+            
+            
+          }
+        }
+        .calendar-part {
+          .appo-jun{
+            h6{
+              font-size: 14px;
+              font-weight: 600;
+              color: $colorbl;
+            }
+            .icon-month{
+              h6{
+                font-size: 14px;
+              font-weight: 400;
+              color: $colorbl;
+              }
+            }
+
+          }
+          .date-day-cont {
+            .date-day {
+              h6 {
+                font-size: 0.625rem;
+                color: $colortxt;
+              }
+              h4 {
+                font-size: 1.25rem;
+                font-weight: 600;
+              }
+            }
+            .mon {
+              background-color: $b2;
+              color: white;
+              border-radius: 0.625rem;
+              h6 {
+                color: white;
+              }
+            }
+          }
+          .schedules {
+            .time-cont {
+              width: 100%;
+              p {
+                
+                font-size: $fsize3;
+                color: $colortxt;
+                width: 10%;
+                
+              }
+              .content-box-1{
+                border-top: 0.5px solid $colortxt;
+                border-bottom: 0.5px solid $colortxt;
+                width: 75%;
+                margin-left: 14%;
+                p {
+                  background-color: $b2;
+                  border-radius: 0.313rem;
+                  margin-right: 1rem;
+                  margin-left: 0.25rem;
+                  color: white;
+                  width: 100%;
+                  font-size: 0.625rem;
+                  font-weight: 600;
+                }
+                #to-p-1 {
+                  margin-top: 0.125rem;
+                }
+              }
+              .content-box-2{
+                @extend .content-box-1;
+                p {
+                  background-color: $b2;
+                  border-radius: 0.313rem;
+                  margin-right: 2px!important;
+                  width: 30%;
+                  color: white;
+                  font-size: 0.625rem;
+                  font-weight: 600;
+                }
+                
+              }
+              .content-box-3{
+                @extend .content-box-1;
+                p {
+                  background-color: $b2;
+                  border-radius: 0.313rem;
+                  margin-right: 0.25rem;
+                  margin-left: 0.25rem;
+                  color: white;
+                  font-size: 0.625rem;
+                  font-weight: 600;
+                  margin-bottom: 0.125rem;
+                  width: 72.5%;
+                }
+                .content-box-3-1{
+                  width: 100%;
+                  p {
+                    width: 34.5%;
+                    margin-top: 0.125rem;
+                  }
+                  a {
+                    font-size: $fsize3;
+                  }
+
+                }
+              }
+              .content-box-4{
+                @extend .content-box-1;
+                p {
+                  background-color: $b2;
+                  border-radius: 0.313rem;
+                  margin-right: 0.25rem;
+                  margin-left: 0.25rem;
+                  color: white;
+                  font-size: 0.625rem;
+                  width: 36%;
+                  font-weight: 600;
+                }
+                a {
+                  font-size: $fsize3;
+                }
+              }
+            
+            }
+          }
+        }
+      }
+    }
+  }
+}
