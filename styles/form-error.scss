@@ -14,7 +14,8 @@ h1{
       width: 39%;
       height: 2.875rem;
       padding: 0.313rem;
-      border: 1px solid #29BF12;
+      background: rgba(41, 191, 18, 0.03);
+      border: 1px solid #29BF12!important;
       border-radius: 4px;
     }
     .the-text:focus{
@@ -47,6 +48,7 @@ h1{
   .msg2{
       .the-text{
           border: 1px solid  #F43460;
+          background: rgba(244, 52, 96, 0.03);
       }
       .the-text:focus{
           outline:#F43460;;
@@ -66,6 +68,7 @@ h1{
       border-radius: 0.313rem;
       border: 0.063rem solid #F43460;
       border-left: 0.40rem solid #F43460;
+      background-color: white;
       i{
           font-size: 1.875rem;
           margin: 0.938rem 0.625rem 0.938rem 1.563rem;
@@ -73,6 +76,11 @@ h1{
       }
       .erp{
           margin: 0.625rem 0rem;
+          p{
+              color:  #A1A1A1;
+              font-size: 14px;
+              font-weight: 400;
+          }
       }
   }
   

@@ -5,20 +5,22 @@
   font-family: "Inter", sans-serif;
 }
 
-.thelogo{
-  margin-left: 30px;
-  margin-top: 22px;
-}
+
 
 .mid-part2 {
   display: flex;
   justify-content: center;
   margin-top: 15px;
+  .ourform101{
+    .thelogo{
+      margin-left: 30px;
+      margin-top: 22px;
+    }
   .form-part {
     margin-top: 144px;
     margin-left: 123px;
     margin-right: 122px;
-
+    
     h1 {
       margin-bottom: 20px;
       font-size: 40px;
@@ -101,7 +103,7 @@
       font-weight: 400;
     }
   }
-
+}
   .slider-part {
 
     

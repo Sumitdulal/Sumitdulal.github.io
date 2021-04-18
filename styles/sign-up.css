@@ -6,11 +6,6 @@
   font-family: "Inter", sans-serif;
 }
 
-.thelogo {
-  margin-left: 30px;
-  margin-top: 22px;
-}
-
 .mid-part2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,33 +16,38 @@
   margin-top: 15px;
 }
 
-.mid-part2 .form-part {
+.mid-part2 .ourform101 .thelogo {
+  margin-left: 30px;
+  margin-top: 22px;
+}
+
+.mid-part2 .ourform101 .form-part {
   margin-top: 144px;
   margin-left: 123px;
   margin-right: 122px;
 }
 
-.mid-part2 .form-part h1 {
+.mid-part2 .ourform101 .form-part h1 {
   margin-bottom: 20px;
   font-size: 40px;
   font-weight: 700;
   color: #333131;
 }
 
-.mid-part2 .form-part p {
+.mid-part2 .ourform101 .form-part p {
   margin-bottom: 40px;
   font-size: 20px;
   font-weight: 300;
   color: #A1A1A1;
 }
 
-.mid-part2 .form-part form label {
+.mid-part2 .ourform101 .form-part form label {
   color: #414141;
   font-size: 16px;
   font-weight: 400;
 }
 
-.mid-part2 .form-part form input {
+.mid-part2 .ourform101 .form-part form input {
   margin-top: 10px;
   height: 52px;
   width: 445px;
@@ -57,11 +57,11 @@
   border-radius: 4px;
 }
 
-.mid-part2 .form-part form .input-icons {
+.mid-part2 .ourform101 .form-part form .input-icons {
   position: relative;
 }
 
-.mid-part2 .form-part form .input-icons .pass {
+.mid-part2 .ourform101 .form-part form .input-icons .pass {
   width: 445px;
   height: 52px;
   padding: 5px;
@@ -70,7 +70,7 @@
   border-radius: 4px;
 }
 
-.mid-part2 .form-part form .input-icons #togglePassword {
+.mid-part2 .ourform101 .form-part form .input-icons #togglePassword {
   position: absolute;
   right: 0%;
   top: 54%;
@@ -82,16 +82,16 @@
   cursor: pointer;
 }
 
-.mid-part2 .form-part .agree {
+.mid-part2 .ourform101 .form-part .agree {
   width: 445px;
 }
 
-.mid-part2 .form-part .agree label {
+.mid-part2 .ourform101 .form-part .agree label {
   line-height: 1;
   color: #9999A1;
 }
 
-.mid-part2 .form-part button {
+.mid-part2 .ourform101 .form-part button {
   width: 230px;
   height: 48px;
   color: white;
@@ -101,7 +101,7 @@
   margin-top: 31px;
 }
 
-.mid-part2 .form-part #bel-login {
+.mid-part2 .ourform101 .form-part #bel-login {
   margin-top: 20px;
   color: #414141;
   font-size: 16px;

@@ -626,11 +626,17 @@ body {
 .get-started h1 {
   margin-bottom: 30px;
   text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #101010;
 }
 
 .get-started #down-sugg {
   margin-bottom: 60px;
   text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #101010;
 }
 
 .get-started .app-down {
