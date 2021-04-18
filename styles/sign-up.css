@@ -21,8 +21,47 @@
   margin-top: 22px;
 }
 
+.mid-part2 .ourform101 .icon-message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 450px;
+  height: 60px;
+  border-radius: 0.313rem;
+  border: 0.063rem solid #F43460;
+  border-left: 0.40rem solid #F43460;
+  background-color: white;
+}
+
+.mid-part2 .ourform101 .icon-message i {
+  font-size: 30px;
+  margin: 15px 10px 15px 25px;
+  color: #F43460;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid-part2 .ourform101 .icon-message .erp {
+  margin: 10px  0px;
+  padding: 0;
+  height: 40px;
+}
+
+.mid-part2 .ourform101 .icon-message .erp h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.mid-part2 .ourform101 .icon-message .erp p {
+  color: #A1A1A1;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .mid-part2 .ourform101 .form-part {
-  margin-top: 144px;
   margin-left: 123px;
   margin-right: 122px;
 }

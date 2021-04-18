@@ -15,7 +15,7 @@ h1{
       height: 2.875rem;
       padding: 0.313rem;
       background: rgba(41, 191, 18, 0.03);
-      border: 1px solid #29BF12!important;
+      border: 1px solid #29BF12;
       border-radius: 4px;
     }
     .the-text:focus{
@@ -30,7 +30,7 @@ h1{
     
     .m-icon {
         position: absolute;
-        right: 65%;
+        right: 60.5%;
         top: 45%;
         transform: translateY(-40%);
         color: #29BF12;
@@ -61,28 +61,37 @@ h1{
       }
   }
   .icon-message{
-      display: flex;
-      width: 35.125rem;
-      margin: 2rem;
-      height: 3.75rem;
-      border-radius: 0.313rem;
-      border: 0.063rem solid #F43460;
-      border-left: 0.40rem solid #F43460;
-      background-color: white;
-      i{
-          font-size: 1.875rem;
-          margin: 0.938rem 0.625rem 0.938rem 1.563rem;
-          color: #F43460;
-      }
-      .erp{
-          margin: 0.625rem 0rem;
-          p{
-              color:  #A1A1A1;
-              font-size: 14px;
-              font-weight: 400;
-          }
-      }
-  }
+    display: flex;
+    width: 450px;
+    height: 60px;
+    margin: 32px;
+    border-radius: 0.313rem;
+    border: 0.063rem solid #F43460;
+    border-left: 0.40rem solid #F43460;
+    background-color: white;
+    i{
+        font-size: 30px;
+        margin: 15px 10px 15px 25px;
+        color: #F43460;
+        justify-content: center;
+    }
+    .erp{
+        margin: 10px  0px;
+        padding: 0;
+        height: 40px;
+        h4{
+          font-size: 18px;
+          font-weight: 400;
+          margin: 0;
+          padding: 0;
+        }
+        p{
+            color:  #A1A1A1;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
   
       .im2{
         border: 0.063rem solid #29BF12;

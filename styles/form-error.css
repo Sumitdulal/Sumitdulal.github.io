@@ -20,7 +20,7 @@ h1 {
   height: 2.875rem;
   padding: 0.313rem;
   background: rgba(41, 191, 18, 0.03);
-  border: 1px solid #29BF12 !important;
+  border: 1px solid #29BF12;
   border-radius: 4px;
 }
 
@@ -37,7 +37,7 @@ h1 {
 
 .messages .m-icon {
   position: absolute;
-  right: 65%;
+  right: 60.5%;
   top: 45%;
   -webkit-transform: translateY(-40%);
           transform: translateY(-40%);
@@ -74,9 +74,9 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 35.125rem;
-  margin: 2rem;
-  height: 3.75rem;
+  width: 450px;
+  height: 60px;
+  margin: 32px;
   border-radius: 0.313rem;
   border: 0.063rem solid #F43460;
   border-left: 0.40rem solid #F43460;
@@ -84,13 +84,25 @@ h1 {
 }
 
 .icon-message i {
-  font-size: 1.875rem;
-  margin: 0.938rem 0.625rem 0.938rem 1.563rem;
+  font-size: 30px;
+  margin: 15px 10px 15px 25px;
   color: #F43460;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .icon-message .erp {
-  margin: 0.625rem 0rem;
+  margin: 10px  0px;
+  padding: 0;
+  height: 40px;
+}
+
+.icon-message .erp h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
 .icon-message .erp p {

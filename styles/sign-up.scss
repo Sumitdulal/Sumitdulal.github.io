@@ -16,8 +16,39 @@
       margin-left: 30px;
       margin-top: 22px;
     }
+    .icon-message{
+      display: flex;
+      width: 450px;
+      height: 60px;
+      border-radius: 0.313rem;
+      border: 0.063rem solid #F43460;
+      border-left: 0.40rem solid #F43460;
+      background-color: white;
+      i{
+          font-size: 30px;
+          margin: 15px 10px 15px 25px;
+          color: #F43460;
+          justify-content: center;
+      }
+      .erp{
+          margin: 10px  0px;
+          padding: 0;
+          height: 40px;
+          h4{
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+          }
+          p{
+              color:  #A1A1A1;
+              font-size: 14px;
+              font-weight: 400;
+          }
+      }
+  }
   .form-part {
-    margin-top: 144px;
+    // margin-top: 144px;
     margin-left: 123px;
     margin-right: 122px;
     
