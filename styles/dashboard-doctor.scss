@@ -378,7 +378,7 @@ $fsize3: 0.75rem;
       }
     }
   }
-  .fluids {
+  .fluids2 {
     .d-top-part {
       #dash {
         font-size: 1.25rem;
@@ -412,275 +412,84 @@ $fsize3: 0.75rem;
         }
       }
     }
-    .main-box {
-      .right-items {
-        background-color: $colorg;
-
-        .dashboard {
-          .box {
-            border: none;
-            border-radius: 0.625rem;
-            position: relative;
-            // background-color: white;
-            // margin-right: 1rem;
-            // width: 20%;
-            overflow: hidden;
-           
-            h5 {
-              font-size: $fsize3;
-              font-weight: 600;
-              color: $colorbl;
-            }
-            p {
-              font-size: 1.375rem;
-              font-weight: 700;
-              color: $colorbl;
-            }
-          }
-          .box:after{
-            content: " ";
-            width: 100%;
-            height: 4px;
-            background-color: $colorbl;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            
-          }
-          .box-4 {
-            margin-right: 0rem;
-          }
-          .box-4::after{
-            background-color: #f38e51;
-          }
-          .box-1::after {
-           
-              background-color: $colorb;
-            
-          }
-          .box-2::after {
-              background-color: #bc5be8;
-            
-          }
-          .box-3:after {
-              background-color: #97da38;
-            
-          }
-          #insi {
-            font-size: 1.125rem;
-            font-weight: 700;
-            color:$colorbl ;
-            margin-bottom: 20px;
-            
-          }
-          .ntds-line{
-            width: 100%;
-            min-height: 444px;
-            
-            p{
-              text-align: center;
-              margin-top: 200px;
-              font-weight: 500;
-            }
-          }
-        }
-        .calendar-part {
-          .appo-jun{
-            h6{
-              font-size: 14px;
-              font-weight: 600;
-              color: $colorbl;
-            }
-            .icon-month{
-              h6{
-                font-size: 14px;
-              font-weight: 400;
-              color: $colorbl;
-              }
-            }
-
-          }
-          .date-day-cont {
-            .date-day {
-              h6 {
-                font-size: 0.625rem;
-                color: $colortxt;
-              }
-              h4 {
-                font-size: 1.25rem;
-                font-weight: 600;
-              }
-            }
-            .mon {
-              background-color: #0069FF;
-              color: white;
-              border-radius: 0.625rem;
-              h6 {
-                color: white;
-              }
-            }
-          }
-          .schedules {
-            .time-cont {
-              // width: 100%;
-                // margin: 5rem;
-                width: 286px;
-                height: auto;
-                background-color: white;
-                border-radius: 9px;
-                border: none;
-                .cont{
-                    margin-left: 20px;
-                    padding-top: 20px;
-                    // height: 68px;
-                    li{
-                        list-style: none;
-                    }
-                    .tme{
-                      font-size: 12px;
-                      font-weight: 400;
-                      color: #A1A1A1;
-                    }
-                    .appo-details{
-                        border-top: 0.25px solid #A1A1A1;
-                        margin: 0px 19px 0px 36px;
-                        height: 54px;
-                        width: 211px;
-                        .name-schedule{
-                        height: 26px;
-                        background-color:#5299FF;
-                        border-radius: 5px;
-                        margin-bottom: 2px;
-                        color: white; 
-                        font-size: 10px;
-                        font-weight: 600;
-                        padding: 7px 106px 7px 10px;
-                        }
-                        .name-schedule-type2{
-                         @extend .name-schedule;
-                           width: 69px;
-                           padding: 7px 10px;
-                           margin-right: 2px;
-                           
-                        }
-                    }
-                    .appo-details-last{
-                        @extend .appo-details;
-                        border-top: none;
-                        border-bottom: 0.25px solid #A1A1A1;
-                    
-                    }
-                    
-                }
-            
-              // p {
-                
-              //   font-size: $fsize3;
-              //   color: $colortxt;
-              //   width: 90%;
-              //   padding-bottom: 0;
-              //   margin-bottom: 0;
-              //   // border-top: 0.5px solid $colortxt;
-              //   // // border-bottom: 0.5px solid $colortxt;
-              //   // // border-collapse: collapse;
-                
-              // }
-              // .c-box{
-              //   margin: 0;
-              //   height: 52px;
-              //   width: 75%;
-              //   border-top: 0.5px solid $colortxt;
-              //   // border-bottom: 0.5px solid $colortxt;
-              //   margin-left: 14%;
-              // }
-              // .c-box2{
-              //   border-bottom: 0.5px solid $colortxt;
-              // }
-              // .content-box-1{
-              //   // border-top: 0.5px solid $colortxt;
-              //   // border-bottom: 0.5px solid $colortxt;
-              //   width: 75%;
-              //   margin-left: 14%;
-              //   height: 54px;
-              //   p {
-              //     background-color: $b2;
-              //     border-radius: 0.313rem;
-              //     margin-right: 1rem;
-              //     margin-left: 0.25rem;
-              //     color: white;
-              //     width: 100%;
-              //     height: 26px;
-              //     font-size: 0.625rem;
-              //     font-weight: 600;
-              //   }
-              //   #to-p-1 {
-              //     margin-top: 0.125rem;
-              //   }
-              // }
-              // .content-box-2{
-              //   @extend .content-box-1;
-              //   p {
-              //     background-color: $b2;
-              //     border-radius: 0.313rem;
-              //     margin-right: 2px!important;
-              //     width: 30%;
-              //     height: 26px;
-              //     color: white;
-              //     font-size: 0.625rem;
-              //     font-weight: 600;
-              //   }
-                
-              // }
-              // .content-box-3{
-              //   @extend .content-box-1;
-              //   p {
-              //     background-color: $b2;
-              //     border-radius: 0.313rem;
-              //     margin-right: 0.25rem;
-              //     margin-left: 0.25rem;
-              //     color: white;
-              //     height: 26px;
-              //     font-size: 0.625rem;
-              //     font-weight: 600;
-              //     margin-bottom: 0.125rem;
-              //     width: 72.5%;
-              //   }
-              //   .content-box-3-1{
-              //     width: 100%;
-              //     p {
-              //       width: 34.5%;
-              //       margin-top: 0.125rem;
-              //       height: 26px;
-              //     }
-              //     a {
-              //       font-size: $fsize3;
-              //     }
-
-              //   }
-              // }
-              // .content-box-4{
-              //   @extend .content-box-1;
-              //   p {
-              //     background-color: $b2;
-              //     border-radius: 0.313rem;
-              //     margin-right: 0.25rem;
-              //     margin-left: 0.25rem;
-              //     color: white;
-              //     font-size: 0.625rem;
-              //     width: 36%;
-              //     height: 26px;
-              //     font-weight: 600;
-              //     border-bottom: 0.5px solid $colortxt;
-              //   }
-              //   a {
-              //     font-size: $fsize3;
-              //   }
-              // }
-            
-            }
-          }
+    .main-content-box {
+      height: 99px;
+      background-color: white;
+      border-radius: 10px;
+      border: none;
+      position: relative;
+      .profile-doc{
+       img{
+         width: 110px;
+         height: 110px;
+         border-radius: 50%;
+         margin-top: 20px;
+         margin-left: 20px;
+         
+       }
+       .icon-part{
+         position: absolute;
+         bottom: -35%;
+         left: 8%;
+         width: 32px;
+         height: 32px;
+         border-radius: 50%;
+         background-color: white;
+        //  text-align: center;
+         font-size: 14px;
+         color: #0069FF;
+         i{
+           margin: 9px;
+         }
+         
+       }
+      }
+      #doc-name{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 60px 10px 15px 20px;
+      }
+      #availability{
+        list-style: none;
+        width: 82px;
+        height: 24px;
+        background-color: #0069FF;
+        color: white;
+        border-radius: 12px;
+        border: none;
+        margin: 60px 0px 15px 0px;
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        padding-top:4px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+       
+        i{
+          
+          font-size: 10px;
+          text-align: center;
+          
+          
         }
       }
+      .edit-numb{
+       margin-left: 430px;//540
+       margin-top: 20px;
+       .pen-icon{
+        font-size: 14px;
+        margin-left: 110px;
+        color: #0069FF;
+       }
+       #num{
+         list-style: none;
+         margin-top: 21px;
+         font-weight: 500;
+       }
+      
+      }
+      
+      
     }
   }
 }

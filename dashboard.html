@@ -146,7 +146,7 @@
         <div class="icon-cont">
           <i class="far fa-bell mr-2"></i>
           <img class="mr-2" src="images/Rectangle.png" />
-          <!-- <i class="fa fa-angle-down"></i> -->
+         
           <div class="dropdown2">
             <span><i class="fa fa-angle-down"></i></span>
             <div class="dropdown-content2">
@@ -160,42 +160,46 @@
         <div class="col col-sm row right-items">
           
           <div class="col-md-8 col-sm dashboard">
-            <div class="d-flex flex-wrap">
-              <div class="box box-1 d-flex flex-column mb-4">
+            <div class="row "> <!--d-flex flex-wrap-->
+              <div class="col-md-3 "> <!--box box-1 d-flex flex-column mb-4-->
+                <div class="box bg-white box-1">
                 <img
                   src="images/patient.png"
-                  class="align-self-center img-fluid mt-4"
+                  class="mx-auto d-block img-fluid mt-4"
                 />
                 <h5 class="text-center mt-2">Total Patients</h5>
                 <p class="text-center mt-2">580</p>
-                
               </div>
-              <div class="box box-2 d-flex flex-column mb-4">
+              </div>
+              <div class="col-md-3"> <!--box box-2 d-flex flex-column mb-4-->
+                <div class="box bg-white box-2">
                 <img
                   src="images/appointment.png"
-                  class="align-self-center img-fluid mt-4"
+                  class="mx-auto d-block img-fluid mt-4"
                 />
                 <h5 class="text-center mt-2">Appointments</h5>
                 <p class="text-center mt-2">580</p>
-                
+                </div>
               </div>
-              <div class="box box-3 d-flex flex-column mb-4">
+              <div class="col-md-3">
+                <div class="box bg-white box-3"> <!--box box-3 d-flex flex-column mb-4-->
                 <img
                   src="images/chat.png"
-                  class="align-self-center img-fluid mt-4"
+                  class="mx-auto d-block img-fluid mt-4"
                 />
                 <h5 class="text-center mt-2">Unread Bookings</h5>
                 <p class="text-center mt-2">580</p>
-                
+                </div>
               </div>
-              <div class="box box-4 d-flex flex-column mb-4">
+              <div class="col-md-3"> <!--box box-4 d-flex flex-column mb-4-->
+                <div class="box bg-white box-1">
                 <img
                   src="images/booking.png"
-                  class="align-self-center img-fluid mt-4"
+                  class="mx-auto d-block img-fluid mt-4"
                 />
                 <h5 class="text-center mt-2">Total Bookings</h5>
                 <p class="text-center mt-2">580</p>
-                
+                </div>
               </div>
             </div>
             <h2 id="insi">Appointments Insights</h2>
@@ -237,7 +241,63 @@
             </div>
             <div class="schedules d-flex d-flex-column mt-4 bg-white pl-2 py-2">
               <div class="time-cont">
-                <p class="mb-0">8:00</p>
+                  <ul class="cont">
+                      <li class="tme">8:00</li>
+                      <div class="appo-details">
+                          <li class="name-schedule">Tommy A., 8:00 am</li>
+                          <li class="name-schedule">Tommy A., 8:30 am</li>
+                      </div>
+                      <li class="tme">9:00</li>
+                      <div class="appo-details">
+                      </div>
+                      <li class="tme">10:00</li>
+                      <div class="appo-details d-flex">
+                          <li class="name-schedule-type2">Jessica T.</li>
+                          <li class="name-schedule-type2">Harry M.</li>
+                      </div>
+                      <li class="tme">11:00</li>
+                      <div class="appo-details">
+                      </div>
+                      <li class="tme">12:00</li>
+                      <div class="appo-details">
+                          <li class="name-schedule">Tommy A., 8:00 am</li>
+                          <div class="d-flex">
+                              <li class="name-schedule-type2">Jessica T.</li>
+                              <li class="name-schedule-type2">Harry M.</li>
+                              <a href="#" class="ml-2">more...</a>
+                          </div>
+                      </div>
+                      <li class="tme">13:00</li>
+                      <div class="appo-details">
+                      </div>
+                      <li class="tme">14:00</li>
+                      <div class="appo-details">
+                      </div>
+                      <li class="tme">15:00</li>
+                      <div class="appo-details">
+                      </div>
+                      <li class="tme">16:00</li>
+                      <div class="appo-details">
+                          <li class="name-schedule">Tommy A., 8:00 am</li>
+                      </div>
+                      <li class="tme">17:00</li>
+                      <div class="appo-details">
+                      </div>
+                      <li class="tme">18:00</li>
+                      <div class="appo-details-last">
+                          <li class="name-schedule bg-white"></li>
+                          <div class="d-flex">
+                              <li class="name-schedule-type2">Jessica T.</li>
+                              <li class="name-schedule-type2">Harry M.</li>
+                              <a href="#" class="ml-2">more...</a>
+                          </div>
+                      </div>
+                      <li class="tme pb-4">19:00</li>
+                  </ul>
+                  
+              
+          
+                <!-- <p class="mb-0">8:00</p>
                 <div class="c-box content-box-1 my-0">
                   <p class="mb-0 p-1">Tommy A., 8:00 am</p>
                   <p id="to-p-1" class=" mb-0 p-1">Tommy A., 8:00 am</p>
@@ -292,7 +352,7 @@
                   <p class="mb-0 p-1">Harry M.</p>
                   <a class="mb-0 p-1" href="#">more...</a>
                 </div>
-                <p class="my-0">19:00</p>
+                <p class="my-0">19:00</p> -->
               </div>
             </div>
           </div>

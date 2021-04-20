@@ -9,49 +9,52 @@
 
 .mid-part2 {
   display: flex;
-  justify-content: center;
-  margin-top: 15px;
-  .ourform101{
-    .thelogo{
-      margin-left: 30px;
-      margin-top: 22px;
-    }
-    .icon-message{
-      display: flex;
-      width: 450px;
-      height: 60px;
-      border-radius: 0.313rem;
-      border: 0.063rem solid #F43460;
-      border-left: 0.40rem solid #F43460;
-      background-color: white;
-      i{
-          font-size: 30px;
-          margin: 15px 10px 15px 25px;
-          color: #F43460;
-          justify-content: center;
-      }
-      .erp{
-          margin: 10px  0px;
-          padding: 0;
-          height: 40px;
-          h4{
-            font-size: 18px;
-            font-weight: 400;
-            margin: 0;
-            padding: 0;
-          }
-          p{
-              color:  #A1A1A1;
-              font-size: 14px;
-              font-weight: 400;
-          }
-      }
+  // justify-content: center;
+  justify-content: space-between;
+  .thelogo{
+    // left: 0;
+    left: 20px;
+    margin-top:22px;
+    position: absolute;
   }
-  .form-part {
-    // margin-top: 144px;
-    margin-left: 123px;
-    margin-right: 122px;
+  .ourform101{
     
+  //   .icon-message{
+  //     display: flex;
+  //     width: 450px;
+  //     height: 60px;
+  //     border-radius: 0.313rem;
+  //     border: 0.063rem solid #F43460;
+  //     border-left: 0.40rem solid #F43460;
+  //     background-color: white;
+  //     i{
+  //         font-size: 30px;
+  //         margin: 15px 10px 15px 25px;
+  //         color: #F43460;
+  //         justify-content: center;
+  //     }
+  //     .erp{
+  //         margin: 10px  0px;
+  //         padding: 0;
+  //         height: 40px;
+  //         h4{
+  //           font-size: 18px;
+  //           font-weight: 400;
+  //           margin: 0;
+  //           padding: 0;
+  //         }
+  //         p{
+  //             color:  #A1A1A1;
+  //             font-size: 14px;
+  //             font-weight: 400;
+  //         }
+  //     }
+  // }
+  .form-part {
+    margin-top: 144px;
+    margin-left: 123px;
+    // margin-right: 122px;
+    width: 50%;
     h1 {
       margin-bottom: 20px;
       font-size: 40px;
@@ -64,6 +67,7 @@
       font-size: 20px;
       font-weight: 300;
       color:#A1A1A1;
+      width: 475px;
     }
 
     form {
@@ -71,6 +75,7 @@
         color: #414141;
         font-size: 16px;
         font-weight: 400;
+       
       }
       input {
         margin-top: 10px;
@@ -80,6 +85,9 @@
         margin-bottom: 30px;
         padding: 5px;
         border-radius: 4px;
+      }
+      ::placeholder{
+        color: #ccc;
       }
       
       .input-icons {
@@ -94,7 +102,7 @@
         }
         #togglePassword {
             position: absolute;
-            right: 0%;
+            right:-30%;
             top: 54%;
             transform: translateY(-50%);
             color: black;
@@ -137,16 +145,53 @@
 }
   .slider-part {
 
-    
-    width: 809px;
-    height: 918px;
-    position: relative;
-    background-color: #5556F8;
+    .bo1{
+      width: 342px;
+      height: 342px;
+      position: absolute;
+      background-color: #979797;
+      opacity: 4%;
+      border-radius: 24%;
+      left: 20;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+    .bo2{
+      width: 211px;
+      height: 211px;
+      position: absolute;
+      background-color: #979797;
+      opacity: 4%;
+      border-radius: 24%;
+      left: 10;
+      right: 10;
+      top: 45%;
+      bottom: 0;
+    }
+    .bo3{
+      width: 342px;
+      height: 342px;
+      position: absolute;
+      background-color: #979797;
+      opacity: 4%;
+      border-radius: 24%;
+      left: 52%;
+      right: 0;
+      top: 80%;
+      bottom: 0;
+    }
+    width: 50%;
+    // height: 918px;
+    // position: relative;
+    // background-color: #5556F8;
+    background-image: linear-gradient(to top left,purple, #5556F8);
 
     img {
-      margin-top: 219px;
-      margin-right: 164px;
+      margin-top: 130px;
+      // margin-right: 164px;
       margin-left: 114px;
+      
     }
 
     h3 {
@@ -159,9 +204,9 @@
     p {
       color: white;
       text-align: center;
-      width: 460px;
-      margin-left: 153px;
-      margin-right: 196px;
+      // width: 460px;
+      // margin-left: 153px;
+      // margin-right: 196px;
     }
 
     .dots {
