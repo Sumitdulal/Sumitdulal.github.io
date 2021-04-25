@@ -410,6 +410,7 @@
   height: 99px;
   background-color: white;
   border-radius: 10px;
+  margin-bottom: 52px;
   border: none;
   position: relative;
 }
@@ -438,10 +439,68 @@
   margin: 9px;
 }
 
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .dd-img {
+  background-color: #FCFCFf;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .dd-img img {
+  height: 90px;
+  width: 90px;
+  margin-top: 31px;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .dd-img #info {
+  font-size: 16px;
+  color: #414141;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .dd-img #file-info {
+  font-size: 12px;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont {
+  margin-bottom: 20px !important;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont img {
+  height: 60px;
+  width: 60px;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .progress-filename {
+  margin-top: 40px !important;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #fname {
+  font-size: 14px;
+  font-weight: 500;
+  color: #414141;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #progress {
+  font-size: 14px;
+  font-weight: 500;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .icons {
+  margin-top: 40px !important;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .icons .green-color {
+  color: #29BF12;
+}
+
+.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .icons .red-color {
+  color: #F43460;
+}
+
 .main-con .fluids2 .main-content-box #doc-name {
   font-size: 20px;
   font-weight: 700;
   margin: 60px 10px 15px 20px;
+  color: #101010;
 }
 
 .main-con .fluids2 .main-content-box #availability {
@@ -452,7 +511,7 @@
   color: white;
   border-radius: 12px;
   border: none;
-  margin: 60px 0px 15px 0px;
+  margin: 62px 0px 15px 0px;
   font-size: 10px;
   font-weight: 600;
   text-align: center;
@@ -481,5 +540,202 @@
   list-style: none;
   margin-top: 21px;
   font-weight: 500;
+  color: #101010;
+}
+
+.main-con .fluids2 .about-practice-cont {
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices {
+  border-right: 0.25px solid #a1a1a1;
+  width: 231px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #101010;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac i {
+  font-size: 14px;
+  margin-left: 113px;
+  color: #0069FF;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .p-s-1 {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #101010;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .p-s-1 .p-icon {
+  margin-left: 27px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .p-s-1 .p-icon-2 {
+  margin-left: 45px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .p-s-1 i {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .location {
+  margin-bottom: 13px;
+  list-style: none;
+  font-size: 12.75px;
+  font-weight: 400;
+  color: #414141;
+  line-height: 1.429;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .location i {
+  font-size: 12.75px;
+  width: 14px;
+  margin-right: 20px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .time {
+  list-style: none;
+  font-size: 12.75px;
+  font-weight: 400;
+  color: #414141;
+  line-height: 1.429;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .time i {
+  font-size: 12.75px;
+  width: 14px;
+  margin-right: 20px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .ins {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #101010;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .ins i {
+  font-size: 14px;
+  margin-left: 110px;
+  color: #0069FF;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .p-s-2 {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  padding-bottom: 0px;
+  margin-top: 16px;
+  color: #101010;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .p-s-2 .p-icon-3 {
+  margin-left: 136px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .p-s-2 i {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance #elect {
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .lev {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #101010;
+  margin-bottom: 20px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .lev i {
+  font-size: 14px;
+  margin-left: 113px;
+  color: #0069FF;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal {
+  list-style: none;
+  font-size: 12.75px;
+  font-weight: 400;
+  color: #414141;
+  line-height: 1.429;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal .cale-icon {
+  color: #414141;
+  font-size: 12.75px;
+  width: 14px;
+  margin-right: 20px;
+}
+
+.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal .trash-icon {
+  font-size: 12px;
+  color: #a1a1a1;
+  width: 14px;
+  margin-left: 92px;
+}
+
+.main-con .fluids2 .about-practice-cont .right-ali-about {
+  width: 100%;
+}
+
+.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon {
+  margin-bottom: 20px;
+}
+
+.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon i {
+  font-size: 14px;
+  margin-right: 20px;
+  color: #0069FF;
+}
+
+.main-con .fluids2 .about-practice-cont .right-ali-about #description {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.625;
+  color: #101010;
+}
+
+.main-con .fluids2 .about-practice-cont .right-ali-about .interests {
+  margin-top: 30px;
+}
+
+.main-con .fluids2 .about-practice-cont .right-ali-about .interests p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #101010;
+}
+
+.main-con .fluids2 .about-practice-cont .right-ali-about .interests i {
+  font-size: 14;
+  color: #0069FF;
+  margin-right: 20px;
 }
 /*# sourceMappingURL=dashboard-doctor.css.map */

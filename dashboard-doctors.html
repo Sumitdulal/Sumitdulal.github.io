@@ -158,17 +158,321 @@
       <div class=" main-content-box d-flex">
         <div class="profile-doc">
           <img src="images/dummy.png">
-          <span class="icon-part"><i class="fa fa-pen"></i></span>
+          <span class="icon-part"><i class="fa fa-pen"data-toggle="modal" data-target="#pictureupload"></i>
+
+    <!-- picture upload MODAL starts here -->
+    <div class="pp-modal modal" id="pictureupload">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Upload Profile Picture</h5>
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+             
+            <div class="dd-img">
+                <img class="upload-icon img-fluid mx-auto d-block" src="images/cloud-computing.svg">
+                <p class=" m-0 p-0 text-center" id="info">Drag and drop or Click to upload image</p>
+                <p class=" m-0 p-0 mb-4 text-center" id="file-info">Files should be “.jpg”, “.png” or “.jpeg”</p>
+            </div>
+            <div class=" media upload-cont">
+              <img class="align-self-start mr-3" src="images/cloud-computing.svg" alt="Generic placeholder image">
+              <div class=" p-0 m-0 media-body d-flex">
+                <div class="p-0 m-0 w-100 progress-filename">
+                <div class="p-0 m-0 w-100 caption d-flex justify-content-between">
+                  <p class="p-0 m-0" id="fname">selfgenerated_filename.ext</p>
+                  <p class="p-0 m-0" id="progress">100%</p>
+              </div>
+              <div class="w-100 progress"style="height: 4.34px;">
+                <div class="progress-bar  w-100"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+              <div class="icons d-flex">
+                <i class="mr-1 fa fa-check-circle green-color"> </i>
+                <i class="fa fa-times-circle red-color"></i>
+            </div>
+        
+              </div>
+            </div>
+
+            <div class=" media upload-cont">
+              <img class="align-self-start mr-3" src="images/cloud-computing.svg" alt="Generic placeholder image">
+              <div class=" p-0 m-0 media-body d-flex">
+                <div class="p-0 m-0 w-100 progress-filename">
+                <div class="p-0 m-0 w-100 caption d-flex justify-content-between">
+                  <p class="p-0 m-0" id="fname">selfgenerated_filename.ext</p>
+                  <p class="p-0 m-0" id="progress">100%</p>
+              </div>
+              <div class="w-100 progress"style="height: 4.34px;">
+                <div class="progress-bar  w-100"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+              <div class="icons d-flex">
+                <i class="mr-1 fa fa-check-circle green-color"> </i>
+                <i class="fa fa-times-circle red-color"></i>
+            </div>
+        
+              </div>
+            </div>
+
+            <div class=" media upload-cont">
+              <img class="align-self-start mr-3" src="images/cloud-computing.svg" alt="Generic placeholder image">
+              <div class=" p-0 m-0 media-body d-flex">
+                <div class="p-0 m-0 w-100 progress-filename">
+                <div class="p-0 m-0 w-100 caption d-flex justify-content-between">
+                  <p class="p-0 m-0" id="fname">selfgenerated_filename.ext</p>
+                  <p class="p-0 m-0" id="progress">100%</p>
+              </div>
+              <div class="w-100 progress"style="height: 4.34px;">
+                <div class="progress-bar  w-100"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+              <div class="icons d-flex">
+                <i class="mr-1 fa fa-check-circle green-color"> </i>
+                <i class="fa fa-times-circle red-color"></i>
+            </div>
+        
+              </div>
+            </div>
+            
+        
+        
+        
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary" data-dismiss="modal">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--upload picture model ends here-->
+          
+          </span>
+
         </div>
         <p id="doc-name">Dr. Steven Strange</p>
         <li id="availability"><i class="fa fa-video m-1"></i> Available</li>
         <div class="edit-numb">
-          <i class=" pen-icon fa fa-pen"></i>
+          <i class="pen-icon fa fa-pen"data-toggle="modal" data-target="#loginModal"></i>
+          <!--code for modal for edit profile starts here-->
+          <div class="modal" id="loginModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">General Profile Edit</h5>
+                  <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="username">Name</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <label for="contact-no">Contact Number</label>
+                      <input type="number" class="form-control">
+                    </div>
+                    <form>
+                        <div class="form-group">
+                      <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input" name="customRadio" id="customRadio1">
+                          <label class="custom-control-label" for="customRadio1">Male</label>
+                      </div>
+                      <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input" name="customRadio" id="customRadio2" checked>
+                          <label class="custom-control-label" for="customRadio2">Female</label>
+                      </div>
+                      <div class="ml-4 custom-control custom-control-inline custom-switch">
+                          <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                          <label class="custom-control-label" for="customSwitch1">Telehealth</label>
+                      </div>
+                       </div>
+                  </form>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-dismiss="modal">Update</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--code for modal ends here-->
         <li id="num"><i class=" fa fa-phone-alt"></i> 03 8627 8500</li>
         </div>
-        
       </div>
+      <div class="about-practice-cont bg-white">
+     <div class="row">
+       <div class="col-md-3">
+         <div class=" left-ali-practices">
+        <li class="prac">Practices
+          <i class="fa fa-plus"data-toggle="modal" data-target="#addprac"></i>
+          <!--modal starts here-->
+          <div class="pp-modal modal" id="addprac">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Practices</h5>
+                  <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Description</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-dismiss="modal">Update</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--modal ends here-->
+        </li>
+        <div class="prac-sche">
+          <li class="p-s-1 "><a>CBD Dental, Sydney</a><i class="fa fa-pen p-icon"></i><i class="fa fa-trash-alt"></i></li>
+          <li class="location"><i class="fa fa-map-marker-alt"></i>Level 2, 74 Castlereagh Street,
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sydney NSW 2000 Australia</li>
+          <li class="time"><i class="fa fa-clock"></i>10:00-13:00</li>
+        </div>
+        <div class="prac-sche">
+          <li class="p-s-1 "><a>Smile Dental Care</a><i class="p-icon-2 fa fa-pen"></i><i class="fa fa-trash-alt"></i></li>
+          <li class="location"><i class="fa fa-map-marker-alt"></i>Level 2, 74 Castlereagh Street,
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sydney NSW 2000 Australia</li>
+          <li class="time"><i class="fa fa-clock"></i>10:00-13:00</li>
+        </div>
+        <div class="insurance">
+          <li class="ins">Insurance
+            <i class="fa fa-plus"data-toggle="modal" data-target="#addins"></i>
+            <!--modal starts here-->
+            <div class="pp-modal modal" id="addins">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Insurance</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Update</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--modal ends here-->
+          </li>
+          <li class="p-s-2 "><a>Atena</a><i class="p-icon-3 fa fa-pen"></i><i class="fa fa-trash-alt"></i></li>
+          <p id="elect">Elect choice PMO</p>
+        </div>
+        <div class="leave">
+          <li class="lev">On Leave
+            <i class="pen-icon fa fa-plus"data-toggle="modal" data-target="#onleave"></i>
+            <!--code for modal for edit profile starts here-->
+            <div class="modal" id="onleave">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Leave</h5>
+                    <button class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="myDate">From:</label>
+                        <input type="date" name="myDate"  id="myDate" class="form-control">
+                       
+                      </div>
+                      <div class="form-group">
+                        <label for="MyDate">To:</label>
+                        <input type="date" name="MyDate"  id="myDate" class="form-control">
+                        
+                      </div>
+                      
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-dismiss="modal">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="cal"><i class="fa fa-calendar-alt cale-icon"></i>10:00-13:00<i class="fa fa-trash trash-icon"></i></li>
+        </div>
+        </div>
+       </div>
+       <div class="col-md-9">
+         <div class=" right-ali-about">
+        <div class=" d-flex justify-content-between about-icon">
+          <p>About</p>
+          <i class="fa fa-pen"data-toggle="modal" data-target="#description"></i>
+          <!--description modal starts here-->
+          <div class="pp-modal modal" id="description">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Description</h5>
+                  <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Description</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-dismiss="modal">Update</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--description modal ends here-->
+
+        </div>
+        <p id="description">“We constantly strive for better.”This is the simple statement that Dr. Steven Strange applies to his dental practice. Whether it be through the 
+           use of technology, continuing education or from patient feedback. Dr Chris Karikios has lived in Sydney’s Eastern Suburbs all his life.
+            After attending Sydney Boys High,  he graduated from Sydney University in 1987 and has worked in Sydney ever since.Dr Chris Karikios’s prime area of interest is 
+           in the use of virtual reality design in clinical dentistry, primarily with the CEREC system – a facet of dentistry which he and his staff constantly
+            refine with continuing education.In his spare time Chris enjoys water activities particularly surfing – a passion that he shares with his wife and
+             two children.
+        </p>
+        <div class="interests d-flex justify-content-between align-items-center">
+          <p class="m-0 p-0">Interests</p>
+          <i class="fa fa-plus"data-toggle="modal" data-target="#addinterests"></i>
+          <!--modal starts here-->
+          <div class="pp-modal modal" id="addinterests">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Interests</h5>
+                  <button class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Add Your Interests</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" data-dismiss="modal">Update</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--modal ends here-->
+        </div>
+        </div>
+        
+       </div>
+     </div>
+     
     </div>
+  </div>
+    
   </div>
   
     <script
