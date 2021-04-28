@@ -21,6 +21,7 @@ body {
   .logo {
    margin: 0;
    padding: 0;
+   margin-left: 120px;
   }
   nav {
     
@@ -285,7 +286,7 @@ body {
 }
 @media screen and (max-width: 900px) {
   .login-box {
-    
+    margin-bottom: 5rem;
     width: 60%;
     form {
       .input-icons {
@@ -298,7 +299,7 @@ body {
 }
 @media screen and (max-width: 500px) {
   .login-box {
-    
+    margin-bottom: 5rem;
     width: 80%;
     form {
       .input-icons {
