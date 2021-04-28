@@ -20,10 +20,10 @@
     <script src="scripts/vendor.js" defer></script>
   </head>
   <body>
-    <div
-      class="top-wrapper"
-      style="background-image: url('images/background.png')" 
-    >
+
+    <!--top part having navbar & form begins here-->
+
+    <div class="top-wrapper"><!--style="background-image: url('images/background-top.png')" -->
       <div class="top-nav">
         <div class="logo">
           <a href="index.html"><img src="images/logo.svg" /></a>
@@ -62,8 +62,9 @@
           </ul>
         </nav>
       </div>
+      <div class="form-div d-flex justify-content-end mr-4">
       <form>
-        <h2>Find Dentists Without the Wait</h2>
+        <h2>Find Dentists <br> Without the Wait</h2>
         <div class="input-and-icon">
           <input type="text" placeholder="Condition, Procedure, Or Dentist" />
           <i class="fa fa-stethoscope our-icon"></i>
@@ -87,51 +88,60 @@
         <button>Find me a dentist</button>
       </form>
     </div>
+    </div>
+
+    <!--top part having navbar & form ends here-->
+    
+    <!--simple for patients part starts-->
 
     <div class=" mid-part">
-      <h1>Simple for patients</h1>
+      <h1 class="text-center">Simple for patients</h1>
       <div class="row three-boxes">
         <div class=" col-md-4 box">
-          <img src="images/platform.png" />
-          <p class="name">Single Platform</p>
-          <p class="text">
-            Create custom landing pages with Berlin <br> &nbsp;&nbsp;&nbsp;&nbsp;that
+          <img class="img-fluid mx-auto d-block" src="images/platform.png" />
+          <p class="mt-3 text-center name">Single Platform</p>
+          <p class="text-center text">
+            Create custom landing pages with Berlin <br>that
             convert more visitors than any <br> website.
           </p>
           
         </div>
-        <div class=" col-md-4 box">
-          <img src="images/promotion.png" />
-          <p id="name2">Faster Communication</p>
-          <p class="text">
-            Create custom landing pages with Berlin <br> &nbsp;&nbsp;&nbsp;&nbsp;that
+        <div class="col-md-4 box">
+          <img class="mx-auto d-block" src="images/promotion.png" />
+          <p class="mt-3 text-center" id="name2">Faster Communication</p>
+          <p class="text-center text">
+            Create custom landing pages with Berlin <br>that
             convert more visitors than any <br> website.
           </p>
         </div>
         <div class=" col-md-4 box">
-          <img src="images/distribution.png" />
-          <p id="name3">Everything in One Place</p>
-          <p class="text">
-            Create custom landing pages with Berlin <br> &nbsp;&nbsp;&nbsp;&nbsp;that
+          <img class="mx-auto d-block" src="images/distribution.png" />
+          <p class="mt-3 text-center" id="name3">Everything in One Place</p>
+          <p class="text-center text">
+            Create custom landing pages with Berlin <br>that
             convert more visitors than any <br> website.
           </p>
         </div>
       </div>
     </div>
 
+    <!--simple for patients part ends-->
+
+    <!--simple for dentists starts-->
+
     <div class="for-dentist">
       <h1 class="text-center" >Simple for dentists</h1>
       <div class="dentist-container">
-        <div class="cont-1">
+        <div class="cont-1 d-flex">
           <div class="img">
             <img src="images/Placeholder-1.png">
           </div>
           <div class="text-box">
-            <h2>Manage Everything Faster in single place.</h2>
+            <h2>Manage Everything <br> Faster in single place.</h2>
             <p>
               Create custom landing pages with Berlin that<br> convert more visitors
-              than any website.Withlots of unique blocks, you can easily build
-              a page without coding.
+              than any website.With lots of <br> unique blocks, you can easily build
+              a page without <br> coding.
             </p>
             <button>Start 14 days free trial</button>
           </div>
@@ -143,11 +153,11 @@
           </div>
           <div class="text-box-2">
             <p id="newf">New Feature</p>
-            <h2>Take insurance and patients that matter</h2>
+            <h2>Take insurance and <br> patients that matter</h2>
             <p>
-              Create custom landing pages with Berlin that<br> convert more visitors
-              than any website. With lots of unique blocks, you can easily build
-              a page without coding.
+              Create custom landing pages with Berlin that<br>convert more visitors
+              than any website. With lots of<br>unique blocks, you can easily build
+              a page without<br>coding.
             </p>
             <a href="#"><p id="underline">Start 30 days free trial</p></a>
           </div>
@@ -156,11 +166,11 @@
         <div class="cont-3">
           <div class="text-box-3">
             <p id="popf">Popular Feedback</p>
-            <h2>Manage Patient Feedback</h2>
+            <h2>Manage Patient <br> Feedback</h2>
             <p>
               Create custom landing pages with Berlin that<br> convert more visitors
-              than any website. With lots of unique blocks, you can easily build
-              a page without coding.
+              than any website. With lots of <br> unique blocks, you can easily build
+              a page without <br> coding.
             </p>
             <a href="#"><p id="underline2">Start 30 days free trial</p></a>
           </div>
@@ -171,15 +181,18 @@
       </div>
     </div>
 
+  <!--simple for dentists ends-->
+
+  <!--testimonials starts-->
     <div class="testimonials">
-      <h1>What people say about us</h1>
-      <p id="descrip">
+      <h1 class="text-center">What people say about us</h1>
+      <p class="text-center" id="descrip">
         Create custom landing pages with Berlin that convert more visitors than
         any website.<br> With lots of unique blocks, you can easily build a page
         without coding.
       </p>
-      <div class="two-boxes">
-        <div class="boxes one">
+      <div class="two-boxes row">
+        <div class="col-md-6 mb-4 boxes one">
           <img src="images/img1.png" />
           <p class="desc">
             “Amazing experience i love it a lot.<br />
@@ -190,10 +203,10 @@
           <p class="name">Evan Holland</p>
           <p class="job">Art Director</p>
         </div>
-        <div class="boxes">
+        <div class="col-md-6 boxes">
           <img src="images/img2.png" />
           <p class="desc">
-            “Amazing experience i love it a lot.<br />
+            “Amazing experience i love it a lot.<br/>
             Thanks to the team dreams come true,<br />
             great! I really super appreciate there<br />
             approach om”
@@ -204,6 +217,9 @@
       </div>
     </div>
 
+    <!--testimonials ends-->
+
+    <!--app download recommendation begins-->
     <div class="get-started">
       <h1>Get started with Medico</h1>
       <p id="down-sugg">
@@ -231,21 +247,26 @@
         </div>
       </div>
     </div>
-    <div class="footer">
-      <div class="first">
+
+    <!--app download recommendation ends-->
+
+    <!--footer part starts-->
+    <div class="container-fluid">
+    <div class="row footer p-4">
+      <div class="col-md-4  first">
         <img src="images/logo.svg" />
         <p>Big, small, online, offline, local or international. 
           Size doesn't matter. We work on diverse projects for top brands as well as for cool startups.
            Check out some of our favorites.</p>
-           <i class="fa fa-twitter"></i>
-           <i class="fa fa-facebook"></i>
-           <i class="fa fa-instagram"></i>
+           <i class="mr-2 fab fa-twitter"></i>
+           <i class="mr-2 fab fa-facebook-f"></i>
+           <i class="fab fa-instagram"></i>
 
       </div>
-      <div class="second">
+      <div class="col-md-5 second">
         <p>HELP MENU</p>
         <div class="menus">
-          <nav id="m1">
+          <nav  id="m1">
             <ul>
               <li><a href="#">About</a></li>
               <li><a href="#">Features</a></li>
@@ -256,7 +277,7 @@
           <nav id="m2">
             <ul>
               <li><a href="#">Contact</a></li>
-              <li><a href="#">Help& Support</a></li>
+              <li><a href="#">Help & Support</a></li>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Terms & Conditions</a></li>
             </ul>
@@ -264,11 +285,28 @@
         </div>
       </div>
       
-      <div class="third">
+      <div class="col-md-3 third">
         <p id="header">CONTACT US</p>
         <P id="email-num">hello@medico.com<br>
           +1-813-592-8269</P>
       </div>
+     </div>
     </div>
+    <!--footer part ends-->
+
+    <!--bootstrap scripts starts-->
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"
+  ></script>
+  <!--bootstrap scripts ends-->
+
   </body>
 </html>

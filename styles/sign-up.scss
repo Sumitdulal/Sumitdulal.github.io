@@ -144,7 +144,8 @@
   }
 }
   .slider-part {
-
+    position: relative;
+    height: auto;
     .bo1{
       width: 342px;
       height: 342px;
@@ -190,7 +191,7 @@
     img {
       margin-top: 130px;
       // margin-right: 164px;
-      margin-left: 114px;
+      // margin-left: 114px;
       
     }
 
@@ -239,7 +240,8 @@
     margin-left: 5px;
     padding: 0px;
     flex-direction: column;
-
+    .ourform101{
+      margin-top: 2rem;
     .form-part {
       margin-left: 10px;
       margin-top: 50px;
@@ -247,7 +249,7 @@
 
       form {
         input {
-          width: 100%;
+          width: 445px;
         }
         .input-icons{
           width: 100%;
@@ -268,13 +270,14 @@
 
       }
     }
-
+  }
     .slider-part {
       margin-left: 10px;
       margin-right: 10px;
       width: 100%;
-      height: 500px;
-
+      height: auto;
+      padding-bottom: 2rem;
+      
       img {
         margin-top: 5rem;
         margin-left: 2rem;
@@ -303,7 +306,8 @@
     margin-left: 10px;
     margin-right: 10px;
     flex-direction: column;
-
+    .ourform101{
+      margin-top: 2rem;
     .form-part {
       margin-left: 10px;
       margin-top: 50px;
@@ -313,11 +317,18 @@
         input {
           width: 100%;
         }
-        .input-icons{
-          width: 100%;
-          .pass{
+        .input-icons {
+          
+          .pass {
             width: 100%;
+           
           }
+          #togglePassword {
+              right:0%;
+              
+             
+            }
+            
         }
       }
 
@@ -332,13 +343,22 @@
 
       }
     }
-
+  }
     .slider-part {
       margin-left: 10px;
       margin-right: 10px;
       width: 100%;
-      height: 650px;
-
+      height: auto;
+      padding-bottom: 2rem;
+      .bo1{
+        display: none;
+      }
+      .bo2{
+        display: none;
+      }
+      .bo3{
+        display: none;
+      }
       img {
         margin-top: 5rem;
         margin-left: 2rem;

@@ -126,6 +126,8 @@
 }
 
 .mid-part2 .slider-part {
+  position: relative;
+  height: auto;
   width: 50%;
   background-image: -webkit-gradient(linear, right bottom, left top, from(purple), to(#5556F8));
   background-image: linear-gradient(to top left, purple, #5556F8);
@@ -172,7 +174,6 @@
 
 .mid-part2 .slider-part img {
   margin-top: 130px;
-  margin-left: 114px;
 }
 
 .mid-part2 .slider-part h3 {
@@ -218,31 +219,35 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mid-part2 .form-part {
+  .mid-part2 .ourform101 {
+    margin-top: 2rem;
+  }
+  .mid-part2 .ourform101 .form-part {
     margin-left: 10px;
     margin-top: 50px;
     margin-right: 10px;
   }
-  .mid-part2 .form-part form input {
+  .mid-part2 .ourform101 .form-part form input {
+    width: 445px;
+  }
+  .mid-part2 .ourform101 .form-part form .input-icons {
     width: 100%;
   }
-  .mid-part2 .form-part form .input-icons {
+  .mid-part2 .ourform101 .form-part form .input-icons .pass {
     width: 100%;
   }
-  .mid-part2 .form-part form .input-icons .pass {
+  .mid-part2 .ourform101 .form-part .agree {
     width: 100%;
   }
-  .mid-part2 .form-part .agree {
-    width: 100%;
-  }
-  .mid-part2 .form-part .agree input label {
+  .mid-part2 .ourform101 .form-part .agree input label {
     width: 90%;
   }
   .mid-part2 .slider-part {
     margin-left: 10px;
     margin-right: 10px;
     width: 100%;
-    height: 500px;
+    height: auto;
+    padding-bottom: 2rem;
   }
   .mid-part2 .slider-part img {
     margin-top: 5rem;
@@ -272,31 +277,44 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .mid-part2 .form-part {
+  .mid-part2 .ourform101 {
+    margin-top: 2rem;
+  }
+  .mid-part2 .ourform101 .form-part {
     margin-left: 10px;
     margin-top: 50px;
     margin-right: 10px;
   }
-  .mid-part2 .form-part form input {
+  .mid-part2 .ourform101 .form-part form input {
     width: 100%;
   }
-  .mid-part2 .form-part form .input-icons {
+  .mid-part2 .ourform101 .form-part form .input-icons .pass {
     width: 100%;
   }
-  .mid-part2 .form-part form .input-icons .pass {
+  .mid-part2 .ourform101 .form-part form .input-icons #togglePassword {
+    right: 0%;
+  }
+  .mid-part2 .ourform101 .form-part .agree {
     width: 100%;
   }
-  .mid-part2 .form-part .agree {
-    width: 100%;
-  }
-  .mid-part2 .form-part .agree input label {
+  .mid-part2 .ourform101 .form-part .agree input label {
     width: 90%;
   }
   .mid-part2 .slider-part {
     margin-left: 10px;
     margin-right: 10px;
     width: 100%;
-    height: 650px;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  .mid-part2 .slider-part .bo1 {
+    display: none;
+  }
+  .mid-part2 .slider-part .bo2 {
+    display: none;
+  }
+  .mid-part2 .slider-part .bo3 {
+    display: none;
   }
   .mid-part2 .slider-part img {
     margin-top: 5rem;
