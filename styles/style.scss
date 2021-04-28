@@ -86,13 +86,13 @@ html,body {
           }
         }
         li:last-child{
-          padding-right: 0;
+          padding-right: 0rem !important;
         }
         .bar {
           border-right: 1px solid white;
           height: 21px;
           margin-right: 1.30vw;
-          padding-left: 0px;
+          margin-left: 0px;
         }
         a:hover {
           text-decoration: underline #3056F5 3px;
@@ -719,26 +719,28 @@ html,body {
   }
 }
 //footer ends
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 500px) {
   .top-wrapper{
     .form-div{
-      
+      width: 100%;
       form{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 100%;
         h2{
-          
+          // font-size: 2rem;
         }
         .input-and-icon{
-          width: 100%;
-          margin-left: 0px;
-          margin-right: 0px;
-          input[type="text"] {
+          width: 90%;
+          input{
             width: 100%;
           }
         }
+        button{
+          width: 90%;
+        }
       }
-      button{
-        width: 100%;
-      }
+      
     }
   }
   .get-started{

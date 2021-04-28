@@ -92,14 +92,14 @@ html, body {
 }
 
 .top-wrapper .top-nav nav ul li:last-child {
-  padding-right: 0;
+  padding-right: 0rem !important;
 }
 
 .top-wrapper .top-nav nav ul .bar {
   border-right: 1px solid white;
   height: 21px;
   margin-right: 1.30vw;
-  padding-left: 0px;
+  margin-left: 0px;
 }
 
 .top-wrapper .top-nav nav ul a:hover {
@@ -660,17 +660,23 @@ html, body {
   color: #414141;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 500px) {
+  .top-wrapper .form-div {
+    width: 100%;
+  }
+  .top-wrapper .form-div form {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+  }
   .top-wrapper .form-div form .input-and-icon {
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 90%;
   }
-  .top-wrapper .form-div form .input-and-icon input[type="text"] {
+  .top-wrapper .form-div form .input-and-icon input {
     width: 100%;
   }
-  .top-wrapper .form-div button {
-    width: 100%;
+  .top-wrapper .form-div form button {
+    width: 90%;
   }
   .get-started {
     height: auto;
