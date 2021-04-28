@@ -318,6 +318,10 @@ html, body {
   color: #101010;
 }
 
+.mid-part .three-boxes .box {
+  border-right: 2px solid #fafafa;
+}
+
 .mid-part .three-boxes .box .name {
   font-weight: 700;
   font-size: 20px;
@@ -341,6 +345,10 @@ html, body {
   margin-top: 0px;
   font-weight: 400px;
   line-height: 1.625;
+}
+
+.mid-part .three-boxes .box:last-child {
+  border: none;
 }
 
 .for-dentist h1 {
@@ -697,6 +705,18 @@ html, body {
   }
   .top-wrapper .form-div form .input-and-icon input {
     width: 100%;
+  }
+  .top-wrapper .form-div form .input-and-icon ::-webkit-input-placeholder {
+    font-size: 0.75rem;
+  }
+  .top-wrapper .form-div form .input-and-icon :-ms-input-placeholder {
+    font-size: 0.75rem;
+  }
+  .top-wrapper .form-div form .input-and-icon ::-ms-input-placeholder {
+    font-size: 0.75rem;
+  }
+  .top-wrapper .form-div form .input-and-icon ::placeholder {
+    font-size: 0.75rem;
   }
   .top-wrapper .form-div form button {
     width: 90%;

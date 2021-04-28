@@ -226,6 +226,7 @@ html,body {
     }
   }
 }
+
 //Media-query for hamburger display
 @media screen and (max-width: 1000px) {
   .top-wrapper {
@@ -306,7 +307,7 @@ html,body {
     // align-items: center;
     // justify-content: space-between;
     .box {
-      
+      border-right: 2px solid #fafafa;
       .name {
         font-weight: 700;
         font-size: 20px;
@@ -335,6 +336,9 @@ html,body {
         line-height: 1.625;
         // text-align: center;
       }
+    }
+    .box:last-child{
+      border: none;
     }
   }
 }
@@ -748,6 +752,9 @@ html,body {
           width: 90%;
           input{
             width: 100%;
+          }
+          ::placeholder{
+            font-size: 0.75rem;
           }
         }
         button{
