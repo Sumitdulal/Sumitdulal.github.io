@@ -341,26 +341,32 @@ html, body {
   margin-bottom: 60px;
 }
 
-.for-dentist .dentist-container .cont-1 {
-  margin-bottom: 6.51vw;
+.for-dentist .dentist-container .container-1-0 {
   background-color: #f8fbfe;
 }
 
-.for-dentist .dentist-container .cont-1 .img {
-  margin-top: 6.51vw;
-  margin-left: 4.55vw;
+.for-dentist .dentist-container .container-1-0 .cont-1 {
+  width: 77.5%;
+  margin: 0 auto;
+  margin-bottom: 6.51vw;
 }
 
-.for-dentist .dentist-container .cont-1 .img img {
+.for-dentist .dentist-container .container-1-0 .cont-1 .img {
+  margin-top: 6.51vw;
+  width: 50%;
+  margin-right: 95px;
+}
+
+.for-dentist .dentist-container .container-1-0 .cont-1 .img img {
   width: 100%;
   height: auto;
 }
 
-.for-dentist .dentist-container .cont-1 .text-box {
+.for-dentist .dentist-container .container-1-0 .cont-1 .text-box {
   margin-top: 11.13vw;
 }
 
-.for-dentist .dentist-container .cont-1 .text-box h2 {
+.for-dentist .dentist-container .container-1-0 .cont-1 .text-box h2 {
   margin-bottom: 30px;
   font-weight: 700;
   font-size: 32px;
@@ -368,7 +374,7 @@ html, body {
   color: #101010;
 }
 
-.for-dentist .dentist-container .cont-1 .text-box p {
+.for-dentist .dentist-container .container-1-0 .cont-1 .text-box p {
   margin-bottom: 2.083vw;
   font-weight: 400;
   font-size: 16px;
@@ -376,7 +382,7 @@ html, body {
   color: #414141;
 }
 
-.for-dentist .dentist-container .cont-1 .text-box button {
+.for-dentist .dentist-container .container-1-0 .cont-1 .text-box button {
   width: 231px;
   border-radius: 23px;
   border: none;
@@ -388,6 +394,8 @@ html, body {
 }
 
 .for-dentist .dentist-container .cont-2 {
+  width: 77.5%;
+  margin: 0 auto;
   margin-bottom: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -396,7 +404,8 @@ html, body {
 
 .for-dentist .dentist-container .cont-2 .img2 {
   height: 100%;
-  margin-left: 80px;
+  width: 50%;
+  margin-right: 95px;
 }
 
 .for-dentist .dentist-container .cont-2 .img2 img {
@@ -440,6 +449,8 @@ html, body {
 }
 
 .for-dentist .dentist-container .cont-3 {
+  width: 77.5%;
+  margin: 0 auto;
   margin-bottom: 154px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -448,7 +459,7 @@ html, body {
 
 .for-dentist .dentist-container .cont-3 .text-box-3 {
   margin-top: 163px;
-  margin-left: 120px;
+  margin-right: 95px;
 }
 
 .for-dentist .dentist-container .cont-3 .text-box-3 #popf {
@@ -486,8 +497,7 @@ html, body {
 }
 
 .for-dentist .dentist-container .cont-3 .img3 {
-  margin-left: 240px;
-  margin-right: 204px;
+  width: 50%;
 }
 
 .for-dentist .dentist-container .cont-3 .img3 img {

@@ -350,20 +350,25 @@ html,body {
     margin-bottom: 3.75rem;
   }
   .dentist-container {
+    
     h1 {
       text-align: center;
       margin-bottom: 60px;
     }
-    .cont-1 {
-      //   
-      margin-bottom: 6.51vw;
+    .container-1-0{
       background-color: #f8fbfe;
+    .cont-1 {
+      width: 77.5%;
+      margin: 0 auto;
+      margin-bottom: 6.51vw;
+      
       .img {
         margin-top: 6.51vw;
         // width: 595px;
+        width: 50%;
         // height: 472px;
-        // margin-right: 127px;
-        margin-left: 4.55vw;
+        margin-right: 95px;
+        // margin-left: 4.55vw;
         img{
           width: 100%;
           height: auto;
@@ -401,15 +406,20 @@ html,body {
         }
       }
     }
+  }
+
     .cont-2 {
       // height: 402px;
+      width: 77.5%;
+      margin: 0 auto;
       margin-bottom: 200px;
       display: flex;
       .img2 {
         height: 100%;
+        width: 50%;
         // width: 614px;
-        margin-left: 80px;
-        // margin-right: 98px;
+        // margin-left: 80px;
+        margin-right: 95px;
         img{
           width: 100%;
           height: auto;
@@ -451,12 +461,15 @@ html,body {
     }
     .cont-3 {
       // height: 630px;
+      width: 77.5%;
+      margin: 0 auto;
       margin-bottom: 154px;
       display: flex;
       .text-box-3 {
         margin-top: 163px;
-        margin-left: 120px;
+        // margin-left: 120px;
         // width: 394px;
+        margin-right: 95px;
         #popf {
           margin-bottom: 10px;
         }
@@ -491,8 +504,9 @@ html,body {
       .img3 {
         // width: 434px;
         // height: 584px;
-        margin-left: 240px;
-        margin-right: 204px;
+        // margin-left: 240px;
+        // margin-right: 204px;
+        width: 50%;
         img{
           width: 100%;
           height: auto;
@@ -727,9 +741,7 @@ html,body {
         margin-left: 1rem;
         margin-right: 1rem;
         width: 100%;
-        h2{
-          // font-size: 2rem;
-        }
+       
         .input-and-icon{
           width: 90%;
           input{
