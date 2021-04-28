@@ -212,12 +212,14 @@ html,body {
     .top-nav {
       margin: 0px;
       .logo {
-        margin-right: 10px;
+        margin-right: 5px;
       }
       nav {
         ul {
+          
           .dropbtn {
-            width: 100px;
+            width: 90px;
+            font-size: 14px;
           }
         }
       }
