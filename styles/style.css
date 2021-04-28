@@ -1,35 +1,26 @@
-body {
-  margin: 0;
-  padding: 0;
+html, body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Inter", sans-serif;
   z-index: 100000;
   width: 100%;
-  overflow: auto;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
-
 
 .top-wrapper {
   width: 100%;
   height: 900px;
-  position: relative;
   background: url("../images/background-top.png");
   min-height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .top-wrapper .top-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 35px;
   padding-top: 1.30vw;
 }
@@ -41,7 +32,6 @@ body {
 }
 
 .top-wrapper .top-nav nav ul {
-  position: relative;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -524,13 +514,7 @@ body {
 }
 
 .testimonials .two-boxes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 55%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -674,6 +658,32 @@ body {
   font-weight: 400;
   line-height: 40px;
   color: #414141;
+}
+
+@media screen and (max-width: 568px) {
+  .top-wrapper .form-div form .input-and-icon {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .top-wrapper .form-div form .input-and-icon input[type="text"] {
+    width: 100%;
+  }
+  .top-wrapper .form-div button {
+    width: 100%;
+  }
+  .get-started {
+    height: auto;
+  }
+  .get-started .app-down {
+    width: 90%;
+  }
+  .get-started .app-down .app {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 767px) {

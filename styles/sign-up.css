@@ -212,7 +212,6 @@
 @media screen and (max-width: 409px) {
   .mid-part2 {
     margin: 0px;
-    margin-left: 5px;
     padding: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -220,15 +219,25 @@
             flex-direction: column;
   }
   .mid-part2 .ourform101 {
+    margin: 0px;
+    padding: 0px;
     margin-top: 2rem;
   }
   .mid-part2 .ourform101 .form-part {
+    margin: 0px;
+    padding: 0px;
     margin-left: 10px;
     margin-top: 50px;
     margin-right: 10px;
+    width: 100%;
+  }
+  .mid-part2 .ourform101 .form-part form {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
   }
   .mid-part2 .ourform101 .form-part form input {
-    width: 445px;
+    width: 100%;
   }
   .mid-part2 .ourform101 .form-part form .input-icons {
     width: 100%;
@@ -245,7 +254,7 @@
   .mid-part2 .slider-part {
     margin-left: 10px;
     margin-right: 10px;
-    width: 100%;
+    width: 100% !important;
     height: auto;
     padding-bottom: 2rem;
   }
@@ -281,9 +290,7 @@
     margin-top: 2rem;
   }
   .mid-part2 .ourform101 .form-part {
-    margin-left: 10px;
     margin-top: 50px;
-    margin-right: 10px;
   }
   .mid-part2 .ourform101 .form-part form input {
     width: 100%;

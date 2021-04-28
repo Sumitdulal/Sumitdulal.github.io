@@ -1,10 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
+html,body {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
   z-index: 100000;
   width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 //top part having nav and form starts here
@@ -12,17 +14,17 @@ body {
 .top-wrapper {
   width: 100%;
   height: 900px;
-  position: relative;
+  // position: relative;
   background: url('../images/background-top.png');
   min-height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
-  // background-position: center;
+  background-position: center;
 
   .top-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
     // padding-right: 4%;
     // padding-left: 2%;
     height: 35px;
@@ -38,7 +40,7 @@ body {
       
 
       ul {
-        position: relative;
+        // position: relative;
         list-style: none;
         display: flex;
         justify-content: space-between;
@@ -530,9 +532,9 @@ body {
     line-height: 1.625;
   }
   .two-boxes {
-    display: flex;
+    // display: flex;
     width: 55%;
-    justify-content: space-between;
+    // justify-content: space-between;
     margin: 0 auto;
     // padding-left: 10%;
     // justify-content: center;
@@ -717,6 +719,43 @@ body {
   }
 }
 //footer ends
+@media screen and (max-width: 568px) {
+  .top-wrapper{
+    .form-div{
+      
+      form{
+        h2{
+          
+        }
+        .input-and-icon{
+          width: 100%;
+          margin-left: 0px;
+          margin-right: 0px;
+          input[type="text"] {
+            width: 100%;
+          }
+        }
+      }
+      button{
+        width: 100%;
+      }
+    }
+  }
+  .get-started{
+    height: auto;
+    .app-down{
+      width: 90%;
+      // margin: 0 auto;
+      .app{
+        height: auto;
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 1rem;
+        
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 767px) {
   .for-dentist{
