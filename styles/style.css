@@ -545,7 +545,7 @@ html, body {
 }
 
 .testimonials .two-boxes {
-  width: 55%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -691,7 +691,7 @@ html, body {
   color: #414141;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .top-wrapper .form-div {
     width: 100%;
   }
@@ -736,6 +736,15 @@ html, body {
 }
 
 @media screen and (max-width: 767px) {
+  .mid-part .three-boxes .box {
+    margin-bottom: 2rem;
+    border-right: none;
+    border-bottom: 2px solid #fafafa;
+  }
+  .mid-part .three-boxes .box:last-child {
+    border-bottom: none;
+    margin-bottom: none;
+  }
   .for-dentist .dentist-container .cont-1 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -778,6 +787,7 @@ html, body {
   .for-dentist .dentist-container .cont-3 .text-box-3 {
     margin-top: 0px;
     margin-left: 0px;
+    margin-right: 0px;
   }
   .for-dentist .dentist-container .cont-3 .text-box-3 #popf {
     margin-bottom: 10px;
@@ -816,6 +826,10 @@ html, body {
     width: 100%;
     height: auto;
     margin: 0 auto;
+  }
+  .testimonials .two-boxes .one {
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #fafafa;
   }
   .footer .first i {
     margin-bottom: 2rem;
