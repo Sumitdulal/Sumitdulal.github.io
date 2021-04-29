@@ -21,20 +21,16 @@
     />
 </head>
 <body>
-  
-    <div class="mid-part2">
+    <div class="container-fluid">
+    <div class="mid-part2 row">
       <a href="index.html"><img class="thelogo" src="images/logo.svg"></a>
-      <div class="ourform101">
-        <!-- <div class="icon-message" style="margin:20px 0px 20px 123px ;">
-          <i class="far fa-times-circle"></i>
-          <div class="erp">
-              <h4>Error</h4>
-              <p>There are Something wrong with multiple fields.</p>
-          </div>
-      </div> -->
+      <div class="ourform101 col-lg-6">
+       
+        <!--form part begins-->
+
         <div class="form-part">
             <h1>Sign Up!</h1>
-            <p>Log in to your dashboard using your credentials</p>
+            <p class="w-100">Log in to your dashboard using your credentials</p>
             <form class="mb-0" action="#" method="POST">
                 <label for="fname">Your Full Name</label><br>
                 <input type="text" id="fname" name="fname" placeholder="Eg: Martin Tyler"><br>
@@ -46,7 +42,7 @@
                   
                   <label for="password">Your Password</label><br>
                   <input class="pass" type="password" id="pass" name="pass" placeholder="atleast 8 characters" />
-                  <i class="fa fa-eye" id="togglePassword"> </i>
+                  <i class="fas fa-eye" id="togglePassword"> </i>
                   
                 </div><br>
                 
@@ -62,8 +58,14 @@
                 </div>
                 <p id="bel-login">Already have an account? <a style="color:#3056F5;" href="log-in.html">Log In</a></p>
         </div>
+
+        <!--form part ends here-->
+
       </div>
-        <div class="slider-part">
+      <!--our form 101 ends here-->
+
+      <!--slider part starts here-->
+        <div class="slider-part col-lg-6">
           <div class="bo1"></div>
           <div class="bo2"></div>
           <div class="bo3"></div>
@@ -78,7 +80,12 @@
                     <span class="dot" onclick="currentSlide(3)"></span> 
                   </div>
         </div>
+        <!--slider part ends here-->
     </div>
+  </div>
+    <!--midpart2 ends here-->
+
+    <!--bootstrap scripts starts-->
     <script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -94,5 +101,7 @@
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"
   ></script>
+<!--bootstrap scrpits ends-->
+
 </body>
 </html>

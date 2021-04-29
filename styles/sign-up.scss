@@ -8,9 +8,9 @@
 
 
 .mid-part2 {
-  display: flex;
+  // display: flex;
   // justify-content: center;
-  justify-content: space-between;
+  // justify-content: space-between;
   .thelogo{
     // left: 0;
     left: 20px;
@@ -19,42 +19,12 @@
   }
   .ourform101{
     
-  //   .icon-message{
-  //     display: flex;
-  //     width: 450px;
-  //     height: 60px;
-  //     border-radius: 0.313rem;
-  //     border: 0.063rem solid #F43460;
-  //     border-left: 0.40rem solid #F43460;
-  //     background-color: white;
-  //     i{
-  //         font-size: 30px;
-  //         margin: 15px 10px 15px 25px;
-  //         color: #F43460;
-  //         justify-content: center;
-  //     }
-  //     .erp{
-  //         margin: 10px  0px;
-  //         padding: 0;
-  //         height: 40px;
-  //         h4{
-  //           font-size: 18px;
-  //           font-weight: 400;
-  //           margin: 0;
-  //           padding: 0;
-  //         }
-  //         p{
-  //             color:  #A1A1A1;
-  //             font-size: 14px;
-  //             font-weight: 400;
-  //         }
-  //     }
-  // }
+    width: 100%;
   .form-part {
-    margin-top: 144px;
-    margin-left: 123px;
+    margin-top: 9.375vw;//144
+    margin-left: 8vw;//123
     // margin-right: 122px;
-    width: 50%;
+    // width: 50%;
     h1 {
       margin-bottom: 20px;
       font-size: 40px;
@@ -67,7 +37,7 @@
       font-size: 20px;
       font-weight: 300;
       color:#A1A1A1;
-      width: 475px;
+      width: 100%;//475
     }
 
     form {
@@ -80,7 +50,7 @@
       input {
         margin-top: 10px;
         height: 52px;
-        width: 445px;
+        width: 31vw;
         border: 1px solid #E9EBEF;
         margin-bottom: 30px;
         padding: 5px;
@@ -93,7 +63,7 @@
       .input-icons {
         position: relative;
         .pass {
-          width: 445px;
+          width: 31vw;
           height: 52px;
           padding: 5px;
           border: 1px solid #E9EBEF;
@@ -102,7 +72,7 @@
         }
         #togglePassword {
             position: absolute;
-            right:-30%;
+            right:23%;
             top: 54%;
             transform: translateY(-50%);
             color: black;
@@ -116,7 +86,8 @@
     }
 
     .agree {
-      width: 445px;
+      // width: 445px;
+      width: 31vw;
 
       label {
         line-height: 1;
@@ -144,11 +115,17 @@
   }
 }
   .slider-part {
+    
     position: relative;
     height: auto;
+    width: 100%;
+    // height: 918px;
+    // position: relative;
+    // background-color: #5556F8;
+    background-image: linear-gradient(to top left,purple, #5556F8);
     .bo1{
-      width: 342px;
-      height: 342px;
+      width: 22.26vw;
+      height: 22.26vw;
       position: absolute;
       background-color: #979797;
       opacity: 4%;
@@ -159,8 +136,8 @@
       bottom: 0;
     }
     .bo2{
-      width: 211px;
-      height: 211px;
+      width: 13.73vw;
+      height: 13.73vw;
       position: absolute;
       background-color: #979797;
       opacity: 4%;
@@ -171,8 +148,8 @@
       bottom: 0;
     }
     .bo3{
-      width: 342px;
-      height: 342px;
+      width: 22.26vw;
+      height: 22.26vw;
       position: absolute;
       background-color: #979797;
       opacity: 4%;
@@ -182,11 +159,7 @@
       top: 80%;
       bottom: 0;
     }
-    width: 50%;
-    // height: 918px;
-    // position: relative;
-    // background-color: #5556F8;
-    background-image: linear-gradient(to top left,purple, #5556F8);
+    
 
     img {
       margin-top: 130px;
@@ -233,91 +206,92 @@
 
 }
 
-@media screen and (max-width:409px) {
+// @media screen and (max-width:409px) {
 
-  .mid-part2 {
-    margin: 0px;
-    padding: 0px;
-    flex-direction: column;
-    .ourform101{
-      margin: 0px;
-      padding: 0px;
-      margin-top: 2rem;
-    .form-part {
-      margin: 0px;
-      padding: 0px;
-      margin-left: 10px;
-      margin-top: 50px;
-      margin-right: 10px;
-      width: 100%;
-      form {
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        input {
-          width: 100%;
-        }
-        .input-icons{
-          width: 100%;
-          .pass{
-            width: 100%;
-          }
-        }
-      }
+//   .mid-part2 {
+//     margin: 0px;
+//     padding: 0px;
+//     // flex-direction: column;
+//     .ourform101{
+//       margin: 0px;
+//       padding: 0px;
+//       margin-top: 2rem;
+//     .form-part {
+//       margin: 0px;
+//       padding: 0px;
+//       margin-left: 10px;
+//       margin-top: 50px;
+//       margin-right: 10px;
+//       width: 100%;
+//       form {
+//         margin: 0px;
+//         padding: 0px;
+//         width: 100%;
+//         input {
+//           width: 100%;
+//         }
+//         .input-icons{
+//           width: 100%;
+//           .pass{
+//             width: 100%;
+//           }
+//         }
+//       }
 
-      .agree {
-        width: 100%;
+//       .agree {
+//         width: 100%;
 
-        input {
-          label {
-            width: 90%;
-          }
-        }
+//         input {
+//           label {
+//             width: 90%;
+//           }
+//         }
 
-      }
-    }
-  }
-    .slider-part {
-      margin-left: 10px;
-      margin-right: 10px;
-      width: 100% !important;
-      height: auto;
-      padding-bottom: 2rem;
+//       }
+//     }
+//   }
+//     .slider-part {
+//       margin-left: 10px;
+//       margin-right: 10px;
+//       width: 100% !important;
+//       height: auto;
+//       padding-bottom: 2rem;
       
-      img {
-        margin-top: 5rem;
-        margin-left: 2rem;
-        margin-right: 1rem;
-        width: 80%;
-      }
+//       img {
+//         margin-top: 5rem;
+//         margin-left: 2rem;
+//         margin-right: 1rem;
+//         width: 80%;
+//       }
 
-      p {
-        margin-left: 1rem;
-        margin-right: 0px;
-        width: 90%;
-        text-align: center;
-      }
+//       p {
+//         margin-left: 1rem;
+//         margin-right: 0px;
+//         width: 90%;
+//         text-align: center;
+//       }
 
-      .dots {
-        margin-top: 2rem;
-      }
-    }
-  }
-}
+//       .dots {
+//         margin-top: 2rem;
+//       }
+//     }
+//   }
+// }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:991px) {
   .mid-part2 {
     margin: 0px;
     padding: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    flex-direction: column;
+    // flex-direction: column;
     .ourform101{
       margin-top: 2rem;
+      width: 100% !important;
     .form-part {
-      // margin-left: 10px;
+      margin-left: 10px;
       margin-top: 50px;
-      // margin-right: 10px;
+      margin-right: 10px;
 
       form {
         input {
@@ -353,7 +327,7 @@
     .slider-part {
       margin-left: 10px;
       margin-right: 10px;
-      width: 100%;
+      width: 100% !important;
       height: auto;
       padding-bottom: 2rem;
       .bo1{
