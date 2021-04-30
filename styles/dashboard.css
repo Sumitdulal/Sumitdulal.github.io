@@ -510,55 +510,122 @@
   color: white;
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont {
-  width: 286px;
-  height: auto;
+.main-con .fluids .main-box .right-items .calendar-part .schedules {
+  width: 100%;
+  height: 660px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
   background-color: white;
-  border-radius: 9px;
-  border: none;
+  margin: 20px 30px 30px 0px;
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont {
-  margin-left: 20px;
-  padding-top: 20px;
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont {
+  width: 32px;
+  height: auto;
+  margin: 20px 4px 20px 20px;
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont li {
-  list-style: none;
-}
-
-.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .tme {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont ul li {
+  color: #A1A1A1;
   font-size: 12px;
   font-weight: 400;
-  color: #A1A1A1;
+  margin-bottom: 40px;
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details-last {
-  border-top: 0.25px solid #A1A1A1;
-  margin: 0px 19px 0px 36px;
-  height: 54px;
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont {
   width: 211px;
+  height: auto;
+  margin: 28px 19px 58px 0px;
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details .name-schedule, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details-last .name-schedule, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details .name-schedule-type2, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details-last .name-schedule-type2 {
-  height: 26px;
-  background-color: #5299FF;
-  border-radius: 5px;
-  margin-bottom: 2px;
-  color: white;
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type {
+  width: 211px;
+  height: 57px;
+  border: none;
+  border-top: 2px solid #fafafa;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-1 {
+  width: 211px;
+  height: 57px;
+  background: transparent;
+  border-top: 2px solid #fafafa;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-1 p {
   font-size: 10px;
   font-weight: 600;
+  height: 26px;
+  border: none;
+  border-radius: 5px;
   padding: 7px 106px 7px 10px;
+  color: white;
+  background-color: #5299FF;
+  margin-bottom: 2px;
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details .name-schedule-type2, .main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details-last .name-schedule-type2 {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-2, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-3 .type-3-2, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 .type-3-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 211px;
+  height: 57px;
+  background: transparent;
+  border-top: 2px solid #fafafa;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-2 p, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-3 .type-3-2 p, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 .type-3-2 p {
+  height: 26px;
   width: 69px;
-  padding: 7px 10px;
   margin-right: 2px;
+  background: transparent;
+  background-color: #5299FF;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 7px 10px 7px 10px;
+  color: white;
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .schedules .time-cont .cont .appo-details-last {
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-3, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 {
+  width: 211px;
+  height: 57px;
+  background: transparent;
+  border-top: 2px solid #fafafa;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-3 p, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 p {
+  font-size: 10px;
+  font-weight: 600;
+  height: 26px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 106px 7px 10px;
+  color: white;
+  background-color: #5299FF;
+  margin-bottom: 2px;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-3 .type-3-2, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 .type-3-2 {
+  height: 26px;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-3 .type-3-2 a, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 .type-3-2 a {
+  font-size: 10px;
+  color: #414141;
+  font-weight: 400;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 {
   border-top: none;
-  border-bottom: 0.25px solid #A1A1A1;
+  border-bottom: 2px solid #fafafa;
+}
+
+.main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 p {
+  background-color: white;
+  border-radius: 0;
 }
 /*# sourceMappingURL=dashboard.css.map */
