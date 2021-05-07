@@ -1,0 +1,147 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.bg {
+  background-color: #e94969;
+}
+
+.bgw {
+  background-color: white;
+}
+
+.revised-table > thead > tr > th,
+.revised-table > tbody > tr > td,
+.revised-table > tbody > tr > th {
+  border-bottom: none;
+  padding-bottom: 30px;
+}
+
+.revised-table > thead > tr > th {
+  padding-right: 0 I !important;
+  margin-right: 0 !important;
+  width: 210px;
+}
+
+.table-container {
+  padding-left: 10% !important;
+  padding-top: 5%;
+}
+
+.table-container .revised-table tbody tr th .img-box {
+  width: 100px !important;
+  height: 100px !important;
+  position: relative;
+}
+
+.table-container .revised-table tbody tr th .img-box i {
+  position: absolute;
+  right: -3px;
+  top: -10px;
+}
+
+.rightpart {
+  background-color: #F5F5F5;
+}
+
+.rightpart .line {
+  width: 50%;
+  height: 5px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.rightpart form {
+  width: 225px;
+  margin: 0 auto;
+}
+
+.rightpart form input {
+  height: 37px;
+  border-radius: 2px !important;
+  width: 155px;
+}
+
+.rightpart form ::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+.rightpart form :-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.rightpart form ::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+.rightpart form ::placeholder {
+  font-size: 14px;
+}
+
+.rightpart form button {
+  height: 37px;
+  border-radius: 2px !important;
+  width: 70px;
+}
+
+.rightpart .ttl {
+  margin-top: 40px;
+}
+
+.rightpart .btn {
+  background-color: #e94969;
+  color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.rightpart .btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+}
+
+.rightpart .form-check {
+  margin-top: 50px;
+}
+
+.rightpart i {
+  color: #5EB9E7;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 544px) {
+  .table-container {
+    padding-left: 0% !important;
+    padding-top: 5%;
+    padding-right: 0% !important;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  * {
+    font-size: 13px !important;
+  }
+  .revised-table > thead > tr > th {
+    padding-right: 0 I !important;
+    margin-right: 0 !important;
+    width: 150px;
+  }
+  .revised-table tbody tr th .img-box {
+    width: 70px !important;
+    height: 70px !important;
+    position: relative;
+  }
+  .revised-table tbody tr th .img-box img {
+    width: 100%;
+    height: 100%;
+  }
+  .revised-table tbody tr th .img-box i {
+    position: absolute;
+    right: -3px;
+    top: -10px;
+  }
+}
+/*# sourceMappingURL=cart.css.map */
