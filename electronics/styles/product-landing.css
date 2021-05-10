@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.underline-effect {
+  -webkit-text-decoration: underline #e94969 4px;
+          text-decoration: underline #e94969 4px;
+  text-underline-offset: 2px;
+}
+
+.topPart .image-zoom .zoomer-part {
+  /* custom style */
+}
+
+.topPart .image-zoom .zoomer-part .picZoomer {
+  height: 320px;
+  width: 320px;
+}
+
+.topPart .image-zoom .zoomer-part .picZoomer img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 150px 20px;
+}
+
+.topPart .image-zoom .zoomer-part .piclist {
+  margin-top: 30px;
+}
+
+.topPart .image-zoom .zoomer-part .piclist li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.topPart .image-zoom .zoomer-part .piclist li img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.topPart .image-zoom .zoomer-part .picZoomer-pic-wp,
+.topPart .image-zoom .zoomer-part .picZoomer-zoom-wp {
+  border: 1px solid #fff;
+}
+
+.topPart .product-det .price-portion .price, .topPart .product-det .price-portion .quantity-part {
+  margin-right: 5vh;
+}
+
+.topPart .product-det .price-portion .btn {
+  margin-right: 5vh !important;
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: #e94969;
+  border: none;
+}
+
+.topPart .product-det .price-portion button:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+}
+
+.colorContainer .colors .circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.colorContainer .colors #c1 {
+  background-color: green;
+}
+
+.colorContainer .colors #c2 {
+  background-color: #3d4d3d;
+}
+
+.colorContainer .colors #c3 {
+  background-color: blue;
+}
+
+.colorContainer .colors #c4 {
+  background-color: #7c837c;
+}
+
+.sizeContainer .sizes #botn {
+  width: 100px;
+  border-radius: 20px;
+}
+
+.details-dimensions .details {
+  margin-right: 15vh;
+}
+
+.details-dimensions .details h2 {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.details-dimensions .details ul {
+  padding-left: 20px !important;
+}
+
+.details-dimensions .details ul li {
+  list-style-type: disc !important;
+}
+
+.details-dimensions .dimensions {
+  margin-right: 15vh;
+}
+
+.details-dimensions .dimensions h2 {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.details-dimensions .ratings h2 {
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.details-dimensions .ratings .star-rating .fas {
+  color: orangered;
+}
+
+.ratingsReview .reviews .comments-section .real-comment .img-box {
+  width: 50px;
+  height: 50px;
+}
+
+.ratingsReview .reviews .comments-section .real-comment .img-box img {
+  width: 100%;
+}
+
+.ratingsReview .reviews .comments-section .real-comment .name-comment small {
+  font-size: 12px;
+}
+
+.ratingsReview .reviews .comments-section .real-comment .name-comment a {
+  text-decoration: none;
+}
+
+.ratingsReview .reviews .comments-section .real-comment .name-comment .replies .reply-form .form-group textarea:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+}
+
+.ratingsReview .reviews .comments-section .real-comment .name-comment .replies .reply-form button {
+  height: 40px;
+  width: 140px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color: #e94969;
+  border: none;
+}
+
+.ratingsReview .reviews .comments-section .real-comment .name-comment .replies .reply-form button:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+}
+
+.ratingsReview .reviews .commentForm textarea:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+}
+
+.ratingsReview .reviews .commentForm button {
+  height: 40px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: #e94969;
+  border: none;
+}
+
+.ratingsReview .reviews .commentForm button:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+}
+/*# sourceMappingURL=product-landing.css.map */

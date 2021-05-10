@@ -1,0 +1,226 @@
+//basic setup
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+.underline-effect{
+    text-decoration: underline #e94969 4px;
+          text-underline-offset: 2px;
+
+}
+//css for zoomer part begins
+.topPart{
+    .image-zoom{
+        
+.zoomer-part{
+    .picZoomer{
+        height: 320px;
+        width: 320px;
+        
+        img{
+
+            width: 100%;
+            height: 100%;
+            border-radius: 20px 20px 150px 20px;
+        }
+    }
+    
+    .piclist{
+        margin-top: 30px;
+        li{
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 5px;
+            }
+        }
+    }
+    
+    /* custom style */
+    .picZoomer-pic-wp,
+    .picZoomer-zoom-wp{
+        border: 1px solid #fff;
+    }
+}
+}
+
+.product-det{
+    .price-portion{
+        .price,.quantity-part{
+            margin-right: 5vh;
+        }
+        .btn{
+            margin-right: 5vh !important;
+            height: 40px;
+            width: 140px; 
+            border-radius: 10px; 
+            background-color: #e94969;
+            border: none;
+        }
+        button:focus{
+            outline: none;
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 73, 105, 1);
+        }
+    }
+}
+
+}
+//css for zoomer part ends
+
+
+//css for color container begins here
+.colorContainer{
+   
+.colors{
+    
+    .circle{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        
+    }
+    #c1{
+        background-color: green;
+    }
+
+    #c2{
+        background-color: rgb(61, 77, 61);
+    }
+    #c3{
+        background-color: blue;
+    }
+    #c4{
+        background-color: rgb(124, 131, 124);
+    }
+}
+}
+//css for color container ends here
+
+//css for size container starts
+
+.sizeContainer{
+    .sizes{
+        #botn{
+            width: 100px;
+            border-radius: 20px;
+        }
+    }
+
+}
+//css for size container ends
+
+//css for details-dimension starts
+.details-dimensions{
+    
+    .details{
+        
+        margin-right: 15vh;
+        h2{
+            border-bottom: 1px solid #e4e4e4;
+        }
+        ul{
+            padding-left: 20px !important;
+            li{
+            list-style-type :disc !important;
+            }
+        }
+    }
+    .dimensions{
+        
+        margin-right: 15vh;
+        h2{
+            border-bottom: 1px solid #e4e4e4;
+        }
+    }
+    .ratings{
+        h2{
+            border-bottom: 1px solid #e4e4e4;
+        }
+        .star-rating{
+            .fas{
+                color: orangered;
+            }
+        }
+    }
+}
+//css for details dimension ends
+
+//css for comment section starts
+
+.ratingsReview{
+    
+    .reviews{
+        .comments-section{
+            
+            .real-comment{
+                .img-box{
+                    width: 50px;
+                    height: 50px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .name-comment{
+                    small{
+                        font-size: 12px;
+                    }
+                    a{
+                        text-decoration: none;
+                    }
+                    .replies{
+                        .reply-form{
+                            .form-group{
+                                textarea:focus{
+                                    border: none;
+                                    outline: none;
+                                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 73, 105, 1);
+                                }
+                            }
+                            button{
+                                height: 40px;
+                                width: 140px;
+                                margin-top: 30px;
+                                border-radius: 10px;
+                                background-color: #e94969;
+                                border: none;
+                            }
+                            button:focus{
+                                outline: none;
+                                box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 73, 105, 1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .commentForm{
+            textarea:focus{
+                border: none;
+                outline: none;
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 73, 105, 1);
+            }
+            button{
+                
+                 height: 40px;
+                 width: 140px; 
+                 border-radius: 10px; 
+                 background-color: #e94969;
+                 border: none;
+            }
+            button:focus{
+                outline: none;
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 73, 105, 1);
+            }
+        }
+    }
+    
+}
+
+//css for comment section ends
