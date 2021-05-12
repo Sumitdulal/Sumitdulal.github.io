@@ -33,13 +33,6 @@
 .table-container .revised-table tbody tr th .img-box {
   width: 100px !important;
   height: 100px !important;
-  position: relative;
-}
-
-.table-container .revised-table tbody tr th .img-box i {
-  position: absolute;
-  right: -3px;
-  top: -10px;
 }
 
 .rightpart {

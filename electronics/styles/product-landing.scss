@@ -12,14 +12,42 @@
           text-underline-offset: 2px;
 
 }
+
+//css for sign up and login starts
+
+.sign-up-login{
+    button{
+       
+        border-radius: 10px; 
+        background-color: #e94969;
+        border: none;
+        color: white;
+    }
+    button:hover{
+        background-color:#e94969;
+        
+    }
+    button:active{
+        background-color: #e94969;
+    }
+    button:focus{
+        outline: none;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 73, 105, 1);
+    }
+
+}
+
+
+//css for sign up and login ends
+
 //css for zoomer part begins
 .topPart{
     .image-zoom{
         
 .zoomer-part{
     .picZoomer{
-        height: 320px;
-        width: 320px;
+        // height: 320px;
+        width: 395px;
         
         img{
 
@@ -31,13 +59,14 @@
     
     .piclist{
         margin-top: 30px;
-        li{
+        
+        .imgg{
             display: inline-block;
             width: 50px;
-            height: 50px;
+            height: 30px;
             img{
                 width: 100%;
-                height: auto;
+                height: 100%;
                 border-radius: 5px;
             }
         }
@@ -85,6 +114,13 @@
         height: 25px;
         border-radius: 50%;
         
+    }
+    a:focus{
+        .circle{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
     }
     #c1{
         background-color: green;
@@ -224,3 +260,92 @@
 }
 
 //css for comment section ends
+
+//media queries starts
+@media screen and (max-width: 768px) {
+    .topPart{
+        .product-det{
+            .price-portion{
+                .price{
+                    p{
+                        font-size: 14px;
+                    }
+                    h3{
+                        font-size: 17px;
+                        font-weight: bold;
+                    }
+                }
+                .quantity-part{
+                    p{
+                        font-size: 14px;
+                    }
+                    h3{
+                        font-size: 17px;
+                        font-weight: bold;
+                    }
+                }
+                button{
+                    font-size: 12px;
+                    width: 100px !important;
+                }
+            }
+        }
+    }
+    .products{
+        .col-md-1{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .topPart{
+        .image-zoom{
+        
+            .zoomer-part{
+                .picZoomer{
+                    // height: 320px;
+                    width: 250px;
+                    
+                    img{
+            
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 20px 20px 150px 20px;
+                    }
+                }
+                .piclist{
+                    margin-top: 30px;
+                    
+                    .imgg{
+                        display: inline-block;
+                        width: 30px;
+                        height: 30px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .product-det{
+            .price-portion{
+                display: flexbox !important;
+                flex-direction: column !important;
+                align-items: initial !important;
+                .price{
+                    margin-bottom: 10px;
+                }
+                .quantity-part{
+                    margin-bottom: 10px;
+                }
+                button{
+                    margin-bottom: 10px !important;
+                }
+            }
+        }
+    }
+    
+}

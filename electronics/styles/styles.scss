@@ -5,8 +5,9 @@
     font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     font-weight: 400;
+    
 }
-
+$color-red : #e94969;
 
 
 .t-msg{
@@ -31,10 +32,7 @@
 
 //navbar starts
 .navbar {
-    .nav-item {
-      font-size: 1.4rem;
     
-    }
     .nav-item{
         a:hover{
         text-decoration: underline #e94969 3px;
@@ -43,7 +41,7 @@
     }
     form{
         input{
-            border-color: #e94969  !important;
+            border-color: $color-red !important;
         }
         input:focus{
             outline: none !important;
@@ -105,7 +103,9 @@
 .products{
     border-top: 1px solid #e4e4e4;
     .product-container{
-        
+        a{
+            text-decoration: none;
+        }
     .pbox{
         border: 1px solid #e4e4e4;
         border-radius: 4px;
@@ -128,7 +128,7 @@
         
 
         .ratings{
-            
+            color:#e94969;
             margin: 0 auto;
         }
         
@@ -137,12 +137,13 @@
         .img-box{
             width: 85%;
             img{
-            opacity: 0.40;
+            opacity: 0.20;
             }
         }
         .hover-icons{
             display: inline;
             position: relative;
+            color: $color-red;
             left: 30%;
             right: 0;
             top: -50%;
@@ -246,29 +247,48 @@
 
 //footer box with 4 columns ends
 
-//browsable link list starts
-.browsable-links{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .list-1{
-        width: 80%;
-       
+//footer style starts
+footer{
+    p{
+    background-color: #d30832;
+    color: white;
+    }
+}
+//footer style ends
+
+//pagination part starts
+.pagination-part{
+    .pagination {
+    .page-item{
         a{
-            line-height: 1.6;
-            position: relative;
+    color: $color-red !important;
         }
-            a::after{
-                content: "|";
-                color: #7b7b7b;
-                margin-left: 0.25rem;
-            }
+    }
+    .page-item:hover{
+        background: none !important;
+    }
+    .page-item:focus{
+        outline: none;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 73, 105, 1);
+    }
+    .active{
+        
+        a{
+            background-color: $color-red !important;
+            color: white !important;
+            border: none !important;
+        }
         
     }
-        
-    
+    .active :focus{
+        outline: none;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(233, 73, 105, 1);
+       
+    }
 }
-//browsable link list ends
+}
+//pagination part ends
+
 
 //media queries starts
 @media screen and (max-width: 924px) {
@@ -298,6 +318,7 @@
     }
     
 }
+
 @media screen and (max-width: 768px) {
 
     .category-carausal{
@@ -358,5 +379,6 @@
     }
     
 }
+
 
 //media queries ends 

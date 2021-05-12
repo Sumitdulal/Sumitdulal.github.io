@@ -23,10 +23,6 @@
   border-right: none;
 }
 
-.navbar .nav-item {
-  font-size: 1.4rem;
-}
-
 .navbar .nav-item a:hover {
   -webkit-text-decoration: underline #e94969 3px;
           text-decoration: underline #e94969 3px;
@@ -34,7 +30,7 @@
 }
 
 .navbar form input {
-  border-color: #e94969  !important;
+  border-color: #e94969 !important;
 }
 
 .navbar form input:focus {
@@ -92,6 +88,10 @@
   border-top: 1px solid #e4e4e4;
 }
 
+.products .product-container a {
+  text-decoration: none;
+}
+
 .products .product-container .pbox {
   border: 1px solid #e4e4e4;
   border-radius: 4px;
@@ -115,6 +115,7 @@
 }
 
 .products .product-container .pbox .ratings {
+  color: #e94969;
   margin: 0 auto;
 }
 
@@ -123,12 +124,13 @@
 }
 
 .products .product-container .pbox:hover .img-box img {
-  opacity: 0.40;
+  opacity: 0.20;
 }
 
 .products .product-container .pbox:hover .hover-icons {
   display: inline;
   position: relative;
+  color: #e94969;
   left: 30%;
   right: 0;
   top: -50%;
@@ -188,32 +190,35 @@
   list-style: none;
 }
 
-.browsable-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+footer p {
+  background-color: #d30832;
+  color: white;
 }
 
-.browsable-links .list-1 {
-  width: 80%;
+.pagination-part .pagination .page-item a {
+  color: #e94969 !important;
 }
 
-.browsable-links .list-1 a {
-  line-height: 1.6;
-  position: relative;
+.pagination-part .pagination .page-item:hover {
+  background: none !important;
 }
 
-.browsable-links .list-1 a::after {
-  content: "|";
-  color: #7b7b7b;
-  margin-left: 0.25rem;
+.pagination-part .pagination .page-item:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+}
+
+.pagination-part .pagination .active a {
+  background-color: #e94969 !important;
+  color: white !important;
+  border: none !important;
+}
+
+.pagination-part .pagination .active :focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e94969;
 }
 
 @media screen and (max-width: 924px) {
