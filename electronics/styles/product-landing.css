@@ -6,10 +6,14 @@
   font-weight: 400;
 }
 
+.font-small {
+  font-size: 14px;
+}
+
 .underline-effect {
   -webkit-text-decoration: underline #e94969 4px;
           text-decoration: underline #e94969 4px;
-  text-underline-offset: 2px;
+  text-underline-offset: 5px;
 }
 
 .sign-up-login button {
@@ -73,7 +77,7 @@
 }
 
 .topPart .product-det .price-portion .btn {
-  margin-right: 5vh !important;
+  margin-right: 3vh !important;
   height: 40px;
   width: 140px;
   border-radius: 10px;

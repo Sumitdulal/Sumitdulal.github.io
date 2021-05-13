@@ -7,9 +7,12 @@
     font-weight: 400;
     
 }
+.font-small{
+    font-size: 14px;
+}
 .underline-effect{
     text-decoration: underline #e94969 4px;
-          text-underline-offset: 2px;
+          text-underline-offset: 5px;
 
 }
 
@@ -86,7 +89,7 @@
             margin-right: 5vh;
         }
         .btn{
-            margin-right: 5vh !important;
+            margin-right: 3vh !important;
             height: 40px;
             width: 140px; 
             border-radius: 10px; 
