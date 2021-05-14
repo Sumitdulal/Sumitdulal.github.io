@@ -460,12 +460,13 @@
 }
 
 .main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont {
-  margin-bottom: 20px !important;
+  margin-bottom: 5px !important;
 }
 
 .main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont img {
   height: 60px;
   width: 60px;
+  border-radius: 0;
 }
 
 .main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .progress-filename {

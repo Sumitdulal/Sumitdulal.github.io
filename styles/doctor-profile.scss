@@ -474,10 +474,11 @@ $fsize3: 0.75rem;
                  }
              }
             .upload-cont{
-              margin-bottom: 20px !important;
+              margin-bottom: 5px !important;
               img{
                 height: 60px;
                 width: 60px;
+                border-radius: 0;
               }
               .media-body{
                 .progress-filename{
