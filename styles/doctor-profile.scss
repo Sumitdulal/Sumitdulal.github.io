@@ -421,8 +421,10 @@ $fsize3: 0.75rem;
       border: none;
       position: relative;
       .profile-doc{
+       
        img{
          width: 110px;
+         position: relative;
          height: 110px;
          border-radius: 50%;
          margin-top: 20px;
@@ -432,8 +434,12 @@ $fsize3: 0.75rem;
 
        .icon-part{
          position: absolute;
-         bottom: -35%;
-         left: 8%;
+        bottom: -35px;
+         left: 80px;
+
+        
+        
+        
          width: 32px;
          height: 32px;
          border-radius: 50%;
@@ -539,11 +545,10 @@ $fsize3: 0.75rem;
         
       }
       .edit-numb{
-       margin-left: 430px;//540
+        margin-right: 20px;
        margin-top: 20px;
        .pen-icon{
         font-size: 14px;
-        margin-left: 110px;
         color: #0069FF;
        }
        #num{
@@ -564,7 +569,7 @@ $fsize3: 0.75rem;
       
       .left-ali-practices{
         border-right: 0.25px solid $colortxt;
-        width: 231px;
+        // width: 231px;
         .prac{
           list-style: none;
           font-size: 18px;
@@ -572,7 +577,6 @@ $fsize3: 0.75rem;
           color:#101010;
           i{
            font-size: 14px;
-           margin-left: 113px;
             color:  #0069FF;
            
           }
@@ -587,36 +591,30 @@ $fsize3: 0.75rem;
           font-weight: 600;
           margin-bottom: 10px;
           color:#101010;
-          .p-icon{
-            margin-left: 27px;
-          }
-          .p-icon-2{
-            margin-left: 45px;
-          }
           
           i{
             font-size: 12px;
-            margin-left: 10px;
+    
             color: #A1A1A1;
           }
         }
         .location{
           margin-bottom: 13px;
           list-style: none;
-          font-size: 12.75px;
+          font-size: 14px;
           font-weight: 400;
           color:#414141;
           line-height: 1.429;
         
           i{
-            font-size: 12.75px;
+            font-size: 14px;
             width: 14px;
             margin-right: 20px;
           }
         }
         .time{
           list-style: none;
-          font-size: 12.75px;
+          font-size: 14px;
           font-weight: 400;
           color:#414141;
           line-height: 1.429;
@@ -636,7 +634,7 @@ $fsize3: 0.75rem;
         color:#101010;
         i{
          font-size: 14px;
-         margin-left: 110px;
+        
           color:  #0069FF;
          
         }
@@ -650,13 +648,10 @@ $fsize3: 0.75rem;
         margin-top: 16px;
         color:#101010;
         
-        .p-icon-3{
-          margin-left: 136px;
-        }
+        
         
         i{
           font-size: 12px;
-          margin-left: 10px;
           color: #A1A1A1;
         }
         
@@ -676,34 +671,39 @@ $fsize3: 0.75rem;
         margin-bottom: 20px;
         i{
          font-size: 14px;
-         margin-left: 113px;
           color:  #0069FF;
          
         }
       }
       .cal{
         list-style: none;
-        font-size: 12.75px;
+        font-size: 14px;
         font-weight: 400;
         color:#414141;
         line-height: 1.429;
         .cale-icon{
           color: #414141;
-          font-size: 12.75px;
+          font-size: 14px;
           width: 14px;
-          margin-right: 20px;
+          margin-right: 13px;
+        }
+        p{
+          font-size: 14px;
+        font-weight: 400;
+        color:#414141;
+        line-height: 1.429;
         }
         .trash-icon{
           font-size: 12px;
           color: $colortxt;
           width: 14px;
-          margin-left: 92px;
+          // margin-left: 92px;
         }
       }
     }
       }
       .right-ali-about{
-        width: 100%;
+        // width: 100%;
         .about-icon{
           margin-bottom: 20px;
           p{
@@ -712,12 +712,12 @@ $fsize3: 0.75rem;
           }
           i{
             font-size: 14px;
-            margin-right: 20px;
+            
             color: $colorb;
           }
         }
         #description{
-          width: 100%;
+          
           font-size: 16px;
           font-weight: 400;
           line-height: 1.625;
@@ -733,7 +733,7 @@ $fsize3: 0.75rem;
           i{
             font-size: 14;
             color:#0069FF;
-            margin-right: 20px;
+            
           }
         }
       }

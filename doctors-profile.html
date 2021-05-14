@@ -15,7 +15,7 @@
     <link rel="stylesheet"
           href= 
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="styles/dashboard-doctor.css" type="text/css" />
+    <link rel="stylesheet" href="styles/doctor-profile.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
@@ -139,6 +139,8 @@
           <p id="ndt">No data to show</p>
         </div>
       </div>
+
+    <!--dashboard section starts here-->
     
     <div class="container-fluid m-2 fluids2">
       <div class="d-flex mt-2 mb-4  justify-content-between d-top-part ">
@@ -252,24 +254,24 @@
         </div>
         <p id="doc-name">Dr. Steven Strange</p>
         <li id="availability"><i class="fa fa-video m-1"></i> Available</li>
-        <div class="edit-numb">
-          <i class="pen-icon fa fa-pen"data-toggle="modal" data-target="#loginModal"></i>
+        <div class="edit-numb ml-auto text-right">
+          <i class=" pen-icon fa fa-pen" data-toggle="modal" data-target="#loginModal"></i>
           <!--code for modal for edit profile starts here-->
           <div class="modal" id="loginModal">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title">General Profile Edit</h5>
+                  <h5 class="text-left modal-title">General Profile Edit</h5>
                   <button class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body text-left">
                   <form>
                     <div class="form-group">
-                      <label for="username">Name</label>
+                      <label for=" username">Name</label>
                       <input type="text" class="form-control">
                     </div>
-                    <div class="form-group">
-                      <label for="contact-no">Contact Number</label>
+                    <div class="form-group mr-auto">
+                      <label for=" contact-no">Contact Number</label>
                       <input type="number" class="form-control">
                     </div>
                     <form>
@@ -302,11 +304,11 @@
       </div>
       <div class="about-practice-cont bg-white">
      <div class="row">
-       <div class="col-md-3">
+       <div class="col-md-4">
          <div class=" left-ali-practices">
-        <li class="prac">Practices
-          <i class="fa fa-plus"data-toggle="modal" data-target="#addprac"></i>
-          <!--modal starts here-->
+        <li class="prac d-flex justify-content-between align-items-center">Practices
+          <i class="mr-4 fa fa-plus"data-toggle="modal" data-target="#addprac"></i>
+          <!--modal for practices starts here-->
           <div class="pp-modal modal" id="addprac">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -314,11 +316,37 @@
                   <h5 class="modal-title">Practices</h5>
                   <button class="close" data-dismiss="modal">&times;</button>
                 </div>
-                <div class="modal-body">
-                  <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Description</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <div class="modal-body p-0 m-0">
+                  <div class="hospital">
+                    <h4 style="border-bottom:3px solid #6c757d" class=" p-3 h5">CBD Dental</h4>
+                    
+                      <div class="hosp-address pl-3 py-2">
+                          <p class="p-0 m-0">CBD Dental</p>
+                          <small class="text-muted p-0 m-0">Level 2, Some street, Suburb, Sydney</small>
+                      </div>
+
+                      <div class="hosp-address pl-3 py-2">
+                        <p class="p-0 m-0">CBD Dental</p>
+                        <small class="text-muted p-0 m-0">Level 2, Some other street, Suburb, Sydney</small>
                     </div>
+                    
+                  </div>
+                  <hr class="mb-0 pb-0">
+                  <div class="hospital">
+                    <h4 style="border-bottom:3px solid #6c757d" class=" p-3 h5">Smile Dental Care</h4>
+                    
+                      <div class="hosp-address pl-3 py-2">
+                          <p class="p-0 m-0">Smile Dental Care</p>
+                          <small class="text-muted p-0 m-0">Level 2, 74 Castlereagh Street,Sydney NSW 2000 Australia</small>
+                      </div>
+
+                      <div class="hosp-address pl-3 py-2">
+                        <p class="p-0 m-0">Smile Dental Care</p>
+                        <small class="text-muted p-0 m-0">Level 2, 74 other Street,Sydney NSW 2000 Australia</small>
+                    </div>
+                    
+                  </div>
+
                 </div>
                 <div class="modal-footer">
                   <button class="btn btn-primary" data-dismiss="modal">Update</button>
@@ -329,20 +357,20 @@
           <!--modal ends here-->
         </li>
         <div class="prac-sche">
-          <li class="p-s-1 "><a>CBD Dental, Sydney</a><i class="fa fa-pen p-icon"></i><i class="fa fa-trash-alt"></i></li>
+          <li class="p-s-1 d-flex justify-content-between align-items-center"><a>CBD Dental, Sydney</a><i class="ml-auto mr-2 fa fa-pen p-icon"></i><i class="fa fa-trash-alt mr-4"></i></li>
           <li class="location"><i class="fa fa-map-marker-alt"></i>Level 2, 74 Castlereagh Street,
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sydney NSW 2000 Australia</li>
           <li class="time"><i class="fa fa-clock"></i>10:00-13:00</li>
         </div>
         <div class="prac-sche">
-          <li class="p-s-1 "><a>Smile Dental Care</a><i class="p-icon-2 fa fa-pen"></i><i class="fa fa-trash-alt"></i></li>
+          <li class="p-s-1 d-flex justify-content-between align-items-center"><a>Smile Dental Care</a><i class="ml-auto mr-2 p-icon-2 fa fa-pen"></i><i class="mr-4 fa fa-trash-alt"></i></li>
           <li class="location"><i class="fa fa-map-marker-alt"></i>Level 2, 74 Castlereagh Street,
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sydney NSW 2000 Australia</li>
           <li class="time"><i class="fa fa-clock"></i>10:00-13:00</li>
         </div>
         <div class="insurance">
-          <li class="ins">Insurance
-            <i class="fa fa-plus"data-toggle="modal" data-target="#addins"></i>
+          <li class="ins d-flex justify-content-between align-items-center">Insurance
+            <i class="fa fa-plus mr-4"data-toggle="modal" data-target="#addins"></i>
             <!--modal starts here-->
             <div class="pp-modal modal" id="addins">
               <div class="modal-dialog">
@@ -351,11 +379,29 @@
                     <h5 class="modal-title">Insurance</h5>
                     <button class="close" data-dismiss="modal">&times;</button>
                   </div>
-                  <div class="modal-body">
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Description</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
+                  <div class="modal-body p-0">
+                    <div class="insurance-name">
+                      <h4 class="h4  pt-3 pl-3">Dental insurance</h4>
+                      <hr>
+                      <div class="form-check">
+                        
+                        <div class="inputG mb-2 pl-3 p">
+                        <input class="form-check-input" type="checkbox" value="" id="twhite">
+                        <label class="form-check-label font-weight-normal" for="twhite"> Teeth Whiting</label>
+                        </div>
+
+                        <div class="inputG mb-2 pl-3">
+                        <input class="form-check-input" type="checkbox" value="" id="tchange">
+                        <label class="form-check-label font-weight-normal" for="tchange"> Complete Teeth Change </label>
+                        </div>
+
+                        <div class="inputG mb-2 pl-3">
+                          <input class="form-check-input" type="checkbox" value="" id="t30">
+                          <label class="form-check-label font-weight-normal" for="t30"> 30% insurance coverage </label>
+                          </div>
+
+
+                    </div>
                   </div>
                   <div class="modal-footer">
                     <button class="btn btn-primary" data-dismiss="modal">Update</button>
@@ -365,12 +411,12 @@
             </div>
             <!--modal ends here-->
           </li>
-          <li class="p-s-2 "><a>Atena</a><i class="p-icon-3 fa fa-pen"></i><i class="fa fa-trash-alt"></i></li>
+          <li class="p-s-2 d-flex justify-content-between align-items-center"><a>Atena</a><i class="ml-auto mr-2 p-icon-3 fa fa-pen"></i><i class="mr-4 fa fa-trash-alt"></i></li>
           <p id="elect">Elect choice PMO</p>
         </div>
         <div class="leave">
-          <li class="lev">On Leave
-            <i class="pen-icon fa fa-plus"data-toggle="modal" data-target="#onleave"></i>
+          <li class="lev d-flex justify-content-between align-items-center">On Leave
+            <i class=" mr-4 pen-icon fa fa-plus"data-toggle="modal" data-target="#onleave"></i>
             <!--code for modal for edit profile starts here-->
             <div class="modal" id="onleave">
               <div class="modal-dialog">
@@ -401,14 +447,14 @@
               </div>
             </div>
           </li>
-          <li class="cal"><i class="fa fa-calendar-alt cale-icon"></i>10:00-13:00<i class="fa fa-trash trash-icon"></i></li>
+          <li class="cal d-flex justify-content-between align-items-center"><i class="fa fa-calendar-alt cale-icon"></i><p class="m-0 p-0 mr-auto">March 21, 2021</p><i class="mr-4 fa fa-trash trash-icon"></i></li>
         </div>
         </div>
        </div>
-       <div class="col-md-9">
+       <div class="col-md-8">
          <div class=" right-ali-about">
-        <div class=" d-flex justify-content-between about-icon">
-          <p>About</p>
+        <div class=" d-flex justify-content-between align-items-center about-icon">
+          <p class="m-0 p-0">About</p>
           <i class="fa fa-pen"data-toggle="modal" data-target="#description"></i>
           <!--description modal starts here-->
           <div class="pp-modal modal" id="description">
@@ -442,7 +488,7 @@
         </p>
         <div class="interests d-flex justify-content-between align-items-center">
           <p class="m-0 p-0">Interests</p>
-          <i class="fa fa-plus"data-toggle="modal" data-target="#addinterests"></i>
+          <i class=" fa fa-plus"data-toggle="modal" data-target="#addinterests"></i>
           <!--modal starts here-->
           <div class="pp-modal modal" id="addinterests">
             <div class="modal-dialog">
@@ -472,7 +518,7 @@
      
     </div>
   </div>
-    
+    <!--dashboard section ends here-->
   </div>
   
     <script
