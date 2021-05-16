@@ -1,0 +1,547 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+$colorb: #0069FF;
+$b2: #5299FF;
+$colorg: #fafafa;
+$colorbl: #101010;
+$colortxt: #a1a1a1;
+$fsize2: 0.875rem;
+$fsize3: 0.75rem;
+.main-con {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  background-color: #fafafa;
+  width: 100%;
+
+  .vertical-nav {
+    width: 202px;
+    // width: 14%;
+    height: 1029px;
+    background: transparent;
+    background-color: white;
+    border-right: 2px solid $colorg;
+
+    .logo {
+      img {
+        width: 117px;
+        height: 29px;
+        margin: 20px 63px 20px 22px;
+      }
+    }
+
+    .main-menu {
+      h1 {
+        font-weight: 600;
+        font-size: 14px;
+        margin: 0px 105px 10px 22px;
+        width: 75px;
+        height: 18px;
+      }
+
+      nav {
+        width: 202px;
+        height: 200px;
+
+        .hamburger-menu {
+          margin-right: 1rem;
+
+          .hamburger-wrapper {
+            visibility: hidden;
+            pointer-events: none;
+            width: 30px;
+            overflow: hidden;
+            cursor: pointer;
+            display: none;
+
+            .menu-1 {
+              height: 3.5px;
+              background-color: rgb(44, 44, 44);
+              margin: 3px 0rem;
+            }
+          }
+
+          .menu-container {
+            visibility: visible;
+            pointer-events: all;
+
+            li {
+              list-style: none;
+              height: 40px;
+              width: 182px;
+              margin-bottom: 10px;
+              padding-top: 10px;
+              padding-left: 22px;
+              border-radius: 0px 19px 19px 0px;
+              border: none;
+              
+              i{
+                width: 16px;
+              }
+              
+
+              a {
+                text-decoration: none;
+                color: black;
+                font-weight: 400;
+                margin-left: 17px;
+                font-size: 16px;
+              }
+            }
+
+            .active {
+              background-color:#0069FF;
+              color: white;
+              
+
+              a {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+
+      h2 {
+        margin-top: 65px;
+        margin-left: 22px;
+        font-weight: 600;
+        color:#414141;
+        font-size: 14px;
+      }
+
+      .single {
+        .new {
+          
+          padding-left: 22px;
+          list-style: none;
+
+          a {
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            font-size: 16px;
+            padding-left: 15px;
+          }
+        }
+      }
+
+      .appointment {
+        width: 160px;
+        height: 100px;
+        margin: 20.5px 20px 0px 22px;
+
+        h3 {
+          font-size: 12px;
+          color: #414141;
+          font-weight: 700;
+        }
+
+        #copy {
+          font-size: 12px;
+          font-weight: 400;
+          color: $colortxt;
+          margin-top: 4px;
+          margin-bottom: 14px;
+        }
+
+        #heart {
+          font-size: 12px;
+          font-weight: 400;
+          color: $colortxt;
+          i {
+            color: red;
+          }
+        }
+      }
+    }
+  }
+
+  .welcome-section {
+    height: 1024px;
+    width: 260px;
+    // width: 18%;
+    background: transparent;
+    background-color: white;
+    
+
+    #wel {
+      margin: 70px 165px 11px 20px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #a1a1a1;
+    }
+
+    h1 {
+      margin: 11px 40px 5px 20px;
+      font-size: 20px;
+      font-weight: 300;
+      width: 200px;
+      height: 24px;
+    }
+
+    h2 {
+      margin: 5px 112px 10px 20px;
+      color: #a1a1a1;
+      font-size: 12px;
+      font-weight: 400;
+      width: 128px;
+      height: 15px;
+    }
+
+    h3 {
+      margin: 10px 84.5px 31px 20.5px;
+      color: blue;
+      height: 15px;
+      width: 155px;
+      font-weight: 500;
+      font-size: 12px;
+
+      img {
+        height: 8px;
+        width: 7px;
+        color: #0069ff;
+        fill: none;
+        margin-right: 10.5px;
+      }
+    }
+
+    #daily {
+      margin: 31px 92px 9px 20px;
+      font-weight: 600;
+      font-size: 14px;
+      width: 148px;
+      height: 18px;
+    }
+
+    #insight {
+      width: 220px;
+      height: 28px;
+      font-weight: 400;
+      font-size: 12px;
+      font-family: "Roboto", sans-serif;
+      margin: 9px 20px 20px 20px;
+      color: #a1a1a1;
+    }
+
+    .bar-graph {
+      margin: 20px 23px 3px 20px;
+      width: 217px;
+      height: 75px;
+      display: flex;
+      justify-content: space-between;
+
+      .line {
+        width: 6px;
+        height: 55px;
+        background-color: #E9EBEF;
+        border: none;
+        border-radius: 3px;
+        position: relative;
+
+        p {
+          display: none;
+        }
+      }
+      .line1::after {
+        content: " ";
+        height: 30%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #29bf12;
+        border-radius: 3px;
+      }
+      .line2::after{
+        @extend .line1;
+        height: 100%;
+      }
+      .line3::after{
+        @extend .line1;
+        height: 10%;
+      }
+      .line4::after{
+        @extend .line1;
+        height: 20%;
+      }
+      .line5::after{
+        @extend .line1;
+        height: 50%;
+      }
+      .line6::after{
+        @extend .line1;
+        height: 35%;
+      }
+      .line7::after{
+        @extend .line1;
+        height: 21%;
+      }
+      .line8::after{
+        @extend .line1;
+        height: 62%;
+      }
+      .line9::after{
+        @extend .line1;
+        height: 55%;
+      }
+      .line10::after{
+        @extend .line1;
+        height: 40%;
+      }
+      .line11::after{
+        @extend .line1;
+        height: 52%;
+      }
+      .line12::after{
+        @extend .line1;
+        height: 49%;
+      }
+      .line13::after{
+        @extend .line1;
+        height: 28%;
+      }
+      .line14::after{
+        @extend .line1;
+        height: 24%;
+      }
+      .line15::after{
+        @extend .line1;
+        height: 85%;
+      }
+
+      .line:hover {
+        p {
+          content: " ";
+          position: absolute;
+          font-weight: 400;
+          font-size: 9px;
+          padding: 1px;
+          padding-left: 5px;
+          padding-top: 4px;
+          width: 63px;
+          height: 35px;
+          display: inline-block;
+          color: white;
+          background-color: #2C2C2C;
+          border-radius: 3px;
+          left: 10px;
+          z-index: 100000;
+        }
+        p:after{
+          content: "";
+          width: 0;
+          height: 0;
+          /* background: #000; */
+          position: absolute;
+          left: -4px;
+          /* z-index: 1000; */
+          border-top: 2px solid transparent;
+          border-right: 4px solid #000;
+          border-bottom: 2px solid transparent;
+          top: 50%;
+          /* bottom: 0; */
+          transform: translateY(-50%);
+          }
+      }
+    
+    }
+
+    .pie-div {
+      width: 259px;
+      height: 221px;
+      background-color: #f7fdf7;
+
+      #patient {
+        padding: 21px 177px 7px 19px;
+        font-weight: 600;
+        font-size: 14px;
+      }
+
+      #under-patient {
+        width: 213px;
+        height: 28px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #a1a1a1;
+        line-height: 14px;
+        margin: 7px 27px 27px 19px;
+      }
+
+      #ndt {
+        margin: 0px 38px 20px 19px;
+      }
+    }
+  }
+  
+  .fluids3 {
+    background-color: #FAFAFA;
+    .d-top-part {
+      #dash {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: $colorbl;
+      }
+      .icon-cont{
+        .dropdown2 {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content2 {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1000;
+          right: 0;
+          top:10;
+          a{
+            list-style: none;
+          }
+          
+        }
+        
+        .dropdown2:hover .dropdown-content2 {
+          display: block;
+        }
+      }
+    }
+    
+    .calendar-part{
+      .date-indicator{
+        .date-day{
+          background-color:  #E9EBEF;
+          width: 50px;
+          height: 50px;
+          border-radius: 10px;
+          .day{
+            font-size: 12px;
+            color: #A1A1A1;
+            font-weight: 600;
+          }
+          .date{
+            font-size: 18px;
+            color: #414141;
+            font-weight: 700;
+          }
+        }
+        .day-btn{
+          .month-year{
+            font-size: 16px;
+            font-weight: 700;
+            color: #101010;
+          }
+          button{
+            background-color:#0069FF ;
+            border-radius: 9PX;
+            border: none;
+            padding: 3px 10px;
+            width: 51px;
+            height: 18px;
+            font-size: 10px;
+            font-weight: 500;
+            color:  white;
+          }
+        }
+      }
+
+      .calendar{
+        .days{
+          border-bottom: 1px solid  #E9EBEF;
+          p{
+            width: 14.28%;
+            font-size: 14px;
+            font-weight: 400;
+            color:  #A1A1A1;
+            text-align: center;
+          }
+        }
+        .dates{
+          .rl{
+            p{
+              font-size: 16px;
+              color:  #414141;
+              font-weight: 400;
+              width: 30px;
+              height: 30px;
+              text-align: center;
+            }
+            .holiday{
+              color: #A1A1A1;
+            }
+            .active{
+             border-radius: 50%;
+             padding-top: 3px !important;
+              background-color:  #0069FF;
+              color: white;
+              
+            }
+          }
+        }
+      }
+    }
+    .appointment-part {
+      border-radius: 10px;
+      .header{
+        p{
+          font-size: 18px;
+          font-weight: 700;
+          color: #101010;
+        }
+        i{
+          font-size: 14px;
+          margin-right: 50px;
+          color: #A1A1A1;
+        }
+      }
+      .today{
+        font-size: 14px;
+        font-weight: 600;
+        color: #A1A1A1;
+        
+      }
+      .time-info{
+        .time-slot{
+          border-right: 4px solid  #0069FF;
+          border-radius: 2px;
+          width: 70px;
+          .t1{
+            font-size: 18px;
+            font-weight: 600;
+            color:#414141;
+          }
+          .t2{
+            font-size: 12px;
+            font-weight: 400;
+            color:#A1A1A1;
+          }
+        }
+        .name-details{
+          .name{
+            font-size: 16px;
+            font-weight: 600;
+            color: #414141;
+          }
+          .det{
+            font-size: 12px;
+            font-weight: 400;
+            color:#A1A1A1;
+          }
+        }
+        i{
+          color: #CCCCCC;
+        }
+        
+      }
+    }
+    
+  }
+}

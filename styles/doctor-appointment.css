@@ -1,0 +1,536 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.main-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  justify-items: center;
+  background-color: #fafafa;
+  width: 100%;
+}
+
+.main-con .vertical-nav {
+  width: 202px;
+  height: 1029px;
+  background: transparent;
+  background-color: white;
+  border-right: 2px solid #fafafa;
+}
+
+.main-con .vertical-nav .logo img {
+  width: 117px;
+  height: 29px;
+  margin: 20px 63px 20px 22px;
+}
+
+.main-con .vertical-nav .main-menu h1 {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0px 105px 10px 22px;
+  width: 75px;
+  height: 18px;
+}
+
+.main-con .vertical-nav .main-menu nav {
+  width: 202px;
+  height: 200px;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu {
+  margin-right: 1rem;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .hamburger-wrapper {
+  visibility: hidden;
+  pointer-events: none;
+  width: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  display: none;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .hamburger-wrapper .menu-1 {
+  height: 3.5px;
+  background-color: #2c2c2c;
+  margin: 3px 0rem;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container {
+  visibility: visible;
+  pointer-events: all;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li {
+  list-style: none;
+  height: 40px;
+  width: 182px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 22px;
+  border-radius: 0px 19px 19px 0px;
+  border: none;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li i {
+  width: 16px;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  margin-left: 17px;
+  font-size: 16px;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .active {
+  background-color: #0069FF;
+  color: white;
+}
+
+.main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container .active a {
+  color: white;
+}
+
+.main-con .vertical-nav .main-menu h2 {
+  margin-top: 65px;
+  margin-left: 22px;
+  font-weight: 600;
+  color: #414141;
+  font-size: 14px;
+}
+
+.main-con .vertical-nav .main-menu .single .new {
+  padding-left: 22px;
+  list-style: none;
+}
+
+.main-con .vertical-nav .main-menu .single .new a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
+.main-con .vertical-nav .main-menu .appointment {
+  width: 160px;
+  height: 100px;
+  margin: 20.5px 20px 0px 22px;
+}
+
+.main-con .vertical-nav .main-menu .appointment h3 {
+  font-size: 12px;
+  color: #414141;
+  font-weight: 700;
+}
+
+.main-con .vertical-nav .main-menu .appointment #copy {
+  font-size: 12px;
+  font-weight: 400;
+  color: #a1a1a1;
+  margin-top: 4px;
+  margin-bottom: 14px;
+}
+
+.main-con .vertical-nav .main-menu .appointment #heart {
+  font-size: 12px;
+  font-weight: 400;
+  color: #a1a1a1;
+}
+
+.main-con .vertical-nav .main-menu .appointment #heart i {
+  color: red;
+}
+
+.main-con .welcome-section {
+  height: 1024px;
+  width: 260px;
+  background: transparent;
+  background-color: white;
+}
+
+.main-con .welcome-section #wel {
+  margin: 70px 165px 11px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #a1a1a1;
+}
+
+.main-con .welcome-section h1 {
+  margin: 11px 40px 5px 20px;
+  font-size: 20px;
+  font-weight: 300;
+  width: 200px;
+  height: 24px;
+}
+
+.main-con .welcome-section h2 {
+  margin: 5px 112px 10px 20px;
+  color: #a1a1a1;
+  font-size: 12px;
+  font-weight: 400;
+  width: 128px;
+  height: 15px;
+}
+
+.main-con .welcome-section h3 {
+  margin: 10px 84.5px 31px 20.5px;
+  color: blue;
+  height: 15px;
+  width: 155px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.main-con .welcome-section h3 img {
+  height: 8px;
+  width: 7px;
+  color: #0069ff;
+  fill: none;
+  margin-right: 10.5px;
+}
+
+.main-con .welcome-section #daily {
+  margin: 31px 92px 9px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 148px;
+  height: 18px;
+}
+
+.main-con .welcome-section #insight {
+  width: 220px;
+  height: 28px;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  margin: 9px 20px 20px 20px;
+  color: #a1a1a1;
+}
+
+.main-con .welcome-section .bar-graph {
+  margin: 20px 23px 3px 20px;
+  width: 217px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-con .welcome-section .bar-graph .line {
+  width: 6px;
+  height: 55px;
+  background-color: #E9EBEF;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+}
+
+.main-con .welcome-section .bar-graph .line p {
+  display: none;
+}
+
+.main-con .welcome-section .bar-graph .line1::after, .main-con .welcome-section .bar-graph .line2::after, .main-con .welcome-section .bar-graph .line3::after, .main-con .welcome-section .bar-graph .line4::after, .main-con .welcome-section .bar-graph .line5::after, .main-con .welcome-section .bar-graph .line6::after, .main-con .welcome-section .bar-graph .line7::after, .main-con .welcome-section .bar-graph .line8::after, .main-con .welcome-section .bar-graph .line9::after, .main-con .welcome-section .bar-graph .line10::after, .main-con .welcome-section .bar-graph .line11::after, .main-con .welcome-section .bar-graph .line12::after, .main-con .welcome-section .bar-graph .line13::after, .main-con .welcome-section .bar-graph .line14::after, .main-con .welcome-section .bar-graph .line15::after {
+  content: " ";
+  height: 30%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #29bf12;
+  border-radius: 3px;
+}
+
+.main-con .welcome-section .bar-graph .line2::after {
+  height: 100%;
+}
+
+.main-con .welcome-section .bar-graph .line3::after {
+  height: 10%;
+}
+
+.main-con .welcome-section .bar-graph .line4::after {
+  height: 20%;
+}
+
+.main-con .welcome-section .bar-graph .line5::after {
+  height: 50%;
+}
+
+.main-con .welcome-section .bar-graph .line6::after {
+  height: 35%;
+}
+
+.main-con .welcome-section .bar-graph .line7::after {
+  height: 21%;
+}
+
+.main-con .welcome-section .bar-graph .line8::after {
+  height: 62%;
+}
+
+.main-con .welcome-section .bar-graph .line9::after {
+  height: 55%;
+}
+
+.main-con .welcome-section .bar-graph .line10::after {
+  height: 40%;
+}
+
+.main-con .welcome-section .bar-graph .line11::after {
+  height: 52%;
+}
+
+.main-con .welcome-section .bar-graph .line12::after {
+  height: 49%;
+}
+
+.main-con .welcome-section .bar-graph .line13::after {
+  height: 28%;
+}
+
+.main-con .welcome-section .bar-graph .line14::after {
+  height: 24%;
+}
+
+.main-con .welcome-section .bar-graph .line15::after {
+  height: 85%;
+}
+
+.main-con .welcome-section .bar-graph .line:hover p {
+  content: " ";
+  position: absolute;
+  font-weight: 400;
+  font-size: 9px;
+  padding: 1px;
+  padding-left: 5px;
+  padding-top: 4px;
+  width: 63px;
+  height: 35px;
+  display: inline-block;
+  color: white;
+  background-color: #2C2C2C;
+  border-radius: 3px;
+  left: 10px;
+  z-index: 100000;
+}
+
+.main-con .welcome-section .bar-graph .line:hover p:after {
+  content: "";
+  width: 0;
+  height: 0;
+  /* background: #000; */
+  position: absolute;
+  left: -4px;
+  /* z-index: 1000; */
+  border-top: 2px solid transparent;
+  border-right: 4px solid #000;
+  border-bottom: 2px solid transparent;
+  top: 50%;
+  /* bottom: 0; */
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.main-con .welcome-section .pie-div {
+  width: 259px;
+  height: 221px;
+  background-color: #f7fdf7;
+}
+
+.main-con .welcome-section .pie-div #patient {
+  padding: 21px 177px 7px 19px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.main-con .welcome-section .pie-div #under-patient {
+  width: 213px;
+  height: 28px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #a1a1a1;
+  line-height: 14px;
+  margin: 7px 27px 27px 19px;
+}
+
+.main-con .welcome-section .pie-div #ndt {
+  margin: 0px 38px 20px 19px;
+}
+
+.main-con .fluids3 {
+  background-color: #FAFAFA;
+}
+
+.main-con .fluids3 .d-top-part #dash {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #101010;
+}
+
+.main-con .fluids3 .d-top-part .icon-cont .dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.main-con .fluids3 .d-top-part .icon-cont .dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1000;
+  right: 0;
+  top: 10;
+}
+
+.main-con .fluids3 .d-top-part .icon-cont .dropdown-content2 a {
+  list-style: none;
+}
+
+.main-con .fluids3 .d-top-part .icon-cont .dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.main-con .fluids3 .calendar-part .date-indicator .date-day {
+  background-color: #E9EBEF;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.main-con .fluids3 .calendar-part .date-indicator .date-day .day {
+  font-size: 12px;
+  color: #A1A1A1;
+  font-weight: 600;
+}
+
+.main-con .fluids3 .calendar-part .date-indicator .date-day .date {
+  font-size: 18px;
+  color: #414141;
+  font-weight: 700;
+}
+
+.main-con .fluids3 .calendar-part .date-indicator .day-btn .month-year {
+  font-size: 16px;
+  font-weight: 700;
+  color: #101010;
+}
+
+.main-con .fluids3 .calendar-part .date-indicator .day-btn button {
+  background-color: #0069FF;
+  border-radius: 9PX;
+  border: none;
+  padding: 3px 10px;
+  width: 51px;
+  height: 18px;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+.main-con .fluids3 .calendar-part .calendar .days {
+  border-bottom: 1px solid  #E9EBEF;
+}
+
+.main-con .fluids3 .calendar-part .calendar .days p {
+  width: 14.28%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+  text-align: center;
+}
+
+.main-con .fluids3 .calendar-part .calendar .dates .rl p {
+  font-size: 16px;
+  color: #414141;
+  font-weight: 400;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.main-con .fluids3 .calendar-part .calendar .dates .rl .holiday {
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .calendar-part .calendar .dates .rl .active {
+  border-radius: 50%;
+  padding-top: 3px !important;
+  background-color: #0069FF;
+  color: white;
+}
+
+.main-con .fluids3 .appointment-part {
+  border-radius: 10px;
+}
+
+.main-con .fluids3 .appointment-part .header p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #101010;
+}
+
+.main-con .fluids3 .appointment-part .header i {
+  font-size: 14px;
+  margin-right: 50px;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .today {
+  font-size: 14px;
+  font-weight: 600;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .time-info .time-slot {
+  border-right: 4px solid  #0069FF;
+  border-radius: 2px;
+  width: 70px;
+}
+
+.main-con .fluids3 .appointment-part .time-info .time-slot .t1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #414141;
+}
+
+.main-con .fluids3 .appointment-part .time-info .time-slot .t2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .time-info .name-details .name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #414141;
+}
+
+.main-con .fluids3 .appointment-part .time-info .name-details .det {
+  font-size: 12px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .time-info i {
+  color: #CCCCCC;
+}
+/*# sourceMappingURL=doctor-appointment.css.map */
