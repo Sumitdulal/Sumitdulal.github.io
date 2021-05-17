@@ -358,15 +358,15 @@
                   </div>
 
                   <form class="d-flex justify-content-between align-items-center">
-                    <div class="form-group d-flex align-items-center">
+                    <div  class="form-group d-flex align-items-center">
                       <label class="m-0 p-0 mr-2" for="myTime">From: </label>
-                      <input class="mr-2"  type="time"  name="myTime"  id="myTime" class="form-control">
-                     
+                      <input type="number" min="0" max="23" id="myTime" placeholder="13">:
+                      <input type="number" min="0" max="59" placeholder="00">
                     </div>
-                    <div class="form-group d-flex align-items-center">
+                    <div  class="form-group d-flex align-items-center">
                       <label class="m-0 p-0 mr-2" for="myTime">To: </label>
-                      <input class="mr-2"  type="time" value="16:32:55" name="myTime"  id="myTime" class="form-control">
-                      
+                      <input type="number" min="0" max="23" id="myTime" placeholder="17">:
+                      <input type="number" min="0" max="59" placeholder="00">
                     </div>
                     <i class="m-0 p-0 pb-2 text-danger my-auto fa fa-times"></i>
                   </form>
@@ -561,6 +561,17 @@
   </div>
     <!--dashboard section ends here-->
   </div>
+  <script>
+    document.querySelectorAll('input[type=number]')
+  .forEach(e => e.oninput = () => {
+    // Always 2 digits
+    if (e.value.length >= 2) e.value = e.value.slice(0, 2);
+    // 0 on the left (doesn't work on FF)
+    if (e.value.length === 1) e.value = '0' + e.value;
+    // Avoiding letters on FF
+    if (!e.value) e.value = '00';
+  });
+  </script>
   
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
