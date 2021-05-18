@@ -524,9 +524,9 @@ $fsize3: 0.75rem;
       }
       .time-info{
         .time-slot{
-          border-right: 3px solid  #0069FF;
-          border-radius: 1.5px;
+          // border-right: 3px solid  #0069FF;
           width: 70px;
+          position: relative;
           .t1{
             font-size: 18px;
             font-weight: 600;
@@ -537,6 +537,17 @@ $fsize3: 0.75rem;
             font-weight: 400;
             color:#A1A1A1;
           }
+        }
+        .time-slot::after{
+          content: " ";
+          width: 3px;
+          height: 100%;
+          position: absolute;
+          background-color: #0069FF;
+          border-radius: 1.5px;
+          bottom: 0;
+          right: -5%;
+        
         }
         .name-details{
           .name{

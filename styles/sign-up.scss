@@ -22,10 +22,48 @@
     
     width: 100%;
   .form-part {
-    margin-top: 9.375vw;//144
+    // margin-top: 144px;//144 9.375vw
     margin-left: 8vw;//123
-    // margin-right: 122px;
-    // width: 50%;
+    .icon-message{
+      height: 60px;
+      margin-top: 60px;
+      margin-bottom: 24px;
+      .im{
+      display: none;
+      }
+    }
+    .show{
+      .im{
+      display: flex;
+      width: 31vw;
+      border-radius: 0.313rem;
+      border: 0.063rem solid #F43460;
+      border-left: 0.40rem solid #F43460;
+      background-color: white;
+      i{
+          font-size: 30px;
+          margin: 15px 10px 15px 25px;
+          color: #F43460;
+          justify-content: center;
+      }
+      .erp{
+          margin-top: 10px;
+          padding: 0;
+          height: 55px;
+          h4{
+            font-size: 16px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+          }
+          p{
+              color:  #A1A1A1;
+              font-size: 13px;
+              font-weight: 400;
+          }
+      }
+    }
+    }
     h1 {
       margin-bottom: 20px;
       font-size: 40px;
@@ -42,6 +80,8 @@
     }
 
     form {
+      
+      .inputs{
       label{
         color: #414141;
         font-size: 16px;
@@ -60,16 +100,67 @@
       ::placeholder{
         color: #ccc;
       }
-      
+      input:focus{
+        outline: none;
+        border-color: #3056F5;
+      }
+      i{
+        display: none;
+      }
+      small{
+        display: none;
+      }
+    }
+    .show-bg-icon{
+      position: relative;
+      input{
+        border: 1px solid  #F43460;
+      background: rgba(244, 52, 96, 0.03);
+      margin-bottom: 0px;
+      }
+      input:focus{
+  
+          outline: none;
+          border-color: #F43460;
+        
+       
+      }
+      i{
+        display: block;
+        position: absolute;
+        right:23%;
+        top: 60%;
+        transform: translateY(-50%);
+        color: #F43460;
+        min-width: 50px;
+        text-align: center;
+        cursor: pointer;
+      }
+      small{
+        display: block;
+        height: 16px;
+        margin-bottom: 14px !important;
+        color: #F43460;
+        font-size: 12px;
+      }
+    }
       .input-icons {
         position: relative;
         .pass {
           width: 31vw;
           height: 52px;
+          margin-top: 10px;
           padding: 5px;
           border: 1px solid #E9EBEF;
           margin-bottom: 30px;
           border-radius: 4px;
+        }
+        ::placeholder{
+          color: #ccc;
+        }
+        .pass:focus{
+          outline: none;
+          border-color: #3056F5;
         }
         #togglePassword {
             position: absolute;
@@ -289,15 +380,27 @@
     .ourform101{
       margin-top: 2rem;
       width: 100% !important;
+      
     .form-part {
       margin-left: 10px;
       margin-top: 50px;
       margin-right: 10px;
-
+      .show{
+        .im{
+          width: 100%;
+        }
+      }
       form {
+        .inputs{
         input {
           width: 100%;
         }
+      }
+      .show-bg-icon{
+        i{
+          right: 0%;
+        }
+      }
         .input-icons {
           
           .pass {

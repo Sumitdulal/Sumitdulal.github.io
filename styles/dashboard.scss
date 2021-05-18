@@ -88,7 +88,7 @@ $fsize3: 0.75rem;
 
               a {
                 text-decoration: none;
-                color: black;
+                color: #414141;
                 font-weight: 400;
                 margin-left: 17px;
                 font-size: 16px;
@@ -124,7 +124,7 @@ $fsize3: 0.75rem;
 
           a {
             text-decoration: none;
-            color: black;
+            color: #414141;
             font-weight: 400;
             font-size: 16px;
             padding-left: 15px;
@@ -156,7 +156,7 @@ $fsize3: 0.75rem;
           font-weight: 400;
           color: $colortxt;
           i {
-            color: red;
+            color:  #F43460;
           }
         }
       }
@@ -169,7 +169,7 @@ $fsize3: 0.75rem;
     // width: 18%;
     background: transparent;
     background-color: white;
-    z-index: 20000;
+    
 
     #wel {
       margin: 70px 165px 11px 20px;
@@ -184,6 +184,7 @@ $fsize3: 0.75rem;
       font-weight: 300;
       width: 200px;
       height: 24px;
+      color:  #414141;
     }
 
     h2 {
@@ -197,13 +198,13 @@ $fsize3: 0.75rem;
 
     h3 {
       margin: 10px 84.5px 31px 20.5px;
-      color: blue;
+      color:  #0069FF;
       height: 15px;
       width: 155px;
       font-weight: 500;
       font-size: 12px;
 
-      img {
+      i {
         height: 8px;
         width: 7px;
         color: #0069ff;
@@ -215,6 +216,7 @@ $fsize3: 0.75rem;
     #daily {
       margin: 31px 92px 9px 20px;
       font-weight: 600;
+      color:  #101010;
       font-size: 14px;
       width: 148px;
       height: 18px;
@@ -362,6 +364,7 @@ $fsize3: 0.75rem;
         padding: 21px 177px 7px 19px;
         font-weight: 600;
         font-size: 14px;
+        color: #101010;
       }
 
       #under-patient {

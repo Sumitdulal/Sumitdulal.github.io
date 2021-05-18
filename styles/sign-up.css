@@ -17,8 +17,56 @@
 }
 
 .mid-part2 .ourform101 .form-part {
-  margin-top: 9.375vw;
   margin-left: 8vw;
+}
+
+.mid-part2 .ourform101 .form-part .icon-message {
+  height: 60px;
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.mid-part2 .ourform101 .form-part .icon-message .im {
+  display: none;
+}
+
+.mid-part2 .ourform101 .form-part .show .im {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 31vw;
+  border-radius: 0.313rem;
+  border: 0.063rem solid #F43460;
+  border-left: 0.40rem solid #F43460;
+  background-color: white;
+}
+
+.mid-part2 .ourform101 .form-part .show .im i {
+  font-size: 30px;
+  margin: 15px 10px 15px 25px;
+  color: #F43460;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid-part2 .ourform101 .form-part .show .im .erp {
+  margin-top: 10px;
+  padding: 0;
+  height: 55px;
+}
+
+.mid-part2 .ourform101 .form-part .show .im .erp h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.mid-part2 .ourform101 .form-part .show .im .erp p {
+  color: #A1A1A1;
+  font-size: 13px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part h1 {
@@ -36,13 +84,13 @@
   width: 100%;
 }
 
-.mid-part2 .ourform101 .form-part form label {
+.mid-part2 .ourform101 .form-part form .inputs label {
   color: #414141;
   font-size: 16px;
   font-weight: 400;
 }
 
-.mid-part2 .ourform101 .form-part form input {
+.mid-part2 .ourform101 .form-part form .inputs input {
   margin-top: 10px;
   height: 52px;
   width: 31vw;
@@ -52,20 +100,69 @@
   border-radius: 4px;
 }
 
-.mid-part2 .ourform101 .form-part form ::-webkit-input-placeholder {
+.mid-part2 .ourform101 .form-part form .inputs ::-webkit-input-placeholder {
   color: #ccc;
 }
 
-.mid-part2 .ourform101 .form-part form :-ms-input-placeholder {
+.mid-part2 .ourform101 .form-part form .inputs :-ms-input-placeholder {
   color: #ccc;
 }
 
-.mid-part2 .ourform101 .form-part form ::-ms-input-placeholder {
+.mid-part2 .ourform101 .form-part form .inputs ::-ms-input-placeholder {
   color: #ccc;
 }
 
-.mid-part2 .ourform101 .form-part form ::placeholder {
+.mid-part2 .ourform101 .form-part form .inputs ::placeholder {
   color: #ccc;
+}
+
+.mid-part2 .ourform101 .form-part form .inputs input:focus {
+  outline: none;
+  border-color: #3056F5;
+}
+
+.mid-part2 .ourform101 .form-part form .inputs i {
+  display: none;
+}
+
+.mid-part2 .ourform101 .form-part form .inputs small {
+  display: none;
+}
+
+.mid-part2 .ourform101 .form-part form .show-bg-icon {
+  position: relative;
+}
+
+.mid-part2 .ourform101 .form-part form .show-bg-icon input {
+  border: 1px solid  #F43460;
+  background: rgba(244, 52, 96, 0.03);
+  margin-bottom: 0px;
+}
+
+.mid-part2 .ourform101 .form-part form .show-bg-icon input:focus {
+  outline: none;
+  border-color: #F43460;
+}
+
+.mid-part2 .ourform101 .form-part form .show-bg-icon i {
+  display: block;
+  position: absolute;
+  right: 23%;
+  top: 60%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #F43460;
+  min-width: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mid-part2 .ourform101 .form-part form .show-bg-icon small {
+  display: block;
+  height: 16px;
+  margin-bottom: 14px !important;
+  color: #F43460;
+  font-size: 12px;
 }
 
 .mid-part2 .ourform101 .form-part form .input-icons {
@@ -75,10 +172,32 @@
 .mid-part2 .ourform101 .form-part form .input-icons .pass {
   width: 31vw;
   height: 52px;
+  margin-top: 10px;
   padding: 5px;
   border: 1px solid #E9EBEF;
   margin-bottom: 30px;
   border-radius: 4px;
+}
+
+.mid-part2 .ourform101 .form-part form .input-icons ::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.mid-part2 .ourform101 .form-part form .input-icons :-ms-input-placeholder {
+  color: #ccc;
+}
+
+.mid-part2 .ourform101 .form-part form .input-icons ::-ms-input-placeholder {
+  color: #ccc;
+}
+
+.mid-part2 .ourform101 .form-part form .input-icons ::placeholder {
+  color: #ccc;
+}
+
+.mid-part2 .ourform101 .form-part form .input-icons .pass:focus {
+  outline: none;
+  border-color: #3056F5;
 }
 
 .mid-part2 .ourform101 .form-part form .input-icons #togglePassword {
@@ -219,8 +338,14 @@
     margin-top: 50px;
     margin-right: 10px;
   }
-  .mid-part2 .ourform101 .form-part form input {
+  .mid-part2 .ourform101 .form-part .show .im {
     width: 100%;
+  }
+  .mid-part2 .ourform101 .form-part form .inputs input {
+    width: 100%;
+  }
+  .mid-part2 .ourform101 .form-part form .show-bg-icon i {
+    right: 0%;
   }
   .mid-part2 .ourform101 .form-part form .input-icons .pass {
     width: 100%;

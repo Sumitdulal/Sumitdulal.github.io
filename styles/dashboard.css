@@ -88,7 +88,7 @@
 
 .main-con .vertical-nav .main-menu nav .hamburger-menu .menu-container li a {
   text-decoration: none;
-  color: black;
+  color: #414141;
   font-weight: 400;
   margin-left: 17px;
   font-size: 16px;
@@ -118,7 +118,7 @@
 
 .main-con .vertical-nav .main-menu .single .new a {
   text-decoration: none;
-  color: black;
+  color: #414141;
   font-weight: 400;
   font-size: 16px;
   padding-left: 15px;
@@ -151,7 +151,7 @@
 }
 
 .main-con .vertical-nav .main-menu .appointment #heart i {
-  color: red;
+  color: #F43460;
 }
 
 .main-con .welcome-section {
@@ -159,7 +159,6 @@
   width: 260px;
   background: transparent;
   background-color: white;
-  z-index: 20000;
 }
 
 .main-con .welcome-section #wel {
@@ -175,6 +174,7 @@
   font-weight: 300;
   width: 200px;
   height: 24px;
+  color: #414141;
 }
 
 .main-con .welcome-section h2 {
@@ -188,14 +188,14 @@
 
 .main-con .welcome-section h3 {
   margin: 10px 84.5px 31px 20.5px;
-  color: blue;
+  color: #0069FF;
   height: 15px;
   width: 155px;
   font-weight: 500;
   font-size: 12px;
 }
 
-.main-con .welcome-section h3 img {
+.main-con .welcome-section h3 i {
   height: 8px;
   width: 7px;
   color: #0069ff;
@@ -206,6 +206,7 @@
 .main-con .welcome-section #daily {
   margin: 31px 92px 9px 20px;
   font-weight: 600;
+  color: #101010;
   font-size: 14px;
   width: 148px;
   height: 18px;
@@ -358,6 +359,7 @@
   padding: 21px 177px 7px 19px;
   font-weight: 600;
   font-size: 14px;
+  color: #101010;
 }
 
 .main-con .welcome-section .pie-div #under-patient {
