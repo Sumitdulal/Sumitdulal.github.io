@@ -90,7 +90,9 @@ body {
 
 .top-nav nav ul li a {
   text-decoration: none;
-  color: black;
+  color: #414141;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .top-nav nav ul li:last-child {
@@ -98,7 +100,7 @@ body {
 }
 
 .top-nav nav ul .bar {
-  border-right: 1px solid black;
+  border-right: 1px solid #414141;
   height: 21px;
   margin-right: 20px;
 }
@@ -111,7 +113,7 @@ body {
 
 .top-nav nav .dropbtn {
   background-color: #3056F5;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 20px;
   padding: 5px;
@@ -137,7 +139,7 @@ body {
 }
 
 .top-nav nav .dropdown-content a {
-  color: black;
+  color: #414141;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -257,7 +259,7 @@ body {
 
 .forg-box form .input-icons6 {
   margin-bottom: 30px;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .forg-box form .input-icons6 i {
@@ -266,7 +268,8 @@ body {
 
 .forg-box form .input-icons6 .icon {
   padding: 18px;
-  color: black;
+  color: #101010;
+  font-size: 16px;
   min-width: 50px;
   text-align: center;
 }
@@ -279,7 +282,31 @@ body {
   border: none;
   border-radius: 4px;
   padding-bottom: 22px;
-  background-color: white;
+  background-color: #ffffff;
+}
+
+.forg-box form .input-icons6 ::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #CCCCCC;
+  font-weight: 400;
+}
+
+.forg-box form .input-icons6 :-ms-input-placeholder {
+  font-size: 16px;
+  color: #CCCCCC;
+  font-weight: 400;
+}
+
+.forg-box form .input-icons6 ::-ms-input-placeholder {
+  font-size: 16px;
+  color: #CCCCCC;
+  font-weight: 400;
+}
+
+.forg-box form .input-icons6 ::placeholder {
+  font-size: 16px;
+  color: #CCCCCC;
+  font-weight: 400;
 }
 
 .send-r-link button {
@@ -287,7 +314,8 @@ body {
   height: 48px;
   border-radius: 4px;
   background-color: #3056f5;
-  color: white;
+  color: #ffffff;
+  font-size: 16px;
   border: none;
   cursor: pointer;
 }
@@ -298,6 +326,9 @@ body {
   }
   .forg-box form .input-icons6 .input-field6 {
     width: 80%;
+  }
+  .forg-box .send-r-link button {
+    width: 100%;
   }
 }
 

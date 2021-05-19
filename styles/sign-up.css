@@ -98,22 +98,31 @@
   margin-bottom: 30px;
   padding: 5px;
   border-radius: 4px;
+  background-color: #ffffff;
 }
 
 .mid-part2 .ourform101 .form-part form .inputs ::-webkit-input-placeholder {
   color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part form .inputs :-ms-input-placeholder {
   color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part form .inputs ::-ms-input-placeholder {
   color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part form .inputs ::placeholder {
   color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part form .inputs input:focus {
@@ -181,18 +190,26 @@
 
 .mid-part2 .ourform101 .form-part form .input-icons ::-webkit-input-placeholder {
   color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part form .input-icons :-ms-input-placeholder {
   color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part form .input-icons ::-ms-input-placeholder {
   color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part form .input-icons ::placeholder {
   color: #ccc;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .mid-part2 .ourform101 .form-part form .input-icons .pass:focus {
@@ -206,7 +223,8 @@
   top: 54%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: black;
+  color: #414141;
+  font-size: 16px;
   min-width: 50px;
   text-align: center;
   cursor: pointer;
@@ -242,8 +260,7 @@
   position: relative;
   height: auto;
   width: 100%;
-  background-image: -webkit-gradient(linear, right bottom, left top, from(purple), to(#5556F8));
-  background-image: linear-gradient(to top left, purple, #5556F8);
+  background-image: linear-gradient(135deg, #8048FF 0%, #3056F5 100%);
 }
 
 .mid-part2 .slider-part .bo1 {
@@ -290,14 +307,20 @@
 }
 
 .mid-part2 .slider-part h3 {
-  color: white;
+  color: #ffffff;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 19px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .mid-part2 .slider-part p {
-  color: white;
+  color: #F9FAFC;
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.9;
+  font-weight: 400;
   text-align: center;
 }
 

@@ -159,6 +159,7 @@
   width: 260px;
   background: transparent;
   background-color: white;
+  z-index: 10000;
 }
 
 .main-con .welcome-section #wel {
@@ -382,9 +383,12 @@
   color: #101010;
 }
 
+.main-con .fluids .d-top-part .icon-cont .icon-notification {
+  position: relative;
+}
+
 .main-con .fluids .d-top-part .icon-cont .icon-notification .fa-bell {
   color: #A1A1A1;
-  position: relative;
 }
 
 .main-con .fluids .d-top-part .icon-cont .icon-notification .circle {
@@ -402,6 +406,9 @@
 .main-con .fluids .d-top-part .icon-cont .dropdown2 {
   position: relative;
   display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414141;
 }
 
 .main-con .fluids .d-top-part .icon-cont .dropdown-content2 {
@@ -495,6 +502,7 @@
 
 .main-con .fluids .main-box .right-items .dashboard .ntds-line p {
   text-align: center;
+  color: #101010;
   margin-top: 200px;
   font-weight: 500;
 }
@@ -505,30 +513,40 @@
   color: #101010;
 }
 
+.main-con .fluids .main-box .right-items .calendar-part .appo-jun .icon-month i {
+  font-size: 12px;
+  color: #414141;
+  padding-top: 2px;
+}
+
 .main-con .fluids .main-box .right-items .calendar-part .appo-jun .icon-month h6 {
   font-size: 14px;
   font-weight: 400;
-  color: #101010;
+  color: #414141;
 }
 
 .main-con .fluids .main-box .right-items .calendar-part .date-day-cont .date-day h6 {
   font-size: 0.625rem;
   color: #a1a1a1;
+  font-weight: 400;
 }
 
 .main-con .fluids .main-box .right-items .calendar-part .date-day-cont .date-day h4 {
   font-size: 1.25rem;
   font-weight: 600;
+  color: #414141;
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .date-day-cont .mon {
+.main-con .fluids .main-box .right-items .calendar-part .date-day-cont .active {
   background-color: #0069FF;
-  color: white;
+  color: #ffffff;
   border-radius: 0.625rem;
+  -webkit-box-shadow: 0px 0px 7px 0px RGBA(0, 0, 0, 0.16);
+          box-shadow: 0px 0px 7px 0px RGBA(0, 0, 0, 0.16);
 }
 
-.main-con .fluids .main-box .right-items .calendar-part .date-day-cont .mon h6 {
-  color: white;
+.main-con .fluids .main-box .right-items .calendar-part .date-day-cont .active h6, .main-con .fluids .main-box .right-items .calendar-part .date-day-cont .active h4 {
+  color: #ffffff;
 }
 
 .main-con .fluids .main-box .right-items .calendar-part .schedules {
@@ -582,7 +600,7 @@
   border: none;
   border-radius: 5px;
   padding: 7px 106px 7px 10px;
-  color: white;
+  color: #ffffff;
   background-color: #5299FF;
   margin-bottom: 2px;
 }
@@ -608,7 +626,7 @@
   font-size: 10px;
   font-weight: 600;
   padding: 7px 10px 7px 10px;
-  color: white;
+  color: #ffffff;
 }
 
 .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-3, .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 {
@@ -625,7 +643,7 @@
   border: none;
   border-radius: 5px;
   padding: 7px 106px 7px 10px;
-  color: white;
+  color: #ffffff;
   background-color: #5299FF;
   margin-bottom: 1px;
 }
@@ -642,7 +660,7 @@
 }
 
 .main-con .fluids .main-box .right-items .calendar-part .schedules .schedule-cont .type-4 p {
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 0;
 }
 /*# sourceMappingURL=dashboard.css.map */

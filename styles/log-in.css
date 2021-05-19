@@ -90,8 +90,10 @@ body {
 }
 
 .top-nav nav ul li a {
+  font-size: 16px;
+  font-weight: 400;
   text-decoration: none;
-  color: black;
+  color: #414141;
 }
 
 .top-nav nav ul li:last-child {
@@ -99,7 +101,7 @@ body {
 }
 
 .top-nav nav ul .bar {
-  border-right: 1px solid black;
+  border-right: 1px solid #414141;
   height: 21px;
   margin-right: 20px;
 }
@@ -112,7 +114,7 @@ body {
 
 .top-nav nav .dropbtn {
   background-color: #3056F5;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 20px;
   padding: 5px;
@@ -251,14 +253,14 @@ body {
 .login-box p {
   text-align: center;
   font-size: 16px;
-  font-style: regular(400);
+  font-weight: 400;
   color: #414141;
   margin-bottom: 48px;
 }
 
 .login-box form .input-icons {
   margin-bottom: 30px;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 .login-box form .input-icons i {
@@ -267,7 +269,8 @@ body {
 
 .login-box form .input-icons .icon {
   padding: 18px;
-  color: black;
+  color: #101010;
+  font-size: 16px;
   min-width: 50px;
   text-align: center;
 }
@@ -283,18 +286,47 @@ body {
   background-color: white;
 }
 
+.login-box form .input-icons ::-webkit-input-placeholder {
+  color: #CCCCCC;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login-box form .input-icons :-ms-input-placeholder {
+  color: #CCCCCC;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login-box form .input-icons ::-ms-input-placeholder {
+  color: #CCCCCC;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login-box form .input-icons ::placeholder {
+  color: #CCCCCC;
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .tlast {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .tlast a {
-  color: red;
+  color: #F43460;
   text-decoration: underline;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .tlast button {
@@ -302,10 +334,9 @@ body {
   height: 48px;
   border-radius: 4px;
   background-color: #3056f5;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 4;
-  margin-left: 108px;
 }
 
 @media screen and (max-width: 900px) {

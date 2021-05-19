@@ -16,6 +16,7 @@
           href= 
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="styles/dashboard.css" type="text/css" />
+    <link rel="stylesheet" href="styles/dashboard-doctor-no-data.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
@@ -141,17 +142,26 @@
       </div>
     
     <div class="container-fluid m-2 fluids">
-      <div class="d-flex mt-2  justify-content-between d-top-part ">
+      <div class="d-flex mt-2 mb-4  justify-content-between d-top-part ">
         <h3 id="dash">Dashboard</h3>
         <div class="icon-cont">
-          <i class="far fa-bell mr-2"></i>
+          <div class="d-inline icon-notification mr-2">
+          <i class="far fa-bell "></i>
+          <div class="m-0 p-0 circle mr-0 pr-0"></div>
+        </div>
           <img class="mr-2" src="images/Rectangle.png" />
-          <i class="fa fa-angle-down"></i>
+         
+          <div class="dropdown2">
+            <span><i class="fa fa-angle-down"></i></span>
+            <div class="dropdown-content2">
+            <a href="#">Log out</a>
+            </div>
+          </div>
         </div>
       </div>
-      
-        <img src="images/Not Enough Data.svg" class="img-fluid nodata d-block">
-      
+      <div class="imag-box">
+        <img src="images/Not Enough Data.svg" class="img-fluid">
+      </div>
     </div>
   </div>
     <script
