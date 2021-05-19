@@ -660,7 +660,7 @@ html,body {
     // height: 120px;
     // margin: 80px auto;
     // margin-right: 30px;
-    // margin-left: 120px;
+    margin-left: 120px;
     // margin-top: 80px;
     
     img{
@@ -882,6 +882,7 @@ html,body {
   }
   .footer{
     .first{
+      margin-left: 0px;
       i{
         margin-bottom: 2rem;
       }

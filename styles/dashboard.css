@@ -382,8 +382,21 @@
   color: #101010;
 }
 
-.main-con .fluids .d-top-part .icon-cont .fa-bell {
+.main-con .fluids .d-top-part .icon-cont .icon-notification .fa-bell {
   color: #A1A1A1;
+  position: relative;
+}
+
+.main-con .fluids .d-top-part .icon-cont .icon-notification .circle {
+  position: absolute;
+  display: inline-block;
+  border: 2px outset RGBA(244, 52, 96, 0.3);
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  right: 5.75%;
+  top: 2.65%;
+  background-color: RGB(244, 52, 96);
 }
 
 .main-con .fluids .d-top-part .icon-cont .dropdown2 {

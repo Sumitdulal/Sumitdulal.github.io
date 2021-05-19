@@ -629,6 +629,10 @@ html, body {
   background-color: #F8FBFE;
 }
 
+.footer .first {
+  margin-left: 120px;
+}
+
 .footer .first img {
   margin-bottom: 40px;
 }
@@ -830,6 +834,9 @@ html, body {
   .testimonials .two-boxes .one {
     padding-bottom: 2rem;
     border-bottom: 2px solid #fafafa;
+  }
+  .footer .first {
+    margin-left: 0px;
   }
   .footer .first i {
     margin-bottom: 2rem;
