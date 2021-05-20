@@ -29,7 +29,7 @@ body {
 .top-nav .logo {
   margin: 0;
   padding: 0;
-  margin-left: 120px;
+  margin-left: 30px;
 }
 
 .top-nav nav ul {
@@ -296,8 +296,7 @@ body {
   border-radius: 14px;
   border: 1px solid RGB(0, 105, 255);
   margin-left: 30px;
-  width: 110px;
-  height: 28px;
+  padding: 6px 7px 7px 9px;
   background-color: #fafafa;
 }
 
@@ -309,8 +308,7 @@ body {
   border-radius: 14px;
   border: 1px solid RGB(0, 105, 255);
   margin-left: 9px;
-  width: 58px;
-  height: 28px;
+  padding: 6px 7px 7px 9px;
   background-color: #fafafa;
 }
 
@@ -325,6 +323,8 @@ body {
 
 .search-page .search-results .results {
   margin-left: 30px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid  #CCCCCC;
 }
 
 .search-page .search-results .results p {
@@ -333,16 +333,141 @@ body {
   color: #454545;
 }
 
-.search-page .search-results .results .btns-icons .icon-circle {
+.search-page .search-results .results .btns-icons .icon-left-circle {
   height: 30px;
   width: 30px;
   border-radius: 50%;
+  margin-right: 15px;
   border: 1px solid #CCCCCC;
 }
 
-.search-page .search-results .results .btns-icons .icon-circle i {
-  text-align: center;
+.search-page .search-results .results .btns-icons .icon-left-circle i {
   font-size: 14px;
   color: #CCCCCC;
+}
+
+.search-page .search-results .results .btns-icons .botn {
+  font-size: 14px;
+  color: #CCCCCC;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid  #CCCCCC;
+  margin-right: 10px;
+  padding: 6px 10px 7px 10px;
+  background-color: #fafafa;
+}
+
+.search-page .search-results .results .btns-icons .active {
+  font-size: 14px;
+  color: #EEEEEE;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid   #0069FF;
+  margin-right: 10px;
+  padding: 6px 10px 7px 10px;
+  background-color: #0069FF;
+}
+
+.search-page .search-results .results .btns-icons .icon-right-circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 29px;
+  margin-left: 5px;
+  border: 1px solid #CCCCCC;
+}
+
+.search-page .search-results .results .btns-icons .icon-right-circle i {
+  font-size: 14px;
+  color: #CCCCCC;
+}
+
+.search-page .search-results .full-information {
+  padding: 22px 0px;
+  margin: 0px 30px;
+  border-bottom: 1px solid  #CCCCCC;
+}
+
+.search-page .search-results .full-information .img-part {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.search-page .search-results .full-information .img-part img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.search-page .search-results .full-information .img-part .icon-circle {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  background-color: #3056F5;
+  border-radius: 50%;
+  bottom: 7%;
+  right: 3%;
+}
+
+.search-page .search-results .full-information .img-part .icon-circle i {
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+
+.search-page .search-results .full-information .other-part {
+  width: 78%;
+}
+
+.search-page .search-results .full-information .other-part .name-rating p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #101010;
+}
+
+.search-page .search-results .full-information .other-part .name-rating .icon-rating i {
+  font-size: 14px;
+  color: #F1B24A;
+}
+
+.search-page .search-results .full-information .other-part .name-rating .icon-rating p {
+  color: #F1B24A;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.search-page .search-results .full-information .other-part .address {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+  line-height: 1.286;
+  width: 60%;
+  margin-top: 12px;
+}
+
+.search-page .search-results .full-information .other-part .time-slots {
+  margin-top: 17px;
+}
+
+.search-page .search-results .full-information .other-part .time-slots button {
+  font-size: 12px;
+  color: #0069FF;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 9.5px;
+  border: 1px solid   #0069FF;
+  margin-right: 10px;
+  padding: 2px 10px;
+  background-color: #fafafa;
+}
+
+.search-page .search-results .full-information .other-part .time-slots a {
+  color: #0069FF;
+  font-size: 12px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=search-results.css.map */
