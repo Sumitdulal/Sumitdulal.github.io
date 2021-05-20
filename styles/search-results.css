@@ -468,6 +468,7 @@ body {
 .search-page .search-results .full-information .other-part .time-slots a {
   color: #0069FF;
   font-size: 12px;
+  text-decoration: underline;
   font-weight: 400;
 }
 /*# sourceMappingURL=search-results.css.map */
