@@ -391,12 +391,31 @@ $fsize3: 0.75rem;
         color: $colorbl;
       }
       .icon-cont{
+        .icon-notification{
+          position: relative;
         .fa-bell{
-          color:#A1A1A1;
+          color: #A1A1A1;
+          
         }
+        .circle{
+          position: absolute;
+          display: inline-block;
+          border: 2px outset RGBA(244, 52, 96, 0.3) ;
+          height: 6px;
+          width: 6px;
+          border-radius: 50%;
+          right: 5.75%;
+          top: 2.65%;
+          background-color: RGB(244, 52, 96);
+        
+        }
+      }
         .dropdown2 {
           position: relative;
           display: inline-block;
+          font-size: 14px;
+          font-weight: 400;
+          color:#414141;
         }
         
         .dropdown-content2 {
