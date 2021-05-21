@@ -530,8 +530,11 @@
   color: #101010;
 }
 
-.main-con .fluids2 .main-content-box #availability {
+.main-con .fluids2 .main-content-box .available, .main-con .fluids2 .main-content-box .unavailable {
   list-style: none;
+}
+
+.main-con .fluids2 .main-content-box .available button, .main-con .fluids2 .main-content-box .unavailable button {
   width: 82px;
   height: 24px;
   background-color: #0069FF;
@@ -547,9 +550,13 @@
   padding-right: 10px;
 }
 
-.main-con .fluids2 .main-content-box #availability i {
+.main-con .fluids2 .main-content-box .available button i, .main-con .fluids2 .main-content-box .unavailable button i {
   font-size: 10px;
   text-align: center;
+}
+
+.main-con .fluids2 .main-content-box .unavailable button {
+  background-color: #A1A1A1;
 }
 
 .main-con .fluids2 .main-content-box .edit-numb {

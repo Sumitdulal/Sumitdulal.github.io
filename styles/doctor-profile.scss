@@ -545,8 +545,9 @@ $fsize3: 0.75rem;
         margin: 60px 10px 15px 20px;
         color:#101010;
       }
-      #availability{
+      .available{
         list-style: none;
+        button{
         width: 82px;
         height: 24px;
         background-color: #0069FF;
@@ -568,7 +569,15 @@ $fsize3: 0.75rem;
           
           
         }
+      }
         
+      }
+      .unavailable{
+       @extend .available;
+       button{
+         background-color: #A1A1A1;
+         
+       }
       }
       .edit-numb{
         margin-right: 20px;
