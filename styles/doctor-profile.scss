@@ -475,67 +475,7 @@ $fsize3: 0.75rem;
          i{
            margin: 9px;
          }
-         .pp-modal{
-    
-          .modal-body{
-              
-             .dd-img{
-                //  height: 220px;
-                 background-color: #FCFCFf;
-                 img{
-                     height: 90px;
-                     width: 90px;
-                     margin-top: 31px;
-                 }
-                 #info{
-                  //    margin-top: 13px;
-                      font-size: 16px;
-                      color: #414141;
-                 }
-                 #file-info{
-                     font-size: 12px;
-                     color:#A1A1A1;
-                  //    margin-top: 5px;
-                 }
-             }
-            .upload-cont{
-              margin-bottom: 5px !important;
-              img{
-                height: 60px;
-                width: 60px;
-                border-radius: 0;
-              }
-              .media-body{
-                .progress-filename{
-                  margin-top: 40px !important;
-                  .caption{
-                    #fname{
-                      font-size: 14px;
-                      font-weight: 500;
-                      color:#414141;
-                    }
-                    #progress{
-                      font-size: 14px;
-                      font-weight: 500;
-                      color: #A1A1A1;
-                    }
-                  }
-                }
-                .icons{
-                  margin-top: 40px !important;
-                  .green-color{
-                    color: #29BF12;
-                  }
-                  .red-color{
-                    color: #F43460;
-                  }
-                }
-              }
-            }
-          
-          }
-      }
-         //css for modal ends here
+         
          
        }
       }
@@ -775,3 +715,78 @@ $fsize3: 0.75rem;
     }
   }
 }
+
+//models starts
+
+//css for picture upload model starts
+.pp-modal{
+    
+  .modal-body{
+      
+     .dd-img{
+        //  height: 220px;
+         background-color: #FCFCFf;
+         img{
+             height: 90px;
+             width: 90px;
+             margin-top: 31px;
+         }
+         #info{
+          //    margin-top: 13px;
+              font-size: 16px;
+              color: #414141;
+         }
+         #file-info{
+             font-size: 12px;
+             color:#A1A1A1;
+          //    margin-top: 5px;
+         }
+     }
+    .upload-cont{
+      margin-bottom: 20px !important;
+      img{
+        height: 60px;
+        width: 60px;
+        border-radius: 0;
+      }
+      .media-body{
+        .progress-filename{
+          
+          .caption{
+            #fname{
+              font-size: 14px;
+              font-weight: 500;
+              color:#414141;
+            }
+            #progress{
+              font-size: 14px;
+              font-weight: 500;
+              color: #A1A1A1;
+            }
+          }
+        }
+        .icons{
+         
+          .green-color{
+            color: #29BF12;
+            font-size: 18px;
+          }
+          .red-color{
+            color: #F43460;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  
+  }
+  .modal-footer{
+    button{
+    width: 230px !important;
+    background-color: #3056F5 !important;
+    }
+  }
+}
+ //css for picture upload modal ends here
+
+//models ends

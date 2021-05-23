@@ -62,20 +62,131 @@
     <!--body part starts here-->
     <div class="container-fluid form-body">
         <div class="form-part">
+
             <div class="selected-doc">
                 <i class="fas fa-check-circle"></i>
                 <p class="d-inline">Selected Doctor</p>
             </div>
+
             <div class="doc-image-details d-flex">
                 <div class="img-container">
                     <img class="img-fluid" src="images/dummy.png">
                 </div>
                 <div class="doctor-details">
                     <p class="m-0 p-0 name">Dr. Ramesh Bajagain</p>
-                    <p class="m-0 p-0 time">5:00 PM VIC (AEST), 21 January 2021</p><i class="d-inline fa fa-pen"></i>
+                    <div class="add-penIcon d-flex align-items-center">
+                      <p class=" m-0 p-0 time">5:00 PM VIC (AEST), 21 January 2021</p>
+                      <i class=" m-0 p-0 fa fa-pen"></i>
+                    </div>
                     <p class="m-0 p-0 address">487 Swan Street, Richmond VIC 3121 Australia</p>
                 </div>
             </div>
+
+            <div class="user-details">
+              <p>Who is making this booking?</p>
+
+              <form>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="name">What’s your name?</label>
+                      <div class="inputs d-flex">
+                      <input type="text" class="form-control" id="name" placeholder="First Name">
+                      <input style="margin-left: 30px;" type="text" class="form-control" id="name" placeholder="Last Name">
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="name">How do we contact you?</label>
+                      <div class="inputs d-flex">
+                      <input type="email" class="form-control" id="name" placeholder="Email Address">
+                      <input style="margin-left: 30px;" type="number" class="form-control" id="name" placeholder="Phone Number">
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="radio-btns">
+                    <p>Who is this booking for?</p>
+                    <div class="form-check form-check-inline m-0">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">For Myself</label>
+                    </div>
+                    <div class="form-check form-check-inline m-0">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">For Someone else</label>
+                    </div>
+                    
+                    <div class="second-radio">
+                      <p class="m-0 p-0" id="visited-check">Have they visited this practice before?</p>
+                    <div class="form-check form-check-inline m-0">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                      <label class="form-check-label" for="inlineRadio1">Yes</label>
+                    </div>
+                    <div class="form-check form-check-inline m-0">
+                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                      <label class="form-check-label" for="inlineRadio2">No</label>
+                    </div>
+                  </div>
+                  </div>
+                  <p class="m-0 p-0 pat-det">Patient Details</p>
+                  
+                  <div class="form-group patient-relationship m-0 p-0">
+                    <label class="rel" for="inputState">Your relationship to patient?</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>Parent</option>
+                      <option>Self</option>
+                    </select>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="name">Patient’s Name</label>
+                      <div class="inputs d-flex">
+                      <input type="text" class="form-control" id="name" placeholder="First Name">
+                      <input style="margin-left: 30px;" type="text" class="form-control" id="name" placeholder="Last Name">
+                    </div>
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="col-md-6">
+
+                      <div class="gender-dob d-flex align-items-center">
+
+                        <div class="form-group dob">
+                          <label for="dob">Their date of birth</label>
+                          <br/>
+                          <input class="form-control" type="date" id="dob" name="bod">
+                        </div>
+
+                        <div class="form-group gender">
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                          <label class="form-check-label" for="inlineRadio1">1</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                          <label class="form-check-label" for="inlineRadio2">2</label>
+                        </div>
+                      </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                 
+                  
+
+                
+
+                  
+                </form>
+                </div>
+          
+
         </div>
     </div>
     <!--body part ends here-->

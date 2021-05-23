@@ -465,64 +465,6 @@
   margin: 9px;
 }
 
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .dd-img {
-  background-color: #FCFCFf;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .dd-img img {
-  height: 90px;
-  width: 90px;
-  margin-top: 31px;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .dd-img #info {
-  font-size: 16px;
-  color: #414141;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .dd-img #file-info {
-  font-size: 12px;
-  color: #A1A1A1;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont {
-  margin-bottom: 5px !important;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont img {
-  height: 60px;
-  width: 60px;
-  border-radius: 0;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .progress-filename {
-  margin-top: 40px !important;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #fname {
-  font-size: 14px;
-  font-weight: 500;
-  color: #414141;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #progress {
-  font-size: 14px;
-  font-weight: 500;
-  color: #A1A1A1;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .icons {
-  margin-top: 40px !important;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .icons .green-color {
-  color: #29BF12;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part .pp-modal .modal-body .upload-cont .media-body .icons .red-color {
-  color: #F43460;
-}
-
 .main-con .fluids2 .main-content-box #doc-name {
   font-size: 20px;
   font-weight: 700;
@@ -751,5 +693,62 @@
 .main-con .fluids2 .about-practice-cont .right-ali-about .interests i {
   font-size: 14;
   color: #0069FF;
+}
+
+.pp-modal .modal-body .dd-img {
+  background-color: #FCFCFf;
+}
+
+.pp-modal .modal-body .dd-img img {
+  height: 90px;
+  width: 90px;
+  margin-top: 31px;
+}
+
+.pp-modal .modal-body .dd-img #info {
+  font-size: 16px;
+  color: #414141;
+}
+
+.pp-modal .modal-body .dd-img #file-info {
+  font-size: 12px;
+  color: #A1A1A1;
+}
+
+.pp-modal .modal-body .upload-cont {
+  margin-bottom: 20px !important;
+}
+
+.pp-modal .modal-body .upload-cont img {
+  height: 60px;
+  width: 60px;
+  border-radius: 0;
+}
+
+.pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #fname {
+  font-size: 14px;
+  font-weight: 500;
+  color: #414141;
+}
+
+.pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #progress {
+  font-size: 14px;
+  font-weight: 500;
+  color: #A1A1A1;
+}
+
+.pp-modal .modal-body .upload-cont .media-body .icons .green-color {
+  color: #29BF12;
+  font-size: 18px;
+}
+
+.pp-modal .modal-body .upload-cont .media-body .icons .red-color {
+  color: #F43460;
+  font-size: 18px;
+}
+
+.pp-modal .modal-footer button {
+  width: 230px !important;
+  background-color: #3056F5 !important;
 }
 /*# sourceMappingURL=doctor-profile.css.map */
