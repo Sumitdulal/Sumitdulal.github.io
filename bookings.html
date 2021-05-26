@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookings</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet"
+          href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles/booking.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-con">
+      <div class="vertical-nav">
+        <div class="logo">
+          <img src="images/logo.svg" alt="medico-logo" />
+        </div>
+        <div class="main-menu">
+          <h1 class="mb-2">Main Menu</h1>
+          <nav>
+            <div class="hamburger-menu">
+              <div class="hamburger-wrapper">
+                <div class="menu-1"></div>
+                <div class="menu-1"></div>
+                <div class="menu-1"></div>
+              </div>
+
+              <div class="menu-container">
+                <li class="active">
+                  <i class="fa fa-tachometer-alt"></i
+                  ><a class="menu-hidden" href="#">Dashboard</a>
+                </li>
+                <li>
+                  <i class="fa fa-stethoscope"></i
+                  ><a class="menu-hidden" href="#">Appointments</a>
+                </li>
+                <li>
+                  <i class="fa fa-calendar-alt"></i
+                  ><a class="menu-hidden" href="#">Bookings</a>
+                </li>
+                <li>
+                  <i class="fa fa-user"></i
+                  ><a class="menu-hidden" href="#">Profile</a>
+                </li>
+                <li>
+                  <i class="fa fa-hospital-alt"></i
+                  ><a class="menu-hidden" href="#">Practice</a>
+                </li>
+              </div>
+            </div>
+          </nav>
+          <h2>Other Menu</h2>
+          <ul class="single">
+            <li class="new">
+              <i class="fa fa-cogs"></i><a href="#">Settings</a>
+            </li>
+          </ul>
+          <div class="appointment">
+            <h3>Medico Appointments</h3>
+
+            <p id="copy">© 2021 All Rights Reserved</p>
+
+            <p id="heart">
+              Made with <i class="fa fa-heart"></i> by Medico Team
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="welcome-section">
+        <p id="wel">Welcome,</p>
+        <h1>Dr. Thatiana Salomao</h1>
+        <h2>Profile 89% completed</h2>
+        <h3><i class="fa fa-plus-circle"></i>&nbsp; Add your gender (11%)</h3>
+        <p id="daily">Daily Appointments</p>
+        <p id="insight">Insights on your daily appointment requests</p>
+        <div class="bar-graph">
+          <div class="line line1">
+            <p>3/312020<br>21 Patients</p>
+          </div>
+          <div class="line line2">
+            <p>50%</p>
+          </div>
+          <div class="line line3">
+            <p>50%</p>
+          </div>
+          <div class="line line4">
+            <p>50%</p>
+          </div>
+          <div class="line line5">
+            <p>50%</p>
+          </div>
+          <div class="line line6">
+            <p>50%</p>
+          </div>
+          <div class="line line7">
+            <p>50%</p>
+          </div>
+          <div class="line line8">
+            <p>50%</p>
+          </div>
+          <div class="line line9">
+            <p>50%</p>
+          </div>
+          <div class="line line10">
+            <p>50%</p>
+          </div>
+          <div class="line line11">
+            <p>50%</p>
+          </div>
+          <div class="line line12">
+            <p>50%</p>
+          </div>
+          <div class="line line13">
+            <p>50%</p>
+          </div>
+          <div class="line line14">
+            <p>50%</p>
+          </div>
+          <div class="line line15">
+            <p>50%</p>
+          </div>
+        </div>
+        <div class="pie-div">
+          <p id="patient">Patients</p>
+          <p id="under-patient">
+            Insights on who your customer is, are they new or returning.
+          </p>
+          <p id="ndt">No data to show</p>
+        </div>
+      </div>
+
+    <!--dashboard section starts here-->
+    
+    <div class="container-fluid m-2 fluids2">
+      <div class="d-flex mt-2 mb-4  justify-content-between d-top-part ">
+        <h3 id="dash">Bookings</h3>
+        <div class="icon-cont">
+          <div class="d-inline icon-notification mr-2">
+          <i class="far fa-bell "></i>
+          <div class="m-0 p-0 circle mr-0 pr-0"></div>
+        </div>
+          <img class="mr-2" src="images/Rectangle.png" /> <!--for dummy image: <img style="width: 32px;height: 32px;border-radius: 50%;" class="mr-2" src="images/dummy.png" /> -->
+          
+          <div class="dropdown2">
+            <span><i class="fa fa-angle-down"></i></span>
+            <div class="dropdown-content2">
+            <a href="#">Log out</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bookings-container">
+        <div class="d-flex align-items-center top-box">
+          <p class="m-0 p-0">182 Booking Requests</p>
+          <button class="ml-auto default"><i class=" mr-1 fas fa-check"></i> Default</button>
+          <button class="text-center rejected"> Rejected</button>
+          <div class="filters">
+            <i class="fas fa-sliders-h"></i>
+            <p class="d-inline m-0 p-0 filter">Filters</p>
+          </div>
+          <form class="seacrh" action="">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search…" name="search">
+            
+          </form>
+        </div>
+        <div class="table-part">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col"> <input type="checkbox" id="exampleCheck1"> </th>
+                <th scope="col">Requested Date</th>
+                <th scope="col">Patient Name</th>
+                <th scope="col">Email Address</th>
+                <th scope="col">Dentist</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"><input type="checkbox" id="exampleCheck1"></th>
+                <td>11/12/2021</td>
+                <td>Alex Summers</td>
+                <td>alexsummers@gmail.com</td>
+                <td>Dr. Lena Paul</td>
+                <td>
+                  <div class="d-flex align-items-center icons">
+                  <i class="mr-4 fas fa-ellipsis-h"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                </td>
+              </tr>
+              <tr class="active">
+                <th scope="row"><input type="checkbox" id="exampleCheck1"></th>
+                <td>11/12/2021</td>
+                <td>Alex Summers</td>
+                <td>alexsummers@gmail.com</td>
+                <td>Dr. Lena Paul</td>
+                <td>
+                  <div class="d-flex align-items-center icons">
+                  <i class="mr-4 fas fa-ellipsis-h"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                </td>
+                
+              </tr>
+
+              
+              
+              <tr>
+                <th scope="row"><input type="checkbox" id="exampleCheck1"></th>
+                <td>11/12/2021</td>
+                <td>Alex Summers</td>
+                <td>alexsummers@gmail.com</td>
+                <td>Dr. Lena Paul</td>
+                <td>
+                  <div class="d-flex align-items-center icons">
+                  <i class="mr-4 fas fa-ellipsis-h"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" id="exampleCheck1"></th>
+                <td>11/12/2021</td>
+                <td>Alex Summers</td>
+                <td>alexsummers@gmail.com</td>
+                <td>Dr. Lena Paul</td>
+                <td>
+                  <div class="d-flex align-items-center icons">
+                  <i class="mr-4 fas fa-ellipsis-h"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" id="exampleCheck1"></th>
+                <td>11/12/2021</td>
+                <td>Alex Summers</td>
+                <td>alexsummers@gmail.com</td>
+                <td>Dr. Lena Paul</td>
+                <td>
+                  <div class="d-flex align-items-center icons">
+                  <i class="mr-4 fas fa-ellipsis-h"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" id="exampleCheck1"></th>
+                <td>11/12/2021</td>
+                <td>Alex Summers</td>
+                <td>alexsummers@gmail.com</td>
+                <td>Dr. Lena Paul</td>
+                <td>
+                  <div class="d-flex align-items-center icons">
+                  <i class="mr-4 fas fa-ellipsis-h"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" id="exampleCheck1"></th>
+                <td>11/12/2021</td>
+                <td>Alex Summers</td>
+                <td>alexsummers@gmail.com</td>
+                <td>Dr. Lena Paul</td>
+                <td>
+                  <div class="d-flex align-items-center icons">
+                  <i class="mr-4 fas fa-ellipsis-h"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row"><input type="checkbox" id="exampleCheck1"></th>
+                <td>11/12/2021</td>
+                <td>Alex Summers</td>
+                <td>alexsummers@gmail.com</td>
+                <td>Dr. Lena Paul</td>
+                <td>
+                  <div class="d-flex align-items-center icons">
+                  <i class="mr-4 fas fa-ellipsis-h"></i>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="icon-pagination d-flex align-items-center">
+          <div class=" m-0 p-0 icon-box mr-2 text-center"><a href="#"><i class=" pt-2 fas fa-angle-left"></i></a></div>
+          
+        
+          <ul class="m-0 p-0 pag d-flex align-items-center list-unstyled">
+            <li class="pag-item active">
+              <a class="pag-link" href="#" >1</a>
+            </li>
+            <li class="pag-item"><a class="pag-link" href="#">2</a></li>
+            <li class="pag-item"><a class="pag-link" href="#">…</a></li>
+            <li class="pag-item"><a class="pag-link" href="#">22</a></li>
+            <li class="pag-item"><a class="pag-link" href="#">23</a></li>
+          </ul>
+       
+        <div class="m-0 p-0 icon-box ml-2 text-center"><a href="#"><i class=" pt-2 fas fa-angle-right"></i></a></div>
+      </div>
+
+      </div>
+
+  </div> <!--dashboard section ends here-->
+ 
+</div>  <!--main container ends here-->
+   
+ 
+
+  <script>
+    document.querySelectorAll('input[type=number]')
+  .forEach(e => e.oninput = () => {
+    // Always 2 digits
+    if (e.value.length >= 2) e.value = e.value.slice(0, 2);
+    // 0 on the left (doesn't work on FF)
+    if (e.value.length === 1) e.value = '0' + e.value;
+    // Avoiding letters on FF
+    if (!e.value) e.value = '00';
+  });
+  </script>
+  
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+      });
+      </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

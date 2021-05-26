@@ -7,16 +7,6 @@
   font-family: "Inter", sans-serif;
 }
 
-.circle {
-  cursor: pointer;
-  padding: 6px;
-}
-
-.circle:hover {
-  border-radius: 50%;
-  background-color: #E9EBEF;
-}
-
 .main-con {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -441,336 +431,190 @@
   display: block;
 }
 
-.main-con .fluids2 .main-content-box {
-  height: 99px;
-  background-color: white;
+.main-con .fluids2 .bookings-container {
+  height: 500px;
+  background-color: #ffffff;
   border-radius: 10px;
-  margin-bottom: 52px;
-  border: none;
-  position: relative;
+  -webkit-box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
+          box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
+  padding: 21px 18px 23px 20px;
 }
 
-.main-con .fluids2 .main-content-box .profile-doc img {
-  width: 110px;
-  position: relative;
-  height: 110px;
-  border-radius: 50%;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part {
-  position: absolute;
-  bottom: -35px;
-  left: 80px;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: white;
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part i {
-  margin: 9px;
-}
-
-.main-con .fluids2 .main-content-box .profile-doc .icon-part:hover {
-  background-color: #E9EBEF;
-  cursor: pointer;
-}
-
-.main-con .fluids2 .main-content-box #doc-name {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 60px 10px 15px 20px;
+.main-con .fluids2 .bookings-container .top-box {
   color: #101010;
-}
-
-.main-con .fluids2 .main-content-box .available, .main-con .fluids2 .main-content-box .unavailable {
-  list-style: none;
-}
-
-.main-con .fluids2 .main-content-box .available button, .main-con .fluids2 .main-content-box .unavailable button {
-  width: 82px;
-  height: 24px;
-  background-color: #0069FF;
-  color: white;
-  border-radius: 12px;
-  border: none;
-  margin: 62px 0px 15px 0px;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 600;
-  text-align: center;
-  padding-top: 4px;
-  padding-bottom: 10px;
-  padding-right: 10px;
+  margin-bottom: 26px;
 }
 
-.main-con .fluids2 .main-content-box .available button i, .main-con .fluids2 .main-content-box .unavailable button i {
+.main-con .fluids2 .bookings-container .top-box .default {
+  border: 1px solid  #A1A1A1;
+  border-radius: 9px;
+  color: #ffffff;
   font-size: 10px;
-  text-align: center;
-}
-
-.main-con .fluids2 .main-content-box .unavailable button {
+  font-weight: 400;
   background-color: #A1A1A1;
+  width: 69px;
+  height: 18px;
+  padding-top: 1.8px;
+  margin-right: 5px;
 }
 
-.main-con .fluids2 .main-content-box .edit-numb {
-  margin-right: 20px;
-  margin-top: 20px;
+.main-con .fluids2 .bookings-container .top-box .default i {
+  font-size: 8px;
 }
 
-.main-con .fluids2 .main-content-box .edit-numb .pen-icon {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .main-content-box .edit-numb #num {
-  list-style: none;
-  margin-top: 21px;
-  font-weight: 500;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont {
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices {
-  border-right: 0.25px solid #a1a1a1;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac {
-  list-style: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac i {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .p-s-1 {
-  list-style: none;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .p-s-1 i {
-  font-size: 12px;
-  color: #A1A1A1;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .location {
-  margin-bottom: 13px;
-  list-style: none;
-  font-size: 14px;
-  font-weight: 400;
-  color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .location i {
-  font-size: 14px;
-  width: 14px;
-  margin-right: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .time {
-  list-style: none;
-  font-size: 14px;
-  font-weight: 400;
-  color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .time i {
-  font-size: 12.75px;
-  width: 14px;
-  margin-right: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .ins {
-  list-style: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .ins i {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .p-s-2 {
-  list-style: none;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 2px;
-  padding-bottom: 0px;
-  margin-top: 16px;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .p-s-2 i {
-  font-size: 12px;
-  color: #A1A1A1;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance #elect {
-  font-size: 14px;
-  color: #a1a1a1;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .lev {
-  list-style: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #101010;
-  margin-bottom: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .lev i {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal {
-  list-style: none;
-  font-size: 14px;
-  font-weight: 400;
-  color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal .cale-icon {
-  color: #414141;
-  font-size: 14px;
-  width: 14px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal .trash-icon {
-  font-size: 14px;
-  color: #a1a1a1;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon {
-  margin-bottom: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon p {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon i {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about #description {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.625;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .interests {
-  margin-top: 30px;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .interests p {
-  font-size: 18px;
-  font-weight: 600;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .interests i {
-  font-size: 14;
-  color: #0069FF;
-}
-
-.pp-modal .modal-body .dd-img {
-  background-color: #FCFCFf;
-  padding-top: 31px;
-  padding-bottom: 46px;
-  margin-bottom: 18px;
-}
-
-.pp-modal .modal-body .dd-img img {
-  height: 90px;
-  width: 90px;
-}
-
-.pp-modal .modal-body .dd-img #info {
-  font-size: 16px;
-  color: #414141;
-}
-
-.pp-modal .modal-body .dd-img #file-info {
-  font-size: 12px;
-  color: #A1A1A1;
-}
-
-.pp-modal .modal-body .upload-cont {
-  margin-bottom: 20px !important;
-}
-
-.pp-modal .modal-body .upload-cont img {
-  height: 60px;
-  width: 60px;
-  border-radius: 0;
-}
-
-.pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #fname {
-  font-size: 14px;
-  font-weight: 500;
-  color: #414141;
-}
-
-.pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #progress {
-  font-size: 14px;
-  font-weight: 500;
-  color: #A1A1A1;
-}
-
-.pp-modal .modal-body .upload-cont .media-body .icons .green-color {
-  color: #29BF12;
-  font-size: 18px;
-}
-
-.pp-modal .modal-body .upload-cont .media-body .icons .red-color {
+.main-con .fluids2 .bookings-container .top-box .rejected {
+  border: 1px solid  #F43460;
+  border-radius: 9px;
   color: #F43460;
-  font-size: 18px;
+  font-size: 10px;
+  font-weight: 400;
+  background-color: #ffffff;
+  width: 63px;
+  height: 18px;
+  padding-top: 1.8px;
+  margin-right: 10px;
 }
 
-.pp-modal .modal-footer button {
-  width: 230px !important;
-  background-color: #3056F5 !important;
-  border-color: #3056F5  !important;
+.main-con .fluids2 .bookings-container .top-box .filters {
+  padding-right: 9px;
+  border-right: 1px solid #D8D8D8;
+  margin-right: 10px;
 }
 
-.pp-modal .modal-footer button:focus {
-  outline: none !important;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0069ff;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0069ff;
+.main-con .fluids2 .bookings-container .top-box .filters i {
+  font-size: 14px;
+  color: #333131;
+  margin-right: 10px;
 }
-/*# sourceMappingURL=doctor-profile.css.map */
+
+.main-con .fluids2 .bookings-container .top-box .filters p {
+  color: #333131;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main-con .fluids2 .bookings-container .top-box form i {
+  color: #A1A1A1;
+  font-size: 14px;
+  margin-right: 11px;
+}
+
+.main-con .fluids2 .bookings-container .top-box form input {
+  border: none;
+}
+
+.main-con .fluids2 .bookings-container .top-box form ::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .bookings-container .top-box form :-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .bookings-container .top-box form ::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .bookings-container .top-box form ::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .bookings-container .top-box form input:focus {
+  outline: none;
+  border: none;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table td, .main-con .fluids2 .bookings-container .table-part .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 1px solid #E9EBEF;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table.th:last-child {
+  border-bottom: 1px solid #E9EBEF;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table thead {
+  background-color: #F3F3F3 !important;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table thead tr th {
+  color: #101010;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table thead tr th input {
+  -webkit-transform: translateY(12%);
+          transform: translateY(12%);
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody .active {
+  background-color: #F8FBFE !important;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr td {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons i {
+  color: #CCCCCC;
+  font-size: 16px;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .icon-box {
+  height: 30px;
+  width: 30px;
+  border: 1px solid #D8D8D8;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .icon-box a {
+  text-decoration: none;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .icon-box a i {
+  color: #A1A1A1;
+  font-size: 16px;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .pag {
+  height: 30px !important;
+  background-color: #ffffff;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .pag .pag-item {
+  border: 1px solid #D8D8D8;
+  border-collapse: collapse !important;
+  text-align: center;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .pag .pag-item .pag-link {
+  padding: 6px 14px 6px 14px;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .pag .pag-item:first-child {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .pag .pag-item:last-child {
+  border-radius: 0px 4px 4px 0px;
+}
+
+.main-con .fluids2 .bookings-container .icon-pagination .pag .active {
+  border-color: #0069FF;
+}
+/*# sourceMappingURL=booking.css.map */

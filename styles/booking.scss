@@ -12,17 +12,6 @@ $colorbl: #101010;
 $colortxt: #a1a1a1;
 $fsize2: 0.875rem;
 $fsize3: 0.75rem;
-.circle{
-  cursor: pointer;
-  padding: 6px;
-}
-.circle:hover{
-  border-radius: 50%;
-  background-color: #E9EBEF ;
-
-}
-
-
 .main-con {
   display: flex;
   flex-direction: row;
@@ -449,363 +438,178 @@ $fsize3: 0.75rem;
         }
       }
     }
-    .main-content-box {
-      height: 99px;
-      background-color: white;
+
+    .bookings-container{
+      height: 500px;
+      background-color: #ffffff;
       border-radius: 10px;
-      margin-bottom: 52px;
-      border: none;
-      position: relative;
-      .profile-doc{
-       
-       img{
-         width: 110px;
-         position: relative;
-         height: 110px;
-         border-radius: 50%;
-         margin-top: 20px;
-         margin-left: 20px;
-         
-       }
-
-       .icon-part{
-         position: absolute;
-        bottom: -35px;
-         left: 80px;
-         width: 32px;
-         height: 32px;
-         border-radius: 50%;
-         background-color: white;
-        //  text-align: center;
-         font-size: 14px;
-         color: #0069FF;
-         i{
-           margin: 9px;
-         }
-       
-       }
-       .icon-part:hover{
-        background-color: #E9EBEF ;
-        cursor: pointer;
-
-       }
-      }
-      #doc-name{
-        font-size: 20px;
-        font-weight: 700;
-        margin: 60px 10px 15px 20px;
+      box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);//x y blur-radius spread-radius color(in rgba)
+      padding: 21px 18px 23px 20px;
+      .top-box{
         color:#101010;
-      }
-      .available{
-        list-style: none;
-        button{
-        width: 82px;
-        height: 24px;
-        background-color: #0069FF;
-        color: white;
-        border-radius: 12px;
-        border: none;
-        margin: 62px 0px 15px 0px;
-        font-size: 10px;
+        font-size: 18px;
         font-weight: 600;
-        text-align: center;
-        padding-top:4px;
-        padding-bottom: 10px;
-        padding-right: 10px;
-       
-        i{
-          
+        margin-bottom: 26px;
+        .default{
+          border: 1px solid  #A1A1A1;
+          border-radius: 9px;
+          color: #ffffff;
           font-size: 10px;
-          text-align: center;
-          
-          
+          font-weight: 400;
+          background-color: #A1A1A1;
+          width: 69px;
+          height: 18px;
+          padding-top: 1.8px;
+          margin-right: 5px;
+          i{
+            font-size: 8px;
+          }
+        }
+        .rejected{
+          border: 1px solid  #F43460;
+          border-radius: 9px;
+          color:  #F43460;
+          font-size: 10px;
+          font-weight: 400;
+          background-color: #ffffff;
+          width: 63px;
+          height: 18px;
+          padding-top: 1.8px;
+          margin-right: 10px;
+
+        }
+        .filters{
+          padding-right: 9px;
+          border-right: 1px solid #D8D8D8;
+          margin-right: 10px;
+          i{
+            font-size: 14px;
+            color:  #333131;
+            margin-right: 10px;
+          }
+          p{
+            color: #333131;
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+        form{
+          i{
+            color:  #A1A1A1;
+            font-size: 14px;
+            margin-right: 11px;
+          }
+          input{
+            border: none;
+          }
+          ::placeholder{
+            font-size: 14px;
+            font-weight: 400;
+            color:#A1A1A1;
+          }
+          input:focus{
+            outline: none;
+            border: none;
+          }
         }
       }
-        
+      .table-part{
+        .table td, .table th {
+          padding: .75rem;
+          vertical-align: top;
+          border-top: 1px solid #E9EBEF;
       }
-      .unavailable{
-       @extend .available;
-       button{
-         background-color: #A1A1A1;
-         
-       }
+      .table.th:last-child{
+        border-bottom: 1px solid #E9EBEF;
       }
-      .edit-numb{
-        margin-right: 20px;
-       margin-top: 20px;
-       .pen-icon{
-        font-size: 14px;
-        color: #0069FF;
-       }
-       #num{
-         list-style: none;
-         margin-top: 21px;
-         font-weight: 500;
-         color:#101010;
-       }
-      
-      }
-      
-      
-    }
-    .about-practice-cont{
-      // border: 1px solid black;
-      border-radius: 10px;
-      padding: 20px;
-      
-      .left-ali-practices{
-        border-right: 0.25px solid $colortxt;
-        // width: 231px;
-        .prac{
-          list-style: none;
-          font-size: 18px;
-          font-weight: 600;
-          color:#101010;
-          i{
-           font-size: 14px;
-            color:  #0069FF;
+        .table{
+          thead{
+            background-color: #F3F3F3 !important;
+            tr{
+              
+              th{
+                color:#101010;
+                font-size: 14px;
+                font-weight: 600;
+               
+                input{
+                  transform: translateY(12%);
+                }
+                
+              }
+            }
+            
+          }
+          tbody{
+            .active{
+              background-color: #F8FBFE !important;
+              
+            }
            
-          }
-        }
-        .prac-sche{
-          margin-top: 20px;
-          margin-bottom: 20px;
-          
-        .p-s-1{
-          list-style: none;
-          font-size: 16px;
-          font-weight: 600;
-          margin-bottom: 10px;
-          color:#101010;
-          
-          i{
-            font-size: 12px;
-    
-            color: #A1A1A1;
-          }
-        }
-        .location{
-          margin-bottom: 13px;
-          list-style: none;
-          font-size: 14px;
-          font-weight: 400;
-          color:#414141;
-          line-height: 1.429;
-        
-          i{
-            font-size: 14px;
-            width: 14px;
-            margin-right: 20px;
-          }
-        }
-        .time{
-          list-style: none;
-          font-size: 14px;
-          font-weight: 400;
-          color:#414141;
-          line-height: 1.429;
-          i{
-            font-size: 12.75px;
-            width: 14px;
-            margin-right: 20px;
-          }
-        }
-        
-      }
-      .insurance{
-      .ins{
-        list-style: none;
-        font-size: 18px;
-        font-weight: 600;
-        color:#101010;
-        i{
-         font-size: 14px;
-        
-          color:  #0069FF;
-         
-        }
-      }
-      .p-s-2{
-        list-style: none;
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 2px;
-        padding-bottom: 0px;
-        margin-top: 16px;
-        color:#101010;
-        
-        
-        
-        i{
-          font-size: 12px;
-          color: #A1A1A1;
-        }
-        
-      }
-      #elect{
-        font-size: 14px;
-        color: $colortxt;
-        
-      }
-    }
-    .leave{
-      .lev{
-        list-style: none;
-        font-size: 18px;
-        font-weight: 600;
-        color:#101010;
-        margin-bottom: 20px;
-        i{
-         font-size: 14px;
-          color:  #0069FF;
-         
-        }
-      }
-      .cal{
-        list-style: none;
-        font-size: 14px;
-        font-weight: 400;
-        color:#414141;
-        line-height: 1.429;
-        .cale-icon{
-          color: #414141;
-          font-size: 14px;
-          width: 14px;
-          // margin-right: 13px;
-        }
-        p{
-          font-size: 14px;
-          font-weight: 400;
-          color:#414141;
-          line-height: 1.429;
-        }
-        .trash-icon{
-          font-size: 14px;
-          color: $colortxt;
-          
-          
-        }
-      }
-    }
-      }
-      .right-ali-about{
-        // width: 100%;
-        .about-icon{
-          margin-bottom: 20px;
-          p{
-            font-size: 18px;
-            font-weight: 600;
-          }
-          i{
-            font-size: 14px;
-            
-            color: $colorb;
-          }
-        }
-        #description{
-          
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 1.625;
-          color: $colorbl;
-        }
-        .interests{
-          margin-top: 30px;
-          p{
-            font-size: 18px;
-            font-weight: 600;
-            color: #101010;
-          }
-          i{
-            font-size: 14;
-            color:#0069FF;
-            
-          }
-        }
-      }
-    }
-  }
-}
-
-//models starts
-
-//css for picture upload model starts
-.pp-modal{
-    
-  .modal-body{
-      
-     .dd-img{
-        //  height: 220px;
-         background-color: #FCFCFf;
-         padding-top: 31px;
-         padding-bottom: 46px;
-         margin-bottom: 18px;
-         img{
-             height: 90px;
-             width: 90px;
-             
-         }
-         #info{
-          //    margin-top: 13px;
-              font-size: 16px;
-              color: #414141;
-         }
-         #file-info{
-             font-size: 12px;
-             color:#A1A1A1;
-          //    margin-top: 5px;
-         }
-     }
-    .upload-cont{
-      margin-bottom: 20px !important;
-      img{
-        height: 60px;
-        width: 60px;
-        border-radius: 0;
-      }
-      .media-body{
-        .progress-filename{
-          
-          .caption{
-            #fname{
-              font-size: 14px;
-              font-weight: 500;
-              color:#414141;
+            tr{
+              
+              td{
+                font-size: 16px;
+                font-weight: 400;
+                color: #414141;
+                .icons{
+                  i{
+                    color:#CCCCCC;
+                    font-size: 16px
+                
+                  }
+                }
+                
+              }
             }
-            #progress{
-              font-size: 14px;
-              font-weight: 500;
+          }
+        }
+      }
+      .icon-pagination{
+        .icon-box{
+          height: 30px;
+          width: 30px;
+          border: 1px solid #D8D8D8;
+          border-radius: 4px;
+          background-color: #ffffff;
+          a{
+            text-decoration: none;
+            i{
               color: #A1A1A1;
+              font-size: 16px;
             }
           }
+
         }
-        .icons{
-         
-          .green-color{
-            color: #29BF12;
-            font-size: 18px;
+        .pag{
+          height: 30px !important;
+          // border: 1px solid #D8D8D8;
+          // border-radius: 4px;
+          
+          background-color: #ffffff;
+          .pag-item{
+            border: 1px solid #D8D8D8;
+            border-collapse: collapse !important;
+            text-align: center;
+            .pag-link{
+              padding: 6px 14px 6px 14px;
+            }
           }
-          .red-color{
-            color: #F43460;
-            font-size: 18px;
+          .pag-item:first-child{
+            border-radius: 4px 0px 0px 4px;
+          }
+          .pag-item:last-child{
+            border-radius: 0px 4px 4px 0px;
+          }
+          .active{
+            border-color: #0069FF;
           }
         }
+
       }
     }
-  
-  }
-  .modal-footer{
-    button{
-    width: 230px !important;
-    background-color: #3056F5 !important;
-    border-color: #3056F5  !important;
-    }
-    button:focus{
-      outline: none !important;
-      box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0, 105, 255, 1);
-  }
+    
+    
   }
 }
- //css for picture upload modal ends here
 
-//models ends
