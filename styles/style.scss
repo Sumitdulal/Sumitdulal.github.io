@@ -28,9 +28,8 @@ html,body {
     justify-content: space-between;
     padding-right: 4%;
     padding-left: 2%;
-    height: 35px;
     padding-top: 20px;
-  
+
     .logo {
      margin: 0;
      padding: 0;
@@ -107,6 +106,10 @@ html,body {
         padding: 5px;
         width: 120px;
         height: 35px;
+        i{
+          font-size: 14px !important;
+          margin-left: 10px;
+        }
       }
   
       .dropdown {

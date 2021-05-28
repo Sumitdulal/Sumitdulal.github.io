@@ -126,6 +126,7 @@ body {
 
 .top-nav nav .dropbtn i {
   font-size: 14px !important;
+  margin-left: 10px;
 }
 
 .top-nav nav .dropdown {
