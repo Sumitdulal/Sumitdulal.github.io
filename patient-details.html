@@ -88,7 +88,7 @@
               <form>
 
                   <div class="form-row">
-                    <div class="form-group col-md-6">
+                    <div class="form-group">
                       <label for="name">What’s your name?</label>
                       <div class="inputs d-flex">
                       <input type="text" class="form-control c1" id="fname" placeholder="First Name">
@@ -98,7 +98,7 @@
                   </div>
 
                   <div class="form-row">
-                    <div class="form-group col-md-6">
+                    <div class="form-group">
                       <label for="name">How do we contact you?</label>
                       <div class="inputs d-flex">
                       <input type="email" class="form-control" id="email" placeholder="Email Address">
@@ -110,28 +110,29 @@
                   <div class="radio-btns">
                     <p>Who is this booking for?</p>
                     <div class="form-check form-check-inline m-0">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                      <label class="form-check-label" for="inlineRadio1">For Myself</label>
+                      <input class="form-check-input" type="radio" name="bookingfor" id="formyself" value="option1">
+                      <label class="form-check-label" for="formyself">For Myself</label>
                     </div>
                     <div class="form-check form-check-inline m-0">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                      <label class="form-check-label" for="inlineRadio2">For Someone else</label>
+                      <input class="form-check-input" type="radio" name="bookingfor" id="forelse" value="option2">
+                      <label class="form-check-label" for="forelse">For Someone else</label>
                     </div>
                     
                     <div class="second-radio">
                       <p class="m-0 p-0" id="visited-check">Have they visited this practice before?</p>
                     <div class="form-check form-check-inline m-0">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option1">
-                      <label class="form-check-label" for="inlineRadio1">Yes</label>
+                      <input class="form-check-input" type="radio" name="visithistory" id="yes" value="option1">
+                      <label class="form-check-label" for="yes">Yes</label>
                     </div>
                     <div class="form-check form-check-inline m-0">
-                      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option2">
-                      <label class="form-check-label" for="inlineRadio2">No</label>
+                      <input class="form-check-input" type="radio" name="visithistory" id="no" value="option2">
+                      <label class="form-check-label" for="no">No</label>
                     </div>
                   </div>
                   </div>
                   <p class="m-0 p-0 pat-det">Patient Details</p>
                   
+                  <div class="form-row">
                   <div class="form-group patient-relationship m-0 p-0">
                     <label class="rel" for="inputState">Your relationship to patient?</label>
                     <select id="inputState" class="form-control">
@@ -140,9 +141,10 @@
                       <option>Self</option>
                     </select>
                   </div>
+                </div>
 
                   <div class="form-row">
-                    <div class="form-group col-md-6">
+                    <div class="form-group">
                       <label for="name">Patient’s Name</label>
                       <div class="inputs d-flex">
                       <input type="text" class="form-control" id="patient_fname" placeholder="First Name">
@@ -152,7 +154,7 @@
                   </div>
 
                   <div class="form-row">
-                    <div class="col-md-6">
+                    
 
                       <div class="gender-dob d-flex align-items-center">
 
@@ -165,18 +167,18 @@
                         <div class="form-group gender">
                           <p>Gender</p>
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                          <label class="form-check-label" for="inlineRadio5">Male</label>
+                          <input class="form-check-input" type="radio" name="gender" id="male" value="option1">
+                          <label class="form-check-label" for="male">Male</label>
                         </div>
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                          <label class="form-check-label" for="inlineRadio6">Female</label>
+                          <input class="form-check-input" type="radio" name="gender" id="female" value="option2">
+                          <label class="form-check-label" for="female">Female</label>
                         </div>
                       </div>
 
                       </div>
 
-                    </div>
+                   
                   </div>
                  
                   <p class="tnc">By confirming this booking, you agree to 1st Group's <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></p>

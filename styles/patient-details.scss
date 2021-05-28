@@ -8,7 +8,7 @@
     font-family: "Inter", sans-serif;
     background-color: #FAFAFA !important;
   }
-  .top-nav {
+  .top-nav {  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -308,6 +308,8 @@
                   border: 1px solid  #EEEEEE !important;
                   border-radius: 0 !important;
                   background-color: #EEEEEE;
+                  width: 24.8vw;
+                  height: 44px;
                 }
                 ::placeholder{
                   font-size: 16px;
@@ -372,7 +374,7 @@
           }
           .patient-relationship{
             margin-bottom: 20px !important;
-            width: 23.68%;
+            
             .rel{
               color:#454545;
               font-size: 16px;
@@ -384,6 +386,8 @@
                 border: 1px solid  #EEEEEE !important;
                 border-radius: 0 !important;
                 background-color: #EEEEEE;
+                height: 42px;
+                width: 24.8vw !important;
             }
             ::placeholder{
               font-size: 16px;
@@ -398,13 +402,14 @@
           }
 
           .gender-dob{
-            // border: 1px solid black;
+            
             
             .dob{
-              width: 47.5%;
-              // border: 1px solid black;
+              
+              
               input{
-                width: 100%;
+                
+                width: 24.8vw;
                 height: 44px;
                 border: 1px solid  #EEEEEE !important;
                 border-radius: 0 !important;
@@ -423,9 +428,8 @@
           }
             }
             .gender{
-              // width: 49%;
-              // border: 1px solid black;
-              margin-left: 33px;
+              width: 24.8vw;
+              margin-left: 30px;
               p{
                 color: #454545;
                 font-size: 16px;

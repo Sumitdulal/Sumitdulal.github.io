@@ -384,6 +384,7 @@
 
 .main-con .fluids2 .d-top-part .icon-cont .icon-notification {
   position: relative;
+  margin-right: 20px;
 }
 
 .main-con .fluids2 .d-top-part .icon-cont .icon-notification .fa-bell {
@@ -432,7 +433,6 @@
 }
 
 .main-con .fluids2 .bookings-container {
-  height: 500px;
   background-color: #ffffff;
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
@@ -475,24 +475,6 @@
   height: 18px;
   padding-top: 1.8px;
   margin-right: 10px;
-}
-
-.main-con .fluids2 .bookings-container .top-box .filters {
-  padding-right: 9px;
-  border-right: 1px solid #D8D8D8;
-  margin-right: 10px;
-}
-
-.main-con .fluids2 .bookings-container .top-box .filters i {
-  font-size: 14px;
-  color: #333131;
-  margin-right: 10px;
-}
-
-.main-con .fluids2 .bookings-container .top-box .filters p {
-  color: #333131;
-  font-size: 14px;
-  font-weight: 400;
 }
 
 .main-con .fluids2 .bookings-container .top-box form i {
@@ -538,9 +520,15 @@
   padding: .75rem;
   vertical-align: top;
   border-top: 1px solid #E9EBEF;
+  border-bottom: none !important;
 }
 
-.main-con .fluids2 .bookings-container .table-part .table.th:last-child {
+.main-con .fluids2 .bookings-container .table-part .table > tbody > tr:nth-child(even) > td,
+.main-con .fluids2 .bookings-container .table-part .table-striped > tbody > tr:nth-child(even) > th {
+  background-color: #F3F3F3;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table {
   border-bottom: 1px solid #E9EBEF;
 }
 
@@ -554,19 +542,23 @@
   font-weight: 600;
 }
 
-.main-con .fluids2 .bookings-container .table-part .table thead tr th input {
-  -webkit-transform: translateY(12%);
-          transform: translateY(12%);
-}
-
 .main-con .fluids2 .bookings-container .table-part .table tbody .active {
   background-color: #F8FBFE !important;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody .active td .icons i {
+  color: #414141;
 }
 
 .main-con .fluids2 .bookings-container .table-part .table tbody tr td {
   font-size: 16px;
   font-weight: 400;
   color: #414141;
+  border-top: 1px solid #E9EBEF;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons {
+  position: relative;
 }
 
 .main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons i {
@@ -574,7 +566,47 @@
   font-size: 16px;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .icon-box {
+.main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons .approval-stat {
+  display: none;
+  position: absolute;
+  right: 80%;
+  bottom: 0;
+  top: 150%;
+  background-color: #ffffff;
+  height: 85px;
+  width: 144px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
+          box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  z-index: 1;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons .approval-stat a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons .approval-stat .approve {
+  color: #29BF12;
+  margin-bottom: 20px;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons .approval-stat .reject {
+  color: #F43460;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons .fa-ellipsis-h:hover .approval-stat {
+  display: inline-block;
+}
+
+.main-con .fluids2 .bookings-container .pagination-pages {
+  margin-top: 30px;
+}
+
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .icon-box {
   height: 30px;
   width: 30px;
   border: 1px solid #D8D8D8;
@@ -582,39 +614,78 @@
   background-color: #ffffff;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .icon-box a {
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .icon-box a {
   text-decoration: none;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .icon-box a i {
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .icon-box a i {
   color: #A1A1A1;
   font-size: 16px;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .pag {
-  height: 30px !important;
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .pag {
   background-color: #ffffff;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .pag .pag-item {
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .pag .pag-item {
+  height: 30px;
   border: 1px solid #D8D8D8;
   border-collapse: collapse !important;
   text-align: center;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .pag .pag-item .pag-link {
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .pag .pag-item .pag-link {
   padding: 6px 14px 6px 14px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .pag .pag-item:first-child {
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .pag .pag-item:first-child {
   border-radius: 4px 0px 0px 4px;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .pag .pag-item:last-child {
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .pag .pag-item:last-child {
   border-radius: 0px 4px 4px 0px;
 }
 
-.main-con .fluids2 .bookings-container .icon-pagination .pag .active {
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .pag .active {
   border-color: #0069FF;
+}
+
+.main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .pag .active .pag-link {
+  color: #0069FF;
+}
+
+.main-con .fluids2 .bookings-container .pagination-pages p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .bookings-container .table-dropdown-content {
+  background-color: #F8FBFE;
+  padding-top: 19px !important;
+  padding-bottom: 25px;
+}
+
+.main-con .fluids2 .bookings-container .table-dropdown-content .content-box {
+  padding-left: 63px;
+}
+
+.main-con .fluids2 .bookings-container .table-dropdown-content .content-box .content {
+  margin-bottom: 30px;
+}
+
+.main-con .fluids2 .bookings-container .table-dropdown-content .content-box .content .query {
+  font-size: 14px;
+  font-weight: 500;
+  color: #A1A1A1;
+}
+
+.main-con .fluids2 .bookings-container .table-dropdown-content .content-box .content .answer {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
 }
 /*# sourceMappingURL=booking.css.map */

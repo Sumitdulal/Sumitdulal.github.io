@@ -17,7 +17,7 @@ $fsize3: 0.75rem;
   padding: 6px;
 }
 .circle:hover{
-  border-radius: 50%;
+  border-radius: 50%; 
   background-color: #E9EBEF ;
 
 }
@@ -403,6 +403,7 @@ $fsize3: 0.75rem;
       .icon-cont{
         .icon-notification{
           position: relative;
+          margin-right: 20px;
         .fa-bell{
           color: #A1A1A1;
           
@@ -456,6 +457,7 @@ $fsize3: 0.75rem;
       margin-bottom: 52px;
       border: none;
       position: relative;
+      box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);//x y blur-radius spread-radius color(in rgba)
       .profile-doc{
        
        img{
@@ -552,7 +554,7 @@ $fsize3: 0.75rem;
       // border: 1px solid black;
       border-radius: 10px;
       padding: 20px;
-      
+      box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);//x y blur-radius spread-radius color(in rgba)
       .left-ali-practices{
         border-right: 0.25px solid $colortxt;
         // width: 231px;
@@ -561,7 +563,9 @@ $fsize3: 0.75rem;
           font-size: 18px;
           font-weight: 600;
           color:#101010;
+          
           i{
+            
            font-size: 14px;
             color:  #0069FF;
            
@@ -596,6 +600,12 @@ $fsize3: 0.75rem;
             font-size: 14px;
             width: 14px;
             margin-right: 20px;
+          }
+          p{
+            font-size: 14px;
+            font-weight: 400;
+            color:  #414141;
+            line-height: 1.429;
           }
         }
         .time{

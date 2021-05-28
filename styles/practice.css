@@ -187,6 +187,51 @@
   color: #414141;
 }
 
+.main-con .welcome-section .doc-box h6 {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #101010;
+  margin-bottom: 10px;
+}
+
+.main-con .welcome-section .doc-box .dentists-details {
+  width: 95%;
+  height: 60px;
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  margin-bottom: 2px;
+}
+
+.main-con .welcome-section .doc-box .dentists-details .circular-img {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.main-con .welcome-section .doc-box .dentists-details .bodyp {
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.main-con .welcome-section .doc-box .dentists-details .bodyp h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #101010;
+}
+
+.main-con .welcome-section .doc-box .dentists-details .bodyp p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #a1a1a1;
+}
+
+.main-con .welcome-section .doc-box .active-dent {
+  background-color: #E6F5E4;
+}
+
 .main-con .welcome-section h2 {
   margin: 5px 112px 10px 20px;
   color: #a1a1a1;
@@ -269,7 +314,7 @@
 }
 
 .main-con .welcome-section .bar-graph .line2::after {
-  height: 100%;
+  height: 80%;
 }
 
 .main-con .welcome-section .bar-graph .line3::after {
@@ -325,38 +370,10 @@
 }
 
 .main-con .welcome-section .bar-graph .line:hover p {
-  content: " ";
-  position: absolute;
-  font-weight: 400;
-  font-size: 9px;
-  padding: 1px;
-  padding-left: 5px;
-  padding-top: 4px;
-  width: 63px;
-  height: 35px;
+  position: relative;
+  font-weight: 600;
   display: inline-block;
-  color: white;
-  background-color: #2C2C2C;
-  border-radius: 3px;
-  left: 10px;
-  z-index: 100000;
-}
-
-.main-con .welcome-section .bar-graph .line:hover p:after {
-  content: "";
-  width: 0;
-  height: 0;
-  /* background: #000; */
-  position: absolute;
-  left: -4px;
-  /* z-index: 1000; */
-  border-top: 2px solid transparent;
-  border-right: 4px solid #000;
-  border-bottom: 2px solid transparent;
-  top: 50%;
-  /* bottom: 0; */
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  bottom: 20px;
 }
 
 .main-con .welcome-section .pie-div {
@@ -382,26 +399,26 @@
   margin: 7px 27px 27px 19px;
 }
 
-.main-con .welcome-section .pie-div #ndt {
+.main-con .welcome-section .pie-div #ndt2 {
   margin: 0px 38px 20px 19px;
 }
 
-.main-con .fluids2 .d-top-part #dash {
+.main-con .fluids .d-top-part #dash {
   font-size: 1.25rem;
   font-weight: 700;
   color: #101010;
 }
 
-.main-con .fluids2 .d-top-part .icon-cont .icon-notification {
-  position: relative;
+.main-con .fluids .d-top-part .icon-cont .icon-notification {
   margin-right: 20px;
+  position: relative;
 }
 
-.main-con .fluids2 .d-top-part .icon-cont .icon-notification .fa-bell {
+.main-con .fluids .d-top-part .icon-cont .icon-notification .fa-bell {
   color: #A1A1A1;
 }
 
-.main-con .fluids2 .d-top-part .icon-cont .icon-notification .circle {
+.main-con .fluids .d-top-part .icon-cont .icon-notification .circle {
   position: absolute;
   display: inline-block;
   border: 2px outset RGBA(244, 52, 96, 0.3);
@@ -413,7 +430,7 @@
   background-color: RGB(244, 52, 96);
 }
 
-.main-con .fluids2 .d-top-part .icon-cont .dropdown2 {
+.main-con .fluids .d-top-part .icon-cont .dropdown2 {
   position: relative;
   display: inline-block;
   font-size: 14px;
@@ -421,7 +438,7 @@
   color: #414141;
 }
 
-.main-con .fluids2 .d-top-part .icon-cont .dropdown-content2 {
+.main-con .fluids .d-top-part .icon-cont .dropdown-content2 {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -434,355 +451,184 @@
   top: 10;
 }
 
-.main-con .fluids2 .d-top-part .icon-cont .dropdown-content2 a {
+.main-con .fluids .d-top-part .icon-cont .dropdown-content2 a {
   list-style: none;
 }
 
-.main-con .fluids2 .d-top-part .icon-cont .dropdown2:hover .dropdown-content2 {
+.main-con .fluids .d-top-part .icon-cont .dropdown2:hover .dropdown-content2 {
   display: block;
 }
 
-.main-con .fluids2 .main-content-box {
-  height: 99px;
-  background-color: white;
+.main-con .fluids .practice-container {
+  padding: 20px;
   border-radius: 10px;
-  margin-bottom: 52px;
-  border: none;
-  position: relative;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
           box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
 }
 
-.main-con .fluids2 .main-content-box .profile-doc img {
-  width: 110px;
-  position: relative;
-  height: 110px;
-  border-radius: 50%;
-  margin-top: 20px;
-  margin-left: 20px;
+.main-con .fluids .practice-container .head .title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #101010;
+  padding-right: 10px !important;
+  margin-right: 10px !important;
+  border-right: 1px solid #D8D8D8;
 }
 
-.main-con .fluids2 .main-content-box .profile-doc .icon-part {
-  position: absolute;
-  bottom: -35px;
-  left: 80px;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: white;
+.main-con .fluids .practice-container .head .new {
   font-size: 14px;
+  font-weight: 600;
   color: #0069FF;
 }
 
-.main-con .fluids2 .main-content-box .profile-doc .icon-part i {
-  margin: 9px;
+.main-con .fluids .practice-container .head form i {
+  color: #A1A1A1;
+  font-size: 14px;
+  margin-right: 11px;
 }
 
-.main-con .fluids2 .main-content-box .profile-doc .icon-part:hover {
-  background-color: #E9EBEF;
-  cursor: pointer;
+.main-con .fluids .practice-container .head form input {
+  border: none;
 }
 
-.main-con .fluids2 .main-content-box #doc-name {
+.main-con .fluids .practice-container .head form ::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids .practice-container .head form :-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids .practice-container .head form ::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids .practice-container .head form ::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids .practice-container .head form input:focus {
+  outline: none;
+  border: none;
+}
+
+.main-con .fluids .practice-container .practice-details {
+  margin-top: 30px;
+  background-color: #F9FAFC;
+  padding: 20px !important;
+}
+
+.main-con .fluids .practice-container .practice-details .name-location .clinic-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #101010;
+  margin-right: 10px !important;
+}
+
+.main-con .fluids .practice-container .practice-details .name-location .location, .main-con .fluids .practice-container .practice-details .name-location ul .user, .main-con .fluids .practice-container .practice-details ul .name-location .user {
+  font-size: 12px;
+  font-weight: 400;
+  color: #414141;
+}
+
+.main-con .fluids .practice-container .practice-details .name-location .icons i {
+  color: #A1A1A1;
+  font-size: 12px;
+}
+
+.main-con .fluids .practice-container .practice-details ul {
+  margin-top: 10px;
+}
+
+.main-con .fluids .practice-container .practice-details ul .location, .main-con .fluids .practice-container .practice-details ul .user {
+  color: #414141;
+  font-size: 14px;
+  line-height: 1.429;
+}
+
+.main-con .fluids .practice-container .practice-details ul .location i, .main-con .fluids .practice-container .practice-details ul .user i {
+  font-size: 14px;
+  color: #414141;
+}
+
+.main-con .fluids .practice-container .practice-details ul .user {
+  margin-top: 10px;
+}
+
+.main-con .fluids .practice-container .practice-details ul .user p {
+  color: #414141;
+  font-size: 14px;
+  line-height: 1.429;
+  text-decoration: underline;
+}
+
+#add .modal-header h5 {
+  color: #101010;
   font-size: 20px;
   font-weight: 700;
-  margin: 60px 10px 15px 20px;
-  color: #101010;
 }
 
-.main-con .fluids2 .main-content-box .available, .main-con .fluids2 .main-content-box .unavailable {
-  list-style: none;
-}
-
-.main-con .fluids2 .main-content-box .available button, .main-con .fluids2 .main-content-box .unavailable button {
-  width: 82px;
-  height: 24px;
-  background-color: #0069FF;
-  color: white;
-  border-radius: 12px;
-  border: none;
-  margin: 62px 0px 15px 0px;
-  font-size: 10px;
-  font-weight: 600;
-  text-align: center;
-  padding-top: 4px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-}
-
-.main-con .fluids2 .main-content-box .available button i, .main-con .fluids2 .main-content-box .unavailable button i {
-  font-size: 10px;
-  text-align: center;
-}
-
-.main-con .fluids2 .main-content-box .unavailable button {
-  background-color: #A1A1A1;
-}
-
-.main-con .fluids2 .main-content-box .edit-numb {
-  margin-right: 20px;
-  margin-top: 20px;
-}
-
-.main-con .fluids2 .main-content-box .edit-numb .pen-icon {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .main-content-box .edit-numb #num {
-  list-style: none;
-  margin-top: 21px;
-  font-weight: 500;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont {
-  border-radius: 10px;
-  padding: 20px;
-  -webkit-box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
-          box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices {
-  border-right: 0.25px solid #a1a1a1;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac {
-  list-style: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac i {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .p-s-1 {
-  list-style: none;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 10px;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .p-s-1 i {
-  font-size: 12px;
-  color: #A1A1A1;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .location {
-  margin-bottom: 13px;
-  list-style: none;
-  font-size: 14px;
-  font-weight: 400;
+#add .modal-body .form-group label {
   color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .location i {
-  font-size: 14px;
-  width: 14px;
-  margin-right: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .location p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .time {
-  list-style: none;
-  font-size: 14px;
-  font-weight: 400;
-  color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .prac-sche .time i {
-  font-size: 12.75px;
-  width: 14px;
-  margin-right: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .ins {
-  list-style: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .ins i {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .p-s-2 {
-  list-style: none;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 2px;
-  padding-bottom: 0px;
-  margin-top: 16px;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance .p-s-2 i {
-  font-size: 12px;
-  color: #A1A1A1;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .insurance #elect {
-  font-size: 14px;
-  color: #a1a1a1;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .lev {
-  list-style: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #101010;
-  margin-bottom: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .lev i {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal {
-  list-style: none;
-  font-size: 14px;
-  font-weight: 400;
-  color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal .cale-icon {
-  color: #414141;
-  font-size: 14px;
-  width: 14px;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal p {
-  font-size: 14px;
-  font-weight: 400;
-  color: #414141;
-  line-height: 1.429;
-}
-
-.main-con .fluids2 .about-practice-cont .left-ali-practices .leave .cal .trash-icon {
-  font-size: 14px;
-  color: #a1a1a1;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon {
-  margin-bottom: 20px;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon p {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .about-icon i {
-  font-size: 14px;
-  color: #0069FF;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about #description {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.625;
-  color: #101010;
 }
 
-.main-con .fluids2 .about-practice-cont .right-ali-about .interests {
-  margin-top: 30px;
+#add .modal-body .form-group input {
+  border-radius: 4px;
+  background-color: #F9FAFC;
+  border: 1px solid  #E9EBEF;
 }
 
-.main-con .fluids2 .about-practice-cont .right-ali-about .interests p {
-  font-size: 18px;
-  font-weight: 600;
-  color: #101010;
-}
-
-.main-con .fluids2 .about-practice-cont .right-ali-about .interests i {
-  font-size: 14;
-  color: #0069FF;
-}
-
-.pp-modal .modal-body .dd-img {
-  background-color: #FCFCFf;
-  padding-top: 31px;
-  padding-bottom: 46px;
-  margin-bottom: 18px;
-}
-
-.pp-modal .modal-body .dd-img img {
-  height: 90px;
-  width: 90px;
-}
-
-.pp-modal .modal-body .dd-img #info {
+#add .modal-body .form-group ::-webkit-input-placeholder {
   font-size: 16px;
-  color: #414141;
+  font-weight: 400;
+  color: #CCCCCC;
 }
 
-.pp-modal .modal-body .dd-img #file-info {
-  font-size: 12px;
-  color: #A1A1A1;
+#add .modal-body .form-group :-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #CCCCCC;
 }
 
-.pp-modal .modal-body .upload-cont {
-  margin-bottom: 20px !important;
+#add .modal-body .form-group ::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #CCCCCC;
 }
 
-.pp-modal .modal-body .upload-cont img {
-  height: 60px;
-  width: 60px;
-  border-radius: 0;
+#add .modal-body .form-group ::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: #CCCCCC;
 }
 
-.pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #fname {
-  font-size: 14px;
-  font-weight: 500;
-  color: #414141;
+#add .modal-body .form-group input:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e9ebef;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e9ebef;
 }
 
-.pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #progress {
-  font-size: 14px;
-  font-weight: 500;
-  color: #A1A1A1;
+#add .modal-footer button {
+  width: 230px;
+  background-color: #3056F5;
+  color: #ffffff;
+  border-radius: 4px;
 }
 
-.pp-modal .modal-body .upload-cont .media-body .icons .green-color {
-  color: #29BF12;
-  font-size: 18px;
+#add .modal-footer button:focus {
+  outline: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #3056f5;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #3056f5;
 }
-
-.pp-modal .modal-body .upload-cont .media-body .icons .red-color {
-  color: #F43460;
-  font-size: 18px;
-}
-
-.pp-modal .modal-footer button {
-  width: 230px !important;
-  background-color: #3056F5 !important;
-  border-color: #3056F5  !important;
-}
-
-.pp-modal .modal-footer button:focus {
-  outline: none !important;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0069ff;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0069ff;
-}
-/*# sourceMappingURL=doctor-profile.css.map */
+/*# sourceMappingURL=practice.css.map */

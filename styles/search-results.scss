@@ -7,19 +7,20 @@
   body {
     font-family: "Inter", sans-serif;
   }
-  .top-nav {
+  .top-nav {  
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-right: 4%;
     padding-left: 2%;
-    height: 35px;
-    padding-top: 20px;
-    // margin-top: 20px;
+    padding-top: 22.49px;
+    padding-bottom: 18.49px;
+ 
   
     .logo {
      margin: 0;
      padding: 0;
+     height: 29px !important;
      margin-left: 30px;
     }
     nav {
@@ -89,10 +90,15 @@
         background-color: #3056F5;
         color: #ffffff;
         border: none;
-        border-radius: 20px;
-        padding: 5px;
+        font-size: 16px;
+        font-weight: 400;
+        border-radius: 17.5px;
+        // padding: 4.9px 40px 4.20px 20px;
         width: 120px;
-        height: 35px;
+        height: 29px;
+        i{
+            font-size: 14px !important;
+        }
       }
   
       .dropdown {
@@ -215,11 +221,8 @@
     }
   }
   .search-page{
-      height: 900px;
-      margin-top: 30px !important;
-      
+     
       .search-results{
-        
         background-color: #fafafa !important;
         .search-cat{
             padding-top: 45px;
