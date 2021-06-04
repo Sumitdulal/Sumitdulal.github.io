@@ -25,7 +25,7 @@
   height: 1029px;
   background: transparent;
   background-color: white;
-  border-right: 2px solid #fafafa;
+  border-right: 1px solid #E9EBEF;
 }
 
 .main-con .vertical-nav .logo img {
@@ -441,10 +441,13 @@
 }
 
 .main-con .fluids2 .bookings-container .top-box {
+  margin-bottom: 26px;
+}
+
+.main-con .fluids2 .bookings-container .top-box p {
   color: #101010;
   font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 26px;
+  font-weight: 700;
 }
 
 .main-con .fluids2 .bookings-container .top-box .default {
@@ -477,6 +480,11 @@
   margin-right: 10px;
 }
 
+.main-con .fluids2 .bookings-container .top-box form {
+  border-left: 1px solid #D8D8D8;
+  padding-left: 10px;
+}
+
 .main-con .fluids2 .bookings-container .top-box form i {
   color: #A1A1A1;
   font-size: 14px;
@@ -485,6 +493,9 @@
 
 .main-con .fluids2 .bookings-container .top-box form input {
   border: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
 }
 
 .main-con .fluids2 .bookings-container .top-box form ::-webkit-input-placeholder {

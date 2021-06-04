@@ -25,7 +25,7 @@ $fsize3: 0.75rem;
     height: 1029px;
     background: transparent;
     background-color: white;
-    border-right: 2px solid $colorg;
+    border-right: 1px solid #E9EBEF;
 
     .logo {
       img {
@@ -447,10 +447,13 @@ $fsize3: 0.75rem;
       box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);//x y blur-radius spread-radius color(in rgba)
       padding: 21px 18px 23px 20px;
       .top-box{
-        color:#101010;
-        font-size: 18px;
-        font-weight: 600;
+        
         margin-bottom: 26px;
+        p{
+          color:#101010;
+          font-size: 18px;
+          font-weight: 700;
+        }
         .default{
           border: 1px solid  #A1A1A1;
           border-radius: 9px;
@@ -481,6 +484,8 @@ $fsize3: 0.75rem;
         }
         
         form{
+          border-left: 1px solid #D8D8D8;
+          padding-left: 10px;
           i{
             color:  #A1A1A1;
             font-size: 14px;
@@ -488,6 +493,9 @@ $fsize3: 0.75rem;
           }
           input{
             border: none;
+            font-size: 14px;
+            font-weight: 400;
+            color:#A1A1A1;
           }
           ::placeholder{
             font-size: 14px;

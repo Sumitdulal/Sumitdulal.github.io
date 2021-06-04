@@ -293,6 +293,10 @@ body {
   background-color: white;
 }
 
+.login-box form .input-icons .input-field:focus {
+  outline-color: #3056F5;
+}
+
 .login-box form .input-icons ::-webkit-input-placeholder {
   color: #CCCCCC;
   font-size: 16px;

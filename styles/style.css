@@ -565,6 +565,7 @@ html, body {
 }
 
 .testimonials .two-boxes .boxes .desc {
+  margin-top: 24px;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.6;
@@ -650,6 +651,7 @@ html, body {
 
 .footer .first {
   margin-left: 120px;
+  margin-right: 30px;
 }
 
 .footer .first img {
@@ -658,15 +660,18 @@ html, body {
 
 .footer .first p {
   font-size: 16px;
-  line-height: 30px;
-  color: #414141;
+  line-height: 1.875;
   font-weight: 400;
+  color: #414141;
 }
 
 .footer .first i {
   font-size: 18px;
-  font-weight: 400;
   color: #414141;
+}
+
+.footer .second {
+  margin-right: 45px;
 }
 
 .footer .second p {
@@ -674,13 +679,6 @@ html, body {
   font-size: 14px;
   font-weight: 600;
   color: #101010;
-  margin-left: 2.5rem;
-}
-
-.footer .second .menus {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .footer .second .menus #m1 ul li {
@@ -719,6 +717,16 @@ html, body {
   font-weight: 400;
   line-height: 40px;
   color: #414141;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer .first {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .footer .second {
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 600px) {

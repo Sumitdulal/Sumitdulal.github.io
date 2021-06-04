@@ -505,6 +505,7 @@ html,body {
     color:#101010;
   }
   #descrip {
+    
     margin-bottom: 73px;
     font-size: 16px;
     font-weight: 400;
@@ -516,6 +517,7 @@ html,body {
     margin: 0 auto;
     .boxes {
       .desc{
+        margin-top: 24px;
         font-size: 20px;
         font-weight: 400;
         line-height: 1.6;
@@ -595,39 +597,42 @@ html,body {
 //footer starts
 
 .footer{
- 
+
   background-color: #F8FBFE;
   .first{
-    margin-left: 120px;
+   margin-left: 120px;
+   margin-right: 30px;
     img{
       margin-bottom: 40px;
     }
     p{
+  
       font-size: 16px;
-      line-height: 30px;
-      color: #414141;
+      line-height: 1.875;
       font-weight: 400;
+      color: #414141;
     }
     i{
       font-size: 18px;
-      font-weight: 400;
       color: #414141;
     }
     
   }
   .second{
+    margin-right: 45px;
     p{
       margin-bottom: 40px;
       font-size: 14px;
       font-weight: 600;
       color:#101010;
-      margin-left: 2.5rem;
+      // margin-left: 2.5rem;
       
     }
     .menus{
-      display: flex;
+      
       
       #m1{
+ 
         ul{
           li{
             list-style: none;
@@ -673,6 +678,21 @@ html,body {
   }
 }
 //footer ends
+@media screen and (max-width: 1200px) {
+  .footer{
+    
+    .first{
+     margin-left: 0px;
+     margin-right: 0px;
+    }
+    .second{
+      margin-right: 0px;
+ 
+    }
+    
+  }
+}
+
 @media screen and (max-width: 600px) {
   .top-wrapper{
     .form-div{

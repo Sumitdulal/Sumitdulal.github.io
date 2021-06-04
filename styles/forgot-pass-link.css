@@ -292,6 +292,10 @@ body {
   background-color: #ffffff;
 }
 
+.forg-box form .input-icons6 .input-field6:focus {
+  outline-color: #3056F5;
+}
+
 .forg-box form .input-icons6 ::-webkit-input-placeholder {
   font-size: 16px;
   color: #CCCCCC;

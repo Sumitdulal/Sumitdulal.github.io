@@ -25,7 +25,7 @@
   height: 1029px;
   background: transparent;
   background-color: white;
-  border-right: 2px solid #fafafa;
+  border-right: 1px solid #E9EBEF;
 }
 
 .main-con .vertical-nav .logo img {
@@ -520,12 +520,64 @@
   font-size: 18px;
   font-weight: 700;
   color: #101010;
+  padding-right: 10px !important;
+  border-right: 1px solid #D8D8D8;
 }
 
-.main-con .fluids3 .appointment-part .header i {
+.main-con .fluids3 .appointment-part .header a {
+  text-decoration: none;
   font-size: 14px;
-  margin-right: 50px;
+  font-weight: 600;
+  color: #0069FF;
+  margin-left: 10px;
+}
+
+.main-con .fluids3 .appointment-part .header .search {
+  width: 80px;
+  margin-right: 82px;
+}
+
+.main-con .fluids3 .appointment-part .header .search form i {
   color: #A1A1A1;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.main-con .fluids3 .appointment-part .header .search form input {
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .header .search form ::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .header .search form :-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .header .search form ::-ms-input-placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .header .search form ::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  color: #A1A1A1;
+}
+
+.main-con .fluids3 .appointment-part .header .search form input:focus {
+  outline: none;
+  border: none;
 }
 
 .main-con .fluids3 .appointment-part .today {
