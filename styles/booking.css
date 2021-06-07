@@ -477,7 +477,7 @@
   width: 63px;
   height: 18px;
   padding-top: 1.8px;
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 .main-con .fluids2 .bookings-container .top-box form {
@@ -553,6 +553,14 @@
   font-weight: 600;
 }
 
+.main-con .fluids2 .bookings-container .table-part .table thead tr .date {
+  width: 81px !important;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table thead tr .time {
+  width: 81px !important;
+}
+
 .main-con .fluids2 .bookings-container .table-part .table tbody .active {
   background-color: #F8FBFE !important;
 }
@@ -569,6 +577,7 @@
 }
 
 .main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons {
+  width: 60px !important;
   position: relative;
 }
 
@@ -632,6 +641,7 @@
 .main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .icon-box a i {
   color: #A1A1A1;
   font-size: 16px;
+  padding-top: 7px;
 }
 
 .main-con .fluids2 .bookings-container .pagination-pages .icon-pagination .pag {

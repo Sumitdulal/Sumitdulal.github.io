@@ -598,7 +598,7 @@ $fsize3: 0.75rem;
         
           i{
             font-size: 14px;
-            width: 14px;
+            width: 16px !important;
             margin-right: 20px;
           }
           p{
@@ -615,8 +615,8 @@ $fsize3: 0.75rem;
           color:#414141;
           line-height: 1.429;
           i{
-            font-size: 12.75px;
-            width: 14px;
+            font-size: 14px;
+            width: 14px !important;
             margin-right: 20px;
           }
         }
