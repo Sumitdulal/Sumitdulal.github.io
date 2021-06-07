@@ -555,10 +555,12 @@
 
 .main-con .fluids2 .bookings-container .table-part .table thead tr .date {
   width: 81px !important;
+  padding-right: 10px !important;
 }
 
 .main-con .fluids2 .bookings-container .table-part .table thead tr .time {
   width: 81px !important;
+  padding-right: 10px !important;
 }
 
 .main-con .fluids2 .bookings-container .table-part .table tbody .active {
@@ -567,6 +569,16 @@
 
 .main-con .fluids2 .bookings-container .table-part .table tbody .active td .icons i {
   color: #414141;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr .date {
+  width: 81px !important;
+  padding-right: 10px !important;
+}
+
+.main-con .fluids2 .bookings-container .table-part .table tbody tr .time {
+  width: 81px !important;
+  padding-right: 10px !important;
 }
 
 .main-con .fluids2 .bookings-container .table-part .table tbody tr td {

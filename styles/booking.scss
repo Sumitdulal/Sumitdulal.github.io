@@ -537,10 +537,12 @@ $fsize3: 0.75rem;
               }
               .date{
                 width: 81px !important;
+                padding-right: 10px !important;
                 
               }
               .time{
                 width: 81px !important;
+                padding-right: 10px !important;
               }
             }
            
@@ -562,6 +564,15 @@ $fsize3: 0.75rem;
             }
            
             tr{
+              .date{
+                width: 81px !important;
+                padding-right: 10px !important;
+                
+              }
+              .time{
+                width: 81px !important;
+                padding-right: 10px !important;
+              }
               
               td{
                 font-size: 16px;
