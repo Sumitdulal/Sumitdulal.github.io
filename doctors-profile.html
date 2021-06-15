@@ -185,7 +185,7 @@
          
         </li>
         <div class="prac-sche">
-          <li class="p-s-1 d-flex justify-content-between align-items-center"><a>CBD Dental, Sydney</a><i class="ml-auto fa fa-pen p-icon circle"data-toggle="modal" data-target="#addprac"></i>
+          <li class="p-s-1 d-flex justify-content-between align-items-center"><a>CBD Dental, Sydney</a><i class="ml-auto fa fa-pen p-icon circle"data-toggle="modal" data-target="#prac-edit"></i>
             <i class="fa fa-trash-alt circle" data-toggle="modal" data-target="#delete"></i>
             
           
@@ -195,7 +195,7 @@
           <li class="time"><i class="fa fa-clock"></i>10:00-13:00</li>
         </div>
         <div class="prac-sche">
-          <li class="p-s-1 d-flex justify-content-between align-items-center"><a>Smile Dental Care</a><i class="ml-auto  p-icon-2 fa fa-pen circle"data-toggle="modal" data-target="#addprac"></i>
+          <li class="p-s-1 d-flex justify-content-between align-items-center"><a>Smile Dental Care</a><i class="ml-auto  p-icon-2 fa fa-pen circle"data-toggle="modal" data-target="#prac-edit"></i>
             <i class="fa fa-trash-alt circle"data-toggle="modal" data-target="#delete"></i>
           </li>
           <li class="location d-flex align-items-center"><i class="align-self-start pt-1 fa fa-map-marker-alt"></i><p class="m-0 p-0 ml-auto">Level 2, 74 Castlereagh Street,
@@ -313,16 +313,13 @@
   <div class="pp-modal modal" id="pictureupload">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
+        
+        <div class="modal-body mb-0 pb-0">
           <h5 class="modal-title">Upload Profile Picture</h5>
-          <button class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body">
-           
           <div class="dd-img">
               <img class="upload-icon img-fluid mx-auto d-block" src="images/cloud-computing.svg">
               <p class=" m-0 p-0 text-center" id="info">Drag and drop or Click to upload image</p>
-              <p class=" m-0 p-0 mb-4 text-center" id="file-info">Files should be “.jpg”, “.png” or “.jpeg”</p>
+              <p class=" m-0 p-0 text-center" id="file-info">Files should be “.jpg”, “.png” or “.jpeg”</p>
           </div>
 
           <div class=" media upload-cont">
@@ -358,7 +355,7 @@
             </div>
           </div>
             <div class="icons d-flex align-self-end mt-auto">
-              <i class="ml-3 fa fa-check-circle green-color"> </i>
+              <i class="ml-3 fa fa-check-circle grey-color"> </i>
               <i class="ml-1 fa fa-times-circle red-color"></i>
           </div>
       
@@ -366,7 +363,7 @@
           </div>
 
         </div>
-        <div class="modal-footer mr-auto">
+        <div class="modal-footer mr-auto mt-0 pt-0">
           <button  class="btn btn-primary" data-dismiss="modal">Update</button>
         </div>
       </div>
@@ -455,14 +452,12 @@
     <!--modal for insurance ends here-->
 
    <!--code for modal for edit profile starts here-->
-   <div class="modal" id="loginModal">
+   <div class="modal profile-edit" id="loginModal">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="text-left modal-title">General Profile Edit</h5>
-          <button class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body text-left">
+        
+        <div class="modal-body mb-0 pb-0">
+          <h5 class="modal-title">General Profile Edit</h5>
           <form>
             <div class="form-group">
               <label for=" username">Name</label>
@@ -470,10 +465,12 @@
             </div>
             <div class="form-group mr-auto">
               <label for=" contact-no">Contact Number</label>
-              <input type="number" class="form-control"/>
+              <input type="text" class="form-control"/>
             </div>
+            <div class="radio-btns">
                 <div class="form-group">
-              <div class="custom-control custom-radio custom-control-inline">
+                <p class="m-0 p-0">Gender</p>
+                <div class="custom-control custom-radio custom-control-inline">
                   <input type="radio" class="custom-control-input" name="customRadio" id="customRadio1"/>
                   <label class="custom-control-label" for="customRadio1">Male</label>
               </div>
@@ -481,81 +478,125 @@
                   <input type="radio" class="custom-control-input" name="customRadio" id="customRadio2" checked/>
                   <label class="custom-control-label" for="customRadio2">Female</label>
               </div>
-              <div class="ml-4 custom-control custom-control-inline custom-switch">
+              <div class="custom-control custom-control-inline custom-switch">
                   <input type="checkbox" class="custom-control-input" id="customSwitch1"/>
                   <label class="custom-control-label" for="customSwitch1">Telehealth</label>
               </div>
                </div>
+              </div>
           </form>
           
         </div>
-        <div class="modal-footer mr-auto">
-          <button style="width: 230px;" class="btn btn-primary" data-dismiss="modal">Update</button>
+        <div class="modal-footer mt-0 pt-0">
+          <button class="btn btn-primary" data-dismiss="modal">Update</button>
+          <a class="mr-auto" href="#">Close</a>
         </div>
       </div>
     </div>
   </div>
   <!--edit profile modal ends here-->
 
-   <!--modal for practices starts here-->
-   <div class="pp-modal modal" id="addprac">
+  <!--modal for practices starts here-->
+  <div class="practice modal" id="addprac">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Practice</h5>
-          <button class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body">
-          
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Select Practices Area</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>CBD Dental</option>
-              <option>CBD Dental, Level 2, some street, suburb, sydney</option>
-              <option>CBD Dental, Level 2, some other street, suburb, sydney</option>
-              
-            </select>
+        <div class="modal-body mb-0 pb-0">
+          <p class="m-0 p-0">Add Practice</p>
+          <div class="form-group mb-0 pb-0 mb-20">
+            <label for="practice-name">Practice Name</label>
+            <input type="text" class="form-control" id="practice-name" placeholder="My Practice Name">
           </div>
-
-          <form class="d-flex justify-content-between align-items-center">
-            <div  class="form-group d-flex align-items-center">
-              <label class="m-0 p-0 mr-2" for="myTime">From: </label>
-              <input type="number" min="0" max="23" id="myTime" placeholder="13"/>:
-              <input type="number" min="0" max="59" placeholder="00"/>
-            </div>
-            <div  class="form-group d-flex align-items-center">
-              <label class="m-0 p-0 mr-2" for="myTime">To: </label>
-              <input type="number" min="0" max="23" id="myTime" placeholder="17"/>:
-              <input type="number" min="0" max="59" placeholder="00"/>
-            </div>
-           <a class="pb-2" style="text-decoration: none;" href="#"> <i class="m-0 p-0 pb-3 text-danger my-auto fa fa-times"></i></a>
-          </form>
-          <div class="btn btn-primary">Add Time Duration</div>
-
+          <div class="form-group mb-0 pb-0 mb-30">
+            <label for="practice-location">Practice Location</label>
+            <input type="text" class="form-control" id="practice-location" placeholder="Level 2, 74 Castlereagh Street, Sydney NSW 2000 Australia">
+          </div>
+          
 
         </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary" data-dismiss="modal">Update</button>
+        <div class="modal-footer mt-0 pt-0">
+          <button class="btn btn-primary mr-auto mb-4" data-dismiss="modal">Update</button>
+          <div class="practice-dropdown w-100">
+            <p class="m-0 p-0 matching">Level 2, 74 Castlereagh Street, Sydney NSW 2000 Australia</p>
+            <p class="m-0 p-0 options">Level 2, 74 Castlereagh Street, Sydney NSW 2000 Australia</p>
+
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!--modal for practices ends here-->
 
-  <!--modal for trash starts here-->
-  <div class=" modal" id="delete">
+
+   <!--modal for edit practices starts here-->
+   <div class="practice-edit modal" id="prac-edit">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Delete?</h5>
-          <button class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-body mb-0 pb-0">
+          <p class="m-0 p-0 pedit">Practices Edit</p>
+          <div class="form-group mb-0 pb-0">
+            <label for="practice-name">Practice Name</label>
+            <input type="text" class="form-control" id="practice-name" placeholder="My Practice Name">
+          </div>
+          <p class="m-0 p-0 time">Time Available Here</p>
+          <div class="form d-flex align-items-center mb-0 pb-0">
+            <div class="form-group mr-20">
+              <label for="from">From</label>
+              <input type="text" class="form-control" id="from" placeholder="From">
+            </div>
+            <div class="form-group mr-20">
+              <label for="to">To</label>
+              <input type="text" class="form-control" id="to" placeholder="To">
+            </div>
+            <button class="m-0 p-0 btn mt-3">Add</button>
+          </div>
+          <div class="m-0 p-0 schedule-container d-flex align-items-center flex-wrap">
+          <div class="schedules d-flex align-items-center">
+            <p class="m-0 p-0">8:00 to 13:00</p>
+            <i class="fas fa-times"></i>
+          </div>
+
+          <div class="schedules d-flex align-items-center">
+            <p class="m-0 p-0">8:00 to 13:00</p>
+            <i class="fas fa-times"></i>
+          </div>
+
+          <div class="schedules d-flex align-items-center">
+            <p class="m-0 p-0">8:00 to 13:00</p>
+            <i class="fas fa-times"></i>
+          </div>
+
+          <div class="schedules d-flex align-items-center">
+            <p class="m-0 p-0">8:00 to 13:00</p>
+            <i class="fas fa-times"></i>
+          </div>
         </div>
+          
+
+        </div>
+        <div class="modal-footer mt-0 pt-0">
+          <button class="btn btn-primary" data-dismiss="modal">Update</button>
+          <a class="mr-auto" href="#">Close</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--modal for edit practices ends here-->
+
+  <!--modal for trash starts here-->
+  <div class="delete modal" id="delete">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
         <div class="modal-body p-0 m-0">
-          <h3 class="h3 text-center py-2">Are you sure you want to delete?</h3>
-        <div class="modal-footer">
-          <button class="btn btn-success" data-dismiss="modal">Yes</button>
-          <button class="btn btn-danger" data-dismiss="modal">No</button>
-        </div>
+          <i class="far fa-times-circle text-center fa-4x d-block"></i>
+          <h3 class="h3 text-center py-2">Are you sure?</h3>
+          <p class="m-0 p-0 text-center">Do you really want to delete these records? This process cannot be undone.</p>
+      </div>
+      <div class="modal-footer m-0 p-0">
+        <div class="btns m-0 p-0 mx-auto">
+           <button class="btn cancel" data-dismiss="modal">Cancel</button>
+            <button class="btn del" data-dismiss="modal">Delete</button>
+          </div>
       </div>
     </div>
   </div>

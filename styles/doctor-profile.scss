@@ -12,6 +12,7 @@ $colorbl: #101010;
 $colortxt: #a1a1a1;
 $fsize2: 0.875rem;
 $fsize3: 0.75rem;
+
 .circle{
   cursor: pointer;
   padding: 6px;
@@ -20,6 +21,15 @@ $fsize3: 0.75rem;
   border-radius: 50%; 
   background-color: #E9EBEF ;
 
+}
+.mr-20{
+  margin-right: 20px;
+}
+.mb-20{
+  margin-bottom: 20px !important;
+}
+.mb-30{
+  margin-bottom: 30px !important;
 }
 
 
@@ -741,11 +751,20 @@ $fsize3: 0.75rem;
 
 //css for picture upload model starts
 .pp-modal{
-    
+   .modal-content{
+     width: 622px;
+     border-radius: 10px;
+     padding: 30px; 
   .modal-body{
-      
+      h5{
+        font-size: 20px;
+        font-weight: 700;
+        color: #101010;
+        line-height: 24.2px;
+        margin-bottom: 20px;
+
+      }
      .dd-img{
-        //  height: 220px;
          background-color: #FCFCFf;
          padding-top: 31px;
          padding-bottom: 46px;
@@ -756,14 +775,18 @@ $fsize3: 0.75rem;
              
          }
          #info{
-          //    margin-top: 13px;
+             margin-top: 13px !important;
               font-size: 16px;
               color: #414141;
+              line-height: 19.36px;
+              font-weight: 400;
          }
          #file-info{
              font-size: 12px;
              color:#A1A1A1;
-          //    margin-top: 5px;
+             line-height: 14.52px;
+             font-weight: 400;
+             margin-top: 6px !important;
          }
      }
     .upload-cont{
@@ -777,15 +800,18 @@ $fsize3: 0.75rem;
         .progress-filename{
           
           .caption{
+            margin-bottom: 5.33px !important;
             #fname{
               font-size: 14px;
               font-weight: 500;
               color:#414141;
+              line-height: 16.94px;
             }
             #progress{
               font-size: 14px;
               font-weight: 500;
               color: #A1A1A1;
+              line-height: 16.94px;
             }
           }
         }
@@ -793,11 +819,15 @@ $fsize3: 0.75rem;
          
           .green-color{
             color: #29BF12;
-            font-size: 18px;
+            font-size: 25px;
           }
           .red-color{
             color: #F43460;
-            font-size: 18px;
+            font-size: 25px;
+          }
+          .grey-color{
+            color: #CCCCCC;
+            font-size: 25px;
           }
         }
       }
@@ -805,8 +835,11 @@ $fsize3: 0.75rem;
   
   }
   .modal-footer{
+    border-top: none !important;
     button{
     width: 230px !important;
+    height: 48px;
+    border-radius: 4px;
     background-color: #3056F5 !important;
     border-color: #3056F5  !important;
     }
@@ -816,6 +849,352 @@ $fsize3: 0.75rem;
   }
   }
 }
+}
  //css for picture upload modal ends here
+
+ // css for delete modal starts
+ .delete{
+  
+  .modal-content{
+    width: 622px !important;
+    
+    border-radius: 10px;
+    .modal-body{
+      i{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: #F43460;
+        
+      }
+      h3{
+        font-size: 32px;
+        font-weight: 400;
+        color: #101010;
+        margin-bottom: 20px;
+        line-height: 39px;
+      }
+      P{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        font-size: 16px;
+        font-weight: 400;
+        color: #414141;
+        line-height: 26px;
+        margin-bottom: 30px !important;
+      }
+    }
+    .modal-footer{
+      border-top: 0 none !important;
+      .btns{
+        padding-bottom: 30px !important;
+      .cancel{
+        width: 93px;
+        height:42px;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #EDECEC;
+        color: #414141;
+        border-radius: 4px;
+        margin-right: 20px;
+      }
+      .del{
+        width: 89px;
+        height:42px;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #F43460;
+        border-radius: 4px;
+        color: #ffffff;
+      }
+    }
+    
+    }
+  }
+ }
+// css for delete modal ends
+
+//css for practice modal starts here
+.practice{
+  .modal-content{
+    width: 622px;
+    border-radius: 10px;
+    padding:30px;
+    .modal-body{
+      
+      p{
+        font-size: 20px;
+        font-weight: 700;
+        color: #101010;
+        line-height: 24.2px;
+        margin-bottom: 20px !important;
+      }
+      .form-group{
+        
+          label{
+            font-size: 16px;
+            font-weight: 400;
+            color:#414141;
+          }
+          input{
+            height: 46px;
+            border-radius: 4px;
+            background-color: #F9FAFC;
+            font-size: 16px;
+            font-weight: 400;
+            color: #CCCCCC;
+            border: 1px solid #E9EBEF;
+          }
+          ::placeholder{
+            font-size: 16px;
+            font-weight: 400;
+            margin-left: 11px !important;
+            color: #CCCCCC;
+          }
+      }
+      
+    }
+    .modal-footer{
+      border-top: none !important;
+      button{
+        width: 230px;
+        height: 48px;
+        border-radius: 4px;
+        background-color: #3056F5;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+        line-height: 19.36px;
+      
+      }
+      .practice-dropdown{
+        border: 1px solid #E9EBEF;
+        border-radius: 4px;
+        .matching{
+        height: 40px;
+        background-color: rgba(0, 105, 255, 0.07);
+        padding-left: 9px !important;
+        padding-top: 10px !important;
+        color: #414141;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        }
+        .options{
+          height: 40px;
+          background-color: #ffffff;
+          padding-left: 9px !important;
+          padding-top: 10px !important;
+          color: #414141;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.36px;
+        }
+      }
+      
+    }
+  }
+}
+//css for practice modal ends here
+
+//css for practice edit modal starts here
+.practice-edit{
+  .modal-content{
+    width: 622px;
+    border-radius: 10px;
+    padding:30px;
+    .modal-body{
+      
+      .pedit{
+        font-size: 20px;
+        font-weight: 700;
+        color: #101010;
+        line-height: 24.2px;
+        margin-bottom: 20px !important;
+      }
+      .form-group{
+        
+          label{
+            font-size: 16px;
+            font-weight: 400;
+            color:#414141;
+          }
+          input{
+            height: 46px;
+            border-radius: 4px;
+            background-color: #F9FAFC;
+            font-size: 16px;
+            font-weight: 400;
+            color: #CCCCCC;
+            border: 1px solid #E9EBEF;
+          }
+          ::placeholder{
+            font-size: 16px;
+            font-weight: 400;
+            margin-left: 11px !important;
+            color: #CCCCCC;
+          }
+      }
+      .time{
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+        font-size: 16px;
+        font-weight: 400;
+        color: #414141;
+      }
+      .form{
+        .form-group{
+          label{
+            font-size: 14px;
+            font-weight: 600;
+            color: #414141;
+          }
+          input{
+            width: 88px;
+            height: 46px;
+            border-radius: 4px;
+            background-color: #F9FAFC;
+            border: 1px solid #E9EBEF;
+          }
+          ::placeholder{
+            font-size: 16px;
+            margin-left: 11px;
+            font-weight: 400;
+            color: #CCCCCC;
+          }
+        }
+        button{
+          background-color: #29BF12;
+          border-radius: 4px;
+          color: #ffffff;
+          height: 46px;
+          width: 51px;
+        }
+      }
+      .schedule-container{
+        margin-bottom:32px !important;
+        .schedules{
+          margin-right: 30px !important;
+          margin-top: 10px;
+          p{
+            font-size: 16px;
+            color: #000000;
+            font-weight: 400;
+            line-height: 13.36px;
+            margin-right: 5px !important;
+          }
+          i{
+            color: #F43460;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .modal-footer{
+      border-top: none !important;
+      button{
+        width: 230px;
+        height: 48px;
+        border-radius: 4px;
+        background-color: #3056F5;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+        line-height: 19.36px;
+        margin-right: 20px !important;
+      }
+      a{
+        color: #F43460;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+//css for practice edit modal ends here
+
+//css for profile edit starts here
+.profile-edit{
+  .modal-content{
+    width: 622px;
+    border-radius: 10px;
+    padding: 30px;
+    .modal-body{
+      .modal-title{
+        font-size: 20px;
+        font-weight: 700;
+        color: #101010;
+        line-height: 24.2px;
+        margin-bottom: 20px;
+      }
+      form{
+        .form-group{
+          margin-bottom: 20px !important;
+          label{
+            font-size: 16px;
+            font-weight: 400;
+            color:#414141;
+            line-height: 19.36px;
+            margin-bottom: 11px !important;
+          }
+          input{
+            background-color: #F9FAFC;
+            border: 1px solid #E9EBEF;
+            
+          }
+        }
+        .custom-control-input{
+          background-color: #D8D8D8 !important;
+        }
+        .custom-control-input:checked ~ .custom-control-label::before {
+          color: #979797 !important;
+          border-color: #979797 !important;
+          background-color: #D8D8D8 !important;
+      }
+        .radio-btns{
+          .form-group{
+          p{
+            margin-bottom: 11px !important;
+          }
+          .custom-radio{
+            label{
+              font-size: 16px;
+              font-weight: 400;
+              color:#454545;
+              line-height: 21.79px;
+            }
+          }
+          .custom-switch{
+            margin-left: 124px;
+          }
+        }
+        }
+      }
+    }
+    .modal-footer{
+      border-top: none !important;
+      button{
+        width: 230px;
+        height: 48px;
+        border-radius: 4px;
+        background-color: #3056F5;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+        line-height: 19.36px;
+        margin-right: 20px !important;
+      }
+      a{
+        color: #F43460;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+//css for profile edit ends here
 
 //models ends

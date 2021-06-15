@@ -17,6 +17,18 @@
   background-color: #E9EBEF;
 }
 
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
 .main-con {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -720,69 +732,506 @@
   color: #0069FF;
 }
 
-.pp-modal .modal-body .dd-img {
+.pp-modal .modal-content {
+  width: 622px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.pp-modal .modal-content .modal-body h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px;
+}
+
+.pp-modal .modal-content .modal-body .dd-img {
   background-color: #FCFCFf;
   padding-top: 31px;
   padding-bottom: 46px;
   margin-bottom: 18px;
 }
 
-.pp-modal .modal-body .dd-img img {
+.pp-modal .modal-content .modal-body .dd-img img {
   height: 90px;
   width: 90px;
 }
 
-.pp-modal .modal-body .dd-img #info {
+.pp-modal .modal-content .modal-body .dd-img #info {
+  margin-top: 13px !important;
   font-size: 16px;
   color: #414141;
+  line-height: 19.36px;
+  font-weight: 400;
 }
 
-.pp-modal .modal-body .dd-img #file-info {
+.pp-modal .modal-content .modal-body .dd-img #file-info {
   font-size: 12px;
   color: #A1A1A1;
+  line-height: 14.52px;
+  font-weight: 400;
+  margin-top: 6px !important;
 }
 
-.pp-modal .modal-body .upload-cont {
+.pp-modal .modal-content .modal-body .upload-cont {
   margin-bottom: 20px !important;
 }
 
-.pp-modal .modal-body .upload-cont img {
+.pp-modal .modal-content .modal-body .upload-cont img {
   height: 60px;
   width: 60px;
   border-radius: 0;
 }
 
-.pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #fname {
+.pp-modal .modal-content .modal-body .upload-cont .media-body .progress-filename .caption {
+  margin-bottom: 5.33px !important;
+}
+
+.pp-modal .modal-content .modal-body .upload-cont .media-body .progress-filename .caption #fname {
   font-size: 14px;
   font-weight: 500;
   color: #414141;
+  line-height: 16.94px;
 }
 
-.pp-modal .modal-body .upload-cont .media-body .progress-filename .caption #progress {
+.pp-modal .modal-content .modal-body .upload-cont .media-body .progress-filename .caption #progress {
   font-size: 14px;
   font-weight: 500;
   color: #A1A1A1;
+  line-height: 16.94px;
 }
 
-.pp-modal .modal-body .upload-cont .media-body .icons .green-color {
+.pp-modal .modal-content .modal-body .upload-cont .media-body .icons .green-color {
   color: #29BF12;
-  font-size: 18px;
+  font-size: 25px;
 }
 
-.pp-modal .modal-body .upload-cont .media-body .icons .red-color {
+.pp-modal .modal-content .modal-body .upload-cont .media-body .icons .red-color {
   color: #F43460;
-  font-size: 18px;
+  font-size: 25px;
 }
 
-.pp-modal .modal-footer button {
+.pp-modal .modal-content .modal-body .upload-cont .media-body .icons .grey-color {
+  color: #CCCCCC;
+  font-size: 25px;
+}
+
+.pp-modal .modal-content .modal-footer {
+  border-top: none !important;
+}
+
+.pp-modal .modal-content .modal-footer button {
   width: 230px !important;
+  height: 48px;
+  border-radius: 4px;
   background-color: #3056F5 !important;
   border-color: #3056F5  !important;
 }
 
-.pp-modal .modal-footer button:focus {
+.pp-modal .modal-content .modal-footer button:focus {
   outline: none !important;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0069ff;
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0069ff;
+}
+
+.delete .modal-content {
+  width: 622px !important;
+  border-radius: 10px;
+}
+
+.delete .modal-content .modal-body i {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #F43460;
+}
+
+.delete .modal-content .modal-body h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #101010;
+  margin-bottom: 20px;
+  line-height: 39px;
+}
+
+.delete .modal-content .modal-body P {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+  line-height: 26px;
+  margin-bottom: 30px !important;
+}
+
+.delete .modal-content .modal-footer {
+  border-top: 0 none !important;
+}
+
+.delete .modal-content .modal-footer .btns {
+  padding-bottom: 30px !important;
+}
+
+.delete .modal-content .modal-footer .btns .cancel {
+  width: 93px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #EDECEC;
+  color: #414141;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.delete .modal-content .modal-footer .btns .del {
+  width: 89px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #F43460;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.practice .modal-content {
+  width: 622px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.practice .modal-content .modal-body p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px !important;
+}
+
+.practice .modal-content .modal-body .form-group label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+}
+
+.practice .modal-content .modal-body .form-group input {
+  height: 46px;
+  border-radius: 4px;
+  background-color: #F9FAFC;
+  font-size: 16px;
+  font-weight: 400;
+  color: #CCCCCC;
+  border: 1px solid #E9EBEF;
+}
+
+.practice .modal-content .modal-body .form-group ::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice .modal-content .modal-body .form-group :-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice .modal-content .modal-body .form-group ::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice .modal-content .modal-body .form-group ::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice .modal-content .modal-footer {
+  border-top: none !important;
+}
+
+.practice .modal-content .modal-footer button {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #3056F5;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.practice .modal-content .modal-footer .practice-dropdown {
+  border: 1px solid #E9EBEF;
+  border-radius: 4px;
+}
+
+.practice .modal-content .modal-footer .practice-dropdown .matching {
+  height: 40px;
+  background-color: rgba(0, 105, 255, 0.07);
+  padding-left: 9px !important;
+  padding-top: 10px !important;
+  color: #414141;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.practice .modal-content .modal-footer .practice-dropdown .options {
+  height: 40px;
+  background-color: #ffffff;
+  padding-left: 9px !important;
+  padding-top: 10px !important;
+  color: #414141;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.practice-edit .modal-content {
+  width: 622px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.practice-edit .modal-content .modal-body .pedit {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px !important;
+}
+
+.practice-edit .modal-content .modal-body .form-group label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+}
+
+.practice-edit .modal-content .modal-body .form-group input {
+  height: 46px;
+  border-radius: 4px;
+  background-color: #F9FAFC;
+  font-size: 16px;
+  font-weight: 400;
+  color: #CCCCCC;
+  border: 1px solid #E9EBEF;
+}
+
+.practice-edit .modal-content .modal-body .form-group ::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice-edit .modal-content .modal-body .form-group :-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice-edit .modal-content .modal-body .form-group ::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice-edit .modal-content .modal-body .form-group ::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice-edit .modal-content .modal-body .time {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+}
+
+.practice-edit .modal-content .modal-body .form .form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #414141;
+}
+
+.practice-edit .modal-content .modal-body .form .form-group input {
+  width: 88px;
+  height: 46px;
+  border-radius: 4px;
+  background-color: #F9FAFC;
+  border: 1px solid #E9EBEF;
+}
+
+.practice-edit .modal-content .modal-body .form .form-group ::-webkit-input-placeholder {
+  font-size: 16px;
+  margin-left: 11px;
+  font-weight: 400;
+  color: #CCCCCC;
+}
+
+.practice-edit .modal-content .modal-body .form .form-group :-ms-input-placeholder {
+  font-size: 16px;
+  margin-left: 11px;
+  font-weight: 400;
+  color: #CCCCCC;
+}
+
+.practice-edit .modal-content .modal-body .form .form-group ::-ms-input-placeholder {
+  font-size: 16px;
+  margin-left: 11px;
+  font-weight: 400;
+  color: #CCCCCC;
+}
+
+.practice-edit .modal-content .modal-body .form .form-group ::placeholder {
+  font-size: 16px;
+  margin-left: 11px;
+  font-weight: 400;
+  color: #CCCCCC;
+}
+
+.practice-edit .modal-content .modal-body .form button {
+  background-color: #29BF12;
+  border-radius: 4px;
+  color: #ffffff;
+  height: 46px;
+  width: 51px;
+}
+
+.practice-edit .modal-content .modal-body .schedule-container {
+  margin-bottom: 32px !important;
+}
+
+.practice-edit .modal-content .modal-body .schedule-container .schedules {
+  margin-right: 30px !important;
+  margin-top: 10px;
+}
+
+.practice-edit .modal-content .modal-body .schedule-container .schedules p {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 13.36px;
+  margin-right: 5px !important;
+}
+
+.practice-edit .modal-content .modal-body .schedule-container .schedules i {
+  color: #F43460;
+  font-size: 12px;
+}
+
+.practice-edit .modal-content .modal-footer {
+  border-top: none !important;
+}
+
+.practice-edit .modal-content .modal-footer button {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #3056F5;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19.36px;
+  margin-right: 20px !important;
+}
+
+.practice-edit .modal-content .modal-footer a {
+  color: #F43460;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-decoration: underline;
+}
+
+.profile-edit .modal-content {
+  width: 622px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.profile-edit .modal-content .modal-body .modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px;
+}
+
+.profile-edit .modal-content .modal-body form .form-group {
+  margin-bottom: 20px !important;
+}
+
+.profile-edit .modal-content .modal-body form .form-group label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+  line-height: 19.36px;
+  margin-bottom: 11px !important;
+}
+
+.profile-edit .modal-content .modal-body form .form-group input {
+  background-color: #F9FAFC;
+  border: 1px solid #E9EBEF;
+}
+
+.profile-edit .modal-content .modal-body form .custom-control-input {
+  background-color: #D8D8D8 !important;
+}
+
+.profile-edit .modal-content .modal-body form .custom-control-input:checked ~ .custom-control-label::before {
+  color: #979797 !important;
+  border-color: #979797 !important;
+  background-color: #D8D8D8 !important;
+}
+
+.profile-edit .modal-content .modal-body form .radio-btns .form-group p {
+  margin-bottom: 11px !important;
+}
+
+.profile-edit .modal-content .modal-body form .radio-btns .form-group .custom-radio label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #454545;
+  line-height: 21.79px;
+}
+
+.profile-edit .modal-content .modal-body form .radio-btns .form-group .custom-switch {
+  margin-left: 124px;
+}
+
+.profile-edit .modal-content .modal-footer {
+  border-top: none !important;
+}
+
+.profile-edit .modal-content .modal-footer button {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #3056F5;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19.36px;
+  margin-right: 20px !important;
+}
+
+.profile-edit .modal-content .modal-footer a {
+  color: #F43460;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=doctor-profile.css.map */
