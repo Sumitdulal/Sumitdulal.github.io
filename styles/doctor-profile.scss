@@ -950,6 +950,9 @@ $fsize3: 0.75rem;
             margin-left: 11px !important;
             color: #CCCCCC;
           }
+          input:focus{
+            box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
+          }
       }
       
     }
@@ -1033,6 +1036,9 @@ $fsize3: 0.75rem;
             margin-left: 11px !important;
             color: #CCCCCC;
           }
+          input:focus{
+            box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
+          }
       }
       .time{
         margin-top: 20px !important;
@@ -1060,6 +1066,9 @@ $fsize3: 0.75rem;
             margin-left: 11px;
             font-weight: 400;
             color: #CCCCCC;
+          }
+          input:focus{
+            box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
           }
         }
         button{
@@ -1141,17 +1150,33 @@ $fsize3: 0.75rem;
           input{
             background-color: #F9FAFC;
             border: 1px solid #E9EBEF;
-            
+            font-size: 16px;
+            font-weight: 400;
+            color: #CCCCCC;
+          }
+          input:focus{
+            box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
           }
         }
         .custom-control-input{
           background-color: #D8D8D8 !important;
         }
         .custom-control-input:checked ~ .custom-control-label::before {
-          color: #979797 !important;
-          border-color: #979797 !important;
-          background-color: #D8D8D8 !important;
+          color: #979797;
+          border-color: #979797;
+          background-color: #D8D8D8;
       }
+      .custom-control-label::before {
+        background-color:#D8D8D8;
+        
+    }
+    .custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
+      
+    
+  }
+    
+    
         .radio-btns{
           .form-group{
           p{
@@ -1163,10 +1188,18 @@ $fsize3: 0.75rem;
               font-weight: 400;
               color:#454545;
               line-height: 21.79px;
+              padding-top: 1.5px;
             }
           }
           .custom-switch{
             margin-left: 124px;
+            label{
+              font-size: 16px;
+              font-weight: 400;
+              color:#414141;
+              line-height: 21.79px;
+              padding-top: 1.5px;
+            }
           }
         }
         }
