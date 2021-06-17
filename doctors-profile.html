@@ -181,7 +181,7 @@
        <div class="col-md-4">
          <div class=" left-ali-practices pr-4">
         <li class="prac d-flex justify-content-between align-items-center">Practices
-          <i class=" fa fa-plus circle"data-toggle="modal" data-target="#addprac"></i>
+          <i class=" fa fa-plus circle"data-toggle="modal" data-target="#prac-edit"></i>
          
         </li>
         <div class="prac-sche">
@@ -262,20 +262,18 @@
 
   <!--models starts-->
        <!--description modal starts here-->
-       <div class="modal" id="desc">
+       <div class="description modal" id="desc">
         <div class="modal-dialog">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Description</h5>
-              <button class="close" data-dismiss="modal">&times;</button>
-            </div>
+           
             <div class="modal-body">
+              <h5 class="modal-title">Description</h5>
               <div class="form-group">
                   <label for="exampleFormControlTextarea1">Description</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer mr-auto">
               <button class="btn btn-primary" data-dismiss="modal">Update</button>
             </div>
           </div>
@@ -284,20 +282,18 @@
       <!--description modal ends here-->
 
    <!--modal for interests starts here-->
-   <div class="pp-modal modal" id="addinterests">
+   <div class="interest modal" id="addinterests">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Interests</h5>
-          <button class="close" data-dismiss="modal">&times;</button>
-        </div>
+        
         <div class="modal-body">
+          <h5 class="modal-title">Interests</h5>
           <div class="form-group">
               <label for="exampleFormControlTextarea1">Add Your Interests</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer mr-auto">
           <button class="btn btn-primary" data-dismiss="modal">Update</button>
         </div>
       </div>
@@ -372,14 +368,12 @@
   <!--upload picture model ends here-->
 
   <!--code for modal for on leave starts here-->
-  <div class="modal" id="onleave">
+  <div class="leave modal" id="onleave">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Leave</h5>
-          <button class="close" data-dismiss="modal">&times;</button>
-        </div>
+        
         <div class="modal-body">
+          <h5 class="modal-title">Leave</h5>
           <form>
             <div class="form-group">
               <label style="width: 10%;" for="myDate">From:</label>
@@ -394,7 +388,7 @@
           </form>
           
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer mr-auto">
           <button class="btn btn-primary" data-dismiss="modal">Submit</button>
         </div>
       </div>
@@ -403,14 +397,12 @@
   <!--model for on leave ends here-->
 
     <!--modal for insurance starts here-->
-    <div class="modal" id="addins">
+    <div class="insurance modal" id="addins">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Insurance</h5>
-            <button class="close" data-dismiss="modal">&times;</button>
-          </div>
+          
           <div class="modal-body">
+            <h5 class="modal-title">Insurance</h5>
             <div class="insurance-name">
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Select Insurance</label>
@@ -421,20 +413,20 @@
                   
                 </select>
               </div>
-              <hr>
-              <div class="form-check">
+              
+              <div class="form-check mt-4">
                 
-                <div class="inputG mb-2 pl-3 p">
+                <div class="inputG mb-2  p">
                 <input class="form-check-input" type="checkbox" value="" id="twhite"/>
                 <label class="form-check-label font-weight-normal" for="twhite"> Teeth Whiting</label>
                 </div>
 
-                <div class="inputG mb-2 pl-3">
+                <div class="inputG mb-2 ">
                 <input class="form-check-input" type="checkbox" value="" id="tchange"/>
                 <label class="form-check-label font-weight-normal" for="tchange"> Complete Teeth Change </label>
                 </div>
 
-                <div class="inputG mb-2 pl-3">
+                <div class="inputG mb-2 ">
                   <input class="form-check-input" type="checkbox" value="" id="t30"/>
                   <label class="form-check-label font-weight-normal" for="t30"> 30% insurance coverage </label>
                   </div>
@@ -442,10 +434,11 @@
 
             </div>
           </div>
-          <div class="modal-footer">
+        </div>
+          <div class="modal-footer mr-auto">
             <button class="btn btn-primary" data-dismiss="modal">Update</button>
           </div>
-        </div>
+        
       </div>
     </div>
     </div>

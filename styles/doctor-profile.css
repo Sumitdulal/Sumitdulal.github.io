@@ -893,111 +893,6 @@
   color: #ffffff;
 }
 
-.practice .modal-content {
-  width: 622px;
-  border-radius: 10px;
-  padding: 30px;
-}
-
-.practice .modal-content .modal-body p {
-  font-size: 20px;
-  font-weight: 700;
-  color: #101010;
-  line-height: 24.2px;
-  margin-bottom: 20px !important;
-}
-
-.practice .modal-content .modal-body .form-group label {
-  font-size: 16px;
-  font-weight: 400;
-  color: #414141;
-}
-
-.practice .modal-content .modal-body .form-group input {
-  height: 46px;
-  border-radius: 4px;
-  background-color: #F9FAFC;
-  font-size: 16px;
-  font-weight: 400;
-  color: #CCCCCC;
-  border: 1px solid #E9EBEF;
-}
-
-.practice .modal-content .modal-body .form-group ::-webkit-input-placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 11px !important;
-  color: #CCCCCC;
-}
-
-.practice .modal-content .modal-body .form-group :-ms-input-placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 11px !important;
-  color: #CCCCCC;
-}
-
-.practice .modal-content .modal-body .form-group ::-ms-input-placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 11px !important;
-  color: #CCCCCC;
-}
-
-.practice .modal-content .modal-body .form-group ::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 11px !important;
-  color: #CCCCCC;
-}
-
-.practice .modal-content .modal-body .form-group input:focus {
-  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
-          box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
-}
-
-.practice .modal-content .modal-footer {
-  border-top: none !important;
-}
-
-.practice .modal-content .modal-footer button {
-  width: 230px;
-  height: 48px;
-  border-radius: 4px;
-  background-color: #3056F5;
-  font-size: 16px;
-  color: #ffffff;
-  font-weight: 400;
-  line-height: 19.36px;
-}
-
-.practice .modal-content .modal-footer .practice-dropdown {
-  border: 1px solid #E9EBEF;
-  border-radius: 4px;
-}
-
-.practice .modal-content .modal-footer .practice-dropdown .matching {
-  height: 40px;
-  background-color: rgba(0, 105, 255, 0.07);
-  padding-left: 9px !important;
-  padding-top: 10px !important;
-  color: #414141;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.36px;
-}
-
-.practice .modal-content .modal-footer .practice-dropdown .options {
-  height: 40px;
-  background-color: #ffffff;
-  padding-left: 9px !important;
-  padding-top: 10px !important;
-  color: #414141;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19.36px;
-}
-
 .practice-edit .modal-content {
   width: 622px;
   border-radius: 10px;
@@ -1274,5 +1169,125 @@
   font-weight: 400;
   line-height: 19.36px;
   text-decoration: underline;
+}
+
+.interest .modal-content {
+  width: 622px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.interest .modal-content .modal-body h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px;
+}
+
+.interest .modal-content .modal-footer {
+  border-top: 0 none !important;
+}
+
+.interest .modal-content .modal-footer button {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #3056F5;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19.36px;
+  margin-right: 20px !important;
+}
+
+.description .modal-content {
+  width: 622px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.description .modal-content .modal-body h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px;
+}
+
+.description .modal-content .modal-footer {
+  border-top: 0 none !important;
+}
+
+.description .modal-content .modal-footer button {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #3056F5;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19.36px;
+  margin-right: 20px !important;
+}
+
+.leave .modal-content {
+  width: 622px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.leave .modal-content .modal-body h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px;
+}
+
+.leave .modal-content .modal-footer {
+  border-top: 0 none !important;
+}
+
+.leave .modal-content .modal-footer button {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #3056F5;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19.36px;
+  margin-right: 20px !important;
+}
+
+.insurance .modal-content {
+  width: 622px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.insurance .modal-content .modal-body h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px;
+}
+
+.insurance .modal-content .modal-footer {
+  border-top: 0 none !important;
+}
+
+.insurance .modal-content .modal-footer button {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #3056F5;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19.36px;
+  margin-right: 20px !important;
 }
 /*# sourceMappingURL=doctor-profile.css.map */

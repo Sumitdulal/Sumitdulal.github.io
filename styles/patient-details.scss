@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
   }
+  
   body {
     font-family: "Inter", sans-serif;
     background-color: #FAFAFA !important;
@@ -311,6 +312,9 @@
                   background-color: #EEEEEE;
                   width: 24.8vw;
                   height: 44px;
+                  font-size: 16px;
+                  font-weight: 400;
+                  color:  #CCCCCC;
                 }
                 ::placeholder{
                   font-size: 16px;
@@ -383,12 +387,31 @@
               margin-bottom: 10px !important;
              
             }
+            select {
+              background-image:
+                linear-gradient(45deg, transparent 50%, #454545 60%),
+                linear-gradient(135deg, #454545 40%, transparent 50%) !important;
+              background-position:
+                calc(100% - 30px) 14px,
+                calc(100% - 20px) 14px,
+                100% 0;
+              background-size:
+                10px 10px,
+                10px 10px;
+              background-repeat: no-repeat;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              
+            }
             .form-control{
                 border: 1px solid  #EEEEEE !important;
                 border-radius: 0 !important;
                 background-color: #EEEEEE;
                 height: 42px;
                 width: 24.8vw !important;
+                font-size: 16px;
+                font-weight: 400;
+                color:  #CCCCCC;
             }
             ::placeholder{
               font-size: 16px;
@@ -406,7 +429,10 @@
             
             
             .dob{
-              
+              .glyphicon-calendar:before {
+                content: '../images/radio.svg';
+                
+            }
               
               input{
                 
@@ -415,6 +441,9 @@
                 border: 1px solid  #EEEEEE !important;
                 border-radius: 0 !important;
                 background-color: #EEEEEE;
+                font-size: 16px;
+                font-weight: 400;
+                color:  #CCCCCC;
               }
   
               ::placeholder{
@@ -455,7 +484,8 @@
             border-radius: 4px;
             border: 1px solid   #0069FF;
             margin-right: 10px;
-            padding: 13px 40px;
+            height: 48px;
+            width: 206px;
             background-color:  #0069FF;
           }
           

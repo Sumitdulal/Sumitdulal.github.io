@@ -482,7 +482,14 @@ $fsize3: 0.75rem;
           margin-right: 11px;
 
         }
-        
+        .default:hover{
+          background-color: #E9EBEF;
+          color: #414141;
+        }
+        .rejected:hover{
+          background-color: #F43460;
+          color: #ffffff;
+        }
         form{
           border-left: 1px solid #D8D8D8;
           padding-left: 10px;
@@ -586,7 +593,9 @@ $fsize3: 0.75rem;
                   i{
                     color:#CCCCCC;
                     font-size: 16px;
+                    cursor: pointer;
                     }
+                   
                     
                     .approval-stat{
                       display: none;

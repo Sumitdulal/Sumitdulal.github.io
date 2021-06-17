@@ -85,21 +85,21 @@
           <div class="media dentists-details">
             <img src="https://source.unsplash.com/random/40x40" class="rounded-circle circular-img mr-3 image-fluid" alt="Sample Image">
             <div class="media-body bodyp">
-                <h5 class="m-0 p-0">Dr. Alexandra Kreps</h5>
+                <a class="m-0 p-0" href="#">Dr. Alexandra Kreps</a>
                 <p>In at 8:00am - 12:00pm</p>
             </div>
         </div>
         <div class="media dentists-details">
           <img src="https://source.unsplash.com/random/40x40" class="rounded-circle circular-img mr-3 image-fluid" alt="Sample Image">
           <div class="media-body bodyp">
-              <h5 class="m-0 p-0">Dr. Victor Tenenbaum</h5>
+              <a class="m-0 p-0" href="#">Dr. Victor Tenenbaum</a>
               <p>In at 9:00am - 4:00pm</p>
           </div>
       </div>
       <div class="media dentists-details">
         <img src="https://source.unsplash.com/random/40x40" class="rounded-circle circular-img mr-3 image-fluid" alt="Sample Image">
         <div class="media-body bodyp">
-            <h5 class="m-0 p-0">Dr. Andrew Fagelman</h5>
+            <a class="m-0 p-0" href="#">Dr. Andrew Fagelman</a>
             <p>On leave</p>
         </div>
     </div>
@@ -184,7 +184,7 @@
       <div class="practice-container">
         <div class="head d-flex align-items-center">
           <p class="p-0 m-0 title">Practices I Manage</p>
-          <div class="p-0 m-0 new">Add New</div>
+          <a href="#" class="p-0 m-0 new">Add New</a>
           <form class="ml-auto seacrh" action="">
             <i class="fas fa-search"></i>
             <input type="text" placeholder="Search…" name="search">
@@ -202,7 +202,7 @@
         </div>
         <ul class="list-unstyled">
           <li class="location d-flex align-items-center"><i class="mr-4 fa fa-map-marker-alt"></i>Level 2, 74 Castlereagh Street,Sydney NSW 2000 Australia</li>
-          <li class="user d-flex align-items-center"><i class="fas fa-user-md mr-4"></i><p class="m-0 p-0">2 dentists associated</p></li>
+          <li class="user d-flex align-items-center"><i class="fas fa-user-md mr-4"></i><a class="m-0 p-0" href="#">2 dentists associated</a></li>
 
         </ul>
         </div>
@@ -214,54 +214,56 @@
   </div>
   <!--models-->
 
-  <!--modal for trash starts here-->
-  <div class=" modal" id="del">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Delete?</h5>
-          <button class="close" data-dismiss="modal">&times;</button>
+ <!--modal for trash starts here-->
+ <div class="trash modal" id="del">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      
+      <div class="modal-body p-0 m-0">
+        <i class="far fa-times-circle text-center fa-4x d-block"></i>
+        <h3 class="h3 text-center py-2">Are you sure?</h3>
+        <p class="m-0 p-0 text-center">Do you really want to delete these records? This process cannot be undone.</p>
+    </div>
+    <div class="modal-footer m-0 p-0">
+      <div class="btns m-0 p-0 mx-auto">
+         <button class="btn cancel" data-dismiss="modal">Cancel</button>
+          <button class="btn del" data-dismiss="modal">Delete</button>
         </div>
-        <div class="modal-body p-0 m-0">
-          <h3 class="h3 text-center py-2">Are you sure you want to delete?</h3>
-        <div class="modal-footer">
-          <button class="btn btn-success" data-dismiss="modal">Yes</button>
-          <button class="btn btn-danger" data-dismiss="modal">No</button>
+    </div>
+  </div>
+</div>
+</div>
+<!--modal for trash ends here-->
+ <!--modal for practices starts here-->
+ <div class="practice modal" id="add">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body mb-0 pb-0">
+        <p class="m-0 p-0">Add Practice</p>
+        <div class="form-group mb-0 pb-0 mb-20">
+          <label for="practice-name">Practice Name</label>
+          <input type="text" class="form-control" id="practice-name" placeholder="My Practice Name">
+        </div>
+        <div class="form-group mb-0 pb-0 mb-30">
+          <label for="practice-location">Practice Location</label>
+          <input type="text" class="form-control" id="practice-location" placeholder="Level 2, 74 Castlereagh Street, Sydney NSW 2000 Australia">
+        </div>
+        
+
+      </div>
+      <div class="modal-footer mt-0 pt-0">
+        <button class="btn btn-primary mr-auto mb-4" data-dismiss="modal">Update</button>
+        <div class="practice-dropdown w-100">
+          <p class="m-0 p-0 matching">Level 2, 74 Castlereagh Street, Sydney NSW 2000 Australia</p>
+          <p class="m-0 p-0 options">Level 2, 74 Castlereagh Street, Sydney NSW 2000 Australia</p>
+
         </div>
       </div>
     </div>
   </div>
-  </div>
-  <!--modal for trash ends here-->
+</div>
+<!--modal for practices ends here-->
 
-  <!--modal for practices starts here-->
-  <div class="modal" id="add">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Practices</h5>
-          <button class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body">
-          
-          <div class="form-group">
-            <label for="practice-name">Practice Name</label>
-            <input type="text" class="form-control" id="practice-name" placeholder="My Practice Name">
-          </div>
-          
-          <div class="form-group">
-            <label for="practice-location">Practice Location</label>
-            <input type="password" class="form-control" id="practice-location" placeholder="Level 2, 74 Castlereagh Street, Sydney NSW 2000 Australia">
-          </div>
-
-        </div>
-        <div class="modal-footer">
-          <button class="btn btn-primary mr-auto" data-dismiss="modal">Update</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--modal for practices ends here-->
 
   <!--models-->
     <script

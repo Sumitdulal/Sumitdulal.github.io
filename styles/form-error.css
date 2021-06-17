@@ -119,4 +119,51 @@ h1 {
 .im2 i {
   color: #29BF12;
 }
+
+.success {
+  margin: 2rem;
+}
+
+.success .success-container {
+  width: 622px !important;
+  border-radius: 10px;
+}
+
+.success .success-container .success i {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #29BF12;
+}
+
+.success .success-container .success h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #101010;
+  margin-bottom: 20px;
+  line-height: 39px;
+}
+
+.success .success-container .success P {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+  line-height: 26px;
+  margin-bottom: 30px !important;
+}
+
+.success .success-container .btns {
+  padding-bottom: 30px !important;
+}
+
+.success .success-container .btns .cancel {
+  width: 83px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #EDECEC;
+  color: #414141;
+  border-radius: 4px;
+}
 /*# sourceMappingURL=form-error.css.map */

@@ -17,6 +17,18 @@
   background-color: #E9EBEF;
 }
 
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
 .main-con {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,7 +228,7 @@
   margin-bottom: 12px;
 }
 
-.main-con .welcome-section .doc-box .dentists-details .bodyp h5 {
+.main-con .welcome-section .doc-box .dentists-details .bodyp a {
   font-size: 16px;
   font-weight: 500;
   color: #101010;
@@ -564,71 +576,173 @@
   margin-top: 10px;
 }
 
-.main-con .fluids .practice-container .practice-details ul .user p {
+.main-con .fluids .practice-container .practice-details ul .user a {
   color: #414141;
   font-size: 14px;
   line-height: 1.429;
   text-decoration: underline;
 }
 
-#add .modal-header h5 {
-  color: #101010;
-  font-size: 20px;
-  font-weight: 700;
+.practice .modal-content {
+  width: 622px;
+  border-radius: 10px;
+  padding: 30px;
 }
 
-#add .modal-body .form-group label {
+.practice .modal-content .modal-body p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #101010;
+  line-height: 24.2px;
+  margin-bottom: 20px !important;
+}
+
+.practice .modal-content .modal-body .form-group label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+}
+
+.practice .modal-content .modal-body .form-group input {
+  height: 46px;
+  border-radius: 4px;
+  background-color: #F9FAFC;
+  font-size: 16px;
+  font-weight: 400;
+  color: #CCCCCC;
+  border: 1px solid #E9EBEF;
+}
+
+.practice .modal-content .modal-body .form-group ::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice .modal-content .modal-body .form-group :-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice .modal-content .modal-body .form-group ::-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice .modal-content .modal-body .form-group ::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 11px !important;
+  color: #CCCCCC;
+}
+
+.practice .modal-content .modal-body .form-group input:focus {
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
+}
+
+.practice .modal-content .modal-footer {
+  border-top: none !important;
+}
+
+.practice .modal-content .modal-footer button {
+  width: 230px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #3056F5;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.practice .modal-content .modal-footer .practice-dropdown {
+  border: 1px solid #E9EBEF;
+  border-radius: 4px;
+}
+
+.practice .modal-content .modal-footer .practice-dropdown .matching {
+  height: 40px;
+  background-color: rgba(0, 105, 255, 0.07);
+  padding-left: 9px !important;
+  padding-top: 10px !important;
   color: #414141;
   font-size: 16px;
   font-weight: 400;
+  line-height: 19.36px;
 }
 
-#add .modal-body .form-group input {
+.practice .modal-content .modal-footer .practice-dropdown .options {
+  height: 40px;
+  background-color: #ffffff;
+  padding-left: 9px !important;
+  padding-top: 10px !important;
+  color: #414141;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+
+.trash .modal-content {
+  width: 622px !important;
+  border-radius: 10px;
+}
+
+.trash .modal-content .modal-body i {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #F43460;
+}
+
+.trash .modal-content .modal-body h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #101010;
+  margin-bottom: 20px;
+  line-height: 39px;
+}
+
+.trash .modal-content .modal-body P {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+  line-height: 26px;
+  margin-bottom: 30px !important;
+}
+
+.trash .modal-content .modal-footer {
+  border-top: 0 none !important;
+}
+
+.trash .modal-content .modal-footer .btns {
+  padding-bottom: 30px !important;
+}
+
+.trash .modal-content .modal-footer .btns .cancel {
+  width: 93px;
+  height: 42px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #EDECEC;
+  color: #414141;
   border-radius: 4px;
-  background-color: #F9FAFC;
-  border: 1px solid  #E9EBEF;
+  margin-right: 20px;
 }
 
-#add .modal-body .form-group ::-webkit-input-placeholder {
+.trash .modal-content .modal-footer .btns .del {
+  width: 89px;
+  height: 42px;
   font-size: 16px;
   font-weight: 400;
-  color: #CCCCCC;
-}
-
-#add .modal-body .form-group :-ms-input-placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #CCCCCC;
-}
-
-#add .modal-body .form-group ::-ms-input-placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #CCCCCC;
-}
-
-#add .modal-body .form-group ::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #CCCCCC;
-}
-
-#add .modal-body .form-group input:focus {
-  outline: none;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e9ebef;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #e9ebef;
-}
-
-#add .modal-footer button {
-  width: 230px;
-  background-color: #3056F5;
+  background-color: #F43460;
+  border-radius: 4px;
   color: #ffffff;
-  border-radius: 4px;
-}
-
-#add .modal-footer button:focus {
-  outline: none;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #3056f5;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #3056f5;
 }
 /*# sourceMappingURL=practice.css.map */

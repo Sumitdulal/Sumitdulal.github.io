@@ -480,6 +480,16 @@
   margin-right: 11px;
 }
 
+.main-con .fluids2 .bookings-container .top-box .default:hover {
+  background-color: #E9EBEF;
+  color: #414141;
+}
+
+.main-con .fluids2 .bookings-container .top-box .rejected:hover {
+  background-color: #F43460;
+  color: #ffffff;
+}
+
 .main-con .fluids2 .bookings-container .top-box form {
   border-left: 1px solid #D8D8D8;
   padding-left: 10px;
@@ -596,6 +606,7 @@
 .main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons i {
   color: #CCCCCC;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .main-con .fluids2 .bookings-container .table-part .table tbody tr td .icons .approval-stat {

@@ -476,6 +476,13 @@ $fsize3: 0.75rem;
             font-weight: 500;
             color:  white;
           }
+         
+        }
+        .icon{
+          i{
+            font-size: 16px;
+            color: #414141;
+          }
         }
       }
 
@@ -493,7 +500,7 @@ $fsize3: 0.75rem;
         }
         .dates{
           .rl{
-            p{
+            a{
               font-size: 16px;
               color:  #414141;
               font-weight: 400;
@@ -548,6 +555,7 @@ $fsize3: 0.75rem;
               color:  #A1A1A1;
               font-size: 14px;
               padding-right: 10px;
+              cursor: pointer;
             }
             input{
               border: none;
@@ -615,6 +623,7 @@ $fsize3: 0.75rem;
         }
         i{
           color: #CCCCCC;
+          cursor: pointer;
         }
         
       }

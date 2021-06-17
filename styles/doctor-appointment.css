@@ -473,6 +473,11 @@
   color: white;
 }
 
+.main-con .fluids3 .calendar-part .date-indicator .icon i {
+  font-size: 16px;
+  color: #414141;
+}
+
 .main-con .fluids3 .calendar-part .calendar .days {
   border-bottom: 1px solid  #E9EBEF;
 }
@@ -485,7 +490,7 @@
   text-align: center;
 }
 
-.main-con .fluids3 .calendar-part .calendar .dates .rl p {
+.main-con .fluids3 .calendar-part .calendar .dates .rl a {
   font-size: 16px;
   color: #414141;
   font-weight: 400;
@@ -541,6 +546,7 @@
   color: #A1A1A1;
   font-size: 14px;
   padding-right: 10px;
+  cursor: pointer;
 }
 
 .main-con .fluids3 .appointment-part .header .search form input {
@@ -628,5 +634,6 @@
 
 .main-con .fluids3 .appointment-part .time-info i {
   color: #CCCCCC;
+  cursor: pointer;
 }
 /*# sourceMappingURL=doctor-appointment.css.map */
