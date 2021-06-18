@@ -335,7 +335,6 @@ body {
   height: 44px;
   font-size: 16px;
   font-weight: 400;
-  color: #CCCCCC;
 }
 
 .form-body .form-part .user-details form .form-row .form-group .inputs ::-webkit-input-placeholder {
@@ -497,7 +496,6 @@ body {
   background-color: #EEEEEE;
   font-size: 16px;
   font-weight: 400;
-  color: #CCCCCC;
 }
 
 .form-body .form-part .user-details form .gender-dob .dob ::-webkit-input-placeholder {

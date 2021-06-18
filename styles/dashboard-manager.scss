@@ -216,6 +216,8 @@ $fsize3: 0.75rem;
             font-size: 16px;
             font-weight: 500;
             color: $colorbl;
+            cursor: pointer;
+
             
           }
           p{
@@ -462,6 +464,8 @@ $fsize3: 0.75rem;
           top:10;
           a{
             list-style: none;
+            cursor: pointer;
+
           }
           
         }
@@ -680,7 +684,8 @@ $fsize3: 0.75rem;
                     color: #414141 !important;
                     font-weight: 400;
                     text-decoration: underline;
-                    
+                    cursor: pointer;
+
                   }
                 }
                 }

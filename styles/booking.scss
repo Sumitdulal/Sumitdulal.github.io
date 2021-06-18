@@ -430,6 +430,8 @@ $fsize3: 0.75rem;
           top:10;
           a{
             list-style: none;
+            cursor: pointer;
+
           }
           
         }
@@ -502,7 +504,6 @@ $fsize3: 0.75rem;
             border: none;
             font-size: 14px;
             font-weight: 400;
-            color:#A1A1A1;
           }
           ::placeholder{
             font-size: 14px;
@@ -615,6 +616,8 @@ $fsize3: 0.75rem;
                       a{
                         font-size: 14px;
                         font-weight: 500;
+                        cursor: pointer;
+
                       }
                       .approve{
                         color: #29BF12;
@@ -655,6 +658,8 @@ $fsize3: 0.75rem;
           background-color: #ffffff;
           a{
             text-decoration: none;
+            cursor: pointer;
+
             i{
               color: #A1A1A1;
               font-size: 16px;

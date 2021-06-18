@@ -314,7 +314,7 @@
                   height: 44px;
                   font-size: 16px;
                   font-weight: 400;
-                  color:  #CCCCCC;
+                  
                 }
                 ::placeholder{
                   font-size: 16px;
@@ -443,7 +443,7 @@
                 background-color: #EEEEEE;
                 font-size: 16px;
                 font-weight: 400;
-                color:  #CCCCCC;
+                
               }
   
               ::placeholder{
@@ -474,6 +474,8 @@
             a{
               color:  #0069FF;
               text-decoration: underline;
+              cursor: pointer;
+
             }
           }
           #confirm{

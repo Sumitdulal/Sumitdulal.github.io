@@ -231,7 +231,8 @@ $fsize3: 0.75rem;
             font-size: 16px;
             font-weight: 500;
             color: $colorbl;
-            
+            cursor: pointer;
+
           }
           p{
             font-size: 12px;
@@ -462,6 +463,8 @@ $fsize3: 0.75rem;
           top:10;
           a{
             list-style: none;
+            cursor: pointer;
+
           }
           
         }
@@ -553,6 +556,8 @@ $fsize3: 0.75rem;
           font-size: 14px;
           line-height: 1.429;
           text-decoration: underline;
+          cursor: pointer;
+
         }
       }
     }
@@ -617,33 +622,43 @@ $fsize3: 0.75rem;
         color: #ffffff;
         font-weight: 400;
         line-height: 19.36px;
-      
+        margin-right: 20px !important;
       }
-      .practice-dropdown{
-        border: 1px solid #E9EBEF;
-        border-radius: 4px;
-        .matching{
+      a{
+        color: #F43460;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-decoration: underline;
+        cursor: pointer;
+
+      }
+      
+      
+    }
+    .practice-dropdown{
+      border: 1px solid #E9EBEF;
+      border-radius: 4px;
+      .matching{
+      height: 40px;
+      background-color: rgba(0, 105, 255, 0.07);
+      padding-left: 9px !important;
+      padding-top: 10px !important;
+      color: #414141;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.36px;
+      }
+      .options{
         height: 40px;
-        background-color: rgba(0, 105, 255, 0.07);
+        background-color: #ffffff;
         padding-left: 9px !important;
         padding-top: 10px !important;
         color: #414141;
         font-size: 16px;
         font-weight: 400;
         line-height: 19.36px;
-        }
-        .options{
-          height: 40px;
-          background-color: #ffffff;
-          padding-left: 9px !important;
-          padding-top: 10px !important;
-          color: #414141;
-          font-size: 16px;
-          font-weight: 400;
-          line-height: 19.36px;
-        }
       }
-      
     }
   }
 }

@@ -661,14 +661,23 @@
   color: #ffffff;
   font-weight: 400;
   line-height: 19.36px;
+  margin-right: 20px !important;
 }
 
-.practice .modal-content .modal-footer .practice-dropdown {
+.practice .modal-content .modal-footer a {
+  color: #F43460;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-decoration: underline;
+}
+
+.practice .modal-content .practice-dropdown {
   border: 1px solid #E9EBEF;
   border-radius: 4px;
 }
 
-.practice .modal-content .modal-footer .practice-dropdown .matching {
+.practice .modal-content .practice-dropdown .matching {
   height: 40px;
   background-color: rgba(0, 105, 255, 0.07);
   padding-left: 9px !important;
@@ -679,7 +688,7 @@
   line-height: 19.36px;
 }
 
-.practice .modal-content .modal-footer .practice-dropdown .options {
+.practice .modal-content .practice-dropdown .options {
   height: 40px;
   background-color: #ffffff;
   padding-left: 9px !important;

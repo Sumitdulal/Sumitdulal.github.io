@@ -431,6 +431,8 @@ $fsize3: 0.75rem;
           top:10;
           a{
             list-style: none;
+            cursor: pointer;
+
           }
           
         }
@@ -507,6 +509,8 @@ $fsize3: 0.75rem;
               width: 30px;
               height: 30px;
               text-align: center;
+              cursor: pointer;
+
             }
             .holiday{
               color: #A1A1A1;
@@ -545,6 +549,8 @@ $fsize3: 0.75rem;
           font-weight: 600;
           color: #0069FF;
           margin-left: 10px;
+          cursor: pointer;
+
         }
         .search{
           width: 80px;
@@ -562,7 +568,7 @@ $fsize3: 0.75rem;
               width: 100%;
               font-size: 14px;
               font-weight: 400;
-              color:#A1A1A1;
+            
             }
             ::placeholder{
               font-size: 14px;

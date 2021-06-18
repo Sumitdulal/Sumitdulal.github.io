@@ -451,6 +451,8 @@ $fsize3: 0.75rem;
           top:10;
           a{
             list-style: none;
+            cursor: pointer;
+
           }
           
         }
@@ -842,10 +844,20 @@ $fsize3: 0.75rem;
     border-radius: 4px;
     background-color: #3056F5 !important;
     border-color: #3056F5  !important;
+    margin-right: 20px !important;
     }
     button:focus{
       outline: none !important;
       box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0, 105, 255, 1);
+  }
+  a{
+    color: #F43460;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-decoration: underline;
+    cursor: pointer;
+
   }
   }
 }
@@ -941,9 +953,7 @@ $fsize3: 0.75rem;
             height: 46px;
             border-radius: 4px;
             background-color: #F9FAFC;
-            font-size: 16px;
-            font-weight: 400;
-            color: #CCCCCC;
+           
             border: 1px solid #E9EBEF;
           }
           ::placeholder{
@@ -1033,6 +1043,8 @@ $fsize3: 0.75rem;
         font-weight: 400;
         line-height: 19.36px;
         text-decoration: underline;
+        cursor: pointer;
+
       }
     }
   }
@@ -1068,7 +1080,7 @@ $fsize3: 0.75rem;
             border: 1px solid #E9EBEF;
             font-size: 16px;
             font-weight: 400;
-            color: #CCCCCC;
+            
           }
           input:focus{
             box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 86, 245, 0.25);
@@ -1140,6 +1152,8 @@ $fsize3: 0.75rem;
         font-weight: 400;
         line-height: 19.36px;
         text-decoration: underline;
+        cursor: pointer;
+
       }
     }
   }
@@ -1176,6 +1190,15 @@ $fsize3: 0.75rem;
         line-height: 19.36px;
         margin-right: 20px !important;
       }
+      a{
+        color: #F43460;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-decoration: underline;
+        cursor: pointer;
+
+      }
     }
   }
 }
@@ -1210,6 +1233,15 @@ $fsize3: 0.75rem;
         font-weight: 400;
         line-height: 19.36px;
         margin-right: 20px !important;
+      }
+      a{
+        color: #F43460;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-decoration: underline;
+        cursor: pointer;
+
       }
     }
   }
@@ -1246,6 +1278,15 @@ $fsize3: 0.75rem;
         line-height: 19.36px;
         margin-right: 20px !important;
       }
+      a{
+        color: #F43460;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-decoration: underline;
+        cursor: pointer;
+
+      }
     }
   }
 }
@@ -1280,6 +1321,15 @@ $fsize3: 0.75rem;
         font-weight: 400;
         line-height: 19.36px;
         margin-right: 20px !important;
+      }
+      a{
+        color: #F43460;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-decoration: underline;
+        cursor: pointer;
+
       }
     }
   }
