@@ -694,6 +694,24 @@
   margin-bottom: 20px;
 }
 
+.view-details .modal-content .modal-body .det .details-container .details {
+  margin-bottom: 30px !important;
+  margin-right: 30px !important;
+  width: 50%;
+}
+
+.view-details .modal-content .modal-body .det .details-container .details .entity {
+  font-size: 14px;
+  font-weight: 500;
+  color: #A1A1A1;
+}
+
+.view-details .modal-content .modal-body .det .details-container .details .data {
+  font-size: 16px;
+  font-weight: 400;
+  color: #414141;
+}
+
 .view-details .modal-content .modal-footer {
   border-top: 0 none !important;
 }
