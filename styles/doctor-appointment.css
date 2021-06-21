@@ -430,6 +430,7 @@
 
 .main-con .fluids3 .d-top-part .icon-cont .dropdown-content2 a {
   list-style: none;
+  cursor: pointer;
 }
 
 .main-con .fluids3 .d-top-part .icon-cont .dropdown2:hover .dropdown-content2 {
@@ -497,6 +498,7 @@
   width: 30px;
   height: 30px;
   text-align: center;
+  cursor: pointer;
 }
 
 .main-con .fluids3 .calendar-part .calendar .dates .rl .holiday {
@@ -535,6 +537,7 @@
   font-weight: 600;
   color: #0069FF;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .main-con .fluids3 .appointment-part .header .search {
@@ -631,8 +634,49 @@
   color: #A1A1A1;
 }
 
-.main-con .fluids3 .appointment-part .time-info i {
+.main-con .fluids3 .appointment-part .time-info .icon-action {
+  position: relative;
+}
+
+.main-con .fluids3 .appointment-part .time-info .icon-action i {
   color: #CCCCCC;
   cursor: pointer;
+}
+
+.main-con .fluids3 .appointment-part .time-info .icon-action .action {
+  position: absolute;
+  right: 60%;
+  bottom: 0;
+  top: 50%;
+  background-color: #ffffff;
+  height: 110px;
+  width: 144px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
+          box-shadow: 0px 0px 8px 0px RGBA(0, 0, 0, 0.07);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  z-index: 1;
+  display: none;
+}
+
+.main-con .fluids3 .appointment-part .time-info .icon-action .action a {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.main-con .fluids3 .appointment-part .time-info .icon-action .action .view, .main-con .fluids3 .appointment-part .time-info .icon-action .action .mark-done {
+  color: #29BF12;
+}
+
+.main-con .fluids3 .appointment-part .time-info .icon-action .action .cancel {
+  color: #F43460;
+}
+
+.main-con .fluids3 .appointment-part .time-info .icon-action i:hover .action {
+  display: inline-block;
 }
 /*# sourceMappingURL=doctor-appointment.css.map */
