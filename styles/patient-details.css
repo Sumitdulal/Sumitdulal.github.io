@@ -257,8 +257,9 @@ body {
 }
 
 .form-body .form-part .selected-doc i {
-  font-size: 12px;
+  font-size: 16px;
   color: #0069FF;
+  margin-right: 14px;
 }
 
 .form-body .form-part .selected-doc p {
@@ -315,22 +316,28 @@ body {
   font-size: 22px;
   font-weight: 700;
   color: #101010;
+  margin-bottom: 27px !important;
 }
 
 .form-body .form-part .user-details form .form-row {
   margin-bottom: 10px;
 }
 
+.form-body .form-part .user-details form .form-row .form-group {
+  margin-bottom: 28px;
+}
+
 .form-body .form-part .user-details form .form-row .form-group label {
   font-size: 16px;
   font-weight: 400;
   color: #414141;
+  margin-bottom: 15px;
 }
 
 .form-body .form-part .user-details form .form-row .form-group .inputs .form-control {
-  border: 1px solid  #EEEEEE !important;
-  border-radius: 0 !important;
-  background-color: #EEEEEE;
+  border: 1px solid  #E9EBEF !important;
+  border-radius: 4px !important;
+  background-color: #F9FAFC;
   width: 24.8vw;
   height: 44px;
   font-size: 16px;
@@ -374,35 +381,36 @@ body {
 .form-body .form-part .user-details form .radio-btns p {
   font-size: 22px;
   font-weight: 700;
-  color: #454545;
+  color: #101010;
+  margin-bottom: 23px !important;
 }
 
 .form-body .form-part .user-details form .radio-btns .form-check {
   margin-bottom: 20px !important;
   background-color: #DCEAFF;
   margin-right: 20px !important;
-  padding: 3px 10px;
+  padding: 6px 10px !important;
   border-radius: 15px;
 }
 
 .form-body .form-part .user-details form .radio-btns .form-check label {
   color: #454545;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .form-body .form-part .user-details form .radio-btns .second-radio #visited-check {
-  color: #454545;
+  color: #101010;
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 10px !important;
+  margin-bottom: 13px !important;
 }
 
 .form-body .form-part .user-details form .radio-btns .second-radio .form-check {
-  margin-bottom: 14px !important;
+  margin-bottom: 30px !important;
   background-color: #DCEAFF;
   margin-right: 20px !important;
-  padding: 3px 10px;
+  padding: 6px 10px;
   border-radius: 15px;
 }
 
@@ -413,10 +421,10 @@ body {
 }
 
 .form-body .form-part .user-details form .pat-det {
-  color: #454545;
+  color: #101010;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 10px !important;
+  margin-bottom: 13px !important;
 }
 
 .form-body .form-part .user-details form .patient-relationship {
@@ -424,30 +432,34 @@ body {
 }
 
 .form-body .form-part .user-details form .patient-relationship .rel {
-  color: #454545;
+  color: #414141;
   font-size: 16px;
   font-weight: 400;
-  margin-bottom: 10px !important;
+  margin-bottom: 13px !important;
 }
 
 .form-body .form-part .user-details form .patient-relationship select {
   background-image: linear-gradient(45deg, transparent 50%, #454545 60%), linear-gradient(135deg, #454545 40%, transparent 50%) !important;
-  background-position: calc(100% - 30px) 14px, calc(100% - 20px) 14px, 100% 0;
-  background-size: 10px 10px, 10px 10px;
+  background-position: calc(100% - 25px) 14px, calc(100% - 17px) 14px, 100% 0;
+  background-size: 9px 9px, 9px 9px;
   background-repeat: no-repeat;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
 .form-body .form-part .user-details form .patient-relationship .form-control {
-  border: 1px solid  #EEEEEE !important;
+  border: 1px solid  #E9EBEF !important;
   border-radius: 0 !important;
-  background-color: #EEEEEE;
+  background-color: #F9FAFC;
   height: 42px;
-  width: 24.8vw !important;
+  width: 24.8vw;
   font-size: 16px;
   font-weight: 400;
   color: #CCCCCC;
+}
+
+.form-body .form-part .user-details form .patient-relationship option {
+  color: #414141;
 }
 
 .form-body .form-part .user-details form .patient-relationship ::-webkit-input-placeholder {
@@ -484,45 +496,64 @@ body {
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0069ff;
 }
 
-.form-body .form-part .user-details form .gender-dob .dob .glyphicon-calendar:before {
-  content: '../images/radio.svg';
+.form-body .form-part .user-details form .gender-dob .dob {
+  position: relative;
+}
+
+.form-body .form-part .user-details form .gender-dob .dob label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #454545;
 }
 
 .form-body .form-part .user-details form .gender-dob .dob input {
   width: 24.8vw;
   height: 44px;
-  border: 1px solid  #EEEEEE !important;
-  border-radius: 0 !important;
-  background-color: #EEEEEE;
+  border: 1px solid  #E9EBEF !important;
+  border-radius: 4px !important;
+  background-color: #F9FAFC;
   font-size: 16px;
   font-weight: 400;
 }
 
-.form-body .form-part .user-details form .gender-dob .dob ::-webkit-input-placeholder {
+.form-body .form-part .user-details form .gender-dob .dob input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.form-body .form-part .user-details form .gender-dob .dob i {
+  position: absolute;
+  font-size: 16px;
+  color: #454545;
+  top: 63%;
+  right: 5%;
+}
+
+.form-body .form-part .user-details form .gender-dob .dob input[type="date"]::-webkit-input-placeholder {
   font-size: 16px;
   font-weight: 400;
-  color: #CCCCCC;
+  color: #CCCCCC !important;
   margin-left: 10px !important;
 }
 
-.form-body .form-part .user-details form .gender-dob .dob :-ms-input-placeholder {
+.form-body .form-part .user-details form .gender-dob .dob input[type="date"]:-ms-input-placeholder {
   font-size: 16px;
   font-weight: 400;
-  color: #CCCCCC;
+  color: #CCCCCC !important;
   margin-left: 10px !important;
 }
 
-.form-body .form-part .user-details form .gender-dob .dob ::-ms-input-placeholder {
+.form-body .form-part .user-details form .gender-dob .dob input[type="date"]::-ms-input-placeholder {
   font-size: 16px;
   font-weight: 400;
-  color: #CCCCCC;
+  color: #CCCCCC !important;
   margin-left: 10px !important;
 }
 
-.form-body .form-part .user-details form .gender-dob .dob ::placeholder {
+.form-body .form-part .user-details form .gender-dob .dob input[type="date"]::placeholder {
   font-size: 16px;
   font-weight: 400;
-  color: #CCCCCC;
+  color: #CCCCCC !important;
   margin-left: 10px !important;
 }
 
@@ -550,8 +581,9 @@ body {
 }
 
 .form-body .form-part .user-details form .tnc a {
-  color: #0069FF;
+  color: #3056F5;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .form-body .form-part .user-details form #confirm {
@@ -560,10 +592,43 @@ body {
   font-weight: 400;
   text-align: center;
   border-radius: 4px;
-  border: 1px solid   #0069FF;
-  margin-right: 10px;
+  border: 1px solid   #3056F5;
   height: 48px;
   width: 206px;
-  background-color: #0069FF;
+  background-color: #3056F5;
+}
+
+@media screen and (max-width: 768px) {
+  .form-part .user-details form .gender-dob .dob input {
+    width: 100% !important;
+  }
+  .form-part .user-details form .gender-dob .gender {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .form-part .user-details form .inputs input {
+    width: 80% !important;
+  }
+  .form-part .user-details form .inputs ::-webkit-input-placeholder {
+    font-size: 10px !important;
+  }
+  .form-part .user-details form .inputs :-ms-input-placeholder {
+    font-size: 10px !important;
+  }
+  .form-part .user-details form .inputs ::-ms-input-placeholder {
+    font-size: 10px !important;
+  }
+  .form-part .user-details form .inputs ::placeholder {
+    font-size: 10px !important;
+  }
+  .form-part .user-details form .patient-relationship {
+    width: 100%;
+  }
+  .form-part .user-details form .patient-relationship .form-control {
+    width: 100% !important;
+  }
 }
 /*# sourceMappingURL=patient-details.css.map */
