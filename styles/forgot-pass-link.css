@@ -101,9 +101,10 @@ body {
 }
 
 .top-nav nav ul .bar {
-  border-right: 1px solid #414141;
+  border-right: 1px solid #000;
   height: 21px;
   margin-right: 20px;
+  padding-right: 20px;
 }
 
 .top-nav nav ul a:hover {
@@ -130,7 +131,6 @@ body {
 
 .top-nav nav .dropdown {
   position: relative;
-  margin-left: 20px;
   margin-right: 20px;
   display: inline-block;
 }
@@ -201,7 +201,7 @@ body {
   .top-nav nav ul .hamburger-menu .menu-container {
     visibility: hidden;
     pointer-events: none;
-    background-color: #ebe8e8;
+    background-color: #ffffff;
     width: 200px;
     position: absolute;
     top: 150%;
@@ -231,9 +231,16 @@ body {
   }
   .top-nav nav ul .hamburger-menu .menu-container li .menu-hidden {
     margin-top: 1rem;
+    color: #414141;
   }
   .top-nav nav ul .hamburger-menu .menu-container li .menu-hidden:last-child {
     margin-bottom: 1rem;
+  }
+  .top-nav nav ul .hamburger-menu .menu-container .bar {
+    border-right: none;
+    height: auto;
+    margin-right: auto;
+    padding-right: auto;
   }
   .top-nav nav ul .hamburger-menu .display {
     visibility: visible;

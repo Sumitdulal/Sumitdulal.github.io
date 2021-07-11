@@ -79,9 +79,10 @@
           margin-right: 0;
         }
         .bar {
-          border-right: 1px solid #414141;
+          border-right: 1px solid #000;
           height: 21px;
           margin-right: 20px;
+          padding-right: 20px;
         }
         a:hover {
           text-decoration: underline #3056F5 3px;
@@ -106,7 +107,6 @@
   
       .dropdown {
         position: relative;
-        margin-left: 20px;
         margin-right: 20px;
         display: inline-block;
       }
@@ -189,7 +189,7 @@
             .menu-container {
               visibility: hidden;
               pointer-events: none;
-              background-color: rgb(235, 232, 232);
+              background-color: #ffffff;
               width: 200px;
               position: absolute;
               top: 150%;
@@ -206,14 +206,23 @@
   
                 .menu-hidden {
                   margin-top: 1rem;
+                  color: #414141;
+
                 }
   
                 .menu-hidden:last-child {
                   margin-bottom: 1rem;
                 }
+                
+              }
+              .bar {
+                border-right: none;
+                height: auto;
+                margin-right: auto;
+                padding-right: auto;
               }
             }
-  
+            
             .display {
               visibility: visible;
               pointer-events: all;
@@ -309,9 +318,9 @@
                 margin-bottom: 15px ;
               }
               .inputs{
-                
+                .input-cont{
                 .form-control{
-                  border: 1px solid  #E9EBEF !important;
+                  border: 1px solid  #E9EBEF;
                   border-radius: 4px !important;
                   background-color: #F9FAFC;
                   width: 24.8vw;
@@ -320,6 +329,7 @@
                   font-weight: 400;
                   
                 }
+                
                 ::placeholder{
                   font-size: 16px;
                   font-weight: 400;
@@ -330,6 +340,50 @@
                   outline: none !important;
                   box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(0, 105, 255, 1);
               }
+              i{
+                display: none;
+              }
+              small{
+                display: none;
+              }
+            }
+            .second-input{
+              margin-left: 30px;
+            }
+            .input-err{
+              position: relative;
+              .form-control{
+                border: 1px solid  #F43460;
+                background: rgba(244, 52, 96, 0.03);
+                margin-bottom: 0px;
+              }
+              input:focus{
+          
+                  outline: none;
+                  border-color: #F43460;
+                
+               
+              }
+              i{
+                display: block;
+                position: absolute;
+                right:3%;
+                top: 30%;
+                transform: translateY(-50%);
+                color: #F43460;
+                min-width: 50px;
+                text-align: center;
+                cursor: pointer;
+              }
+              small{
+                display: block;
+                height: 16px;
+                margin-bottom: 14px !important;
+                color: #F43460;
+                font-size: 12px;
+              }
+            }
+              
               }
             }
           }
@@ -522,7 +576,9 @@
       .user-details{
       form{
         .gender-dob{
+          width: 100%;
           .dob{
+            width: 100%;
             input{
               width: 100% !important; 
             }
@@ -538,6 +594,42 @@
   }
 
   }
+  @media screen and (max-width: 768px) {
+    .form-part{
+      .user-details{
+      form{
+        .form-row{
+          .form-group{
+            width: 100%;
+
+            .inputs{
+              .input-cont{
+              width: 100%;
+              input{
+                width: 100% !important;
+              }
+              
+            }
+            .second-input{
+              margin-left: 0px !important;
+              margin-top: 20px;
+            }
+            }
+        
+        .patient-relationship{
+          width: 100%;
+          .form-control{
+            width: 100% !important;
+          }
+        }
+        
+      }
+    }
+  }
+    }
+  }
+
+  }
 
 
   
@@ -547,12 +639,11 @@
       form{
         
             .inputs{
+              .input-cont{
               input{
-                width: 80% !important;
+                width: 100% !important;
               }
-              ::placeholder{
-                font-size: 10px !important;
-              }
+            }
             }
         
         .patient-relationship{

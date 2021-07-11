@@ -37,14 +37,11 @@
               <li><a href="#" class="menu-hidden">How it works</a></li>
               <li><a href="#" class="menu-hidden">Benefits</a></li>
               <li><a href="#" class="menu-hidden">Support</a></li>
-              <li><a href="#" class="menu-hidden">Contact us</a></li>
+              <li class="bar"><a href="#" class="menu-hidden">Contact us</a></li>
+              <li><a href="log-in.html" class="menu-hidden">Login</a></li>
             </div>
           </div>
           
-          <div class="login-credentials">
-            <li class="bar"></li>
-            <li><a href="log-in.html">Login</a></li>
-          </div>
 
           <div class="dropdown">
             <button class="dropbtn">
@@ -90,9 +87,17 @@
                   <div class="form-row m-0 p-0">
                     <div class="form-group">
                       <label for="name">What’s your name?</label>
-                      <div class="inputs d-flex">
-                      <input type="text" class="form-control c1" id="fname" placeholder="First Name">
-                      <input style="margin-left: 30px;" type="text" class="form-control" id="lname" placeholder="Last Name">
+                      <div class="inputs d-md-flex">
+                        <div class="input-cont"> <!--add input-err class here-->
+                          <input type="text" class="form-control c1" id="fname" placeholder="John">
+                          <i class="fa fa-exclamation-triangle"> </i>
+                          <small class="m-0 p-0">Something is wrong with this field </small>
+                        </div>
+                        <div class="input-cont second-input"> <!--add input-err class here-->
+                          <input type="text" class="form-control " id="lname" placeholder="Walker">
+                          <i class="fa fa-exclamation-triangle"> </i>
+                          <small class="m-0 p-0">Something is wrong with this field </small>
+                         </div>
                     </div>
                     </div>
                   </div>
@@ -100,9 +105,19 @@
                   <div class="form-row m-0 p-0">
                     <div class="form-group">
                       <label for="name">How do we contact you?</label>
-                      <div class="inputs d-flex">
-                      <input type="email" class="form-control" id="email" placeholder="Email Address">
-                      <input style="margin-left: 30px;" type="number" class="form-control" id="cellNo" placeholder="Phone Number">
+                      <div class="inputs d-md-flex">
+                        <div class="input-cont"> <!--add input-err class here-->
+                          <input type="email" class="form-control" id="email" placeholder="john@gmail.com">
+                          <i class="fa fa-exclamation-triangle"> </i>
+                          <small class="m-0 p-0">Something is wrong with this field </small>
+                        </div>
+
+                        <div class="input-cont second-input"> <!--add input-err class here-->
+                          <input  type="number" class="form-control " id="cellNo" placeholder="+61 0145 2378">
+                          <i class="fa fa-exclamation-triangle"> </i>
+                          <small class="m-0 p-0">Something is wrong with this field </small>
+                        </div>
+
                     </div>
                     </div>
                   </div>
@@ -146,9 +161,17 @@
                   <div class="form-row m-0 p-0">
                     <div class="form-group">
                       <label for="name">Patient’s Name</label>
-                      <div class="inputs d-flex">
-                      <input type="text" class="form-control" id="patient_fname" placeholder="First Name">
-                      <input style="margin-left: 30px;" type="text" class="form-control" id="patient_lname" placeholder="Last Name">
+                      <div class="inputs d-md-flex">
+                        <div class="input-cont"> <!--add input-err here-->
+                          <input type="text" class="form-control" id="patient_fname" placeholder="John">
+                          <i class="fa fa-exclamation-triangle"> </i>
+                          <small class="m-0 p-0">Something is wrong with this field </small>
+                        </div>
+                        <div class="input-cont second-input"> <!--add input-err here-->
+                          <input type="text" class="form-control " id="patient_lname" placeholder="Walker">
+                          <i class="fa fa-exclamation-triangle"> </i>
+                          <small class="m-0 p-0">Something is wrong with this field </small>
+                        </div>
                     </div>
                     </div>
                   </div>

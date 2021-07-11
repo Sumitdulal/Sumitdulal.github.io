@@ -66,14 +66,8 @@ html,body {
         .menu-container {
           display: flex;
           align-items: center;
-          
         }
   
-        .login-credentials {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-        }
   
         li {
           margin-right: 20px;
@@ -91,6 +85,8 @@ html,body {
           border-right: 1px solid #ffffff;
           height: 21px;
           margin-right: 20px;
+          padding-right: 20px;
+
         }
         a:hover {
           text-decoration: underline #0069FF 3px;
@@ -114,7 +110,6 @@ html,body {
   
       .dropdown {
         position: relative;
-        margin-left: 20px;
         margin-right: 20px;
         display: inline-block;
       }
@@ -213,7 +208,7 @@ html,body {
 }
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 430px) {
   .top-wrapper {
     .top-nav {
       margin: 0px;
@@ -252,7 +247,7 @@ html,body {
             .menu-container {
               visibility: hidden;
               pointer-events: none;
-              background-color: rgb(235, 232, 232);
+              background-color: #ffffff;
               width: 200px;
               position: absolute;
               top: 150%;
@@ -269,11 +264,19 @@ html,body {
 
                 .menu-hidden {
                   margin-top: 1rem;
+                  color: #414141;
                 }
 
                 .menu-hidden:last-child {
                   margin-bottom: 1rem;
                 }
+              }
+              .bar {
+                border-right: none;
+                border-right: none;
+                height: auto;
+                margin-right: auto;
+                padding-right: auto;
               }
             }
 
