@@ -249,7 +249,14 @@ body {
 }
 
 .thankyou {
-  margin-top: 300px;
+  border: 1px solid #E7E6E6;
+  background-color: #ffffff;
+  padding-bottom: 11px;
+  padding-top: 67px;
+  margin-top: 30px;
+  margin-left: 27px;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 .thankyou i {
@@ -291,5 +298,6 @@ body {
   color: #0069ff;
   font-size: 16px;
   font-weight: 400;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=thankyou.css.map */
