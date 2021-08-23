@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-fluid .dashboard-container .row .dash .mid-date-tables {
+  background-color: #fff;
+  height: 100px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+
+.container-fluid .dashboard-container .row .dash .mid-date-tables .dtables {
+  font-size: 26px;
+  color: #676a6c;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section {
+  margin: 20px;
+  background-color: #fff;
+  height: 700px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .title .tble {
+  font-weight: 500;
+  color: #676a6c;
+  margin-bottom: 0px !important;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .title .icons i {
+  color: #C4C4C4;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .data .show p {
+  color: #676A6C;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .data .show select {
+  height: 40px !important;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .data .search {
+  color: #676A6C;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .data .search input {
+  outline: #1bb394;
+  border: 0.5px solid #C4C4C4;
+  padding: 4px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .table {
+  width: 97%;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .table tbody tr .delete {
+  color: #f00d0d;
+  padding: 5px 7px;
+  text-underline-offset: 3px;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .table tbody tr .edit {
+  color: #06c206;
+  padding: 5px 7px;
+  text-underline-offset: 3px;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .table tbody tr .details {
+  color: #0e0d0d;
+  padding: 5px 7px;
+  text-underline-offset: 3px;
+}
+
+.container-fluid .dashboard-container .row .dash .table-section .pag nav ul .page-item.active .page-link {
+  background-color: #1bb394 !important;
+  border-color: #1bb394 !important;
+}
+/*# sourceMappingURL=category.css.map */

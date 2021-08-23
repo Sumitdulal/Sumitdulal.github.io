@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-fluid {
+  .dashboard-container {
+    .row {
+      .dash {
+        .mid-date-tables {
+          background-color: #fff;
+          height: 100px;
+          border-radius: 3px;
+          margin-bottom: 50px;
+          .dtables {
+            font-size: 26px;
+            color: #676a6c;
+          }
+        }
+        .table-section {
+          margin: 20px;
+          background-color: #fff;
+          height: 700px;
+          border-radius: 3px;
+          margin-bottom: 50px;
+          .title{
+          .tble {
+            font-weight: 500;
+            color: #676a6c;
+            margin-bottom: 0px !important;
+          }
+          .icons{
+            i{
+                color: #C4C4C4;
+                font-size: 14px;
+                cursor: pointer;
+            }
+        }
+        }
+        .data{
+            .show{
+                p{
+                    color: #676A6C;
+                }
+                select{
+                    height: 40px !important;
+                }
+            }
+            .search{
+                color: #676A6C;
+                input{
+                    outline: #1bb394;
+                    border: 0.5px solid #C4C4C4;
+                    padding: 4px;
+                    border-radius: 5px;
+                    height: 40px;
+                }
+                    
+            }
+        }
+          .table {
+            width: 97%;
+            tbody{
+                tr{
+                    .delete{
+                        
+                        color: rgb(240, 13, 13);
+                        padding: 5px 7px;
+                        text-underline-offset: 3px;
+                        
+                    }
+                    .edit{
+                        
+                        color: rgb(6, 194, 6);
+                        padding: 5px 7px;
+                        text-underline-offset: 3px;
+            
+
+                    }
+                    .details{
+                        
+                        color: rgb(14, 13, 13);
+                        padding: 5px 7px;
+                        text-underline-offset: 3px;
+
+                    }
+                }
+            }
+          }
+          .pag {
+            nav {
+              ul {
+                .page-item.active .page-link {
+                  background-color: #1bb394 !important;
+                  border-color: #1bb394 !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
