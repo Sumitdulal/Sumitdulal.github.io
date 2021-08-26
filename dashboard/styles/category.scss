@@ -63,25 +63,33 @@
             tbody{
                 tr{
                     .delete{
+                      
+                      background-color: #ED5565;
+                      width: 120px;
+                      border-radius: 3px;
+                      padding: 5px 10px;
+                      text-decoration: none;
+                      color: #fff;
                         
-                        color: rgb(240, 13, 13);
-                        padding: 5px 7px;
-                        text-underline-offset: 3px;
                         
                     }
                     .edit{
-                        
-                        color: rgb(6, 194, 6);
-                        padding: 5px 7px;
-                        text-underline-offset: 3px;
+                        color: #fff;
+                        background-color:#1ab394 ;
+                        width: 120px;
+                        border-radius: 3px;
+                        padding: 5px 10px;
+                        text-decoration: none;
             
 
                     }
                     .details{
-                        
-                        color: rgb(14, 13, 13);
-                        padding: 5px 7px;
-                        text-underline-offset: 3px;
+                        background-color: #1C84C6;
+                        width: 120px;
+                        border-radius: 3px;
+                        padding: 5px 10px;
+                        text-decoration: none;
+                        color: #fff;
 
                     }
                 }
